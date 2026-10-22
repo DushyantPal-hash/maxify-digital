@@ -1573,20 +1573,35 @@
       left: 0;
       z-index: 99999;
       width: 123px;
-      height: 317px
+      height: 317px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .mascotImg:hover {
+      /* transform: translateY(-3px); */
+      transform: scale(1.1);
+    }
+
+    .test-img {
+      width: 80% !important;
+      height: 80% !important;
     }
 
     @media (min-width: 320px) and (max-width: 480px) {
       .mascotImg {
         position: fixed;
         bottom: -20px;
-        left: 0;
+        left: 6px;
         z-index: 99999;
         width: 30px;
       }
+
+      .test-img {
+        width: auto !important;
+        height: auto !important;
+      }
     }
-
-
 
     .btn.btn-primary1 {
       color: #fff;
@@ -1600,16 +1615,16 @@
 </head>
 
 <body>
-
-  <div class="mascotImg">
-    <img src="./assets/images/mascotImg.png" class="img-fluid" alt="Maxify Digital" title="MaxifyDigital">
+  <!-- Scroll To Top -->
+  <div class="mascotImg" id="scrollToTopBtn">
+    <img src="./assets/images/mascotImg.png" class="img-fluid test-img" alt="Maxify Digital" title="MaxifyDigital">
   </div>
+  <!-- Body  -->
   <div class="site-wrapper d-flex flex-column min-vh-100">
     <!-- Navbar -->
     <div id="header-placeholder"></div>
     <!-- Main -->
     <main class="flex-grow-1 bg-white">
-
       <section class="aviation-banner">
         <div class="container">
           <div class="row align-items-center">
@@ -1795,282 +1810,6 @@
           </div>
         </div>
       </section>
-
-      <!--<section class="trusted-by-section">
-          <div class="container">
-            <h2 class="text-white text-center title-two">
-              Rated 5.0 out of <span style="color: #58c5eb">100 + reviews</span
-              ><br />
-              and trusted by
-            </h2>
-          </div>
-          <div class="trusted-by-slider-row">
-            <div class="trusted-by-slider slideLeft owl-carousel mb-4">
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon1.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon2.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon3.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon4.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon5.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon6.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon7.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon8.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon9.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon10.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon11.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon12.png"
-                  alt="icon"
-                />
-              </div>
-            </div>
-            <div class="trusted-by-slider slideRight owl-carousel">
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon1.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon2.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon3.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon4.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon5.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon6.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon7.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon8.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon9.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon10.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon11.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/landing/trusted/icon12.png"
-                  alt="icon"
-                />
-              </div>
-            </div>
-          </div>
-        </section>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <!--   <section class="trusted-by-section">
-          <div class="container">
-            <h2 class="text-white text-center title-two">
-              Rated 5.0 out of <span style="color: #58c5eb">100 + reviews</span
-              ><br />
-              and trusted by
-            </h2>
-          </div>
-          <div class="trusted-by-slider-row">
-            <div class="trusted-by-slider slideLeft owl-carousel mb-4">
-           
-               <div class="slide-img">
-                <img
-                  src="./assets/images/White_logo/Air-India-Express-white.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/White_logo/airindia-logo-white.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/White_logo/Encalm-logo-white.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/White_logo/Go-First-logo-white.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/White_logo/Salesforce--logo-white.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/White_logo/Spicejet--white.png"
-                  alt="icon"
-                />
-              </div>
-              
-    
-            
-            </div>
-            <div class="trusted-by-slider slideRight owl-carousel">
-             <div class="slide-img">
-                <img
-                  src="./assets/images/White_logo/Air-India-Express-white.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/White_logo/airindia-logo-white.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/White_logo/Encalm-logo-white.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/White_logo/Go-First-logo-white.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/White_logo/Salesforce--logo-white.png"
-                  alt="icon"
-                />
-              </div>
-              <div class="slide-img">
-                <img
-                  src="./assets/images/White_logo/Spicejet--white.png"
-                  alt="icon"
-                />
-              </div>
-            </div>
-          </div>
-        </section>  -->
-
-
-
-
-
-
-
       <section class="trusted-by-section">
         <div class="container">
           <h2 class="text-black text-center title-two">
@@ -2242,16 +1981,6 @@
           </div>
         </div>
       </section>
-
-
-
-
-
-
-
-
-
-
       <section class="our-products">
         <div class="container">
           <h2 class="title-two text-center">Our Products</h2>
@@ -2588,430 +2317,423 @@
           </div>
         </div>
       </section>
-
-      <!–– and ––>
-        <section class="video-section-wrapper">
-          <div class="container">
-            <h2 class="title-three pink text-center">
-              Salesforce-Powered Transformation
-            </h2>
-            <h3 class="title-two text-center mb-3">
-              Maxify Digital in Action
-            </h3>
-            <p class="text-center mb-5">
-              Explore our solutions in motion! Watch how Maxify Digital transforms businesses with cutting-edge
-              technology and seamless digital solutions.
-            </p>
-            <div class="homepage-ct-slider-wrapper">
-              <div class="homepage-ct-slider vid owl-carousel">
-                <div class="slide">
-                  <div class="video-bx">
-                    <video class="video" style="object-position: 0 75%" playsinline
-                      poster="./assets/videos/Maxify-Air 360.png" src="./assets/videos/Maxify-Air 360.mp4"></video>
-                    <div class="play-icon-overlay btn-box" aria-label="Play/Pause" title="Play/Pause"
-                      data-video-src="./assets/videos/Maxify-Air 360.mp4"
-                      data-video-poster="./assets/videos/Maxify-Air 360.png">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polygon points="5 3 19 12 5 21 5 3" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="text">
-                    <p>
-                      MaxAir 360: A powerful Salesforce CRM for aviation.
-                      Streamline operations, enhance customer experiences, and
-                      boost efficiency—all in one solution!
-                    </p>
-                    <span class="btn-box" aria-label="Play/Pause" title="Play/Pause"
-                      data-video-src="./assets/videos/Maxify-Air 360.mp4"
-                      data-video-poster="./assets/videos/Maxify-Air 360.png">
-                      <span class="play-btn"><img src="./assets/images/landing/play.svg"
-                          alt="Top App Development Company" class="play" />
-                      </span>
-                      Watch
-                    </span>
+      <section class="video-section-wrapper">
+        <div class="container">
+          <h2 class="title-three pink text-center">
+            Salesforce-Powered Transformation
+          </h2>
+          <h3 class="title-two text-center mb-3">
+            Maxify Digital in Action
+          </h3>
+          <p class="text-center mb-5">
+            Explore our solutions in motion! Watch how Maxify Digital transforms businesses with cutting-edge
+            technology and seamless digital solutions.
+          </p>
+          <div class="homepage-ct-slider-wrapper">
+            <div class="homepage-ct-slider vid owl-carousel">
+              <div class="slide">
+                <div class="video-bx">
+                  <video class="video" style="object-position: 0 75%" playsinline
+                    poster="./assets/videos/Maxify-Air 360.png" src="./assets/videos/Maxify-Air 360.mp4"></video>
+                  <div class="play-icon-overlay btn-box" aria-label="Play/Pause" title="Play/Pause"
+                    data-video-src="./assets/videos/Maxify-Air 360.mp4"
+                    data-video-poster="./assets/videos/Maxify-Air 360.png">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
                   </div>
                 </div>
-                <div class="slide">
-                  <div class="video-bx">
-                    <video class="video" style="object-position: 0 75%" playsinline poster="./assets/videos/Maxify1.png"
-                      src="./assets/videos/Maxify1.mp4"></video>
-                    <div class="play-icon-overlay btn-box" aria-label="Play/Pause" title="Play/Pause"
-                      data-video-src="./assets/videos/Maxify1.mp4" data-video-poster="./assets/videos/Maxify1.png">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polygon points="5 3 19 12 5 21 5 3" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="text">
-                    <p>
-                      Drive growth and delight travelers with data
-                      intelligence—personalized recommendations, optimized
-                      pricing, and AI-powered support.
-                    </p>
-                    <span class="btn-box" aria-label="Play/Pause" title="Play/Pause"
-                      data-video-src="./assets/videos/Maxify1.mp4" data-video-poster="./assets/videos/Maxify1.png">
-                      <span class="play-btn"><img src="./assets/images/landing/play.svg"
-                          alt="Top App Development Company" class="play" />
-                      </span>
-                      Watch
+                <div class="text">
+                  <p>
+                    MaxAir 360: A powerful Salesforce CRM for aviation.
+                    Streamline operations, enhance customer experiences, and
+                    boost efficiency—all in one solution!
+                  </p>
+                  <span class="btn-box" aria-label="Play/Pause" title="Play/Pause"
+                    data-video-src="./assets/videos/Maxify-Air 360.mp4"
+                    data-video-poster="./assets/videos/Maxify-Air 360.png">
+                    <span class="play-btn"><img src="./assets/images/landing/play.svg" alt="Top App Development Company"
+                        class="play" />
                     </span>
+                    Watch
+                  </span>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="video-bx">
+                  <video class="video" style="object-position: 0 75%" playsinline poster="./assets/videos/Maxify1.png"
+                    src="./assets/videos/Maxify1.mp4"></video>
+                  <div class="play-icon-overlay btn-box" aria-label="Play/Pause" title="Play/Pause"
+                    data-video-src="./assets/videos/Maxify1.mp4" data-video-poster="./assets/videos/Maxify1.png">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
                   </div>
                 </div>
-                <div class="slide">
-                  <div class="video-bx">
-                    <video class="video" style="object-position: 0 75%" playsinline poster="./assets/videos/Maxify2.png"
-                      src="./assets/videos/Maxify2.mp4"></video>
-                    <div class="play-icon-overlay btn-box" aria-label="Play/Pause" title="Play/Pause"
-                      data-video-src="./assets/videos/Maxify2.mp4" data-video-poster="./assets/videos/Maxify2.png">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polygon points="5 3 19 12 5 21 5 3" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="text">
-                    <p>
-                      Helping airline passengers track and trace their luggage
-                      effortlessly via WhatsApp. Experience real-time updates
-                      and seamless support at your fingertips!
-                    </p>
-                    <span class="btn-box" aria-label="Play/Pause" title="Play/Pause"
-                      data-video-src="./assets/videos/Maxify2.mp4" data-video-poster="./assets/videos/Maxify2.png">
-                      <span class="play-btn"><img src="./assets/images/landing/play.svg"
-                          alt="Top App Development Company" class="play" />
-                      </span>
-                      Watch
+                <div class="text">
+                  <p>
+                    Drive growth and delight travelers with data
+                    intelligence—personalized recommendations, optimized
+                    pricing, and AI-powered support.
+                  </p>
+                  <span class="btn-box" aria-label="Play/Pause" title="Play/Pause"
+                    data-video-src="./assets/videos/Maxify1.mp4" data-video-poster="./assets/videos/Maxify1.png">
+                    <span class="play-btn"><img src="./assets/images/landing/play.svg" alt="Top App Development Company"
+                        class="play" />
                     </span>
+                    Watch
+                  </span>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="video-bx">
+                  <video class="video" style="object-position: 0 75%" playsinline poster="./assets/videos/Maxify2.png"
+                    src="./assets/videos/Maxify2.mp4"></video>
+                  <div class="play-icon-overlay btn-box" aria-label="Play/Pause" title="Play/Pause"
+                    data-video-src="./assets/videos/Maxify2.mp4" data-video-poster="./assets/videos/Maxify2.png">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
                   </div>
                 </div>
-                <div class="slide">
-                  <div class="video-bx">
-                    <video class="video" style="object-position: 0 75%" playsinline poster="./assets/videos/Maxify4.png"
-                      src="./assets/videos/Maxify4.mp4"></video>
-                    <div class="play-icon-overlay btn-box" aria-label="Play/Pause" title="Play/Pause"
-                      data-video-src="./assets/videos/Maxify4.mp4" data-video-poster="./assets/videos/Maxify4.png">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polygon points="5 3 19 12 5 21 5 3" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="text">
-                    <p>
-                      Experience seamless travel with an AI-powered chatbot
-                      tailored for airlines and airports. From web check-in to
-                      real-time flight updates, enjoy effortless assistance and
-                      personalized support.
-                    </p>
-                    <span class="btn-box" aria-label="Play/Pause" title="Play/Pause"
-                      data-video-src="./assets/videos/Maxify4.mp4" data-video-poster="./assets/videos/Maxify4.png">
-                      <span class="play-btn"><img src="./assets/images/landing/play.svg"
-                          alt="Top App Development Company" class="play" />
-                      </span>
-                      Watch
+                <div class="text">
+                  <p>
+                    Helping airline passengers track and trace their luggage
+                    effortlessly via WhatsApp. Experience real-time updates
+                    and seamless support at your fingertips!
+                  </p>
+                  <span class="btn-box" aria-label="Play/Pause" title="Play/Pause"
+                    data-video-src="./assets/videos/Maxify2.mp4" data-video-poster="./assets/videos/Maxify2.png">
+                    <span class="play-btn"><img src="./assets/images/landing/play.svg" alt="Top App Development Company"
+                        class="play" />
                     </span>
+                    Watch
+                  </span>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="video-bx">
+                  <video class="video" style="object-position: 0 75%" playsinline poster="./assets/videos/Maxify4.png"
+                    src="./assets/videos/Maxify4.mp4"></video>
+                  <div class="play-icon-overlay btn-box" aria-label="Play/Pause" title="Play/Pause"
+                    data-video-src="./assets/videos/Maxify4.mp4" data-video-poster="./assets/videos/Maxify4.png">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
                   </div>
                 </div>
-                <div class="slide">
-                  <div class="video-bx">
-                    <video class="video" style="object-position: 0 75%" playsinline poster="./assets/videos/Maxify6.png"
-                      src="./assets/videos/Maxify6.mp4"></video>
-                    <div class="play-icon-overlay btn-box" aria-label="Play/Pause" title="Play/Pause"
-                      data-video-src="./assets/videos/Maxify6.mp4" data-video-poster="./assets/videos/Maxify6.png">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polygon points="5 3 19 12 5 21 5 3" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="text">
-                    <p>
-                      Revolutionizing airline loyalty program management.
-                      Design, launch, and optimize loyalty programs seamlessly
-                      while leveraging advanced marketing and customer data
-                      tools to enhance passenger experiences.
-                    </p>
-                    <span class="btn-box" aria-label="Play/Pause" title="Play/Pause"
-                      data-video-src="./assets/videos/Maxify6.mp4" data-video-poster="./assets/videos/Maxify6.png">
-                      <span class="play-btn"><img src="./assets/images/landing/play.svg"
-                          alt="Top App Development Company" class="play" />
-                      </span>
-                      Watch
+                <div class="text">
+                  <p>
+                    Experience seamless travel with an AI-powered chatbot
+                    tailored for airlines and airports. From web check-in to
+                    real-time flight updates, enjoy effortless assistance and
+                    personalized support.
+                  </p>
+                  <span class="btn-box" aria-label="Play/Pause" title="Play/Pause"
+                    data-video-src="./assets/videos/Maxify4.mp4" data-video-poster="./assets/videos/Maxify4.png">
+                    <span class="play-btn"><img src="./assets/images/landing/play.svg" alt="Top App Development Company"
+                        class="play" />
                     </span>
+                    Watch
+                  </span>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="video-bx">
+                  <video class="video" style="object-position: 0 75%" playsinline poster="./assets/videos/Maxify6.png"
+                    src="./assets/videos/Maxify6.mp4"></video>
+                  <div class="play-icon-overlay btn-box" aria-label="Play/Pause" title="Play/Pause"
+                    data-video-src="./assets/videos/Maxify6.mp4" data-video-poster="./assets/videos/Maxify6.png">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
                   </div>
                 </div>
-                <div class="slide">
-                  <div class="video-bx">
-                    <video class="video" style="object-position: 0 75%" playsinline poster="./assets/videos/Maxify7.png"
-                      src="./assets/videos/Maxify7.mp4"></video>
-                    <div class="play-icon-overlay btn-box" aria-label="Play/Pause" title="Play/Pause"
-                      data-video-src="./assets/videos/Maxify7.mp4" data-video-poster="./assets/videos/Maxify7.png">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polygon points="5 3 19 12 5 21 5 3" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div class="text">
-                    <p>
-                      Searching for a seasoned Salesforce expert? Look no
-                      further—Maxify Digital’s dream team is here to transform
-                      your business with cutting-edge Salesforce solutions!
-                    </p>
-                    <span class="btn-box" aria-label="Play/Pause" title="Play/Pause"
-                      data-video-src="./assets/videos/Maxify7.mp4" data-video-poster="./assets/videos/Maxify7.png">
-                      <span class="play-btn"><img src="./assets/images/landing/play.svg"
-                          alt="Top App Development Company" class="play" />
-                      </span>
-                      Watch
+                <div class="text">
+                  <p>
+                    Revolutionizing airline loyalty program management.
+                    Design, launch, and optimize loyalty programs seamlessly
+                    while leveraging advanced marketing and customer data
+                    tools to enhance passenger experiences.
+                  </p>
+                  <span class="btn-box" aria-label="Play/Pause" title="Play/Pause"
+                    data-video-src="./assets/videos/Maxify6.mp4" data-video-poster="./assets/videos/Maxify6.png">
+                    <span class="play-btn"><img src="./assets/images/landing/play.svg" alt="Top App Development Company"
+                        class="play" />
                     </span>
+                    Watch
+                  </span>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="video-bx">
+                  <video class="video" style="object-position: 0 75%" playsinline poster="./assets/videos/Maxify7.png"
+                    src="./assets/videos/Maxify7.mp4"></video>
+                  <div class="play-icon-overlay btn-box" aria-label="Play/Pause" title="Play/Pause"
+                    data-video-src="./assets/videos/Maxify7.mp4" data-video-poster="./assets/videos/Maxify7.png">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="5 3 19 12 5 21 5 3" />
+                    </svg>
                   </div>
+                </div>
+                <div class="text">
+                  <p>
+                    Searching for a seasoned Salesforce expert? Look no
+                    further—Maxify Digital’s dream team is here to transform
+                    your business with cutting-edge Salesforce solutions!
+                  </p>
+                  <span class="btn-box" aria-label="Play/Pause" title="Play/Pause"
+                    data-video-src="./assets/videos/Maxify7.mp4" data-video-poster="./assets/videos/Maxify7.png">
+                    <span class="play-btn"><img src="./assets/images/landing/play.svg" alt="Top App Development Company"
+                        class="play" />
+                    </span>
+                    Watch
+                  </span>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-
-        <div class="video-modal" style="display: none">
-          <div class="modal-content">
-            <video id="video-modal" controls></video>
-            <button class="close-modal">&times;</button>
-          </div>
-
+        </div>
+      </section>
+      <div class="video-modal" style="display: none">
+        <div class="modal-content">
+          <video id="video-modal" controls></video>
+          <button class="close-modal">&times;</button>
         </div>
 
-
-
-        <section class="leadership-section bg-white">
-          <div class="container">
-            <h2 class="title-three text-center blue">INSPIRING LEADERSHIP</h2>
-            <h3 class="title-two text-center text-white">
-              Meet the visionary leaders driving our mission<br />
-              to empower client success
-            </h3>
-            <div class="leadership-row">
-              <div class="team-member main">
-                <div class="profile-pic">
-                  <div class="pic">
-                    <img src="./assets/images/landing/Deepankur-Chawla.png" alt="Deepankur Chawla" />
-                  </div>
-                </div>
-                <div>
-                  <h3>Deepankur Chawla (DC)</h3>
-                  <p>Founder & CEO</p>
-                  <a href="https://www.linkedin.com/in/deepankurchawla/" target="_blank"><img
-                      src="./assets/images/landing/linkedin-dark.svg" width="20" height="20"
-                      alt="LinkedIn Profile" /></a>
+      </div>
+      <section class="leadership-section bg-white">
+        <div class="container">
+          <h2 class="title-three text-center blue">INSPIRING LEADERSHIP</h2>
+          <h3 class="title-two text-center text-white">
+            Meet the visionary leaders driving our mission<br />
+            to empower client success
+          </h3>
+          <div class="leadership-row">
+            <div class="team-member main">
+              <div class="profile-pic">
+                <div class="pic">
+                  <img src="./assets/images/landing/Deepankur-Chawla.png" alt="Deepankur Chawla" />
                 </div>
               </div>
-              <div class="team-member">
-                <div class="profile-pic">
-                  <div class="pic">
-                    <img src="./assets/images/landing/Rohit-Gupta.png" alt="Rohit Gupta" />
-                  </div>
-                  <a href="https://www.linkedin.com/in/rgupta79/" target="_blank"><img
-                      src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" />
-                  </a>
-                </div>
-                <h3>Rohit Gupta</h3>
-                <p>Vice President - Products & Head of Delivery COE</p>
-              </div>
-
-
-
-              <!--New Added1-->
-              <div class="team-member">
-                <div class="profile-pic">
-                  <div class="pic">
-                    <img src="https://www.hashstudioz.com/images/team/jitender_sir.png" alt="Jitender Malik" />
-                  </div>
-                  <a href="https://www.linkedin.com/in/jitender-malik-a5aa324/" target="_blank"><img
-                      src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" />
-                  </a>
-                </div>
-                <h3>Jitender Malik</h3>
+              <div>
+                <h3>Deepankur Chawla (DC)</h3>
                 <p>Founder & CEO</p>
+                <a href="https://www.linkedin.com/in/deepankurchawla/" target="_blank"><img
+                    src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" /></a>
               </div>
-              <!--New Added2-->
-              <div class="team-member">
-                <div class="profile-pic">
-                  <div class="pic">
-                    <img src="https://www.hashstudioz.com/images/team/vivek_sir.png" alt="Gaganpreet" />
-                  </div>
-                  <a href="https://www.linkedin.com/in/sanghivivek/?originalSubdomain=in" target="_blank"><img
-                      src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" />
-                  </a>
-                </div>
-                <h3>Vivek Sanghi</h3>
-                <p>Founder & COO</p>
-              </div>
-
-              <!--New Added3-->
-              <div class="team-member">
-                <div class="profile-pic">
-                  <div class="pic">
-                    <img src="https://www.hashstudioz.com/images/team/vishal_sir.png" alt="Vishal Singhani" />
-                  </div>
-                  <a href="https://www.linkedin.com/in/vishal-singhani-92786026/" target="_blank"><img
-                      src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" />
-                  </a>
-                </div>
-                <h3>Vishal Singhani</h3>
-                <p>Founder & CTO</p>
-              </div>
-
-              <!--New Added-->
-
-              <div class="team-member">
-                <div class="profile-pic">
-                  <div class="pic">
-                    <img src="./assets/images/landing/Gaganpreet-Singh.png" alt="Gaganpreet" />
-                  </div>
-                  <a href="https://www.linkedin.com/in/gaganpreetsingh22/" target="_blank"><img
-                      src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" />
-                  </a>
-                </div>
-                <h3>Gaganpreet Singh</h3>
-                <p>Account Manager - EMEA & APAC</p>
-              </div>
-              <div class="team-member">
-                <div class="profile-pic">
-                  <div class="pic">
-                    <img src="./assets/images/landing/Prateek-Arya.png" alt="Prateek Arya" />
-                  </div>
-
-                  <a href="https://www.linkedin.com/in/aryaprateek/" target="_blank"><img
-                      src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" />
-                  </a>
-                </div>
-                <h3>Prateek Arya</h3>
-                <p>Assistant Director - Technical Architect</p>
-              </div>
-              <div class="team-member">
-                <div class="profile-pic">
-                  <div class="pic">
-                    <img src="./assets/images/landing/jainam.png" alt="Jainam Shah" />
-                  </div>
-                  <a href="https://www.linkedin.com/in/jainam-shah-739880159?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
-                    target="_blank"><img src="./assets/images/landing/linkedin-dark.svg" width="20" height="20"
-                      alt="LinkedIn Profile" />
-                  </a>
-                </div>
-                <h3>Jainam Shah</h3>
-                <p>Solution Architect</p>
-              </div>
-              <!--<div class="team-member">-->
-              <!--  <div class="profile-pic">-->
-              <!--    <div class="pic">-->
-              <!--      <img-->
-              <!--        src="./assets/images/landing/Dheeraj-Chawla.png"-->
-              <!--        alt="Dheeraj Chawla"-->
-              <!--      />-->
-              <!--    </div>-->
-              <!--    <a-->
-              <!--      href="https://www.linkedin.com/in/djdigitalmarketingexpert/"-->
-              <!--     target="_blank" ><img-->
-              <!--        src="./assets/images/landing/linkedin-dark.svg"-->
-              <!--        width="20"-->
-              <!--        height="20"-->
-              <!--        alt="LinkedIn Profile"-->
-              <!--      />-->
-              <!--    </a>-->
-              <!--  </div>-->
-              <!--  <h3>DJ</h3>-->
-              <!--  <p>Marketing Head</p>-->
-              <!--</div>-->
-              <!--<div class="team-member">-->
-              <!--  <div class="profile-pic">-->
-              <!--    <div class="pic">-->
-              <!--      <img-->
-              <!--        src="./assets/images/landing/Sheena-Rawal.png"-->
-              <!--        alt="Sheena Rawal"-->
-              <!--      />-->
-              <!--    </div>-->
-              <!--    <a href="https://www.linkedin.com/in/sheenarawal/"-->
-              <!--     target="_blank" ><img-->
-              <!--        src="./assets/images/landing/linkedin-dark.svg"-->
-              <!--        width="20"-->
-              <!--        height="20"-->
-              <!--        alt="LinkedIn Profile"-->
-              <!--      />-->
-              <!--    </a>-->
-              <!--  </div>-->
-              <!--  <h3>Sheena Rawal</h3>-->
-              <!--  <p>-->
-              <!--    Director - Marketing-->
-              <!--  </p>-->
-              <!--</div>-->
             </div>
-          </div>
-        </section>
-        <section class="what-we-do">
-          <div class="container">
-            <h2 class="title-three pink text-center">OUR CORE VALUES</h2>
-            <h3 class="title-two text-center mb-3">Values Define What We Do</h3>
-            <p class="text-center mb-5">
-              We exist to empower industries—be it travel, aviation, media,
-              entertainment, banking, or fintech—to unlock the true power of
-              Salesforce, SaaS, and AI. Whether it’s streamlining aviation
-              operations, elevating customer experiences for B2B travel
-              partners, or redefining digital strategies in fintech, we go
-              beyond consulting to co-create journeys of innovation and impact.
-            </p>
-
-            <div class="row align-items-center">
-              <div class="col-md-7">
-                <ul>
-                  <li>
-                    <div class="icon-text">
-                      <img src="./assets/images/landing/Confident.svg" width="40" height="40" alt="icon" />
-                      <span>Confident</span>
-                    </div>
-                    <div class="para">
-                      We believe in leading from the front, embracing
-                      challenges, and driving the kind of transformative change
-                      that others can only envision. Our confidence stems from
-                      our expertise, passion, and unwavering commitment to
-                      innovation.
-                    </div>
-                  </li>
-                  <li>
-                    <div class="icon-text">
-                      <img src="./assets/images/landing/Innovative.svg" width="40" height="40" alt="icon" />
-                      <span>Innovative</span>
-                    </div>
-                    <div class="para">
-                      At Maxify Digital, we continually push the boundaries of
-                      what’s possible, reimagining the future with
-                      groundbreaking solutions that redefine industries and
-                      unlock new opportunities for growth.
-                    </div>
-                  </li>
-                  <li>
-                    <div class="icon-text">
-                      <img src="./assets/images/landing/Empathetic.svg" width="40" height="40" alt="icon" />
-                      <span>Empathetic</span>
-                    </div>
-                    <div class="para">
-                      We deeply understand the unique challenges faced by our
-                      clients and partners, ensuring that every solution we
-                      provide is thoughtfully designed to address their needs
-                      and exceed their expectations.
-                    </div>
-                  </li>
-                  <li>
-                    <div class="icon-text">
-                      <img src="./assets/images/landing/Inspiring.svg" width="40" height="40" alt="icon" />
-                      <span>Inspiring</span>
-                    </div>
-                    <div class="para">
-                      We are dedicated to creating a future where technology
-                      empowers humanity, inspiring collaboration, creativity,
-                      and progress to bring bold visions to life.
-                    </div>
-                  </li>
-                </ul>
+            <div class="team-member">
+              <div class="profile-pic">
+                <div class="pic">
+                  <img src="./assets/images/landing/Rohit-Gupta.png" alt="Rohit Gupta" />
+                </div>
+                <a href="https://www.linkedin.com/in/rgupta79/" target="_blank"><img
+                    src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" />
+                </a>
               </div>
-              <div class="col-md-5">
-                <img src="./assets/images/landing/what-we-do.png" alt="" />
-                <!-- <div class="three-color-box-wrapper">
+              <h3>Rohit Gupta</h3>
+              <p>Vice President - Products & Head of Delivery COE</p>
+            </div>
+
+
+
+            <!--New Added1-->
+            <div class="team-member">
+              <div class="profile-pic">
+                <div class="pic">
+                  <img src="https://www.hashstudioz.com/images/team/jitender_sir.png" alt="Jitender Malik" />
+                </div>
+                <a href="https://www.linkedin.com/in/jitender-malik-a5aa324/" target="_blank"><img
+                    src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" />
+                </a>
+              </div>
+              <h3>Jitender Malik</h3>
+              <p>Founder & CEO</p>
+            </div>
+            <!--New Added2-->
+            <div class="team-member">
+              <div class="profile-pic">
+                <div class="pic">
+                  <img src="https://www.hashstudioz.com/images/team/vivek_sir.png" alt="Gaganpreet" />
+                </div>
+                <a href="https://www.linkedin.com/in/sanghivivek/?originalSubdomain=in" target="_blank"><img
+                    src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" />
+                </a>
+              </div>
+              <h3>Vivek Sanghi</h3>
+              <p>Founder & COO</p>
+            </div>
+
+            <!--New Added3-->
+            <div class="team-member">
+              <div class="profile-pic">
+                <div class="pic">
+                  <img src="https://www.hashstudioz.com/images/team/vishal_sir.png" alt="Vishal Singhani" />
+                </div>
+                <a href="https://www.linkedin.com/in/vishal-singhani-92786026/" target="_blank"><img
+                    src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" />
+                </a>
+              </div>
+              <h3>Vishal Singhani</h3>
+              <p>Founder & CTO</p>
+            </div>
+
+            <!--New Added-->
+
+            <div class="team-member">
+              <div class="profile-pic">
+                <div class="pic">
+                  <img src="./assets/images/landing/Gaganpreet-Singh.png" alt="Gaganpreet" />
+                </div>
+                <a href="https://www.linkedin.com/in/gaganpreetsingh22/" target="_blank"><img
+                    src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" />
+                </a>
+              </div>
+              <h3>Gaganpreet Singh</h3>
+              <p>Account Manager - EMEA & APAC</p>
+            </div>
+            <div class="team-member">
+              <div class="profile-pic">
+                <div class="pic">
+                  <img src="./assets/images/landing/Prateek-Arya.png" alt="Prateek Arya" />
+                </div>
+
+                <a href="https://www.linkedin.com/in/aryaprateek/" target="_blank"><img
+                    src="./assets/images/landing/linkedin-dark.svg" width="20" height="20" alt="LinkedIn Profile" />
+                </a>
+              </div>
+              <h3>Prateek Arya</h3>
+              <p>Assistant Director - Technical Architect</p>
+            </div>
+            <div class="team-member">
+              <div class="profile-pic">
+                <div class="pic">
+                  <img src="./assets/images/landing/jainam.png" alt="Jainam Shah" />
+                </div>
+                <a href="https://www.linkedin.com/in/jainam-shah-739880159?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
+                  target="_blank"><img src="./assets/images/landing/linkedin-dark.svg" width="20" height="20"
+                    alt="LinkedIn Profile" />
+                </a>
+              </div>
+              <h3>Jainam Shah</h3>
+              <p>Solution Architect</p>
+            </div>
+            <!--<div class="team-member">-->
+            <!--  <div class="profile-pic">-->
+            <!--    <div class="pic">-->
+            <!--      <img-->
+            <!--        src="./assets/images/landing/Dheeraj-Chawla.png"-->
+            <!--        alt="Dheeraj Chawla"-->
+            <!--      />-->
+            <!--    </div>-->
+            <!--    <a-->
+            <!--      href="https://www.linkedin.com/in/djdigitalmarketingexpert/"-->
+            <!--     target="_blank" ><img-->
+            <!--        src="./assets/images/landing/linkedin-dark.svg"-->
+            <!--        width="20"-->
+            <!--        height="20"-->
+            <!--        alt="LinkedIn Profile"-->
+            <!--      />-->
+            <!--    </a>-->
+            <!--  </div>-->
+            <!--  <h3>DJ</h3>-->
+            <!--  <p>Marketing Head</p>-->
+            <!--</div>-->
+            <!--<div class="team-member">-->
+            <!--  <div class="profile-pic">-->
+            <!--    <div class="pic">-->
+            <!--      <img-->
+            <!--        src="./assets/images/landing/Sheena-Rawal.png"-->
+            <!--        alt="Sheena Rawal"-->
+            <!--      />-->
+            <!--    </div>-->
+            <!--    <a href="https://www.linkedin.com/in/sheenarawal/"-->
+            <!--     target="_blank" ><img-->
+            <!--        src="./assets/images/landing/linkedin-dark.svg"-->
+            <!--        width="20"-->
+            <!--        height="20"-->
+            <!--        alt="LinkedIn Profile"-->
+            <!--      />-->
+            <!--    </a>-->
+            <!--  </div>-->
+            <!--  <h3>Sheena Rawal</h3>-->
+            <!--  <p>-->
+            <!--    Director - Marketing-->
+            <!--  </p>-->
+            <!--</div>-->
+          </div>
+        </div>
+      </section>
+      <section class="what-we-do">
+        <div class="container">
+          <h2 class="title-three pink text-center">OUR CORE VALUES</h2>
+          <h3 class="title-two text-center mb-3">Values Define What We Do</h3>
+          <p class="text-center mb-5">
+            We exist to empower industries—be it travel, aviation, media,
+            entertainment, banking, or fintech—to unlock the true power of
+            Salesforce, SaaS, and AI. Whether it’s streamlining aviation
+            operations, elevating customer experiences for B2B travel
+            partners, or redefining digital strategies in fintech, we go
+            beyond consulting to co-create journeys of innovation and impact.
+          </p>
+
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <ul>
+                <li>
+                  <div class="icon-text">
+                    <img src="./assets/images/landing/Confident.svg" width="40" height="40" alt="icon" />
+                    <span>Confident</span>
+                  </div>
+                  <div class="para">
+                    We believe in leading from the front, embracing
+                    challenges, and driving the kind of transformative change
+                    that others can only envision. Our confidence stems from
+                    our expertise, passion, and unwavering commitment to
+                    innovation.
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-text">
+                    <img src="./assets/images/landing/Innovative.svg" width="40" height="40" alt="icon" />
+                    <span>Innovative</span>
+                  </div>
+                  <div class="para">
+                    At Maxify Digital, we continually push the boundaries of
+                    what’s possible, reimagining the future with
+                    groundbreaking solutions that redefine industries and
+                    unlock new opportunities for growth.
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-text">
+                    <img src="./assets/images/landing/Empathetic.svg" width="40" height="40" alt="icon" />
+                    <span>Empathetic</span>
+                  </div>
+                  <div class="para">
+                    We deeply understand the unique challenges faced by our
+                    clients and partners, ensuring that every solution we
+                    provide is thoughtfully designed to address their needs
+                    and exceed their expectations.
+                  </div>
+                </li>
+                <li>
+                  <div class="icon-text">
+                    <img src="./assets/images/landing/Inspiring.svg" width="40" height="40" alt="icon" />
+                    <span>Inspiring</span>
+                  </div>
+                  <div class="para">
+                    We are dedicated to creating a future where technology
+                    empowers humanity, inspiring collaboration, creativity,
+                    and progress to bring bold visions to life.
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-5">
+              <img src="./assets/images/landing/what-we-do.png" alt="" />
+              <!-- <div class="three-color-box-wrapper">
                   <div class="img-box">
                     <img
                       src="https://healthcare.techaheadcorp.com/wp-content/uploads/2024/09/Group-18523@2x.png"
@@ -3031,210 +2753,210 @@
                     <p>Compliant healthcare</p>
                   </div>
                 </div> -->
-              </div>
             </div>
           </div>
-        </section>
-        <section class="stats-section">
-          <div class="container">
-            <h2 class="title-three text-center pink-light">
-              WHY MAXIFY?
-            </h2>
-            <h3 class="title-two text-center text-white">
-              Empowering Your Business with <br />
-              <span>AI-Driven Solutions</span>
-            </h3>
-            <div class="stats-grid">
-              <div class="stat-item pink-gradient">
-                <div class="icon">
-                  <img src="./assets/images/landing/Happy Salesforce Customers.svg" alt="Happy Salesforce Customers" />
-                </div>
-                <h2>350+</h2>
-                <p>Happy Salesforce Customers</p>
+        </div>
+      </section>
+      <section class="stats-section">
+        <div class="container">
+          <h2 class="title-three text-center pink-light">
+            WHY MAXIFY?
+          </h2>
+          <h3 class="title-two text-center text-white">
+            Empowering Your Business with <br />
+            <span>AI-Driven Solutions</span>
+          </h3>
+          <div class="stats-grid">
+            <div class="stat-item pink-gradient">
+              <div class="icon">
+                <img src="./assets/images/landing/Happy Salesforce Customers.svg" alt="Happy Salesforce Customers" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Salesforce Enterprise Customers.svg"
-                    alt="Salesforce Enterprise Customers" />
-                </div>
+              <h2>350+</h2>
+              <p>Happy Salesforce Customers</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Salesforce Enterprise Customers.svg"
+                  alt="Salesforce Enterprise Customers" />
+              </div>
 
-                <h2>80+</h2>
-                <p>Salesforce Enterprise Customers</p>
+              <h2>80+</h2>
+              <p>Salesforce Enterprise Customers</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Salesforce Implementations.svg" alt="Salesforce Implementations" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Salesforce Implementations.svg" alt="Salesforce Implementations" />
-                </div>
 
-                <h2>450+</h2>
-                <p>Salesforce Implementations</p>
+              <h2>450+</h2>
+              <p>Salesforce Implementations</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Transformational Consulting Projects Delivered.svg"
+                  alt="Transformational Consulting Projects Delivered" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Transformational Consulting Projects Delivered.svg"
-                    alt="Transformational Consulting Projects Delivered" />
-                </div>
 
-                <h2>70+</h2>
-                <p>Transformational Consulting Projects Delivered</p>
+              <h2>70+</h2>
+              <p>Transformational Consulting Projects Delivered</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Advisory Services Workshops Delivered.svg"
+                  alt="Advisory Services Workshops Delivered" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Advisory Services Workshops Delivered.svg"
-                    alt="Advisory Services Workshops Delivered" />
-                </div>
 
-                <h2>200+</h2>
-                <p>Advisory Services Workshops Delivered</p>
+              <h2>200+</h2>
+              <p>Advisory Services Workshops Delivered</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Salesforce Classic to Lightning Migrations.svg"
+                  alt="Salesforce Classic to Lightning Migrations" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Salesforce Classic to Lightning Migrations.svg"
-                    alt="Salesforce Classic to Lightning Migrations" />
-                </div>
 
-                <h2>150+</h2>
-                <p>Salesforce Classic to Lightning Migrations</p>
+              <h2>150+</h2>
+              <p>Salesforce Classic to Lightning Migrations</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Sales Cloud Rollouts 2.svg" alt="Sales Cloud Rollouts" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Sales Cloud Rollouts 2.svg" alt="Sales Cloud Rollouts" />
-                </div>
 
-                <h2>100+</h2>
-                <p>Sales Cloud Rollouts</p>
+              <h2>100+</h2>
+              <p>Sales Cloud Rollouts</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Sales Cloud Rollouts.svg" alt="Service Cloud Rollouts" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Sales Cloud Rollouts.svg" alt="Service Cloud Rollouts" />
-                </div>
 
-                <h2>120+</h2>
-                <p>Service Cloud Rollouts</p>
+              <h2>120+</h2>
+              <p>Service Cloud Rollouts</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Service Cloud Rollouts.svg" alt="Force.com Apps Developed" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Service Cloud Rollouts.svg" alt="Force.com Apps Developed" />
-                </div>
 
-                <h2>140+</h2>
-                <p>Platform Cloud Apps Developed</p>
+              <h2>140+</h2>
+              <p>Platform Cloud Apps Developed</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Force.com Apps Developed.svg" alt="Marketing Cloud Rollouts" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Force.com Apps Developed.svg" alt="Marketing Cloud Rollouts" />
-                </div>
 
-                <h2>50+</h2>
-                <p>Marketing Cloud Rollouts</p>
+              <h2>50+</h2>
+              <p>Marketing Cloud Rollouts</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Marketing Cloud Rollouts.svg"
+                  alt="Vertical Focused Solution Accelerators" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Marketing Cloud Rollouts.svg"
-                    alt="Vertical Focused Solution Accelerators" />
-                </div>
 
-                <h2>5+</h2>
-                <p>Vertical Focused Solution Accelerators</p>
+              <h2>5+</h2>
+              <p>Vertical Focused Solution Accelerators</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Vertical Focused Solution Accelerators.svg"
+                  alt="Designated Salesforce Experts & Customer Success" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Vertical Focused Solution Accelerators.svg"
-                    alt="Designated Salesforce Experts & Customer Success" />
-                </div>
 
-                <h2>320+</h2>
-                <p>Certified Salesforce Professionals</p>
+              <h2>320+</h2>
+              <p>Certified Salesforce Professionals</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Vertical Focused Solution Accelerators.svg"
+                  alt="Designated Salesforce Experts & Customer Success" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Vertical Focused Solution Accelerators.svg"
-                    alt="Designated Salesforce Experts & Customer Success" />
-                </div>
 
-                <h2>1000+</h2>
-                <p>Salesforce Gig Professionals on Maxengage Marketplace</p>
+              <h2>1000+</h2>
+              <p>Salesforce Gig Professionals on Maxengage Marketplace</p>
+            </div>
+            <div class="stat-item">
+              <div class="icon">
+                <img src="./assets/images/landing/Vertical Focused Solution Accelerators.svg"
+                  alt="Designated Salesforce Experts & Customer Success" />
               </div>
-              <div class="stat-item">
-                <div class="icon">
-                  <img src="./assets/images/landing/Vertical Focused Solution Accelerators.svg"
-                    alt="Designated Salesforce Experts & Customer Success" />
-                </div>
 
-                <h2>9.8</h2>
-                <p>CSAT Score</p>
-              </div>
+              <h2>9.8</h2>
+              <p>CSAT Score</p>
             </div>
           </div>
-        </section>
-        <section class="cs-section video-section-wrapper">
-          <div class="container">
-            <h2 class="title-three pink text-center">CASE STUDIES</h2>
-            <h3 class="title-two text-center mb-3 text-white">
-              Exploring Success Stories
-            </h3>
-            <p class="text-center mb-5 text-white">
-              Navigating business challenges can be tough, but we have a proven
-              track record of helping our partners elevate themselves to their
-              next and best levels.
-            </p>
-            <div class="homepage-ct-slider-wrapper">
-              <div class="homepage-ct-slider cs owl-carousel">
-                <div class="slide">
-                  <div class="text">
-                    <h3>Air India</h3>
-                    <p>
-                      Redesign of digital channels to enhance accessibility for
-                      global travelers.
-                    </p>
-                    <a href="./cs-airindia.html" target="_blank">Read More</a>
-                  </div>
-                  <div class="image" style="background-color: #ffffff">
-                    <img src="./assets/images/trustedby/AI_Logo_Red_New.svg" alt="image" />
-                  </div>
+        </div>
+      </section>
+      <section class="cs-section video-section-wrapper">
+        <div class="container">
+          <h2 class="title-three pink text-center">CASE STUDIES</h2>
+          <h3 class="title-two text-center mb-3 text-white">
+            Exploring Success Stories
+          </h3>
+          <p class="text-center mb-5 text-white">
+            Navigating business challenges can be tough, but we have a proven
+            track record of helping our partners elevate themselves to their
+            next and best levels.
+          </p>
+          <div class="homepage-ct-slider-wrapper">
+            <div class="homepage-ct-slider cs owl-carousel">
+              <div class="slide">
+                <div class="text">
+                  <h3>Air India</h3>
+                  <p>
+                    Redesign of digital channels to enhance accessibility for
+                    global travelers.
+                  </p>
+                  <a href="./cs-airindia.html" target="_blank">Read More</a>
                 </div>
+                <div class="image" style="background-color: #ffffff">
+                  <img src="./assets/images/trustedby/AI_Logo_Red_New.svg" alt="image" />
+                </div>
+              </div>
 
-                <div class="slide">
-                  <div class="text">
-                    <h3>SpiceJet</h3>
-                    <p>
-                      Optimized customer experience with faster bookings and
-                      improved operational efficiency.
-                    </p>
-                    <a href="./cs-spicejet.html" target="_blank">Read More</a>
-                  </div>
-                  <div class="image" style="background-color: #ffffff">
-                    <img src="./assets/images/trustedby//SpiceJet-Logo.png" alt="image" />
-                  </div>
+              <div class="slide">
+                <div class="text">
+                  <h3>SpiceJet</h3>
+                  <p>
+                    Optimized customer experience with faster bookings and
+                    improved operational efficiency.
+                  </p>
+                  <a href="./cs-spicejet.html" target="_blank">Read More</a>
                 </div>
+                <div class="image" style="background-color: #ffffff">
+                  <img src="./assets/images/trustedby//SpiceJet-Logo.png" alt="image" />
+                </div>
+              </div>
 
-                <div class="slide">
-                  <div class="text">
-                    <h3>Fly Go</h3>
-                    <p>
-                      Launched a seamless app interface that significantly
-                      boosted bookings.
-                    </p>
-                    <a href="./cs-flygo.html" target="_blank">Read More</a>
-                  </div>
-                  <div class="image">
-                    <img src="./assets/images/trustedby/flygofirst.png" alt="image" />
-                  </div>
+              <div class="slide">
+                <div class="text">
+                  <h3>Fly Go</h3>
+                  <p>
+                    Launched a seamless app interface that significantly
+                    boosted bookings.
+                  </p>
+                  <a href="./cs-flygo.html" target="_blank">Read More</a>
                 </div>
+                <div class="image">
+                  <img src="./assets/images/trustedby/flygofirst.png" alt="image" />
+                </div>
+              </div>
 
-                <div class="slide">
-                  <div class="text">
-                    <h3>Salesforce Archival</h3>
-                    <p>
-                      Enterprise-grade archival, retrieval, and backup strategy to optimize platform storage and TCO.
-                    </p>
-                    <a href="./cs-salesforce-archival.html" target="_blank">Read More</a>
-                  </div>
-                  <div class="image" style="background-color: #ffffff">
-                    <img src="./assets/images/landing/salesforce.png" alt="image" />
-                  </div>
+              <div class="slide">
+                <div class="text">
+                  <h3>Salesforce Archival</h3>
+                  <p>
+                    Enterprise-grade archival, retrieval, and backup strategy to optimize platform storage and TCO.
+                  </p>
+                  <a href="./cs-salesforce-archival.html" target="_blank">Read More</a>
                 </div>
-                <!-- <div class="slide">
+                <div class="image" style="background-color: #ffffff">
+                  <img src="./assets/images/landing/salesforce.png" alt="image" />
+                </div>
+              </div>
+              <!-- <div class="slide">
                   <div class="text">
                     <h3>Air Asia</h3>
                     <p>
@@ -3247,141 +2969,141 @@
                     <img src="./assets/images/air-asia.png" alt="image" />
                   </div>
                 </div> -->
-              </div>
             </div>
           </div>
-        </section>
-        <section class="our-client">
-          <div class="container text-center">
-            <h2 class="title-three">WHAT OUR CLIENTS SAY</h2>
-            <h3 class="title-two">Transforming Challenges Into Triumphs</h3>
-            <div class="swiper our-client-swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="testimonial-card">
-                    <img src="./assets/images/trustedby/AI_Logo_Red_New.svg" alt="CIO, Airline Customer"
-                      class="client-logo" />
-                    <div class="content">
-                      <span class="quote">”</span> Great stuff in managing the
-                      exception rules in the PLB approval process.<br />
-                      It took us time, but in the end you managed to pull this off.
-                      Thank you for<br />
-                      putting your efforts into documenting this in Excel for
-                      ready and<br />
-                      quick reference as well. I look forward to your continuous
-                      efforts and<br />
-                      dedication as we progress forward.
-                      <span class="quote bt">”</span>
-                    </div>
+        </div>
+      </section>
+      <section class="our-client">
+        <div class="container text-center">
+          <h2 class="title-three">WHAT OUR CLIENTS SAY</h2>
+          <h3 class="title-two">Transforming Challenges Into Triumphs</h3>
+          <div class="swiper our-client-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-card">
+                  <img src="./assets/images/trustedby/AI_Logo_Red_New.svg" alt="CIO, Airline Customer"
+                    class="client-logo" />
+                  <div class="content">
+                    <span class="quote">”</span> Great stuff in managing the
+                    exception rules in the PLB approval process.<br />
+                    It took us time, but in the end you managed to pull this off.
+                    Thank you for<br />
+                    putting your efforts into documenting this in Excel for
+                    ready and<br />
+                    quick reference as well. I look forward to your continuous
+                    efforts and<br />
+                    dedication as we progress forward.
+                    <span class="quote bt">”</span>
                   </div>
                 </div>
-
-
-
-                <div class="swiper-slide">
-                  <div class="testimonial-card">
-                    <img src="./assets/images/trustedby/Amity University.svg" alt="CIO, Airline Customer"
-                      class="client-logo" />
-                    <div class="content">
-                      <span class="quote">”</span>It was an awesome experience working with Maxify. They made us realize
-                      the spectrum of Salesforce. Highly satisfied by their job and would look forward working with them
-                      on a future project.
-                      <span class="quote bt">”</span>
-                      <h6 style="margin-top:10px">Country Head, Amity Education Group</h6>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="testimonial-card">
-                    <img src="./assets/images/trustedby/SpiceJet.svg" alt="CIO, Airline Customer" class="client-logo" />
-                    <div class="content">
-                      <span class="quote">”</span>I am delighted to extend my highest recommendation for Maxify Digital,
-                      a Salesforce consulting and implementation partner that has played an instrumental role in
-                      transforming Spicejet’s digital landscape. Maxify Digital demonstrated exceptional expertise in
-                      implementing and automating our B2B2C Sales, Corporate Sales, Contact Centre, and Customer Service
-                      processes, as well as our Loyalty Program and Airport Baggage Solutions.
-                      <span class="quote bt">”</span>
-                    </div>
-                  </div>
-                </div>
-
-
-
-
-                <div class="swiper-slide">
-                  <div class="testimonial-card">
-                    <img src="./assets/images/trustedby/AI_Logo_Red_New.svg" alt="CIO, Airline Customer"
-                      class="client-logo" />
-                    <div class="content">
-                      <span class="quote">”</span>Sonu's technical expertise in Tableau is truly
-                      commendable. His deep understanding of the platform has
-                      enabled him to develop several complex dashboards that
-                      have greatly enhanced our data visualization
-                      capabilities. His ability to tackle intricate challenges
-                      and deliver high-quality solutions consistently is a
-                      testament to his technical prowess.
-                      <span class="quote bt">”</span>
-                    </div>
-                  </div>
-                </div>
-
-
-
-
-                <div class="swiper-slide">
-                  <div class="testimonial-card">
-                    <img src="./assets/images/trustedby/SpiceJet.svg" alt="CIO, Airline Customer" class="client-logo" />
-                    <div class="content">
-                      <span class="quote">”</span>We are pleased with the Partner’s expertise in SFDC and also the way
-                      they have engaged the business throughout the entire Journey to deliver what is expected. Partner
-                      team is very passionate and delivered the project within the agreed timeline.
-                      <span class="quote bt">”</span>
-                      <h6 style="margin-top:10px">CIO, Airline Customer</h6>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="testimonial-card">
-                    <img src="./assets/images/trustedby/AI_Logo_Red_New.svg" alt="CIO, Airline Customer"
-                      class="client-logo" />
-                    <div class="content">
-                      <span class="quote">”</span>I wanted to take a moment to express my sincere
-                      gratitude for your exceptional performance recently.
-                      Your efforts, commitment, and meticulousness have been
-                      duly recognized. Your contributions to contact centre
-                      projects including PAX compensation were invaluable and
-                      played a significant role in its success. Your ability
-                      to go the extra mile truly set you apart and made a positive
-                      impact on the entire CX team.
-                      <span class="quote bt">”</span>
-                    </div>
-                  </div>
-                </div>
-
-
               </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
+
+
+
+              <div class="swiper-slide">
+                <div class="testimonial-card">
+                  <img src="./assets/images/trustedby/Amity University.svg" alt="CIO, Airline Customer"
+                    class="client-logo" />
+                  <div class="content">
+                    <span class="quote">”</span>It was an awesome experience working with Maxify. They made us realize
+                    the spectrum of Salesforce. Highly satisfied by their job and would look forward working with them
+                    on a future project.
+                    <span class="quote bt">”</span>
+                    <h6 style="margin-top:10px">Country Head, Amity Education Group</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testimonial-card">
+                  <img src="./assets/images/trustedby/SpiceJet.svg" alt="CIO, Airline Customer" class="client-logo" />
+                  <div class="content">
+                    <span class="quote">”</span>I am delighted to extend my highest recommendation for Maxify Digital,
+                    a Salesforce consulting and implementation partner that has played an instrumental role in
+                    transforming Spicejet’s digital landscape. Maxify Digital demonstrated exceptional expertise in
+                    implementing and automating our B2B2C Sales, Corporate Sales, Contact Centre, and Customer Service
+                    processes, as well as our Loyalty Program and Airport Baggage Solutions.
+                    <span class="quote bt">”</span>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="swiper-slide">
+                <div class="testimonial-card">
+                  <img src="./assets/images/trustedby/AI_Logo_Red_New.svg" alt="CIO, Airline Customer"
+                    class="client-logo" />
+                  <div class="content">
+                    <span class="quote">”</span>Sonu's technical expertise in Tableau is truly
+                    commendable. His deep understanding of the platform has
+                    enabled him to develop several complex dashboards that
+                    have greatly enhanced our data visualization
+                    capabilities. His ability to tackle intricate challenges
+                    and deliver high-quality solutions consistently is a
+                    testament to his technical prowess.
+                    <span class="quote bt">”</span>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="swiper-slide">
+                <div class="testimonial-card">
+                  <img src="./assets/images/trustedby/SpiceJet.svg" alt="CIO, Airline Customer" class="client-logo" />
+                  <div class="content">
+                    <span class="quote">”</span>We are pleased with the Partner’s expertise in SFDC and also the way
+                    they have engaged the business throughout the entire Journey to deliver what is expected. Partner
+                    team is very passionate and delivered the project within the agreed timeline.
+                    <span class="quote bt">”</span>
+                    <h6 style="margin-top:10px">CIO, Airline Customer</h6>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testimonial-card">
+                  <img src="./assets/images/trustedby/AI_Logo_Red_New.svg" alt="CIO, Airline Customer"
+                    class="client-logo" />
+                  <div class="content">
+                    <span class="quote">”</span>I wanted to take a moment to express my sincere
+                    gratitude for your exceptional performance recently.
+                    Your efforts, commitment, and meticulousness have been
+                    duly recognized. Your contributions to contact centre
+                    projects including PAX compensation were invaluable and
+                    played a significant role in its success. Your ability
+                    to go the extra mile truly set you apart and made a positive
+                    impact on the entire CX team.
+                    <span class="quote bt">”</span>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
           </div>
-        </section>
-        <section class="get-in-touch">
-          <div class="container text-center">
-            <h2 class="title-three pink-light">GET IN TOUCH WITH US TODAY!</h2>
-            <h3 class="title-large text-white">
-              Let’s Shape the<br />
-              <strong>Future of Business Together</strong>
-            </h3>
-            <p class="text-white mb-5">
-              Schedule a one-on-one meeting with our experts to see<br />
-              how we can transform your business operations.
-            </p>
-            <a href="#" class="btn btn-primary1 border"
-              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/iamdc/meetme?month=2024-12'});return false;">BOOK
-              AN APPOINTMENT</a>
-            <!--
+        </div>
+      </section>
+      <section class="get-in-touch">
+        <div class="container text-center">
+          <h2 class="title-three pink-light">GET IN TOUCH WITH US TODAY!</h2>
+          <h3 class="title-large text-white">
+            Let’s Shape the<br />
+            <strong>Future of Business Together</strong>
+          </h3>
+          <p class="text-white mb-5">
+            Schedule a one-on-one meeting with our experts to see<br />
+            how we can transform your business operations.
+          </p>
+          <a href="#" class="btn btn-primary1 border"
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/iamdc/meetme?month=2024-12'});return false;">BOOK
+            AN APPOINTMENT</a>
+          <!--
           
           <a
               href="#"
@@ -3399,9 +3121,8 @@
             
             -->
 
-          </div>
-        </section>
-
+        </div>
+      </section>
     </main>
     <!-- Footer -->
     <div id="footer-placeholder"></div>
@@ -3418,6 +3139,22 @@
       .catch(err => console.error('Footer load failed:', err));
   </script>
   <!-- Navbar and Footer  -->
+  <script>
+    const mascot = document.getElementById("scrollToTopBtn");
+
+    // Show mascot after scrolling down 300px
+    window.addEventListener("scroll", function () {
+      mascot.style.display = window.scrollY > 300 ? "block" : "none";
+    });
+
+    // Scroll to top on mascot click
+    mascot.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
