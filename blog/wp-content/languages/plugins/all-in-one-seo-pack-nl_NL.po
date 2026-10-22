@@ -1,0 +1,4477 @@
+# Translation of Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-31 10:42:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release)\n"
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag, 3 - The
+#. plugin name ("All in One SEO"), 4 - Opening HTML link tag, 5 - Closing HTML
+#. link tag.
+#: app/init/notices.php:173
+msgid "%1$sNote:%2$s %3$s will be discontinuing support for WordPress versions older than version 5.3 by the end of 2022. %4$sRead more for additional information.%5$s"
+msgstr "%1$sOpmerking:%2$s %3$s zal de ondersteuning voor WordPress versies ouder dan versie 5.3 tegen eind 2022 stopzetten. %4$sLees verder voor meer informatie.%5$s"
+
+#. Translators: 1 - Blog name, 2 - Separator (raquo), 3 - Post type name.
+#: app/Common/Rss.php:302
+msgid "%1$s %2$s %3$s Feed"
+msgstr "%1$s %2$s %3$s feed"
+
+#. Translators: 1 - Blog name, 2 - Separator (raquo), 3 - Search query.
+#: app/Common/Rss.php:300
+msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
+msgstr "%1$s %2$s zoekresultaten voor &#8220;%3$s &#8221; feed"
+
+#. Translators: 1 - Blog name, 2 - Separator (raquo), 3 - Author name.
+#: app/Common/Rss.php:298
+msgid "%1$s %2$s Posts by %3$s Feed"
+msgstr "%1$s %2$s plaatsingen door %3$s feed"
+
+#. Translators: 1 - Blog name, 2 - Separator (raquo), 3 - Term name, 4:
+#. Taxonomy singular name.
+#: app/Common/Rss.php:296
+msgid "%1$s %2$s %3$s %4$s Feed"
+msgstr "%1$s %2$s %3$s %4$s feed"
+
+#. Translators: 1 - Blog name, 2 - Separator (raquo), 3 - Tag name.
+#: app/Common/Rss.php:294
+msgid "%1$s %2$s %3$s Tag Feed"
+msgstr "%1$s %2$s %3$s tag feed"
+
+#. Translators: 1 - Blog name, 2 - Separator (raquo), 3 - Category name.
+#: app/Common/Rss.php:292
+msgid "%1$s %2$s %3$s Category Feed"
+msgstr "%1$s %2$s %3$s categorie voer"
+
+#. Translators: 1 - Blog name, 2 - Separator (raquo), 3 - Post title.
+#: app/Common/Rss.php:290
+msgid "%1$s %2$s %3$s Comments Feed"
+msgstr "%1$s %2$s %3$s reacties feed"
+
+#. Translators: Separator between blog name and feed type in feed links.
+#: app/Common/Rss.php:288
+msgctxt "feed link"
+msgid "-"
+msgstr "-"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Api/Wizard.php:297
+msgid "You selected to install the free OptinMonster Conversion Tools plugin during the setup of %1$s, but there was an issue during installation. Click below to manually install."
+msgstr "Je hebt ervoor gekozen om de gratis OptinMonster Conversion Tools plugin te installeren tijdens de setup van %1$s, maar er is een probleem opgetreden tijdens de installatie. Klik hieronder om handmatig te installeren."
+
+#: app/Common/Api/Wizard.php:294 app/Common/Api/Wizard.php:302
+msgid "Install OptinMonster"
+msgstr "Installeer OptinMonster"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/Dashboard.php:61
+msgid "%s Overview"
+msgstr "%s overzicht"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/Dashboard.php:45
+msgid "%s Setup"
+msgstr "%s instelling"
+
+#: app/Common/Views/admin/settings-page.php:180
+msgid "View supported browsers"
+msgstr "Ondersteunde browsers weergeven"
+
+#. Translators: 1 - "AIOSEO".
+#: app/Common/Views/admin/settings-page.php:173
+msgid "You are using a browser which is no longer supported by %1$s. Please update or use another browser in order to access the plugin settings."
+msgstr "Je gebruikt een browser die niet langer ondersteund wordt door %1$s. Voer een update uit of gebruik een andere browser om toegang te krijgen tot de plugin instellingen."
+
+#: app/Common/Views/admin/settings-page.php:167
+msgid "Your browser version is not supported"
+msgstr "Je browserversie wordt niet ondersteund"
+
+#: app/Common/Views/admin/settings-page.php:162
+msgid "Resolve This Issue"
+msgstr "Los dit probleem op"
+
+#. Translators: 1 - "AIOSEO".
+#: app/Common/Views/admin/settings-page.php:154
+msgid "Copy the error message above and paste it in a message to the %1$s support team."
+msgstr "Kopieer de bovenstaande foutmelding en plak die in een bericht aan het %1$s ondersteuning team."
+
+#. Translators: 1 - Line break HTML tag, 2 - "AIOSEO".
+#: app/Common/Views/admin/settings-page.php:140
+msgid "There seems to be an issue running JavaScript on your website. %1$s%2$s is built with JavaScript to give you the best experience possible."
+msgstr "Er lijkt een probleem te zijn met het uitvoeren van JavaScript op je site. %1$s%2$s is gebouwd met JavaScript om je de best mogelijke ervaring te geven."
+
+#: app/Common/Views/admin/settings-page.php:134
+msgid "Ooops! It Appears JavaScript Didn’t Load"
+msgstr "Het lijkt erop dat JavaScript niet geladen is"
+
+#. Translators: 1 - The sitemap name, 2 - The current page.
+#: app/Common/Sitemap/Xsl.php:64
+msgid "%1$s Sitemap %2$s"
+msgstr "%1$s Sitemap %2$s"
+
+#. Translators: Minimum input length in characters to start searching posts in
+#. the "Insert/edit link" modal.
+#: app/Common/Admin/Admin.php:312
+msgctxt "minimum input length for searching post links"
+msgid "3"
+msgstr "3"
+
+#: app/Common/Admin/Admin.php:303
+msgid "Link selected."
+msgstr "Link geselecteerd."
+
+#: app/Common/Admin/Admin.php:297
+msgid "Insert/edit link"
+msgstr "Link invoegen/bewerken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:847
+msgid "six-figure"
+msgstr "zescijferig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:791
+msgid "profit"
+msgstr "winst"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:751
+msgid "fulfill"
+msgstr "vervullen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:736
+msgid "horrific"
+msgstr "afschuwelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:706
+msgid "flush"
+msgstr "legen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:698
+msgid "fleece"
+msgstr "vlies"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:696
+msgid "fire"
+msgstr "brand"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:638
+msgid "first"
+msgstr "eerste"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:437
+msgid "profitable"
+msgstr "winstgevend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:432
+msgid "sure fire"
+msgstr "zeker vuur"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:426
+msgid "simplified"
+msgstr "vereenvoudigd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:425
+msgid "terrific"
+msgstr "geweldig"
+
+#: app/Common/Standalone/PageBuilders/Elementor.php:91
+msgid "AIOSEO"
+msgstr "AIOSEO"
+
+#: app/Common/Models/Post.php:442
+msgid "No content yet"
+msgstr "Nog geen inhoud"
+
+#: app/Common/Api/Plugins.php:75
+msgid "Plugin update failed. Please check permissions and try again."
+msgstr "Plugin update mislukt. Controleer je rechten en probeer het opnieuw."
+
+#: app/Common/Api/Analyze.php:130
+msgid "Please enter a valid headline."
+msgstr "Voer een geldige headline op."
+
+#: app/Common/Admin/Admin.php:178 app/Common/Admin/Admin.php:179
+msgid "Link Assistant"
+msgstr "Link assistent"
+
+#. Translators: 1 - The generated date, 2 - The generated time.
+#: app/Common/Views/sitemap/xsl/templates/header.php:60
+msgid "and was generated on %1$s at %2$s"
+msgstr "en werd gegenereerd op %1$s bij %2$s"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:49
+msgid "sitemap"
+msgstr "sitemap"
+
+#: app/Common/Views/sitemap/xsl/templates/format-priority.php:30
+msgid "High"
+msgstr "Hoog"
+
+#: app/Common/Views/sitemap/xsl/templates/format-priority.php:29
+msgid "Medium"
+msgstr "Gemiddeld"
+
+#: app/Common/Views/sitemap/xsl/templates/format-priority.php:28
+msgid "Low"
+msgstr "Laag"
+
+#. Translators: 1 - Opening HTML link tag, 2 - Closing HTML link tag.
+#: app/Common/Views/sitemap/xsl/templates/empty-sitemap.php:48
+msgid "Didn't expect to see this? Make sure your sitemap is enabled and your content is set to be indexed. %1$sLearn More →%2$s"
+msgstr "Had je dit niet verwacht? Zorg ervoor dat je sitemap is ingeschakeld en dat je inhoud is ingesteld om te worden geïndexeerd. %1$sMeer informatie →%2$s"
+
+#: app/Common/Views/sitemap/xsl/templates/empty-sitemap.php:39
+msgid "Configure Sitemap"
+msgstr "Sitemap configureren"
+
+#: app/Common/Views/sitemap/xsl/templates/empty-sitemap.php:37
+msgid "Back to Homepage"
+msgstr "Terug naar homepage"
+
+#: app/Common/Views/sitemap/xsl/templates/empty-sitemap.php:34
+msgid "There are no posts here"
+msgstr "Er zijn hier geen berichten"
+
+#: app/Common/Views/sitemap/xsl/templates/empty-sitemap.php:32
+msgid "Whoops!"
+msgstr "Oeps!"
+
+#: app/Common/Views/sitemap/xsl/styles.php:103
+msgid "Back"
+msgstr "Terug"
+
+#. Translators: 1 - The "start-end" pagination results, 2 - Total items.
+#: app/Common/Views/sitemap/xsl/partials/pagination.php:42
+msgid "Showing %1$s of %2$s"
+msgstr "Toont %1$s van %2$s"
+
+#: app/Common/Views/sitemap/xsl/default.php:279
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: app/Common/Views/sitemap/xsl/default.php:104
+msgid "URL Count"
+msgstr "Aantal URL's"
+
+#: app/Common/Views/sitemap/xsl/default.php:42
+#: app/Common/Views/sitemap/xsl/default.php:92
+#: app/Common/Views/sitemap/xsl/default.php:257
+#: app/Common/Views/sitemap/xsl/default.php:444
+msgid "Sitemap Index"
+msgstr "Sitemap index"
+
+#: app/Common/Sitemap/Xsl.php:38
+msgid "Post Archive"
+msgstr "Berichtarchief"
+
+#: app/Common/Options/Options.php:560
+msgid "404 - Page Not Found"
+msgstr "404 - Pagina niet gevonden"
+
+#: app/Common/Options/Options.php:559
+msgid "Search Results for"
+msgstr "Zoekresultaten voor"
+
+#. Translators: "Crumb" refers to a part of the breadcrumb trail.
+#: app/Common/Breadcrumbs/Frontend.php:138
+msgid "Sample Crumb"
+msgstr "Monster kruimel"
+
+#: app/Common/Api/Tools.php:216
+msgid ".htaccess file is empty."
+msgstr ".htaccess bestand is leeg."
+
+#: app/Common/Views/sitemap/xsl/default.php:199
+msgid "Publication Date"
+msgstr "Publicatiedatum"
+
+#: app/Common/Views/sitemap/html/widget-options.php:167
+msgid "Enter a comma-separated list of term IDs."
+msgstr "Geef een komma’s gescheiden lijst van term IDs."
+
+#: app/Common/Views/sitemap/html/widget-options.php:153
+msgid "Enter a comma-separated list of post IDs."
+msgstr "Geef een komma’s gescheiden lijst van bericht IDs."
+
+#: app/Common/Views/sitemap/html/widget-options.php:138
+msgid "Descending"
+msgstr "Aflopend"
+
+#: app/Common/Views/sitemap/html/widget-options.php:137
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: app/Common/Views/sitemap/html/widget-options.php:134
+msgid "Sort Direction"
+msgstr "Sorteerrichting"
+
+#: app/Common/Views/sitemap/html/widget-options.php:125
+msgid "Alphabetical"
+msgstr "Alfabetisch"
+
+#: app/Common/Views/sitemap/html/widget-options.php:122
+#: app/Common/Views/sitemap/xsl/default.php:113
+#: app/Common/Views/sitemap/xsl/default.php:319
+msgid "Last Updated"
+msgstr "Laatst geüpdatet"
+
+#: app/Common/Views/sitemap/html/widget-options.php:115
+msgid "Sort Order"
+msgstr "Sorteervolgorde"
+
+#: app/Common/Views/sitemap/html/widget-options.php:63
+msgid "Show Publication Date"
+msgstr "Publicatiedatum weergeven"
+
+#: app/Common/Views/sitemap/html/widget-options.php:47
+msgid "Show Labels"
+msgstr "Toon labels"
+
+#: app/Common/Views/sitemap/html/widget-options.php:31
+msgid "Compact Archives"
+msgstr "Compacte archieven"
+
+#: app/Common/Views/sitemap/html/compact-archive.php:7
+msgid "No date archives could be found."
+msgstr "Er waren geen datum archieven te vinden."
+
+#. Translators: 1 - Opening bold tag, 2 - Plugin short name ("AIOSEO"), 3 -
+#. "Pro", 4 - Closing bold tag.
+#: app/Common/Utils/Addons.php:121
+msgid "The following addons cannot be used, because they require %1$s%2$s %3$s%4$s to work:"
+msgstr "De volgende add-ons kunnen niet worden gebruikt, omdat ze %1$s%2$s %3$s%4$s vereisen om te werken:"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Sitemap/Html/Widget.php:47
+msgid "%1$s - HTML Sitemap"
+msgstr "%1$s - HTML sitemap"
+
+#. Translators: The short plugin name ("AIOSEO").
+#: app/Common/Sitemap/Html/Widget.php:40
+msgid "%1$s HTML sitemap widget."
+msgstr "%1$s HTML sitemap widget."
+
+#: app/Common/Sitemap/Html/Sitemap.php:127
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: app/Common/Sitemap/Html/Frontend.php:174
+msgid "No posts/terms could be found."
+msgstr "Er konden geen berichten/voorwaarden worden gevonden."
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag, 3 - The
+#. plugin name ("All in One SEO").
+#: app/init/notices.php:157
+msgid "Your site is running an %1$sinsecure version%2$s of WordPress that is no longer supported. Please update your site to the latest version of WordPress in order to continue using %3$s."
+msgstr "Je site draait een %1$sonveilige versie%2$s van WordPress die niet langer wordt ondersteund. Update je site naar de nieuwste versie van WordPress om %3$s te blijven gebruiken."
+
+#: app/Common/Models/Post.php:424
+msgid "Content"
+msgstr "Inhoud"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:947
+msgid "vaporize"
+msgstr "verdampen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:946
+msgid "to be"
+msgstr "zijn"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:945
+msgid "surprisingly"
+msgstr "verrassend genoeg"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:944
+msgid "you see"
+msgstr "je ziet"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:943
+msgid "tired"
+msgstr "moe"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:942
+msgid "surprising"
+msgstr "verrassend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:941
+msgid "you see what"
+msgstr "wat zie je"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:940
+msgid "you need to"
+msgstr "je moet"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:939
+msgid "valor"
+msgstr "moed"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:938
+msgid "thrilling"
+msgstr "spannend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:937
+msgid "you need to know"
+msgstr "je moet weten"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:936
+msgid "thrilled"
+msgstr "opgewonden"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:935
+msgid "surge"
+msgstr "golf"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:934
+msgid "wounded"
+msgstr "gewond"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:933
+msgid "this is"
+msgstr "dit is"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:932
+msgid "sure"
+msgstr "zeker"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:931
+msgid "worry"
+msgstr "zich zorgen maken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:930
+msgid "uplifting"
+msgstr "opbeurend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:929
+msgid "this is what"
+msgstr "dit is wat"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:928
+msgid "wondrous"
+msgstr "wonderbaarlijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:927
+msgid "unusually"
+msgstr "ongebruikelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:926
+msgid "this is what happens"
+msgstr "dit is wat er gebeurd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:925
+msgid "this is the"
+msgstr "dit is de"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:924
+msgid "withheld"
+msgstr "achtergehouden"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:923
+msgid "thing ive ever seen"
+msgstr "wat ik ooit heb gezien"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:922
+msgid "unscrupulous"
+msgstr "gewetenloos"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:921
+msgid "the reason why is"
+msgstr "de reden waarom is"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:920
+msgid "stupid"
+msgstr "stom"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:919
+msgid "will make you"
+msgstr "zal je maken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:918
+msgid "the most"
+msgstr "de meeste"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:917
+msgid "stunning"
+msgstr "verbijsterend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:916
+msgid "wicked"
+msgstr "slecht"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:915
+msgid "the ranking of"
+msgstr "rangschikking van"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:914
+msgid "stuck up"
+msgstr "vastgelopen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:913
+msgid "whopping"
+msgstr "maar liefst"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:912
+msgid "the best"
+msgstr "de beste"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:911
+msgid "whip"
+msgstr "zweep"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:910
+msgid "that will"
+msgstr "dat zal"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:909
+msgid "strangle"
+msgstr "wurgen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:908
+msgid "when you"
+msgstr "als je"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:907
+msgid "unexpected"
+msgstr "onverwacht"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:906
+msgid "that will make"
+msgstr "dat zal maken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:905
+msgid "undo\",\"when you see"
+msgstr "ongedaan maken\",\"als je ziet"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:904
+msgid "that will make you"
+msgstr "dat maakt je"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:903
+msgid "what this"
+msgstr "wat dit"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:902
+msgid "underhanded"
+msgstr "achterbaks"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:901
+msgid "staggering"
+msgstr "onthutsend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:900
+msgid "what happens"
+msgstr "wat gebeurd er"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:899
+msgid "under"
+msgstr "onder"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:898
+msgid "terror"
+msgstr "terreur"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:897
+msgid "what happens when"
+msgstr "wat gebeurd er als"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:896
+msgid "spirit"
+msgstr "geest"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:895
+msgid "what happened"
+msgstr "wat gebeurde er"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:894
+msgid "uncommonly"
+msgstr "ongewoon"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:893
+msgid "tempting"
+msgstr "aanlokkelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:892
+msgid "spine"
+msgstr "wervelkolom"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:891
+msgid "unbelievably"
+msgstr "ongelooflijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:890
+msgid "temporary fix"
+msgstr "tijdelijke oplossing"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:889
+msgid "spectacular"
+msgstr "spectaculair"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:888
+msgid "unauthorized"
+msgstr "niet geautoriseerd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:887
+msgid "teetering"
+msgstr "balancerend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:886
+msgid "warning"
+msgstr "waarschuwing"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:885
+msgid "soaring"
+msgstr "stijgende"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:884
+msgid "wanton"
+msgstr "baldadig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:883
+msgid "turn the tables"
+msgstr "de rollen omdraaien"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:882
+msgid "tech"
+msgstr "tech"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:881
+msgid "try before you buy"
+msgstr "probeer voordat je koopt"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:880
+msgid "tawdry"
+msgstr "kitscherig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:879
+msgid "snob"
+msgstr "snob"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:878
+msgid "vulnerable"
+msgstr "kwetsbaar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:877
+msgid "truth"
+msgstr "waarheid"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:876
+msgid "targeted"
+msgstr "gericht"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:875
+msgid "sniveling"
+msgstr "snotterend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:874
+msgid "volatile"
+msgstr "vluchtig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:873
+msgid "triumph"
+msgstr "triomf"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:872
+msgid "tantalizing"
+msgstr "verleidelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:871
+msgid "smuggled"
+msgstr "gesmokkeld"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:870
+msgid "viral"
+msgstr "viraal"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:869
+msgid "triple"
+msgstr "drievoudig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:868
+msgid "tank"
+msgstr "tank"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:867
+msgid "smug"
+msgstr "zelfvoldaan"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:866
+msgid "vindication"
+msgstr "rechtvaardiging"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:865
+msgid "tailspin"
+msgstr "neerwaartse spiraal"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:864
+msgid "smash"
+msgstr "smash"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:863
+msgid "victory"
+msgstr "overwinning"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:862
+msgid "treasure"
+msgstr "schat"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:861
+msgid "taboo"
+msgstr "taboe"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:860
+msgid "sleazy"
+msgstr "slonzig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:859
+msgid "victim"
+msgstr "slachtoffer"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:858
+msgid "trap"
+msgstr "val"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:857
+msgid "swindle"
+msgstr "zwendel"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:856
+msgid "slaughter"
+msgstr "slachten"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:855
+msgid "vibrant"
+msgstr "levendig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:854
+msgid "toxic"
+msgstr "giftig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:853
+msgid "skyrocket"
+msgstr "omhoogschieten"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:852
+msgid "varify"
+msgstr "varify"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:851
+msgid "to the"
+msgstr "naar de"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:850
+msgid "surrender"
+msgstr "overgave"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:849
+msgid "research"
+msgstr "onderzoek"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:848
+msgid "never again"
+msgstr "nooit meer"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:846
+msgid "remarkably"
+msgstr "opmerkelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:845
+msgid "poor"
+msgstr "slecht"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:844
+msgid "myths"
+msgstr "mythen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:843
+msgid "sinful"
+msgstr "zondig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:842
+msgid "pointless"
+msgstr "zinloos"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:841
+msgid "murder"
+msgstr "moord"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:840
+msgid "plunge"
+msgstr "duik"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:839
+msgid "plummet"
+msgstr "kogel"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:838
+msgid "moneyback"
+msgstr "geld terug"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:837
+msgid "refund"
+msgstr "terugbetaling"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:836
+msgid "pluck"
+msgstr "plukken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:835
+msgid "money-grubbing"
+msgstr "inhaligheid"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:834
+msgid "silly"
+msgstr "dwaas"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:833
+msgid "refugee"
+msgstr "vluchteling"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:832
+msgid "played"
+msgstr "gespeeld"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:831
+msgid "money"
+msgstr "geld"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:830
+msgid "sick and tired"
+msgstr "ziek en moe"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:829
+msgid "plague"
+msgstr "plaag"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:828
+msgid "mistakes"
+msgstr "fouten"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:827
+msgid "reclaim"
+msgstr "terugvorderen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:826
+msgid "pitfall"
+msgstr "valkuil"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:825
+msgid "mired"
+msgstr "besmeurd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:824
+msgid "shellacking"
+msgstr "verpletterend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:823
+msgid "reckoning"
+msgstr "afrekening"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:822
+msgid "piranha"
+msgstr "piranha"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:821
+msgid "shatter"
+msgstr "breken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:820
+msgid "rave"
+msgstr "rave"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:819
+msgid "minute"
+msgstr "minuut"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:818
+msgid "shameless"
+msgstr "schaamteloos"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:817
+msgid "mind-blowing"
+msgstr "verbluffend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:816
+msgid "peril"
+msgstr "gevaar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:815
+msgid "might look like a"
+msgstr "ziet er misschien uit als een"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:814
+msgid "payback"
+msgstr "terugverdientijd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:813
+msgid "meltdown"
+msgstr "meltdown"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:812
+msgid "seize"
+msgstr "vastlopen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:811
+msgid "pay zero"
+msgstr "betaal nul"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:810
+msgid "massive"
+msgstr "enorm"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:809
+msgid "secutively"
+msgstr "secutief"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:808
+msgid "quadruple"
+msgstr "verviervoudigen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:807
+msgid "panic"
+msgstr "paniek"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:806
+msgid "marked down"
+msgstr "afgeprijsd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:805
+msgid "punish"
+msgstr "straffen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:804
+msgid "pale"
+msgstr "bleek"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:803
+msgid "secure"
+msgstr "beveiligd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:802
+msgid "pummel"
+msgstr "toetakelen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:801
+msgid "painful"
+msgstr "pijnlijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:800
+msgid "make you"
+msgstr "maak je"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:799
+msgid "provocative"
+msgstr "provocerend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:798
+msgid "overcome"
+msgstr "overwinnen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:797
+msgid "searing"
+msgstr "schroeiend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:796
+msgid "scream"
+msgstr "schreeuw"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:795
+msgid "protected"
+msgstr "beveiligd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:794
+msgid "outlawed"
+msgstr "verboden"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:793
+msgid "lying"
+msgstr "liegen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:792
+msgid "scary"
+msgstr "eng"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:790
+msgid "on the"
+msgstr "op de"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:789
+msgid "luxurious"
+msgstr "luxueus"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:788
+msgid "official"
+msgstr "officieel"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:787
+msgid "lust"
+msgstr "lust"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:786
+msgid "ruthless"
+msgstr "meedogenloos"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:785
+msgid "prize"
+msgstr "prijs"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:784
+msgid "offer"
+msgstr "aanbod"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:783
+msgid "lurking"
+msgstr "op de loer"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:782
+msgid "risky"
+msgstr "riskant"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:781
+msgid "private"
+msgstr "privé"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:780
+msgid "off-limits"
+msgstr "beperken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:779
+msgid "lunatic"
+msgstr "malloot"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:778
+msgid "rich"
+msgstr "rijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:777
+msgid "privacy"
+msgstr "privacy"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:776
+msgid "of the"
+msgstr "van de"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:775
+msgid "lowest"
+msgstr "laagste"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:774
+msgid "prison"
+msgstr "gevangenis"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:773
+msgid "lost"
+msgstr "verloren"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:772
+msgid "priced"
+msgstr "geprijsd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:771
+msgid "looming"
+msgstr "opdoemen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:770
+msgid "revolting"
+msgstr "walgelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:769
+msgid "preposterous"
+msgstr "belachelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:768
+msgid "obnoxious"
+msgstr "onaangenaam"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:767
+msgid "looks like a"
+msgstr "het lijkt een"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:766
+msgid "lonely"
+msgstr "eenzaam"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:765
+msgid "revenge"
+msgstr "wraak"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:764
+msgid "no questions asked"
+msgstr "geen vragen gesteld"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:763
+msgid "loathsome"
+msgstr "walgelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:762
+msgid "pound"
+msgstr "pond"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:761
+msgid "no good"
+msgstr "niet goed"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:760
+msgid "line"
+msgstr "regel"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:759
+msgid "results"
+msgstr "resultaten"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:758
+msgid "nightmare"
+msgstr "nachtmerrie"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:757
+msgid "like a normal"
+msgstr "zoals een normaal"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:756
+msgid "gambling"
+msgstr "gokken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:755
+msgid "exposed"
+msgstr "blootgesteld"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:754
+msgid "lies"
+msgstr "leugens"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:753
+msgid "explode"
+msgstr "ontploffen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:752
+msgid "lick"
+msgstr "likken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:750
+msgid "illegal"
+msgstr "illegaal"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:749
+msgid "frugal"
+msgstr "zuinig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:748
+msgid "lawsuit"
+msgstr "rechtszaak"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:747
+msgid "hypnotic"
+msgstr "hypnotisch"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:746
+msgid "frightening"
+msgstr "beangstigend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:745
+msgid "fresh on the mind"
+msgstr "vers in het geheugen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:744
+msgid "excited"
+msgstr "opgewonden"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:743
+msgid "hurricane"
+msgstr "orkaan"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:742
+msgid "frenzy"
+msgstr "razernij"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:741
+msgid "freebie"
+msgstr "freebie"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:740
+msgid "evil"
+msgstr "kwaad"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:739
+msgid "how to make"
+msgstr "hoe te maken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:738
+msgid "epic"
+msgstr "episch"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:737
+msgid "know it all"
+msgstr "betweter"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:735
+msgid "frantic"
+msgstr "uitzinnig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:734
+msgid "killer"
+msgstr "moordenaar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:733
+msgid "hope"
+msgstr "hoop"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:732
+msgid "foul"
+msgstr "vals"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:731
+msgid "jubilant"
+msgstr "jubelend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:730
+msgid "hoax"
+msgstr "hoax"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:729
+msgid "energize"
+msgstr "energie geven"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:728
+msgid "jeopardy"
+msgstr "gevaar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:727
+msgid "forgotten"
+msgstr "vergeten"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:726
+msgid "jaw-dropping"
+msgstr "overweldigend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:725
+msgid "high"
+msgstr "hoog"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:724
+msgid "force-fed"
+msgstr "gedwongen gevoed"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:723
+msgid "empower"
+msgstr "machtig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:722
+msgid "jail"
+msgstr "gevangenis"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:721
+msgid "hidden"
+msgstr "verborgen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:720
+msgid "forbidden"
+msgstr "verboden"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:719
+msgid "jackpot"
+msgstr "jackpot"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:718
+msgid "help are the"
+msgstr "hulp zijn de"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:717
+msgid "for the first time"
+msgstr "voor de eerste keer"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:716
+msgid "embarrass"
+msgstr "verlegenheid"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:715
+msgid "it looks like a"
+msgstr "het lijkt een"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:714
+msgid "helpless"
+msgstr "hulpeloos"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:713
+msgid "fooled"
+msgstr "voor de gek houden"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:712
+msgid "is what happens when"
+msgstr "is wat er gebeurt als"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:711
+msgid "fool"
+msgstr "dwaas"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:710
+msgid "is the"
+msgstr "is de"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:709
+msgid "hazardous"
+msgstr "gevaarlijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:708
+msgid "irresistibly"
+msgstr "onweerstaanbaar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:707
+msgid "hate"
+msgstr "haat"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:705
+msgid "dumb"
+msgstr "dom"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:704
+msgid "ironclad"
+msgstr "ijzersterk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:703
+msgid "happy"
+msgstr "gelukkig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:702
+msgid "floundering"
+msgstr "spartelend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:701
+msgid "drowning"
+msgstr "verdrinking"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:700
+msgid "invasion"
+msgstr "invasie"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:699
+msgid "had enough"
+msgstr "had genoeg"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:697
+msgid "hack"
+msgstr "hack"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:695
+msgid "double"
+msgstr "dubbel"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:694
+msgid "gullible"
+msgstr "goedgelovig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:693
+msgid "feeble"
+msgstr "zwak"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:692
+msgid "dollar"
+msgstr "dollar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:691
+msgid "insidious"
+msgstr "verraderlijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:690
+msgid "feast"
+msgstr "feest"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:689
+msgid "disinformation"
+msgstr "desinformatie"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:688
+msgid "fearless"
+msgstr "onbevreesd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:687
+msgid "disgusting"
+msgstr "walgelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:686
+msgid "insanely"
+msgstr "waanzinnig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:685
+msgid "grit"
+msgstr "gruis"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:684
+msgid "greed"
+msgstr "hebzucht"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:683
+msgid "fantastic"
+msgstr "fantastisch"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:682
+msgid "disastrous"
+msgstr "rampzalig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:681
+msgid "famous"
+msgstr "beroemd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:680
+msgid "dirty"
+msgstr "vies"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:679
+msgid "inexpensive"
+msgstr "goedkoop"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:678
+msgid "grateful"
+msgstr "dankbaar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:677
+msgid "faith"
+msgstr "vertrouwen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:676
+msgid "in the"
+msgstr "in de"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:675
+msgid "fail"
+msgstr "mislukken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:674
+msgid "devoted"
+msgstr "toegewijd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:673
+msgid "in the world"
+msgstr "in de wereld"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:672
+msgid "gift"
+msgstr "geschenk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:671
+msgid "eye-opening"
+msgstr "eye-opener"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:670
+msgid "devastating"
+msgstr "verwoestend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:669
+msgid "in a"
+msgstr "in een"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:668
+msgid "extra"
+msgstr "extra"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:667
+msgid "destroy"
+msgstr "vernietigen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:654
+msgid "something"
+msgstr "iets"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:653
+msgid "more"
+msgstr "meer"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:652
+msgid "guy"
+msgstr "kerel"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:651
+msgid "social"
+msgstr "sociaal"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:650
+msgid "mind"
+msgstr "mening"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:649
+msgid "good"
+msgstr "goed"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:648
+msgid "seen"
+msgstr "gezien"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:646
+msgid "girl"
+msgstr "meisje"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:645
+msgid "you’ll"
+msgstr "je zult"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:644
+msgid "see"
+msgstr "zie"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:643
+msgid "man"
+msgstr "man"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:642
+msgid "found"
+msgstr "gevonden"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:641
+msgid "years"
+msgstr "jaren"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:640
+msgid "right"
+msgstr "rechts"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:639
+msgid "makes"
+msgstr "maakt"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:636
+msgid "reasons"
+msgstr "redenen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:635
+msgid "make"
+msgstr "maken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:634
+msgid "facebook"
+msgstr "facebook"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:633
+msgid "world"
+msgstr "wereld"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:632
+msgid "really"
+msgstr "werkelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:631
+msgid "made"
+msgstr "gemaakt"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:630
+msgid "down"
+msgstr "omlaag"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:629
+msgid "ways"
+msgstr "manieren"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:628
+msgid "photos"
+msgstr "foto's"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:626
+msgid "dog"
+msgstr "hond"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:625
+msgid "way"
+msgstr "manier"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:624
+msgid "people"
+msgstr "mensen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:623
+msgid "look"
+msgstr "kijken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:622
+msgid "boy"
+msgstr "jongen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:621
+msgid "watch"
+msgstr "kijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:620
+msgid "out"
+msgstr "uit"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:619
+msgid "little"
+msgstr "klein"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:617
+msgid "want"
+msgstr "wil"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:615
+msgid "life"
+msgstr "leven"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:614
+msgid "best"
+msgstr "het beste"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:613
+msgid "video"
+msgstr "video"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:612
+msgid "old"
+msgstr "oud"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:611
+msgid "know"
+msgstr "weten"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:610
+msgid "being"
+msgstr "wezen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:609
+msgid "valentines"
+msgstr "valentijnskaarten"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:607
+msgid "its"
+msgstr "het is"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:605
+msgid "time"
+msgstr "tijd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:603
+msgid "here"
+msgstr "hier"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:602
+msgid "baby"
+msgstr "baby"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:601
+msgid "think"
+msgstr "denk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:599
+msgid "heart"
+msgstr "hart"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:598
+msgid "awesome"
+msgstr "geweldig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:597
+msgid "thing"
+msgstr "ding"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:596
+msgid "need"
+msgstr "nodig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:595
+msgid "happened"
+msgstr "is gebeurd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:594
+msgid "actually"
+msgstr "werkelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:581
+msgid "there"
+msgstr "daar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:579
+msgid "their"
+msgstr "hun"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:577
+msgid "the"
+msgstr "de"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:576
+msgid "with"
+msgstr "met"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:575
+msgid "that"
+msgstr "dat"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:573
+msgid "so"
+msgstr "zo"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:572
+msgid "why"
+msgstr "waarom"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:571
+msgid "sould"
+msgstr "zou"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:570
+msgid "who"
+msgstr "wie"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:567
+msgid "re"
+msgstr "opnieuw"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:565
+msgid "on"
+msgstr "aan"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:564
+msgid "was"
+msgstr "was"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:562
+msgid "up"
+msgstr "omhoog"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:561
+msgid "not"
+msgstr "niet"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:560
+msgid "to"
+msgstr "naar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:559
+msgid "no"
+msgstr "nee"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:558
+msgid "this"
+msgstr "dit"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:556
+msgid "things"
+msgstr "dingen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:555
+msgid "most"
+msgstr "meest"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:553
+msgid "me"
+msgstr "mij"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:552
+msgid "these"
+msgstr "deze"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:551
+msgid "ll"
+msgstr "II"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:550
+msgid "like"
+msgstr "vind ik leuk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:549
+msgid "ever"
+msgstr "altijd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:548
+msgid "just"
+msgstr "alleen maar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:545
+msgid "did"
+msgstr "deed"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:544
+msgid "is"
+msgstr "is"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:542
+msgid "in"
+msgstr "in"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:541
+msgid "by"
+msgstr "door"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:540
+msgid "if"
+msgstr "als"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:539
+msgid "but"
+msgstr "maar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:538
+msgid "I"
+msgstr "I"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:537
+msgid "be"
+msgstr "worden"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:534
+msgid "his"
+msgstr "zijn"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:533
+msgid "as"
+msgstr "als"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:532
+msgid "her"
+msgstr "haar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:529
+msgid "and"
+msgstr "en"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:527
+msgid "an"
+msgstr "een"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:525
+msgid "all"
+msgstr "alle"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:524
+msgid "get"
+msgstr "krijgen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:523
+msgid "after"
+msgstr "na"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:522
+msgid "from"
+msgstr "van"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:521
+msgid "about"
+msgstr "over"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:520
+msgid "for"
+msgstr "voor"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:519
+msgid "a"
+msgstr "een"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:506
+msgid "download"
+msgstr "download"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:505
+msgid "delighted"
+msgstr "verheugd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:504
+msgid "excellent"
+msgstr "uitstekend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:503
+msgid "practical"
+msgstr "praktisch"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:502
+msgid "insider"
+msgstr "bekende"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:501
+msgid "surprise"
+msgstr "verrassing"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:500
+msgid "sensational"
+msgstr "sensationeel"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:499
+msgid "introducing"
+msgstr "introduceren"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:498
+msgid "value"
+msgstr "waarde"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:497
+msgid "weird"
+msgstr "raar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:496
+msgid "revealing"
+msgstr "onthullend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:495
+msgid "huge gift"
+msgstr "grote gift"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:494
+msgid "strange"
+msgstr "vreemd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:493
+msgid "reward"
+msgstr "beloning"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:492
+msgid "portfolio"
+msgstr "portfolio"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:491
+msgid "announcing"
+msgstr "aankondigen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:490
+msgid "simple"
+msgstr "eenvoudig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:489
+msgid "proven"
+msgstr "bewezen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:488
+msgid "exciting"
+msgstr "spannend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:487
+msgid "authentic"
+msgstr "authentiek"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:486
+msgid "direct"
+msgstr "direct"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:485
+msgid "magic"
+msgstr "magie"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:484
+msgid "amazing"
+msgstr "verbazingwekkend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:483
+msgid "fortune"
+msgstr "fortuin"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:482
+msgid "easy"
+msgstr "makkelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:481
+msgid "miracle"
+msgstr "wonder"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:480
+msgid "urgent"
+msgstr "dringend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:479
+msgid "unlock"
+msgstr "ontgrendelen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:478
+msgid "quick"
+msgstr "snel"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:477
+msgid "revolutionary"
+msgstr "revolutionair"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:476
+msgid "important"
+msgstr "belangrijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:475
+#: app/Common/Standalone/HeadlineAnalyzer.php:608
+msgid "now"
+msgstr "nu"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:474
+msgid "startling"
+msgstr "verrassend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:473
+msgid "quickly"
+msgstr "snel"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:472
+msgid "latest"
+msgstr "nieuwste"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:471
+msgid "colossal"
+msgstr "kolossaal"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:470
+msgid "monumental"
+msgstr "monumentaal"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:469
+msgid "refundable"
+msgstr "terugbetaalbaar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:468
+msgid "high tech"
+msgstr "high tech"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:467
+msgid "largest"
+msgstr "grootste"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:466
+msgid "last minute"
+msgstr "op het laatst"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:465
+msgid "security"
+msgstr "beveiliging"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:464
+msgid "greatest"
+msgstr "grootste"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:463
+msgid "survival"
+msgstr "overleving"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:462
+msgid "opportunities"
+msgstr "mogelijkheden"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:461
+msgid "bonanza"
+msgstr "bonanza"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:460
+msgid "imagination"
+msgstr "verbeelding"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:459
+msgid "useful"
+msgstr "bruikbaar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:458
+msgid "successful"
+msgstr "succesvol"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:457
+msgid "timely"
+msgstr "tijdig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:456
+msgid "astonishing"
+msgstr "verbazingwekkend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:455
+msgid "spotlight"
+msgstr "schijnwerper"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:454
+msgid "wealth"
+msgstr "rijkdom"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:453
+msgid "unconditional"
+msgstr "onvoorwaardelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:452
+msgid "promising"
+msgstr "veelbelovend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:451
+msgid "enormous"
+msgstr "enorm"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:450
+msgid "sturdy"
+msgstr "stevig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:449
+msgid "luxury"
+msgstr "luxe"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:448
+msgid "growth"
+msgstr "groei"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:447
+msgid "shrewd"
+msgstr "gewiekst"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:446
+msgid "selected"
+msgstr "geselecteerd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:445
+msgid "noted"
+msgstr "is genoteerd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:444
+msgid "crammed"
+msgstr "gepropt"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:443
+#: app/Common/Standalone/HeadlineAnalyzer.php:618
+msgid "better"
+msgstr "beter"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:442
+msgid "technology"
+msgstr "technologie"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:441
+msgid "sampler"
+msgstr "sampler"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:440
+#: app/Common/Standalone/HeadlineAnalyzer.php:606
+msgid "beautiful"
+msgstr "mooi"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:439
+msgid "reduced"
+msgstr "verminderd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:438
+msgid "special offer"
+msgstr "speciale aanbieding"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:436
+msgid "soar"
+msgstr "stijgen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:435
+msgid "skill"
+msgstr "vaardigheid"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:434
+msgid "helpful"
+msgstr "nuttig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:433
+msgid "emerging"
+msgstr "in opkomst"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:431
+msgid "launching"
+msgstr "lanceren"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:430
+msgid "tremendous"
+msgstr "enorm"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:429
+msgid "breakthrough"
+msgstr "doorbraak"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:428
+msgid "just arrived"
+msgstr "net aangekomen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:427
+msgid "perspective"
+msgstr "perspectief"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:424
+msgid "it's here"
+msgstr "het is hier"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:423
+msgid "suddenly"
+msgstr "plotseling"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:422
+msgid "zinger"
+msgstr "zinger"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:421
+msgid "reliable"
+msgstr "betrouwbaar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:420
+msgid "innovative"
+msgstr "vernieuwend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:419
+msgid "under priced"
+msgstr "onder geprijsd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:418
+msgid "bottom line"
+msgstr "onderste regel"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:417
+msgid "lavishly"
+msgstr "rijkelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:416
+msgid "mammoth"
+msgstr "mammoet"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:415
+msgid "fundamentals"
+msgstr "grondbeginselen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:414
+msgid "odd"
+msgstr "vreemd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:413
+#: app/Common/Standalone/HeadlineAnalyzer.php:627
+msgid "love"
+msgstr "liefde"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:412
+msgid "full"
+msgstr "vol"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:411
+msgid "discount"
+msgstr "korting"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:410
+msgid "compromise"
+msgstr "compromis"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:409
+msgid "gigantic"
+msgstr "gigantisch"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:408
+msgid "competitive"
+msgstr "competitief"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:407
+msgid "unlimited"
+msgstr "onbeperkt"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:406
+msgid "fascinating"
+msgstr "fascinerend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:405
+msgid "quality"
+msgstr "kwaliteit"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:404
+msgid "approved"
+msgstr "toegestaan"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:403
+msgid "endorsed"
+msgstr "gesteund"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:402
+msgid "unparalleled"
+msgstr "ongeëvenaard"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:401
+msgid "exploit"
+msgstr "exploiteren"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:400
+msgid "easily"
+msgstr "gemakkelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:398
+msgid "superior"
+msgstr "superieur"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:397
+msgid "last chance"
+msgstr "laatste kans"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:396
+msgid "attractive"
+msgstr "aantrekkelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:395
+msgid "valuable"
+msgstr "waardevol"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:394
+msgid "edge"
+msgstr "rand"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:393
+msgid "complete"
+msgstr "compleet"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:392
+msgid "willpower"
+msgstr "wilskracht"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:391
+msgid "exclusive"
+msgstr "exclusief"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:390
+msgid "rare"
+msgstr "bijzonder"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:389
+msgid "mainstream"
+msgstr "mainstream"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:388
+msgid "ultimate"
+msgstr "ultiem"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:387
+msgid "popular"
+msgstr "populair"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:386
+msgid "liberal"
+msgstr "liberaal"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:385
+msgid "informative"
+msgstr "Informatief"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:384
+msgid "affordable"
+msgstr "betaalbaar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:383
+msgid "big"
+msgstr "groot"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:382
+msgid "instructive"
+msgstr "leerzaam"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:381
+msgid "genuine"
+msgstr "echte"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:380
+msgid "colorful"
+msgstr "kleurrijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:379
+msgid "powerful"
+msgstr "krachtig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:378
+msgid "energy"
+msgstr "energie"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:377
+msgid "unsurpassed"
+msgstr "onovertroffen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:376
+msgid "compare"
+msgstr "vergelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:375
+msgid "simplistic"
+msgstr "simplistisch"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:374
+msgid "outstanding"
+msgstr "uitstekend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:373
+msgid "destiny"
+msgstr "lot"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:372
+msgid "the truth about"
+msgstr "de waarheid over"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:371
+msgid "limited"
+msgstr "beperkt"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:370
+msgid "unusual"
+msgstr "ongebruikelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:369
+msgid "pioneering"
+msgstr "baanbrekend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:368
+msgid "advice"
+msgstr "advies"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:367
+msgid "immediately"
+msgstr "onmiddellijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:366
+msgid "strong"
+msgstr "sterk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:365
+msgid "daring"
+msgstr "gedurfd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:364
+msgid "expert"
+msgstr "deskundige"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:363
+msgid "improved"
+msgstr "verbeterd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:362
+msgid "alert famous"
+msgstr "alert beroemd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:361
+msgid "hurry"
+msgstr "haast je"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:360
+msgid "highest"
+msgstr "hoogste"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:359
+msgid "tested"
+msgstr "getest"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:358
+msgid "scarce"
+msgstr "schaars"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:357
+msgid "bargain"
+msgstr "koopje"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:356
+msgid "lifetime"
+msgstr "levenslang"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:355
+msgid "special"
+msgstr "speciaal"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:354
+msgid "secrets"
+msgstr "geheimen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:353
+msgid "unique"
+msgstr "uniek"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:352
+msgid "challenge"
+msgstr "uitdaging"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:351
+msgid "guaranteed"
+msgstr "gegarandeerd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:350
+msgid "delivered"
+msgstr "geleverd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:349
+msgid "revisited"
+msgstr "opnieuw bekeken"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:348
+msgid "interesting"
+msgstr "interessant"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:347
+msgid "professional"
+msgstr "professioneel"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:346
+msgid "wonderful"
+msgstr "geweldig"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:345
+msgid "surging"
+msgstr "golvend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:344
+msgid "absolutely lowest"
+msgstr "absoluut het laagst"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:343
+#: app/Common/Standalone/HeadlineAnalyzer.php:604
+msgid "new"
+msgstr "nieuw"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:342
+msgid "sizable"
+msgstr "omvangrijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:341
+msgid "obsession"
+msgstr "obsessie"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:340
+msgid "wanted"
+msgstr "gezocht"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:339
+msgid "sale"
+msgstr "uitverkoop"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:338
+msgid "confidential"
+msgstr "vertrouwelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:337
+msgid "remarkable"
+msgstr "opmerkelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:336
+msgid "focus"
+msgstr "scherp"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:335
+msgid "free"
+msgstr "gratis"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:334
+msgid "great"
+msgstr "top"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:314
+#: app/Common/Standalone/HeadlineAnalyzer.php:557
+msgid "my"
+msgstr "mijn"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:312
+#: app/Common/Standalone/HeadlineAnalyzer.php:546
+msgid "it"
+msgstr "het"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:311
+#: app/Common/Standalone/HeadlineAnalyzer.php:580
+msgid "your"
+msgstr "je"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:310
+#: app/Common/Standalone/HeadlineAnalyzer.php:569
+msgid "she"
+msgstr "zij"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:309
+#: app/Common/Standalone/HeadlineAnalyzer.php:530
+msgid "he"
+msgstr "hij"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:308
+#: app/Common/Standalone/HeadlineAnalyzer.php:313
+#: app/Common/Standalone/HeadlineAnalyzer.php:554
+msgid "they"
+msgstr "zij"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:307
+#: app/Common/Standalone/HeadlineAnalyzer.php:578
+msgid "you"
+msgstr "je"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:294
+#: app/Common/Standalone/HeadlineAnalyzer.php:321
+#: app/Common/Standalone/HeadlineAnalyzer.php:574
+msgid "will"
+msgstr "wil"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:293
+#: app/Common/Standalone/HeadlineAnalyzer.php:320
+#: app/Common/Standalone/HeadlineAnalyzer.php:531
+msgid "are"
+msgstr "zijn"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:292
+#: app/Common/Standalone/HeadlineAnalyzer.php:319
+#: app/Common/Standalone/HeadlineAnalyzer.php:543
+msgid "can"
+msgstr "kan"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:291
+#: app/Common/Standalone/HeadlineAnalyzer.php:318
+#: app/Common/Standalone/HeadlineAnalyzer.php:547
+msgid "do"
+msgstr "doe"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:290
+#: app/Common/Standalone/HeadlineAnalyzer.php:317
+msgid "does"
+msgstr "doet"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:289
+#: app/Common/Standalone/HeadlineAnalyzer.php:316
+#: app/Common/Standalone/HeadlineAnalyzer.php:526
+msgid "has"
+msgstr "heeft"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:288
+#: app/Common/Standalone/HeadlineAnalyzer.php:315
+#: app/Common/Standalone/HeadlineAnalyzer.php:528
+msgid "have"
+msgstr "hebben"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:287
+#: app/Common/Standalone/HeadlineAnalyzer.php:566
+msgid "what"
+msgstr "wat"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:286
+#: app/Common/Standalone/HeadlineAnalyzer.php:536
+msgid "how"
+msgstr "hoe"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:285
+#: app/Common/Standalone/HeadlineAnalyzer.php:568
+msgid "when"
+msgstr "wanneer"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:284
+msgid "where"
+msgstr "waar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:271
+msgid "thousand"
+msgstr "duizend"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:270
+msgid "hundred"
+msgstr "honderd"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:269
+msgid "fift"
+msgstr "vijfde"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:268
+msgid "thirt"
+msgstr "derde"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:267
+msgid "twelve"
+msgstr "twaalf"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:266
+msgid "eleven"
+msgstr "elf"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:265
+msgid "nine"
+msgstr "negen"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:264
+msgid "eight"
+msgstr "acht"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:263
+msgid "seven"
+msgstr "zeven"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:262
+msgid "six"
+msgstr "zes"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:261
+msgid "five"
+msgstr "vijf"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:260
+msgid "four"
+msgstr "vier"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:259
+msgid "three"
+msgstr "drie"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:258
+msgid "two"
+msgstr "twee"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:257
+#: app/Common/Standalone/HeadlineAnalyzer.php:616
+msgid "one"
+msgstr "een"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:196
+msgid "List"
+msgstr "Lijst"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:190
+msgid "How-To"
+msgstr "How-To"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:189
+msgid "howto"
+msgstr "howto"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:189
+#: app/Common/Standalone/HeadlineAnalyzer.php:399
+msgid "how to"
+msgstr "hoe"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:168
+msgid "power"
+msgstr "kracht"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:162
+msgid "uncommon"
+msgstr "ongewoon"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:156
+msgid "common"
+msgstr "gebruikelijk"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:150
+msgid "emotion"
+msgstr "emotie"
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag, 3 - The
+#. plugin name ("All in One SEO"), 4 - Opening HTML link tag, 5 - Closing HTML
+#. link tag.
+#: app/Common/Admin/Notices/DeprecatedWordPress.php:85
+msgid "%1$sNote:%2$s %3$s will be discontinuing support for WordPress versions older than version 5.3 by the end of 2021. %4$sRead more for additional information.%5$s"
+msgstr "%1$sOpmerking:%2$s %3$s zal de ondersteuning voor WordPress versies ouder dan versie 5.3 tegen het einde van 2021 stopzetten. %4$s Lees verder voor meer informatie%5$s"
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag.
+#: app/Common/Admin/Notices/DeprecatedWordPress.php:71
+msgid "Your site is running an %1$soutdated version%2$s of WordPress. We recommend using the latest version of WordPress in order to keep your site secure."
+msgstr "Je site draait een %1$sverouderde versie%2$s van WordPress. We raden aan de nieuwste versie van WordPress te gebruiken om je site veilig te houden."
+
+#: app/Common/Admin/Admin.php:1241
+msgid "Add Redirect to improve SEO"
+msgid_plural "Add Redirects to improve SEO"
+msgstr[0] "Voeg redirect toe om SEO te verbeteren"
+msgstr[1] "Voeg redirects toe om SEO te verbeteren"
+
+#: app/Common/Breadcrumbs/Widget.php:41
+msgid "AIOSEO - Breadcrumbs"
+msgstr "AIOSEO - Kruimelpaden"
+
+#: app/Common/Breadcrumbs/Widget.php:32
+msgid "Display the current page breadcrumb."
+msgstr "Het huidige pagina kruimelpad weergeven."
+
+#. Translators: 1 - The name of a post type.
+#: app/Common/Breadcrumbs/Tags.php:233
+msgid "The %1$s brand."
+msgstr "Het merk %1$s."
+
+#. Translators: 1 - The name of a post type.
+#: app/Common/Breadcrumbs/Tags.php:231
+msgid "%1$s Brand"
+msgstr "%1$s merk"
+
+#. Translators: 1 - The name of a post type.
+#: app/Common/Breadcrumbs/Tags.php:226
+msgid "The %1$s SKU."
+msgstr "De %1$s SKU."
+
+#. Translators: 1 - The name of a post type.
+#: app/Common/Breadcrumbs/Tags.php:224
+msgid "%1$s SKU"
+msgstr "%1$s SKU"
+
+#. Translators: 1 - The name of a post type.
+#: app/Common/Breadcrumbs/Tags.php:219
+msgid "The %1$s price."
+msgstr "De %1$s prijs."
+
+#. Translators: 1 - The name of a post type.
+#: app/Common/Breadcrumbs/Tags.php:217
+msgid "%1$s Price"
+msgstr "%1$s Prijs"
+
+#: app/Common/Breadcrumbs/Tags.php:207
+msgid "The archive post type name."
+msgstr "De naam van het archief berichttype."
+
+#: app/Common/Breadcrumbs/Tags.php:206
+msgid "Post Type Name"
+msgstr "Naam berichttype"
+
+#: app/Common/Breadcrumbs/Tags.php:202
+msgid "The archive format."
+msgstr "Het archief format."
+
+#: app/Common/Breadcrumbs/Tags.php:201
+msgid "Archive format"
+msgstr "Archief format"
+
+#: app/Common/Breadcrumbs/Tags.php:192
+msgid "The search string."
+msgstr "De zoekstring."
+
+#: app/Common/Breadcrumbs/Tags.php:191
+msgid "Search String"
+msgstr "Zoekstring"
+
+#: app/Common/Breadcrumbs/Tags.php:187
+msgid "The day."
+msgstr "De dag."
+
+#: app/Common/Breadcrumbs/Tags.php:182
+msgid "The month."
+msgstr "De maand."
+
+#: app/Common/Breadcrumbs/Tags.php:177
+msgid "The year."
+msgstr "Het jaar."
+
+#: app/Common/Breadcrumbs/Tags.php:172
+msgid "The 404 error format."
+msgstr "De 404 fout format."
+
+#: app/Common/Breadcrumbs/Tags.php:167
+msgid "The search result format."
+msgstr "het format van het zoekresultaat."
+
+#: app/Common/Breadcrumbs/Tags.php:166
+msgid "Search result format"
+msgstr "Format zoekresultaat"
+
+#: app/Common/Breadcrumbs/Tags.php:162
+msgid "The author's last name."
+msgstr "De achternaam van de auteur."
+
+#: app/Common/Breadcrumbs/Tags.php:157
+msgid "The author's first name."
+msgstr "De voornaam van de auteur."
+
+#: app/Common/Breadcrumbs/Tags.php:152
+msgid "The author's display name."
+msgstr "De weergavenaam van de auteur."
+
+#: app/Common/Breadcrumbs/Tags.php:151
+msgid "Author Display Name"
+msgstr "Weergavenaam auteur"
+
+#: app/Common/Breadcrumbs/Tags.php:147
+msgid "The blog page title."
+msgstr "De titel van de blogpagina."
+
+#: app/Common/Breadcrumbs/Tags.php:142
+msgid "The crumb separator."
+msgstr "De kruimelpad scheider."
+
+#. Translators: 1 - The name of a taxonomy.
+#: app/Common/Breadcrumbs/Tags.php:137
+msgid "The %1$s title."
+msgstr "De %1$s titel."
+
+#: app/Common/Breadcrumbs/Tags.php:124
+msgid "The label."
+msgstr "Het label."
+
+#: app/Common/Breadcrumbs/Tags.php:123
+msgid "Label"
+msgstr "Label"
+
+#: app/Common/Breadcrumbs/Tags.php:119
+msgid "The permalink."
+msgstr "De permalink."
+
+#: app/Common/Breadcrumbs/Tags.php:146
+msgid "Blog Page Title"
+msgstr "Titel blogpagina"
+
+#: app/Common/Breadcrumbs/Tags.php:186
+msgid "Day"
+msgstr "Dag"
+
+#: app/Common/Breadcrumbs/Tags.php:176
+msgid "Year"
+msgstr "Jaar"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:535
+msgid "at"
+msgstr "om"
+
+#: app/Common/Admin/Admin.php:654
+msgid "Redirection Manager"
+msgstr "Omleidingen beheerder"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:563
+msgid "of"
+msgstr "of"
+
+#: app/Common/Schema/Context.php:224
+msgid "Not Found"
+msgstr "Niet gevonden"
+
+#. Translators: 1 - The plugin short name ("AIOSEO"), 2 - The plugin short name
+#. ("AIOSEO"), 3 - Opening link tag, 4 - Closing link tag.
+#: app/Common/Migration/GeneralSettings.php:457
+msgid "%1$s migrated all your title formats, some of which were blank. If you were purposely using blank formats in the previous version of %2$s and want WordPress to handle your titles, you can safely dismiss this message. For more information, check out our documentation on %3$sblank title formats%4$s."
+msgstr "%1$s heeft al je titelformaten gemigreerd, waarvan sommige leeg waren. Als je met opzet blanco formaten gebruikte in de vorige versie van %2$s en je wilt dat WordPress je titels verwerkt, dan kan je dit bericht veilig negeren. Voor meer informatie, zie onze documentatie over %3$sblanco titelformaten%4$s."
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:202
+msgid "Question"
+msgstr "Vraag"
+
+#: app/Common/Utils/Tags.php:315
+msgid "The first name of the post author."
+msgstr "De voornaam van de bericht auteur."
+
+#: app/Common/Utils/Tags.php:310
+msgid "The display name of the post author."
+msgstr "De weergavenaam van de bericht auteur."
+
+#. Translators: 1 - The plugin name ("All in One SEO"), 2 - Same as previous, 3
+#. - Same as previous.
+#: app/init/notices.php:227
+msgid "Your site already has %1$s Pro activated. If you want to switch to %2$s Lite, please first go to Plugins > Installed Plugins and deactivate %1$s. Then, you can activate %3$s Lite."
+msgstr "Je site heeft al %1$s Pro geactiveerd. Als je wil overschakelen naar %2$s Lite, ga dan eerst naar Plugins> Geïnstalleerde plugins en deactiveer %1$s. Vervolgens kan je %3$s Lite activeren."
+
+#: app/init/notices.php:225
+msgid "Heads up!"
+msgstr "Opgelet!"
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag, 3 - The
+#. plugin name ("All in One SEO"), 4 - Opening HTML link tag, 5 - Closing HTML
+#. link tag.
+#: app/init/notices.php:113
+msgid "%1$sNote:%2$s Support for PHP 5.4 will be discontinued in 2021. After this, if no further action is taken, %3$s functionality will be disabled. %4$sRead more for additional information.%5$s"
+msgstr "%1$sOpmerking:%2$s Ondersteuning voor PHP 5.4 wordt stopgezet in 2021. Hierna, als er geen verdere actie wordt ondernomen, wordt %3$s functionaliteit uitgeschakeld. %4$sLees meer voor meer informatie.%5$s"
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag, 3 -
+#. Opening HTML link tag, 4 - Closing HTML link tag.
+#: app/init/notices.php:90
+msgid "Your site is running an %1$soutdated version%2$s of PHP that is no longer supported and may cause issues with %3$s. Please contact your web hosting provider to update your PHP version or switch to a %4$srecommended WordPress hosting company%5$s."
+msgstr "Je site gebruikt een %1$sverouderde versie%2$s van PHP die niet langer ondersteund wordt en kan problemen veroorzaken met %3$s. Neem contact op met je webhosting provider om je PHP versie te updaten of stap over naar een %4$saanbevolen WordPress hosting bedrijf%5$s."
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag, 3 - The
+#. plugin name ("All in One SEO"), 4 - Opening HTML link tag, 5 - Closing HTML
+#. link tag.
+#: app/init/notices.php:46
+msgid "%1$sNote:%2$s %3$s plugin is disabled on your site until you fix the issue. %4$sRead more for additional information.%5$s"
+msgstr "%1$sOpmerking:%2$s %3$s plugin is uitgeschakeld op je site totdat je het probleem hebt opgelost. %4$sLees meer voor meer informatie.%5$s"
+
+#. Translators: 1 - Opening HTML bold tag, 2 - Closing HTML bold tag, 3 -
+#. Opening HTML link tag, 4 - Closing HTML link tag.
+#: app/init/notices.php:24
+msgid "Your site is running an %1$sinsecure version%2$s of PHP that is no longer supported. Please contact your web hosting provider to update your PHP version or switch to a %3$srecommended WordPress hosting company%4$s."
+msgstr "Je site gebruikt een %1$sonveilige versie%2$s van PHP die niet langer ondersteund wordt. Neem contact op met je web hosting provider om je PHP versie te updaten of stap over naar een %3$saanbevolen WordPress hosting bedrijf%4$s."
+
+#: app/Common/Utils/Tags.php:978
+msgid "Sample Taxonomy Name Value"
+msgstr "Voorbeeld taxonomie naam waarde"
+
+#: app/Common/Utils/Tags.php:976
+msgid "Sample Custom Field Value"
+msgstr "Voorbeeld van een aangepaste veld waarde"
+
+#: app/Common/Utils/Tags.php:974
+msgid "Example search string"
+msgstr "Voorbeeld van een zoek string"
+
+#: app/Common/Utils/Tags.php:934
+msgid "Sample author biography"
+msgstr "Voorbeeld auteur biografie"
+
+#: app/Common/Utils/Tags.php:926
+msgid "Sample Archive Title"
+msgstr "Voorbeeld archief titel"
+
+#: app/Common/Utils/Tags.php:906
+msgid "Sample taxonomy description"
+msgstr "Voorbeeld taxonomie beschrijving"
+
+#: app/Common/Utils/Tags.php:889
+msgid "Sample Category 1, Sample Category 2"
+msgstr "Voorbeeld categorie 1, voorbeeld categorie 2"
+
+#: app/Common/Utils/Tags.php:886
+msgid "Sample Taxonomy Title"
+msgstr "Voorbeeld taxonomie titel"
+
+#: app/Common/Utils/Tags.php:881
+msgid "An example of content from your page/post."
+msgstr "Een voorbeeld van de inhoud van je pagina/bericht."
+
+#: app/Common/Utils/Tags.php:869 app/Common/Utils/Tags.php:872
+msgid "Sample excerpt from a page/post."
+msgstr "Voorbeeld samenvatting van een pagina/bericht."
+
+#: app/Common/Utils/Tags.php:822
+msgid "Sample Parent"
+msgstr "Voorbeeld hoofd"
+
+#: app/Common/Utils/Tags.php:819
+msgid "Sample Post"
+msgstr "Voorbeeldbericht"
+
+#: app/Common/Utils/Tags.php:804
+msgid "Sample caption for media."
+msgstr "Voorbeeld bijschrift voor media."
+
+#: app/Common/Utils/Tags.php:799
+msgid "A sample alt tag for your image"
+msgstr "Een voorbeeld alt tag voor je afbeelding"
+
+#: app/Common/Utils/Tags.php:532
+msgid "All categories that are assigned to the current post, comma-separated."
+msgstr "Alle categorieën die zijn toegewezen aan het huidig bericht, door komma's gescheiden."
+
+#: app/Common/Utils/Tags.php:527
+msgid "The title of the parent post of the current page/post."
+msgstr "De titel van het hoofdbericht voor het huidige pagina/bericht."
+
+#: app/Common/Utils/Tags.php:526
+msgid "Parent Title"
+msgstr "Hoofd titel"
+
+#: app/Common/Utils/Tags.php:522
+msgid "The meta description for the current page/post."
+msgstr "De meta beschrijving voor het huidige pagina/bericht."
+
+#: app/Common/Utils/Tags.php:516
+msgid "The name of the first term of a given taxonomy that is assigned to the current page/post."
+msgstr "De naam van de eerste term van een gegeven taxonomie die is toegewezen aan het huidige bericht/de huidige pagina."
+
+#: app/Common/Utils/Tags.php:515
+msgid "Taxonomy Name"
+msgstr "Taxonomie naam"
+
+#: app/Common/Utils/Tags.php:511
+msgid "The term the user is searching for."
+msgstr "De term waarnaar de gebruiker zoekt."
+
+#: app/Common/Utils/Tags.php:510
+msgid "Search Term"
+msgstr "Zoekterm"
+
+#: app/Common/Utils/Tags.php:505
+msgid "A custom field from the current page/post."
+msgstr "Een aangepast veld voor de huidige pagina/bericht."
+
+#: app/Common/Utils/Tags.php:504
+msgid "Custom Field"
+msgstr "Aangepast veld"
+
+#: app/Common/Utils/Tags.php:500
+msgid "The tagline for your site, set in the general settings."
+msgstr "De slogan voor je site, ingesteld in de algemene instellingen."
+
+#: app/Common/Utils/Tags.php:499
+msgid "Tagline"
+msgstr "Slogan"
+
+#: app/Common/Utils/Tags.php:494
+msgid "The description for your site."
+msgstr "De beschrijving van je site."
+
+#: app/Common/Utils/Tags.php:470 app/Common/Utils/Tags.php:482
+msgid "Site link (link as text)."
+msgstr "Site link (link als tekst)."
+
+#: app/Common/Utils/Tags.php:469
+msgid "Site Link (Alt)"
+msgstr "Site link (Alt)"
+
+#: app/Common/Utils/Tags.php:464
+msgid "Site link (name as text)."
+msgstr "Site link (naam als tekst)."
+
+#: app/Common/Utils/Tags.php:463 app/Common/Utils/Tags.php:481
+msgid "Site Link"
+msgstr "Site link"
+
+#: app/Common/Utils/Tags.php:459
+msgid "The separator defined in the search appearance settings."
+msgstr "Het scheidingsteken dat is gedefinieerd in de instellingen voor zoek weergave."
+
+#. Translators: 1 - The type of page (Post, Page, Category, Tag, etc.).
+#: app/Common/Breadcrumbs/Tags.php:130 app/Common/Utils/Tags.php:454
+msgid "The original title of the current post."
+msgstr "De oorspronkelijke titel van het huidige bericht."
+
+#. Translators: 1 - The type of page (Post, Page, Category, Tag, etc.).
+#: app/Common/Utils/Tags.php:447
+msgid "Post link (link as text)."
+msgstr "Bericht link (link als tekst)."
+
+#. Translators: 1 - The type of page (Post, Page, Category, Tag, etc.).
+#: app/Common/Utils/Tags.php:440
+msgid "Post link (name as text)."
+msgstr "Bericht link (naam als tekst)."
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:434
+msgid "The year when the page/post was published, localized."
+msgstr "Het jaar waarin de pagina/het bericht is gepubliceerd, gelokaliseerd."
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:433
+msgid "%1$s Year"
+msgstr "%1$s jaar"
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:428
+msgid "The month when the page/post was published, localized."
+msgstr "De maand waarin de pagina/het bericht is gepubliceerd, gelokaliseerd."
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:427
+msgid "%1$s Month"
+msgstr "%1$s maand"
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:422
+msgid "The day of the month when the page/post was published, localized."
+msgstr "De dag van de maand waarop de pagina/het bericht is gepubliceerd, gelokaliseerd."
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:421
+msgid "%1$s Day"
+msgstr "%1$s dag"
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:416
+msgid "The date when the page/post was published, localized."
+msgstr "De datum waarop de pagina/het bericht is gepubliceerd, gelokaliseerd."
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:415
+msgid "%1$s Date"
+msgstr "%1$s datum"
+
+#: app/Common/Utils/Tags.php:410
+msgid "The date of the current archive, localized."
+msgstr "De datum van het huidige archief, gelokaliseerd."
+
+#: app/Common/Utils/Tags.php:409
+msgid "Archive Date"
+msgstr "Archiefdatum"
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:405
+msgid "The content of your page/post."
+msgstr "De inhoud van je pagina/bericht."
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:404
+msgid "%1$s Content"
+msgstr "%1$s inhoud"
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:399
+msgid "The excerpt defined on your page/post. Will not fall back to the post content."
+msgstr "De samenvatting die op je pagina/bericht is gedefinieerd. Zal niet terugvallen op de inhoud van het bericht."
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:398
+msgid "%1$s Excerpt Only"
+msgstr "Alleen samenvatting van %1$s"
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:393
+msgid "The excerpt defined on your page/post."
+msgstr "De samenvatting die op je pagina/bericht is gedefinieerd."
+
+#. Translators: 1 - The singular name of the post type.
+#: app/Common/Utils/Tags.php:392
+msgid "%1$s Excerpt"
+msgstr "%1$s samenvatting"
+
+#: app/Common/Utils/Tags.php:387
+msgid "The current year, localized."
+msgstr "Het huidige jaar, gelokaliseerd."
+
+#: app/Common/Utils/Tags.php:386
+msgid "Current Year"
+msgstr "Huidig jaar"
+
+#: app/Common/Utils/Tags.php:382
+msgid "The current month, localized."
+msgstr "De huidige maand, gelokaliseerd."
+
+#: app/Common/Utils/Tags.php:381
+msgid "Current Month"
+msgstr "Huidige maand"
+
+#: app/Common/Utils/Tags.php:377
+msgid "The current day of the month, localized."
+msgstr "De huidige dag van de maand, gelokaliseerd."
+
+#: app/Common/Utils/Tags.php:376
+msgid "Current Day"
+msgstr "Huidige dag"
+
+#: app/Common/Utils/Tags.php:372
+msgid "The current date, localized."
+msgstr "De huidige datum, gelokaliseerd."
+
+#: app/Common/Utils/Tags.php:371
+msgid "Current Date"
+msgstr "Huidige datum"
+
+#: app/Common/Utils/Tags.php:367
+msgid "The page number for the current paginated page."
+msgstr "Het paginanummer voor de huidige gepagineerde pagina."
+
+#: app/Common/Breadcrumbs/Tags.php:196 app/Common/Utils/Tags.php:366
+msgid "Page Number"
+msgstr "Paginanummer"
+
+#: app/Common/Utils/Tags.php:362
+msgid "The permalink for the current page/post."
+msgstr "De permalink voor de huidige pagina/bericht."
+
+#: app/Common/Breadcrumbs/Tags.php:118 app/Common/Utils/Tags.php:361
+msgid "Permalink"
+msgstr "Permalink"
+
+#. Translators: 1 - The type of page (Post, Page, Category, Tag, etc.).
+#: app/Common/Utils/Tags.php:356
+msgid "Current or first category link (link as text)."
+msgstr "Huidige of eerste categorie link (link als tekst)."
+
+#. Translators: 1 - The type of page (Post, Page, Category, Tag, etc.).
+#: app/Common/Utils/Tags.php:355 app/Common/Utils/Tags.php:446
+msgid "%1$s Link (Alt)"
+msgstr "%1$s link (Alt)"
+
+#. Translators: 1 - The type of page (Post, Page, Category, Tag, etc.).
+#: app/Common/Utils/Tags.php:349
+msgid "Current or first category link (name as text)."
+msgstr "Huidige of eerste categorie link (naam als tekst)."
+
+#. Translators: 1 - The type of page (Post, Page, Category, Tag, etc.).
+#: app/Common/Utils/Tags.php:348 app/Common/Utils/Tags.php:439
+msgid "%1$s Link"
+msgstr "%1$s link"
+
+#. Translators: 1 - The singular name of the current taxonomy.
+#: app/Common/Utils/Tags.php:343
+msgid "Current or first category description."
+msgstr "Huidige of eerste categoriebeschrijving."
+
+#. Translators: 1 - The singular name of the current taxonomy.
+#: app/Common/Utils/Tags.php:342
+msgid "%1$s Description"
+msgstr "%1$s beschrijving"
+
+#. Translators: 1 - The type of page (Post, Page, Category, Tag, etc.).
+#: app/Common/Utils/Tags.php:330 app/Common/Utils/Tags.php:337
+msgid "Current or first category title."
+msgstr "Huidige of eerste categorie titel."
+
+#: app/Common/Utils/Tags.php:325
+msgid "The title of the current archive."
+msgstr "De titel van het huidige archief."
+
+#: app/Common/Utils/Tags.php:324
+msgid "Archive Title"
+msgstr "Archieftitel"
+
+#: app/Common/Breadcrumbs/Tags.php:161 app/Common/Utils/Tags.php:319
+msgid "Author Last Name"
+msgstr "Achternaam auteur"
+
+#: app/Common/Breadcrumbs/Tags.php:156 app/Common/Utils/Tags.php:314
+msgid "Author First Name"
+msgstr "Voornaam auteur"
+
+#: app/Common/Utils/Tags.php:309
+msgid "Author Name"
+msgstr "Auteurnaam"
+
+#: app/Common/Utils/Tags.php:305
+msgid "The biography of the author."
+msgstr "De biografie van de auteur."
+
+#: app/Common/Utils/Tags.php:304
+msgid "Author Biography"
+msgstr "Auteur biografie"
+
+#: app/Common/Utils/Tags.php:300
+msgid "Author archive link (link as text)."
+msgstr "Auteur archief link (link als tekst)."
+
+#: app/Common/Utils/Tags.php:299
+msgid "Author Link (Alt)"
+msgstr "Auteurlink (alt)"
+
+#: app/Common/Utils/Tags.php:295
+msgid "Author archive link (name as text)."
+msgstr "Auteur archief link (naam als tekst)."
+
+#: app/Common/Utils/Tags.php:294
+msgid "Author Link"
+msgstr "Auteurlink"
+
+#: app/Common/Utils/Tags.php:290
+msgid "Caption for the current media file."
+msgstr "Bijschrift voor het huidige mediabestand."
+
+#: app/Common/Utils/Tags.php:289
+msgid "Media Caption"
+msgstr "Mediabijschrift"
+
+#: app/Common/Utils/Tags.php:284
+msgid "Image Alt Tag"
+msgstr "Afbeelding alttag"
+
+#: app/Common/Options/Options.php:558
+msgid "Archives for"
+msgstr "Archieven voor"
+
+#: app/Common/Traits/Helpers/Wp.php:184
+msgid "Attachments"
+msgstr "Bijlagen"
+
+#. Translators: 1 - "statically" or "dynamically", 2 - The date, 3 - The  time,
+#. 4 - The plugin name ("All in One SEO").
+#: app/Common/Sitemap/Output.php:37
+msgid "This sitemap was %1$s generated on %2$s at %3$s by %4$s - the original SEO plugin for WordPress."
+msgstr "Deze sitemap werd %1$s gegenereerd op %2$s om %3$s door %4$s - de originele SEO plugin voor WordPress."
+
+#: app/Common/Sitemap/Output.php:32
+msgid "statically"
+msgstr "statisch"
+
+#: app/Common/Sitemap/Sitemap.php:144
+msgid "Delete Static Files"
+msgstr "Verwijder statische bestanden"
+
+#. Translators: 1 - The plugin short name ("AIOSEO"), 2 - Same as previous.
+#: app/Common/Sitemap/Sitemap.php:137
+msgid ""
+"%1$s has detected static sitemap files in the root folder of your WordPress installation.\n"
+"\t\t\t\tAs long as these files are present, %2$s is not able to dynamically generate your sitemap."
+msgstr ""
+"%1$s heeft statische sitemap bestanden gedetecteerd in de root map van je WordPress installatie.\n"
+"\t\t\t\tZolang deze bestanden aanwezig zijn, is %2$s niet in staat om dynamisch je sitemap te genereren."
+
+#: app/Common/Sitemap/Sitemap.php:134
+msgid "Static sitemap files detected"
+msgstr "Statische sitemap bestanden gevonden"
+
+#. Translators: 1 - The phone number.
+#: app/Common/ImportExport/RankMath/TitleMeta.php:409
+msgid ""
+"We were unable to import the phone number that you previously entered for your Knowledge Graph schema markup.\n"
+"\t\t\t\t\tAs it needs to be internationally formatted, please enter it (%1$s) with the country code, e.g. +1 (555) 555-1234."
+msgstr ""
+"We konden het telefoonnummer dat je eerder hebt ingevoerd voor je Knowledge Graph schema markup niet importeren.\n"
+"\t\t\t\t\tAangezien het internationaal geformatteerd moet zijn, verzoeken wij je het in te voeren (%1$s) met de landcode, bijv. +1 (555) 555-1234."
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Api/Wizard.php:264
+msgid "You selected to install the free MonsterInsights Analytics plugin during the setup of %1$s, but there was an issue during installation. Click below to manually install."
+msgstr "Je hebt ervoor gekozen om de gratis MonsterInsights Analytics plugin te installeren tijdens de installatie van %1$s, maar er was een probleem tijdens de installatie. Klik hieronder om handmatig te installeren."
+
+#: app/Common/Api/Wizard.php:261 app/Common/Api/Wizard.php:269
+msgid "Install MonsterInsights"
+msgstr "Installeer MonsterInsights"
+
+#: app/Common/Api/Wizard.php:57
+msgid "Try Again"
+msgstr "Probeer het opnieuw"
+
+#: app/Common/Api/Wizard.php:54
+msgid "Unfortunately, there was an error importing your SEO plugin settings. This could be due to an incompatibility in the version installed. Make sure you are on the latest version of the plugin and try again."
+msgstr "Helaas is er een fout opgetreden bij het importeren van je SEO plugin instellingen. Dit kan te wijten zijn aan een incompatibiliteit in de geïnstalleerde versie. Zorg ervoor dat je de nieuwste versie van de plugin gebruikt en probeer het opnieuw."
+
+#: app/Common/Api/Wizard.php:53
+msgid "SEO Plugin Import Failed"
+msgstr "Importeren van SEO plugin mislukt"
+
+#: app/Common/Api/Tools.php:224
+msgid "An error occurred while trying to write to the .htaccess file. Please try again later."
+msgstr "Er is een fout opgetreden bij het schrijven naar het .htaccess-bestand. Probeer het later opnieuw."
+
+#: app/Common/Api/Tools.php:121
+msgid "Unable to send debug email, please check your email send settings and try again."
+msgstr "Kan geen e-mail voor foutopsporing verzenden. Controleer je instellingen voor het verzenden van e-mail en probeer het opnieuw."
+
+#. Translators: 1 - The plugin name ("All in One SEO"), 2 - The Site URL.
+#: app/Common/Api/Tools.php:100
+msgid "%1$s Debug Info from %2$s"
+msgstr "%1$s fout opsporingsinformatie van %2$s"
+
+#: app/Common/Api/Tools.php:42 app/Common/Api/Tools.php:66
+msgid "There was an error deleting the physical robots.txt file."
+msgstr "Er is een fout opgetreden bij het verwijderen van het fysieke robots.txt bestand."
+
+#: app/Common/Api/Tools.php:33
+msgid "There was an error importing the physical robots.txt file."
+msgstr "Er is een fout opgetreden bij het importeren van het fysieke robots.txt bestand."
+
+#: app/Common/Api/Plugins.php:126 app/Common/Api/Sitemaps.php:84
+msgid "Deactivation failed. Please check permissions and try again."
+msgstr "Deactivatie mislukt. Controleer je rechten en probeer het opnieuw."
+
+#: app/Common/Api/Plugins.php:24
+msgid "Installation failed. Please check permissions and try again."
+msgstr "Installatie mislukt. Controleer je rechten en probeer het opnieuw."
+
+#: app/Common/Api/PostsTerms.php:225
+msgid "Post ID is missing."
+msgstr "Bericht ID ontbreekt."
+
+#: app/Common/Api/PostsTerms.php:136 app/Common/Api/PostsTerms.php:168
+msgid "No post ID was provided."
+msgstr "Er is geen bericht ID opgegeven."
+
+#: app/Common/Migration/SocialMeta.php:106
+msgid "Review Your Facebook Open Graph Titles and Descriptions"
+msgstr "Beoordeel je Facebook Open Graph titels en beschrijvingen"
+
+#: app/Common/Migration/SocialMeta.php:90
+msgid "Due to some changes in how our Open Graph integration works, your Facebook Titles and Descriptions may have changed. You were using the following options that have been removed:"
+msgstr "Als gevolg van enkele wijzigingen in hoe onze Open Graph-integratie werkt, zijn je Facebook-titels en -beschrijvingen mogelijk gewijzigd. Je gebruikte de volgende opties die zijn verwijderd:"
+
+#. Translators: 1 - The phone number.
+#: app/Common/Migration/GeneralSettings.php:740
+msgid "The phone number that you previously entered for your Knowledge Graph schema markup is invalid. As it needs to be internationally formatted, please enter it (%1$s) again with the country code, e.g. +1 (555) 555-1234."
+msgstr "Het telefoonnummer dat je eerder hebt ingevoerd voor je Knowledge Graph schema markup is ongeldig. Omdat het internationaal geformatteerd moet zijn, voert je het opnieuw in (%1$s) met de landcode, bijv. +1 (555) 555-1234."
+
+#: app/Common/ImportExport/RankMath/TitleMeta.php:406
+#: app/Common/Migration/GeneralSettings.php:737
+msgid "Invalid Phone Number for Knowledge Graph"
+msgstr "Ongeldig telefoonnummer voor Knowledge Graph"
+
+#: app/Common/Migration/GeneralSettings.php:467
+msgid "Blank Title Formats Detected"
+msgstr "Blanco titel formats gedetecteerd"
+
+#: app/Common/Migration/GeneralSettings.php:375
+msgid "Review Now"
+msgstr "Beoordeel nu"
+
+#. Translators: 1 - All in One SEO.
+#: app/Common/Migration/GeneralSettings.php:370
+msgid "Due to a bug in the previous version of %1$s, your homepage title and description may have changed. Please take a minute to review your homepage settings to verify that they are correct."
+msgstr "Door een bug in de vorige versie van %1$s, kunnen de titel en de beschrijving van je homepagina veranderd zijn. Neem even de tijd om je homepagina-instellingen te controleren om te zien of ze correct zijn."
+
+#: app/Common/Migration/GeneralSettings.php:367
+msgid "Review Your Homepage Title & Description"
+msgstr "Beoordeel je homepagina titel & beschrijving"
+
+#. Translators: 1 - The plugin short name ("AIOSEO"), 2 - Same as previous.
+#: app/Common/Migration/Helpers.php:161
+msgid ""
+"%1$s has detected that you have one or more custom fields with spaces in their name.\n"
+"\t\t\t\t\t\t\t\tIn order for %2$s to correctly parse these custom fields, their names cannot contain any spaces."
+msgstr ""
+"%1$s heeft gedetecteerd dat je een of meer aangepaste velden met spaties in hun naam hebt.\n"
+"\t\t\t\t\t\t\t\tOm %2$s deze aangepaste velden correct te laten analyseren, mogen hun namen geen spaties bevatten."
+
+#: app/Common/Migration/Helpers.php:158
+msgid "Custom field names with spaces detected"
+msgstr "Aangepaste veldnamen met spaties gevonden"
+
+#. Translators: 1 - Opening HTML link tag, 2 - Closing HTML link tag.
+#: app/Common/Views/sitemap/xsl/templates/header.php:26
+msgid "You can find more information about XML Sitemaps at %1$ssitemaps.org%2$s."
+msgstr "Meer informatie over XML-sitemaps vind je op %1$ssitemaps.org%2$s."
+
+#: app/Common/Tools/RobotsTxt.php:363
+msgid "Physical Robots.txt File Detected"
+msgstr "Fysiek robots.txt bestand gedetecteerd"
+
+#: app/Common/Tools/SystemStatus.php:296 app/Common/Tools/SystemStatus.php:328
+msgid "needs update"
+msgstr "heeft update nodig"
+
+#: app/Common/Tools/SystemStatus.php:194
+msgid "Not Set"
+msgstr "Niet ingesteld"
+
+#: app/Common/Tools/SystemStatus.php:193
+msgid "MySQL SQL Mode"
+msgstr "MySQL SQL modus"
+
+#: app/Common/Tools/SystemStatus.php:182
+msgid "unknown"
+msgstr "onbekend"
+
+#: app/Common/Tools/SystemStatus.php:181
+msgid "Web Server"
+msgstr "Webserver"
+
+#: app/Common/Tools/SystemStatus.php:121
+msgid "Constants"
+msgstr "Constanten"
+
+#: app/Common/Tools/SystemStatus.php:106
+msgid "Base URL:"
+msgstr "Basis URL:"
+
+#: app/Common/Tools/SystemStatus.php:105
+msgid "Base Directory:"
+msgstr "Basis folder:"
+
+#: app/Common/Tools/SystemStatus.php:104
+msgid "Url:"
+msgstr "Url:"
+
+#: app/Common/Tools/SystemStatus.php:103
+msgid "Path:"
+msgstr "Pad:"
+
+#: app/Common/Tools/SystemStatus.php:101
+msgid "Upload Directory Info"
+msgstr "Info upload folder"
+
+#: app/Common/Tools/SystemStatus.php:98
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: app/Common/Tools/SystemStatus.php:98
+msgid "Visible"
+msgstr "Zichtbaar"
+
+#: app/Common/Tools/SystemStatus.php:93
+msgid "Front Page Info"
+msgstr "Info voorpagina"
+
+#: app/Common/Tools/SystemStatus.php:89
+msgid "User Count"
+msgstr "Aantal gebruikers"
+
+#: app/Common/Tools/SystemStatus.php:77
+msgid "Permalink Structure"
+msgstr "Permalink structuur"
+
+#: app/Common/Tools/SystemStatus.php:61
+msgid "User Language"
+msgstr "Gebruikertaal"
+
+#: app/Common/Tools/SystemStatus.php:42
+msgid "Latest version:"
+msgstr "Nieuwste versie:"
+
+#: app/Common/Tools/BadBotBlocker.php:223
+msgid "(Invalid IP)"
+msgstr "(Ongeldig IP-adres)"
+
+#. Translators: 1 - The estimated reading time.
+#: app/Common/Social/Twitter.php:239
+msgid "%1$s minute"
+msgid_plural "%1$s minutes"
+msgstr[0] "%1$s minuut"
+msgstr[1] "%1$s minuten"
+
+#: app/Common/Social/Twitter.php:237
+msgid "Est. reading time"
+msgstr "Geschatte leestijd"
+
+#: app/Common/Social/Twitter.php:228
+msgid "Written by"
+msgstr "Geschreven door"
+
+#. Translators: 1 - The date the article was published on.
+#: app/Common/Schema/Graphs/NewsArticle.php:31
+msgid "Published on %1$s."
+msgstr "Gepubliceerd op %1$s."
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/PostSettings.php:135
+msgid "%1$s Settings"
+msgstr "%1$s Instellingen"
+
+#: app/Common/Admin/SiteHealth.php:379
+msgid "Your entire site is set to globally nofollow content."
+msgstr "Je hele site is ingesteld op globale nofollow-inhoud."
+
+#: app/Common/Admin/SiteHealth.php:313
+msgid "Your entire site is set to globally noindex content."
+msgstr "Je hele site is ingesteld op globale noindex-inhoud."
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:292
+msgid "%1$s is updated to the latest version"
+msgstr "%1$s is updated naar de laatste versie"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:275
+msgid "%1$s needs to be updated"
+msgstr "%1$s moet geüpdatet worden"
+
+#: app/Common/Admin/SiteHealth.php:200 app/Common/Admin/SiteHealth.php:235
+msgid "Go to Schema Settings"
+msgstr "Ga naar schema instellingen"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:52
+msgid "%1$s Schema Markup"
+msgstr "%1$s schema markup"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:46
+msgid "%1$s Plugin Update"
+msgstr "%1$s plugin update"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:41
+msgid "%1$s Site Info"
+msgstr "%1$s site info"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:36
+msgid "%1$s Site Public"
+msgstr "%1$s site publiek"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Common/Standalone/SetupWizard.php:173
+msgid "%1$s &rsaquo; Onboarding Wizard"
+msgstr "%1$s &rsaquo; Aanmeldingswizard"
+
+#. Translators: 1 - The short plugin name ("AIOSEO").
+#: app/Common/Admin/Admin.php:998
+msgid "%1$s Score"
+msgstr "%1$s score"
+
+#. Translators: 1 - The short plugin name ("AIOSEO").
+#: app/Common/Standalone/DetailsColumn.php:114
+msgid "%1$s Details"
+msgstr "%1$s details"
+
+#. Translators: 1 - The plugin name ("All in One SEO"), - 2 - This placeholder
+#. will be replaced with star icons, - 3 - "WordPress.org" - 4 - The plugin
+#. name ("All in One SEO").
+#: app/Common/Admin/Admin.php:937
+msgid "Please rate %1$s %2$s on %3$s to help us spread the word. Thank you!"
+msgstr "Gelieve %1$s met %2$s op %3$s te beoordelen om ons te helpen het woord te verspreiden. Bedankt!"
+
+#. Translators: 1 - HTML whitespace character, 2 - Opening HTML code tag, 3 -
+#. Closing HTML code tag.
+#: app/Common/Admin/Admin.php:310
+msgid "%1$sAdd %2$srel=\"UGC\"%3$s to link"
+msgstr "%1$s Voeg %2$srel=\"UGC\"%3$s toe om te linken"
+
+#. Translators: 1 - HTML whitespace character, 2 - Opening HTML code tag, 3 -
+#. Closing HTML code tag.
+#: app/Common/Admin/Admin.php:308
+msgid "%1$sAdd %2$srel=\"sponsored\"%3$s to link"
+msgstr "%1$sVoeg %2$srel=\"sponsored\"%3$s toe om te linken"
+
+#. Translators: 1 - HTML whitespace character, 2 - Opening HTML code tag, 3 -
+#. Closing HTML code tag.
+#: app/Common/Admin/Admin.php:306
+msgid "%1$sAdd %2$srel=\"nofollow\"%3$s to link"
+msgstr "%1$s Voeg %2$srel=\"nofollow\"%3$s toe om te linken"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Migration.php:45
+msgid "This notice will automatically disappear as soon as the migration has completed. Meanwhile, everything should continue to work as expected."
+msgstr "Deze melding zal automatisch verdwijnen zodra de migratie is voltooid. Ondertussen zou alles moeten blijven werken zoals verwacht."
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Migration.php:44
+msgid "%1$s is currently upgrading your database and migrating your SEO data in the background."
+msgstr "%1$s is op dit moment je database aan het upgraden en migreert je SEO gegevens op de achtergrond."
+
+#. Translators: 1 - The plugin name ("AIOSEO).
+#: app/Common/Admin/Notices/Migration.php:42
+msgid "%1$s V3->V4 Migration In Progress"
+msgstr "%1$s V3->V4 Migratie bezig"
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Import.php:41
+msgid "This notice will automatically disappear as soon as the import has completed. Meanwhile, everything should continue to work as expected."
+msgstr "Deze melding zal automatisch verdwijnen zodra de import is afgerond. Ondertussen zou alles moeten blijven werken zoals verwacht."
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Import.php:40
+msgid "%1$s is importing your existing SEO data in the background."
+msgstr "%1$s importeert je bestaande SEO gegevens op de achtergrond."
+
+#: app/Common/Admin/Notices/Import.php:38
+msgid "SEO Meta Import In Progress"
+msgstr "SEO Meta Import is in bewerking"
+
+#. Translators: The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Review.php:99
+msgid "CEO of %1$s"
+msgstr "CEO van %1$s"
+
+#: app/Common/Admin/Notices/Notices.php:544
+msgid "Conflicting Plugins Detected"
+msgstr "Conflicterende plugins gevonden"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/Notices/Notices.php:467
+msgid "Warning: %1$s has detected that you may have an invalid description format. This could lead to descriptions not being properly applied to your content."
+msgstr "Waarschuwing: %1$s heeft gedetecteerd dat je mogelijk een ongeldige beschrijvings format hebt. Dit kan ertoe leiden dat beschrijvingen niet correct worden toegepast op je inhoud."
+
+#: app/Common/Admin/Notices/Notices.php:464
+msgid "Invalid Description Format"
+msgstr "Ongeldig beschrijvings format"
+
+#: app/Common/Admin/Notices/Notices.php:423
+#: app/Common/Admin/Notices/Notices.php:472
+#: app/Common/Admin/Notices/Notices.php:548
+#: app/Common/ImportExport/RankMath/TitleMeta.php:415
+#: app/Common/Migration/GeneralSettings.php:745
+msgid "Fix Now"
+msgstr "Los het nu op"
+
+#: app/Common/Admin/Notices/Notices.php:415
+msgid "Search Engines Blocked"
+msgstr "Zoekmachines geblokkeerd"
+
+#: app/AIOSEO.php:239
+msgid "Plugin is missing required dependencies. Please contact support for more information."
+msgstr "Plugin ontbreekt enkele vereiste bestanden. Contacteer onze klantendienst voor meer informatie."
+
+#. Translators: 1 - "WooCommerce".
+#: app/Lite/Admin/Notices/Notices.php:78
+msgid "Advanced %1$s Support"
+msgstr "Geavanceerde %1$s ondersteuning"
+
+#: app/Lite/Admin/Connect.php:391
+msgid "The Pro version installed correctly, but it needs to be activated from the Plugins page inside your WordPress admin."
+msgstr "De Pro-versie werd correct geïnstalleerd, maar moet nog geactiveerd worden via de Plugins pagina in je WordPress beheerder."
+
+#: app/Lite/Admin/Connect.php:317
+msgid "You are not licensed."
+msgstr "Je hebt geen licentie."
+
+#. Translators: 1 - The marketing site anchor name ("aioseo.com").
+#: app/Lite/Admin/Connect.php:287
+msgid "Could not install upgrade. Please download from %1$s and install manually."
+msgstr "Kon upgrade niet installeren. Download van %1$s en installeer handmatig."
+
+#: app/Lite/Admin/Connect.php:233
+msgid "Pro version is already installed."
+msgstr "Pro versie is reeds geïnstalleerd."
+
+#: app/Lite/Admin/Connect.php:221
+msgid "Please enter your license key to connect."
+msgstr "Voer je licentiesleutel in om verbinding te maken."
+
+#: app/Lite/Admin/Connect.php:215
+msgid "You are not allowed to install plugins."
+msgstr "Je hebt geen toestemming om plugins te activeren."
+
+#. Translators: 1 - The plugin name ("All in One SEO").
+#: app/Lite/Admin/Connect.php:161
+msgid "%1$s &rsaquo; Connect"
+msgstr "%1$s &rsaquo; Verbind"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:208
+msgid "General"
+msgstr "Algemeen"
+
+#: app/Common/Models/Post.php:434
+msgid "Please add a title first."
+msgstr "Voeg eerst een titel toe."
+
+#: app/Common/Models/Post.php:425 app/Common/Models/Post.php:443
+msgid "Please add some content first."
+msgstr "Voeg eerst wat inhoud toe."
+
+#. Translators: This refers to the homepage of the site.
+#: app/Common/Breadcrumbs/Breadcrumbs.php:499
+#: app/Common/Options/Options.php:557 app/Common/Schema/Breadcrumb.php:306
+#: app/Common/Views/sitemap/xsl/partials/breadcrumb.php:24
+msgid "Home"
+msgstr "Home"
+
+#: app/Common/Breadcrumbs/Tags.php:171
+msgid "404 Error Format"
+msgstr "404 pagina template"
+
+#: app/Common/Breadcrumbs/Tags.php:141 app/Common/Utils/Tags.php:458
+msgid "Separator"
+msgstr "Scheidingsteken"
+
+#: app/Common/Views/sitemap/html/widget-options.php:128
+msgid "ID"
+msgstr "ID"
+
+#. Translators: 1 - The type of page (Post, Page, Category, Tag, etc.).
+#: app/Common/Breadcrumbs/Tags.php:129 app/Common/Breadcrumbs/Tags.php:135
+#: app/Common/Utils/Tags.php:336 app/Common/Utils/Tags.php:453
+msgid "%1$s Title"
+msgstr "Titel %1$s"
+
+#: app/Common/Tools/RobotsTxt.php:372
+msgid "Import and Delete"
+msgstr "Importeren en verwijderen"
+
+#. Translators: 1 - The plugin short name ("AIOSEO"), 2 - The plugin short name
+#. ("AIOSEO").
+#: app/Common/Tools/RobotsTxt.php:366
+msgid "%1$s has detected a physical robots.txt file in the root folder of your WordPress installation. We recommend removing this file as it could cause conflicts with WordPress' dynamically generated one. %2$s can import this file and delete it, or you can simply delete it."
+msgstr "%1$s heeft een fysiek robots.txt bestand gedetecteerd in de hoofdmap van je WordPress installatie. We raden aan dit bestand te verwijderen, omdat het conflicten kan veroorzaken met het dynamisch gegenereerde WordPress bestand. %2$s kan dit bestand importeren en verwijderen, of je kunt het gewoon verwijderen."
+
+#: app/Common/Admin/Admin.php:188
+msgid "Local SEO"
+msgstr "Lokale SEO"
+
+#: app/Common/Tools/SystemStatus.php:273
+msgid "Must-Use Plugins"
+msgstr "Must-use plugins"
+
+#: app/Common/Tools/SystemStatus.php:174
+msgid "Server Info"
+msgstr "Server info"
+
+#: app/Common/Admin/Admin.php:174
+msgid "Sitemaps"
+msgstr "Sitemaps"
+
+#: app/Common/Admin/Admin.php:170
+msgid "Social Networks"
+msgstr "Sociale netwerksites"
+
+#: app/Common/Admin/Notices/Notices.php:469
+msgid "A Description tag is required in order to properly display your meta descriptions on your site."
+msgstr "Een beschrijvingstag is vereist om je meta beschrijvingen correct weer te geven op je site."
+
+#: app/Common/Tools/RobotsTxt.php:374
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: app/Common/Tools/SystemStatus.php:65
+msgid "Timezone"
+msgstr "Tijdzone"
+
+#: app/Common/Breadcrumbs/Widget.php:104
+msgid "Title:"
+msgstr "Titel:"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:647
+msgid "media"
+msgstr "media"
+
+#: app/Common/Admin/Admin.php:158
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: app/Common/Admin/Admin.php:166
+msgid "Search Appearance"
+msgstr "Weergave zoekmachines"
+
+#: app/Common/Admin/Admin.php:204
+msgid "Analytics"
+msgstr "Statistieken"
+
+#: app/Common/Admin/Admin.php:196
+msgid "Tools"
+msgstr "Tools"
+
+#: app/Common/Admin/Admin.php:192
+msgid "SEO Analysis"
+msgstr "SEO analyse"
+
+#: app/Common/Admin/Admin.php:184
+msgid "Redirects"
+msgstr "Omleidingen"
+
+#: app/Common/Options/Options.php:549
+msgid "default"
+msgstr "standaard"
+
+#: app/Common/Views/sitemap/html/widget-options.php:144
+msgid "Exclude Posts / Pages"
+msgstr "Berichten/pagina's uitsluiten"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://aioseo.com/"
+msgstr "https://aioseo.com/"
+
+#: app/Common/Admin/SiteHealth.php:329 app/Common/Admin/SiteHealth.php:395
+msgid "Search Page"
+msgstr "Zoekpagina"
+
+#: app/Common/Admin/SiteHealth.php:328 app/Common/Admin/SiteHealth.php:394
+msgid "Date Archives"
+msgstr "Datum archieven"
+
+#: app/Common/Admin/SiteHealth.php:327 app/Common/Admin/SiteHealth.php:393
+msgid "Author Archives"
+msgstr "Auteur archieven"
+
+#: app/Common/Admin/SiteHealth.php:323 app/Common/Admin/SiteHealth.php:389
+msgid "Paginated Content"
+msgstr "Gepagineerde inhoud"
+
+#: app/Common/Utils/Tags.php:531
+msgid "Categories"
+msgstr "Categorieën"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:94
+msgid "The fields below contain important SEO information from %1$s that may effect your site."
+msgstr "De onderstaande velden bevatten belangrijke SEO-informatie van %1$s die van invloed kan zijn op je site."
+
+#: app/Common/Admin/SiteHealth.php:81
+msgid "Nofollowed content"
+msgstr "Nofollow inhoud"
+
+#: app/Common/Admin/SiteHealth.php:73
+msgid "Noindexed content"
+msgstr "Niet geïndexeerde inhoud"
+
+#: app/Common/Admin/SiteHealth.php:295
+msgid "Fantastic! By updating to the latest version, you have access to all the latest features, bug fixes and security improvements."
+msgstr "Fantastisch! Door te updaten naar de nieuwste versie, heb je toegang tot de nieuwste functies, bugfixes en beveiligingsverbeteringen."
+
+#: app/Common/Admin/SiteHealth.php:283
+msgid "Go to Plugins"
+msgstr "Ga naar plugins"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:280
+msgid "An update is available for %1$s. Upgrade to the latest version to receive all the latest features, bug fixes and security improvements."
+msgstr "Er is een update beschikbaar voor %1$s. Upgrade naar de nieuwste versie om de nieuwste functies, bugfixes en beveiligingsverbeteringen te ontvangen."
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:245
+msgid "Awesome! These are required for %1$s's Person schema markup."
+msgstr "Geweldig! Deze zijn vereist voor %1$s's persoon schema markup."
+
+#: app/Common/Admin/SiteHealth.php:242
+msgid "Your Person Name and Image are set"
+msgstr "Je persoonsnaam en afbeelding zijn ingesteld"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:232
+msgid "Your Person Name and/or Image are blank. These values are required for %1$s's Person schema markup."
+msgstr "Je persoonsnaam en/of afbeelding zijn leeg. Deze waarden zijn vereist voor %1$s's persoon schema markup."
+
+#: app/Common/Admin/SiteHealth.php:229
+msgid "Your Person Name and/or Image are blank"
+msgstr "Je persoonsnaam en/of afbeelding zijn leeg"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:210
+msgid "Awesome! These are required for %1$s's Organization schema markup."
+msgstr "Geweldig! Deze zijn vereist voor de %1$s organisatieschema markup."
+
+#: app/Common/Admin/SiteHealth.php:207
+msgid "Your Organization Name and Logo are set"
+msgstr "Je organisatienaam en logo zijn ingesteld"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:197
+msgid "Your Organization Name and/or Logo are blank. These values are required for %1$s's Organization schema markup."
+msgstr "Je organisatienaam en/of logo zijn blanco. Deze waarden zijn vereist voor de %1$s organisatieschema markup."
+
+#: app/Common/Admin/SiteHealth.php:194
+msgid "Your Organization Name and/or Logo are blank"
+msgstr "Je organisatienaam en/of logo zijn blanco"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:167
+msgid "Great! These are required for %1$s's schema markup and are often used as fallback values for various other features."
+msgstr "Super goed! Deze zijn vereist voor de schema markup van %1$s en worden vaak gebruikt als fallback waarden voor verschillende andere functies."
+
+#: app/Common/Admin/SiteHealth.php:164
+msgid "Your Site Title and Tagline are set"
+msgstr "Je sitetitel en slogan zijn ingesteld"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/SiteHealth.php:151
+msgid "Your Site Title and/or Tagline are blank. We recommend setting both of these values as %1$s requires these for various features, including our schema markup"
+msgstr "Je sitetitel en/of slogan zijn leeg. We raden aan om beide waarden in te stellen, aangezien %1$s deze vereist voor verschillende functies, inclusief onze schema-opmaak"
+
+#: app/Common/Admin/SiteHealth.php:148
+msgid "Your Site Title and/or Tagline are blank"
+msgstr "Je sitetitel en/of slogan zijn leeg"
+
+#: app/Common/Admin/SiteHealth.php:129
+msgid "Your site is set to public. Search engines will index your website and it will appear in search results."
+msgstr "Je site is ingesteld op openbaar. Zoekmachines indexeren je site en deze verschijnt in de zoekresultaten."
+
+#: app/Common/Admin/SiteHealth.php:128
+msgid "Your site appears in search results"
+msgstr "Je site wordt weergegeven in zoekresultaten"
+
+#: app/Common/Admin/SiteHealth.php:121
+msgid "Go to Settings > Reading"
+msgstr "Ga naar Instellingen > Lezen"
+
+#: app/Common/Admin/SiteHealth.php:120
+msgid "Your site is set to private. This means WordPress asks search engines to exclude your website from search results."
+msgstr "Je site is ingesteld op privé. Dit betekent dat WordPress zoekmachines vraagt ​​om je site uit te sluiten van zoekresultaten."
+
+#: app/Common/Admin/SiteHealth.php:119
+msgid "Your site does not appear in search results"
+msgstr "Je site wordt niet weergegeven in zoekresultaten"
+
+#: app/Common/Utils/Tags.php:320
+msgid "The last name of the post author."
+msgstr "De achternaam van de auteur van het bericht."
+
+#: app/Common/Migration/GeneralSettings.php:471
+#: app/Common/Migration/SocialMeta.php:110
+msgid "Learn More"
+msgstr "Lees meer"
+
+#: app/Common/Admin/Admin.php:500
+msgid "LinkedIn Post Inspector"
+msgstr "LinkedIn bericht inspecteur"
+
+#: app/Common/Admin/SiteHealth.php:157
+msgid "Go to Settings > General"
+msgstr "Ga naar Instellingen> Algemeen"
+
+#: app/Common/Admin/Admin.php:394 app/Common/Admin/Admin.php:669
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: app/Common/Views/sitemap/html/widget-options.php:119
+msgid "Publish Date"
+msgstr "Publicatiedatum"
+
+#: app/Common/Views/sitemap/xsl/default.php:102
+#: app/Common/Views/sitemap/xsl/default.php:190
+#: app/Common/Views/sitemap/xsl/default.php:268
+#: app/Common/Views/sitemap/xsl/templates/header.php:37
+msgid "URL"
+msgstr "URL"
+
+#: app/Common/Admin/Notices/Review.php:92
+msgid "Not Really..."
+msgstr "Niet echt..."
+
+#: app/Common/Admin/Notices/Review.php:91
+msgid "Yes I love it"
+msgstr "Ja, ik hou ervan"
+
+#. Translators: 1 - The marketing site anchor name ("aioseo.com").
+#: app/Lite/Admin/Connect.php:288
+msgid "Plugin installed & activated."
+msgstr "Plugin geïnstalleerd & geactiveerd."
+
+#: app/Common/Admin/Admin.php:304
+msgid "Link has been inserted."
+msgstr "Er is een link ingevoegd."
+
+#: app/Common/Admin/Admin.php:302
+msgid "No results found."
+msgstr "Geen resultaten gevonden."
+
+#: app/Common/Admin/Admin.php:300
+msgid "(no title)"
+msgstr "(geen titel)"
+
+#: app/Common/Admin/Admin.php:299
+msgid "Add Link"
+msgstr "Link toevoegen"
+
+#: app/Common/Admin/Admin.php:298
+msgid "Update"
+msgstr "Update"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/Notices/Notices.php:521
+msgid "Warning: %1$s has detected other active SEO or sitemap plugins. We recommend that you deactivate the following plugins to prevent any conflicts:"
+msgstr "Waarschuwing: %1$s heeft andere actieve SEO of sitemap plugins gedetecteerd. We raden je aan de volgende plugins te deactiveren om conflicten te voorkomen:"
+
+#: app/Common/Admin/Admin.php:920
+msgid "Give us a 5-star rating!"
+msgstr "Geef ons een 5-sterren waardering!"
+
+#: app/Common/Admin/Admin.php:495
+msgid "Mobile-Friendly Test"
+msgstr "Mobiel vriendelijke test"
+
+#: app/Common/Admin/Admin.php:490
+msgid "Google Page Speed Test"
+msgstr "Google Page Speed Test"
+
+#: app/Common/Admin/Admin.php:485
+msgid "CSS Validator"
+msgstr "CSS-validator"
+
+#: app/Common/Admin/Admin.php:480
+msgid "HTML Validator"
+msgstr "HTML-validator"
+
+#: app/Common/Admin/Admin.php:475
+msgid "Pinterest Rich Pins Validator"
+msgstr "Pinterest rich pins validator"
+
+#: app/Common/Admin/Admin.php:470
+msgid "Facebook Debugger"
+msgstr "Facebook debugger"
+
+#: app/Common/Admin/Admin.php:465
+msgid "Google Structured Data Test"
+msgstr "Google Structured Data Test"
+
+#: app/Common/Admin/Admin.php:460
+msgid "Check Google Cache"
+msgstr "Google cache controleren"
+
+#: app/Common/Admin/Admin.php:455
+msgid "Check links to this URL"
+msgstr "Links naar deze URL controleren"
+
+#: app/Common/Admin/Admin.php:447
+msgid "Analyze this page"
+msgstr "Deze pagina analyseren"
+
+#. Translators: This is an action link users can click to open a feature
+#. request.
+#: app/Lite/Main/Filters.php:30
+msgid "Suggest a Feature"
+msgstr "Stel een functie voor"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:600
+msgid "never"
+msgstr "nooit"
+
+#: app/Common/Utils/Tags.php:285
+msgid "Your image's alt tag attribute."
+msgstr "Het alt-tag attribute van je afbeelding."
+
+#. Translators: 1 - "Pro".
+#: app/Lite/Admin/Notices/Notices.php:84
+msgid "Upgrade to %1$s"
+msgstr "Upgrade naar %1$s"
+
+#: app/Common/Admin/Admin.php:208
+msgid "About Us"
+msgstr "Over ons"
+
+#: app/Common/Admin/Notices/Review.php:102
+msgid "I already did"
+msgstr "Ik heb het al gedaan"
+
+#: app/Common/Admin/Notices/Review.php:101
+msgid "Nope, maybe later"
+msgstr "Nee, misschien later"
+
+#. Translators: The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Review.php:100
+msgid "Ok, you deserve it"
+msgstr "Ok, je verdient het"
+
+#: app/Common/Admin/Notices/Review.php:97
+msgid "That's awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr "Dat is geweldig! Je kan mij een grote gunst doen en geef het een 5 sterren waardering op WordPress om ons te helpen te verspreiden het woord en het stimuleren van onze motivatie?"
+
+#. Translators: The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Review.php:95
+msgid "Give feedback"
+msgstr "Geef feedback"
+
+#. Translators: The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Review.php:94
+msgid "We're sorry to hear you aren't enjoying %1$s. We would love a chance to improve. Could you take a minute and let us know what we can do better?"
+msgstr "Het spijt ons te horen dat je niet geniet van %1$s. We willen graag een kans om te verbeteren. Kun je even de tijd nemen en ons laten weten wat we beter kunnen doen?"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/Notices/Review.php:88
+msgid "Are you enjoying %1$s?"
+msgstr "Geniet je van %1$s?"
+
+#. Author of the plugin
+msgid "All in One SEO Team"
+msgstr "All in One SEO Team"
+
+#: app/Common/Breadcrumbs/Tags.php:197
+msgid "The page number."
+msgstr "Het paginanummer."
+
+#: app/Common/Utils/Tags.php:329
+msgid "Category"
+msgstr "Categorie"
+
+#: app/Common/Breadcrumbs/Tags.php:181
+msgid "Month"
+msgstr "Maand"
+
+#: app/Common/Breadcrumbs/Breadcrumbs.php:281
+msgid "Page"
+msgstr "Pagina"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:637
+msgid "year"
+msgstr "jaar"
+
+#: app/Common/Admin/Dashboard.php:150
+msgid "Temporarily unable to load feed."
+msgstr "Tijdelijk niet in staat om feed te laden."
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/Notices/Notices.php:418
+msgid "Warning: %1$s has detected that you are blocking access to search engines. You can change this in Settings > Reading if this was unintended."
+msgstr "Waarschuwing: %1$s heeft gedecteerd dat je toegang tot zoekmachines blokkeert. Je kunt dit wijzigen onder 'Instellingen > Lezen' indien dit niet de bedoeling was."
+
+#: app/Common/Admin/Notices/Notices.php:425
+#: app/Common/Admin/Notices/Notices.php:474
+#: app/Common/Admin/Notices/Notices.php:550 app/Common/Api/Wizard.php:271
+#: app/Common/Api/Wizard.php:304
+#: app/Common/ImportExport/RankMath/TitleMeta.php:417
+#: app/Common/Migration/GeneralSettings.php:747
+#: app/Common/Migration/Helpers.php:168
+msgid "Remind Me Later"
+msgstr "Herinner mij later"
+
+#: app/Common/Admin/Notices/Review.php:96
+msgid "No thanks"
+msgstr "Nee, dank je"
+
+#. Translators: 1 - "WooCommerce", 2 - The plugin short name ("AIOSEO").
+#: app/Lite/Admin/Notices/Notices.php:80
+msgid "We have detected you are running %1$s. Upgrade to %2$s to unlock our advanced eCommerce SEO features, including SEO for Product Categories and more."
+msgstr "We hebben opgemerkt dat je %1$s gebruikt. Upgrade naar %2$s om onze geavanceerde eCommerce SEO functies te ontgrendelen, zoals SEO voor product categorieën en meer."
+
+#: app/Common/Views/sitemap/html/widget-options.php:158
+msgid "Exclude Terms"
+msgstr "Termen uitsluiten"
+
+#. Translators: 1 - The plugin name ("All in One SEO).
+#: app/Common/Api/Tools.php:116
+msgid "%1$s Debug Info"
+msgstr "%1$s debuginfo"
+
+#: app/Common/Tools/SystemStatus.php:337
+msgid "Inactive Plugins"
+msgstr "Inactieve Plugins"
+
+#: app/Common/Tools/SystemStatus.php:305
+msgid "Active Plugins"
+msgstr "Actieve plugins"
+
+#: app/Common/Utils/Tags.php:476 app/Common/Utils/Tags.php:488
+msgid "Your site title."
+msgstr "De titel van je site."
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:52
+msgid "sitemaps"
+msgstr "sitemaps"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:45
+msgid "This sitemap index contains"
+msgstr "Deze sitemapindex bevat"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:40
+msgid "URLs"
+msgstr "URL's"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:33
+msgid "This sitemap contains"
+msgstr "Deze sitemap bevat"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:22
+msgid "this is an XML Sitemap, meant to be consumed by search engines like Google or Bing."
+msgstr "dit is een XML-sitemap, bedoeld voor zoekmachines zoals Google en Bing."
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:22
+msgid "Generated by"
+msgstr "Aangemaakt door"
+
+#: app/Common/Tools/SystemStatus.php:97
+msgid "Search Engine Visibility"
+msgstr "Zichtbaarheid zoekmachines"
+
+#: app/Common/Tools/SystemStatus.php:57
+msgid "Site Language"
+msgstr "Site taal"
+
+#: app/Common/Tools/SystemStatus.php:53 app/Common/Utils/Tags.php:475
+#: app/Common/Utils/Tags.php:487
+msgid "Site Title"
+msgstr "Sitetitel"
+
+#: app/Common/Migration/SocialMeta.php:75
+msgid "Use Content for Autogenerated Descriptions"
+msgstr "Gebruik inhoud voor automatisch gegenereerde beschrijvingen"
+
+#. Description of the plugin
+msgid "SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, ecommerce sites, and much more. More than 80 million downloads since 2007."
+msgstr "SEO voor WordPress. Functies zoals XML-sitemaps, SEO voor aangepaste berichttypen, SEO voor blogs, bedrijfssites, e-commerce sites en nog veel meer. Meer dan 80 miljoen downloads sinds 2007."
+
+#. Translators: This is an action link users can click to purchase a license
+#. for All in One SEO Pro.
+#: app/Lite/Admin/Admin.php:42 app/Lite/Admin/Admin.php:68
+#: app/Lite/Main/Filters.php:63
+msgid "Upgrade to Pro"
+msgstr "Upgraden naar Pro"
+
+#. Translators: This is an action link users can click to open our general
+#. documentation page.
+#: app/Lite/Main/Filters.php:58
+msgid "Documentation"
+msgstr "Documentatie"
+
+#. Translators: This is an action link users can click to open the General
+#. Settings menu.
+#: app/Common/Admin/Admin.php:553 app/Lite/Main/Filters.php:48
+msgid "SEO Settings"
+msgstr "SEO instellingen"
+
+#: app/Common/Sitemap/Output.php:32
+msgid "dynamically"
+msgstr "dynamische"
+
+#: app/Common/Sitemap/Xsl.php:35
+msgid "Additional Pages"
+msgstr "Bijkomende pagina's"
+
+#: app/Common/Views/sitemap/xsl/default.php:293
+msgid "Change Frequency"
+msgstr "Wijzig frequentie"
+
+#: app/Common/Views/sitemap/xsl/default.php:306
+msgid "Priority"
+msgstr "Prioriteit"
+
+#: app/Common/Views/sitemap/html/widget-options.php:92
+msgid "Taxonomies"
+msgstr "Taxonomieën"
+
+#: app/Common/Views/sitemap/html/widget-options.php:69
+msgid "Post Types"
+msgstr "Berichttypen"
+
+#: app/Common/Tools/SystemStatus.php:243
+msgid "Active Theme"
+msgstr "Actief thema"
+
+#: app/Common/Tools/SystemStatus.php:81
+msgid "Multisite"
+msgstr "Multisite"
+
+#: app/Common/Tools/SystemStatus.php:69
+msgid "Home URL"
+msgstr "Startpagina URL"
+
+#: app/Common/Tools/SystemStatus.php:73
+msgid "Site URL"
+msgstr "Site URL"
+
+#: app/Common/Tools/SystemStatus.php:225
+msgid "PHP XML Support"
+msgstr "PHP XML ondersteuning"
+
+#: app/Common/Tools/SystemStatus.php:221
+msgid "PHP IPTC Support"
+msgstr "PHP IPTC ondersteuning"
+
+#: app/Common/Tools/SystemStatus.php:217
+msgid "PHP Exif Support"
+msgstr "PHP Exif ondersteuning"
+
+#: app/Common/Tools/SystemStatus.php:213
+msgid "PHP Max Script Execution Time"
+msgstr "PHP Max Script uitvoeringstijd"
+
+#: app/Common/Tools/SystemStatus.php:209
+msgid "PHP Max Post Size"
+msgstr "PHP max. berichtgrootte"
+
+#: app/Common/Tools/SystemStatus.php:205
+msgid "PHP Max Upload Size"
+msgstr "PHP max. uploadgrootte"
+
+#: app/Common/Tools/SystemStatus.php:201
+msgid "PHP Memory Limit"
+msgstr "PHP geheugenlimiet"
+
+#: app/Common/Tools/SystemStatus.php:197
+msgid "PHP Version"
+msgstr "PHP versie"
+
+#: app/Common/Tools/SystemStatus.php:189
+msgid "MySQL Version"
+msgstr "MySQL versie"
+
+#: app/Common/Tools/SystemStatus.php:185
+msgid "Memory Usage"
+msgstr "Geheugengebruik"
+
+#: app/Common/Tools/SystemStatus.php:177
+msgid "Operating System"
+msgstr "Besturingssysteem"
+
+#: app/Common/Tools/SystemStatus.php:82 app/Common/Tools/SystemStatus.php:86
+#: app/Common/Tools/SystemStatus.php:218 app/Common/Tools/SystemStatus.php:222
+#: app/Common/Tools/SystemStatus.php:226
+msgid "Yes"
+msgstr "Ja"
+
+#: app/Common/Tools/SystemStatus.php:186
+msgid "N/A"
+msgstr "N/A"
+
+#: app/Common/Tools/SystemStatus.php:129 app/Common/Tools/SystemStatus.php:133
+#: app/Common/Tools/SystemStatus.php:137 app/Common/Tools/SystemStatus.php:141
+#: app/Common/Tools/SystemStatus.php:145 app/Common/Tools/SystemStatus.php:149
+#: app/Common/Tools/SystemStatus.php:153
+msgid "Not set"
+msgstr "Niet ingesteld"
+
+#: app/Common/Tools/SystemStatus.php:78
+msgid "Default"
+msgstr "Standaard"
+
+#: app/Common/Utils/Tags.php:493
+msgid "Site Description"
+msgstr "Site beschrijving"
+
+#: app/Common/Migration/SocialMeta.php:79
+msgid "Run Shortcodes in Description"
+msgstr "Voer shortcodes in beschrijving uit"
+
+#: app/Common/Migration/SocialMeta.php:83
+msgid "Run Shortcodes in Title"
+msgstr "Voer shortcodes in titel uit"
+
+#: app/Common/Tools/SystemStatus.php:82 app/Common/Tools/SystemStatus.php:86
+#: app/Common/Tools/SystemStatus.php:218 app/Common/Tools/SystemStatus.php:222
+#: app/Common/Tools/SystemStatus.php:226
+msgid "No"
+msgstr "Geen"
+
+#: app/Common/Admin/Admin.php:200
+msgid "Feature Manager"
+msgstr "Functie beheerder"
+
+#: app/Common/Tools/SystemStatus.php:49
+msgid "Version"
+msgstr "Versie"
+
+#. Translators: This is an action link users can click to open our premium
+#. support.
+#: app/Lite/Main/Filters.php:53
+msgid "Support"
+msgstr "Ondersteuning"
+
+#. Plugin Name of the plugin
+msgid "All in One SEO"
+msgstr "All in One SEO"
+
+#: app/Common/Admin/Admin.php:534
+msgid "Edit SEO"
+msgstr "SEO bewerken"
+
+#: app/Common/Admin/Admin.php:386 app/Common/Admin/SiteHealth.php:91
+msgid "SEO"
+msgstr "SEO"
+
+#: app/Common/Utils/Tags.php:521
+msgid "Description"
+msgstr "Beschrijving"
+
+#: app/Common/Admin/Admin.php:301 app/Common/Models/Post.php:433
+#: app/Common/Views/sitemap/html/widget-options.php:8
+msgid "Title"
+msgstr "Titel"
+
+#: app/Common/Tools/SystemStatus.php:129 app/Common/Tools/SystemStatus.php:133
+#: app/Common/Tools/SystemStatus.php:137 app/Common/Tools/SystemStatus.php:141
+#: app/Common/Tools/SystemStatus.php:145 app/Common/Tools/SystemStatus.php:149
+#: app/Common/Tools/SystemStatus.php:153
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: app/Common/Admin/Admin.php:162
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#. Translators: 1 - The IP address. 2 - The referer.
+#: app/Common/Tools/BadBotBlocker.php:237
+msgid "Blocked bot with IP %1$s -- matched referer %2$s found in blocklist."
+msgstr "Geblokkeerde bot met IP %1$s -- komt overeen met verwijzer %2$s gevonden in de blokkeerlijst."
+
+#. Translators: 1 - The IP address. 2 - The user agent.
+#: app/Common/Tools/BadBotBlocker.php:228
+msgid "Blocked bot with IP %1$s -- matched user agent %2$s found in blocklist."
+msgstr "Geblokkeerde bot met IP %1$s -- overeenkomende gebruiker agent %2$s gevonden in blokkeerlijst."

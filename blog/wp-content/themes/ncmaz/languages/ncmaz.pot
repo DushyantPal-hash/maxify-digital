@@ -1,0 +1,357 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NCMAZ\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-21 02:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: ncmaz"
+
+#: template-parts/single-header/single-header-content-2.php:10
+#: template-parts/single-header/single-header-content.php:10
+msgid " "
+msgstr ""
+
+#: comments.php:99
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:135
+msgid "<i class=\"las la-edit\"></i>"
+msgstr ""
+
+#: comments.php:124
+msgid ""
+"<p class=\"inline-flex items-center min-w-[68px] rounded-full text-neutral-"
+"6000 bg-neutral-100 dark:text-neutral-200 dark:bg-neutral-800 px-3 h-8 hover:"
+"bg-teal-50 hover:text-teal-600 dark:hover:text-teal-500 focus:outline-none\">"
+" <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-[18px] w-[18px] mr-2\" "
+"fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-"
+"linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.5\" d=\"M3 "
+"10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6\"></path></svg><span class=\"text-xs "
+"leading-none text-neutral-900 dark:text-neutral-200\">Reply</span></p>"
+msgstr ""
+
+#: page-ncmaz-account.php:25
+msgid "Account settings"
+msgstr ""
+
+#: template-parts/header/site-header.php:58
+msgid "Author page"
+msgstr ""
+
+#. Author of the theme
+msgid "ChisNghiax"
+msgstr ""
+
+#: template-parts/header/mobile-nav.php:85
+msgid "Close"
+msgstr ""
+
+#: template-parts/components/post-card.php:62
+#: template-parts/single-header/single-header-meta-area.php:23
+#: template-parts/single-page/single-entry-footer-meta-area.php:12
+msgid "Comments"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:8 template-parts/content.php:25
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/ncmaz-register-widgets.php:28
+msgid "Displaying widget items on the Sidebar area column 1 of footer"
+msgstr ""
+
+#: inc/ncmaz-register-widgets.php:41
+msgid "Displaying widget items on the Sidebar area column 2 of footer"
+msgstr ""
+
+#: inc/ncmaz-register-widgets.php:54
+msgid "Displaying widget items on the Sidebar area column 3 of footer"
+msgstr ""
+
+#: inc/ncmaz-register-widgets.php:67
+msgid "Displaying widget items on the Sidebar area column 4 of footer"
+msgstr ""
+
+#: inc/ncmaz-register-widgets.php:10
+msgid "Displaying widget items on the Sidebar area single page"
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-forgot-password.php:24
+#: template-parts/footer/footer-modal-form-sign-in.php:28
+#: template-parts/footer/footer-modal-form-sign-up.php:21
+msgid "Dissmis"
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-sign-up.php:45
+msgid "Email"
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-forgot-password.php:20
+msgid "Find Your Account"
+msgstr ""
+
+#: inc/ncmaz-register-widgets.php:27
+msgid "Footer-1 Sidebar"
+msgstr ""
+
+#: inc/ncmaz-register-widgets.php:40
+msgid "Footer-2 Sidebar"
+msgstr ""
+
+#: inc/ncmaz-register-widgets.php:53
+msgid "Footer-3 Sidebar"
+msgstr ""
+
+#: inc/ncmaz-register-widgets.php:66
+msgid "Footer-4 Sidebar"
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-sign-in.php:60
+msgid "Forgot password?"
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-forgot-password.php:47
+msgid "Get new password"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://chisnghiax.com/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://ncmaz.chisnghiax.com/"
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-sign-in.php:77
+msgid "I'm a new user."
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-sign-up.php:60
+msgid "I'm already a member."
+msgstr ""
+
+#: template-parts/content-none.php:32
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/header/site-branding.php:25
+#: template-parts/header/site-branding.php:41
+msgid "logo"
+msgstr ""
+
+#: template-parts/header/site-branding.php:26
+#: template-parts/header/site-branding.php:42
+msgid "logo darkmode"
+msgstr ""
+
+#: template-parts/header/site-header.php:117
+msgid "Logout"
+msgstr ""
+
+#. Name of the theme
+msgid "NCMAZ"
+msgstr ""
+
+#. Name of the template
+msgid "NCMAZ Custom Page"
+msgstr ""
+
+#. Name of the template
+msgid "NCMAZ Dashboard Page"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Ncmaz is a theme for blog, magazines, news, multi-purpose... Great and "
+"Modern design, using React &amp; Graphql to make the theme have many "
+"powerful functions, fast and easy page loading in Home page building. Dark "
+"mode, post format video, audio, gallery beautiful... Try using it, and it "
+"will show you great things"
+msgstr ""
+
+#: page-ncmaz-submission-post-editor.php:63
+msgid "No posts have been selected for editing, please check again."
+msgstr ""
+
+#: template-parts/content-none.php:4
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: title.
+#: comments.php:23
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: template-parts/components/socials-login.php:22
+msgid "Or sign in with social"
+msgstr ""
+
+#: 404.php:10
+msgid "Page 404 Image"
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-sign-in.php:52
+msgid "Password"
+msgstr ""
+
+#: page-ncmaz-account.php:38
+msgid "Please login to manage your account."
+msgstr ""
+
+#: functions.php:109
+msgctxt "Post password form"
+msgid "Enter"
+msgstr ""
+
+#: functions.php:109
+msgctxt "Post password form"
+msgid "Password"
+msgstr ""
+
+#: functions.php:109
+msgctxt "Post password form"
+msgid "Submit"
+msgstr ""
+
+#: functions.php:44
+msgid "Primary"
+msgstr ""
+
+#: template-parts/header/site-nav.php:114
+msgid "Primary menu"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-sign-up.php:47
+msgid "Registration confirmation will be emailed to you."
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-sign-in.php:57
+msgid "Remember"
+msgstr ""
+
+#: 404.php:17 page-ncmaz-account.php:46
+msgid "Return Home Page"
+msgstr ""
+
+#. %s: search query.
+#: search.php:35
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: page-ncmaz-account.php:49
+#: template-parts/footer/footer-modal-form-forgot-password.php:53
+#: template-parts/footer/footer-modal-form-sign-in.php:24
+#: template-parts/footer/footer-modal-form-sign-in.php:66
+#: template-parts/footer/footer-modal-form-sign-up.php:62
+msgid "Sign in"
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-forgot-password.php:58
+#: template-parts/footer/footer-modal-form-sign-in.php:79
+#: template-parts/footer/footer-modal-form-sign-up.php:17
+#: template-parts/footer/footer-modal-form-sign-up.php:51
+#: template-parts/header/site-header.php:45
+msgid "Sign up"
+msgstr ""
+
+#: inc/ncmaz-register-widgets.php:9
+msgid "Single Sidebar"
+msgstr ""
+
+#: template-parts/content-none.php:27
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: page-ncmaz-submission-post-editor.php:55
+msgid "Sorry, you don't have permission to edit this post"
+msgstr ""
+
+#: page-ncmaz-submission-post-editor.php:35
+msgid "Sorry, you don't have permission to submission the post"
+msgstr ""
+
+#: 404.php:13
+msgid "THE PAGE YOU WERE LOOKING FOR DOESN'T EXIST."
+msgstr ""
+
+#: functions.php:107
+msgid "This content is password protected. Please enter a password to view."
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-sign-up.php:39
+msgid "Username"
+msgstr ""
+
+#: template-parts/footer/footer-modal-form-forgot-password.php:42
+#: template-parts/footer/footer-modal-form-sign-in.php:45
+#: template-parts/footer/footer-modal-form-sign-in.php:45
+msgid "Username or email"
+msgstr ""
+
+#: template-parts/single-header/single-header-meta-area.php:11
+msgid "Views"
+msgstr ""
+
+#: template-parts/single-page/single-entry-author.php:16
+msgid "WRITTEN BY"
+msgstr ""
+
+#: template-parts/content.php:7
+msgid "You are previewing a pending post."
+msgstr ""
+
+#: page-ncmaz-account.php:28
+msgid ""
+"You can set preferred display name, create your profile URL and\n"
+"                                manage other personal settings."
+msgstr ""
+
+#: comments.php:109
+msgid ""
+"Your comment is awaiting moderation. This is a preview; your comment will be "
+"visible after it has been approved."
+msgstr ""
+
+#: template-parts/content.php:15
+msgid "Your post is in Draft mode."
+msgstr ""

@@ -1,0 +1,927 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-10-06 13:39+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: comments.php:37
+#, php-format
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Yksi vastaus päivitykseen &ldquo;%s&rdquo;"
+
+#: comments.php:62
+msgid "Reply"
+msgstr "Vastaa"
+
+#: comments.php:71
+msgid "Previous"
+msgstr "Edellinen"
+
+#: comments.php:72
+msgid "Next"
+msgstr "Seuraava"
+
+#: comments.php:82
+msgid "Comments are closed."
+msgstr "Kommentit on suljettu."
+
+#: core/widgets.php:19
+msgid "Social Icons"
+msgstr "Jaa-linkit"
+
+#: core/widgets.php:20
+msgid "Displays social icons list."
+msgstr "Näyttää sosiaalisen median kuvakkeiden luettelon."
+
+#: core/widgets.php:83 inc/theme_metaboxes.php:47 inc/theme_metaboxes.php:99
+#: inc/theme_metaboxes.php:149 inc/theme_metaboxes.php:391
+#: inc/theme_metaboxes.php:507 inc/theme_metaboxes.php:574
+msgid "Title"
+msgstr "Otsikko"
+
+#: core/widgets.php:88
+msgid "Social Icon Default Colors"
+msgstr "Sosiaalisen median kuvakkeiden oletusvärit"
+
+#: core/widgets.php:92
+msgid "Icon Color"
+msgstr "Kuvakkeen väri"
+
+#: core/widgets.php:96
+msgid "Icon Hover Color"
+msgstr "Kuvakkeen valintaväri"
+
+#: core/widgets.php:101
+msgid "If colors are not set, skin colors will be applied."
+msgstr "Jos värejä ei määritetä, ulkoasuvärejä käytetään."
+
+#: core/widgets.php:106
+msgid "Manage Social Icons"
+msgstr "Hallinnoi sosiaalisen median kuvakkeita"
+
+#: functions.php:141 functions.php:161
+msgid "Please wait..."
+msgstr "Odota..."
+
+#: functions.php:142 functions.php:162
+msgid "Subscribe"
+msgstr "Tilaa"
+
+#: functions.php:143 functions.php:163 template-parts/contact-form.php:65
+msgid "SUBMIT"
+msgstr "LÄHETÄ"
+
+#: functions.php:238
+msgid "Missing Attachment"
+msgstr "Puuttuva liite"
+
+#: functions.php:265
+msgid "Sidebar"
+msgstr "Sivupalkki"
+
+#: functions.php:267
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Lisää sivupalkkisi vimpaimet tähän."
+
+#: functions.php:276 inc/theme_options.php:72 inc/theme_options.php:202
+#: inc/theme_options.php:579
+msgid "Header"
+msgstr "Ylätunniste"
+
+#: functions.php:278
+msgid "Add widgets here to appear in your header."
+msgstr "Lisää tähän pienoisohjelmat, joiden on määrä näkyä ylätunnisteessa."
+
+#: functions.php:287 functions.php:296 functions.php:305
+#: inc/theme_options.php:76 inc/theme_options.php:317 inc/theme_options.php:823
+#: inc/theme_options.php:829 inc/theme_options.php:849
+#: inc/theme_options.php:855
+msgid "Footer"
+msgstr "Alatunniste"
+
+#: functions.php:289 functions.php:298 functions.php:307
+msgid "Add widgets here to appear in your footer."
+msgstr "Lisää alatunnisteen vimpaimet tähän."
+
+#: inc/OCSpamProtection.php:199
+msgid "Please Wait"
+msgstr "Odota..."
+
+#: inc/OCSpamProtection.php:204
+msgid "Captcha Settings"
+msgstr "Sivuasetukset"
+
+# This is an error message that becomes visible if someone cannot do their math. You are welcome to change it a bit to make it shorter, for example, "That is not correct, try again".
+# ____________________________
+#: inc/OCSpamProtection.php:351 inc/core_functions.php:380
+msgid "Invalid answer, please try again."
+msgstr "Jokin meni vikaan. Ota yhteyttä One.comin tukeen."
+
+#: inc/OCSpamProtection.php:360 inc/core_functions.php:282
+#: inc/core_functions.php:389
+msgid "Some error occurred, please reload the page and try again."
+msgstr "Virhe, lataa sivu uudelleen ja yritä uudelleen."
+
+#: inc/OCSpamProtection.php:389 inc/OCSpamProtection.php:393
+msgid " <b>Something went wrong! Please try again!</b>"
+msgstr "Jokin meni vikaan. Yritä uudelleen."
+
+# This is an error message that becomes visible if someone cannot do their math. You are welcome to change it a bit to make it shorter, for example, "That is not correct, try again".
+# ____________________________
+#: inc/OCSpamProtection.php:395
+msgid "<b>Invalid answer, please try again.</b>"
+msgstr "Jokin meni vikaan. Ota yhteyttä One.comin tukeen."
+
+#: inc/OCSpamProtection.php:405 inc/core_functions.php:423
+msgid "Type in the answer to the sum below:"
+msgstr ""
+
+#: inc/OCSpamProtection.php:477
+msgid "Enable captcha on comment form"
+msgstr ""
+
+#: inc/OCSpamProtection.php:478
+msgid ""
+"Please note that if you are using any spam prevention or captcha plugins for "
+"your comment forms then disable this."
+msgstr ""
+
+#: inc/category-media.php:41 inc/category-media.php:73
+msgid "Image"
+msgstr "Kuva"
+
+#: inc/category-media.php:45 inc/category-media.php:84
+msgid "Add Image"
+msgstr "Lisää kuva"
+
+#: inc/category-media.php:46 inc/category-media.php:85
+msgid "Remove Image"
+msgstr "Poista kuva"
+
+#: inc/core_functions.php:51 inc/theme_options.php:334
+msgid "Text Color"
+msgstr "Tekstin väri"
+
+#: inc/core_functions.php:52
+msgid "Hover Text Color"
+msgstr "Valinnan tekstin väri"
+
+#: inc/core_functions.php:53 inc/core_functions.php:60
+msgid "Background Color"
+msgstr "Taustaväri"
+
+#: inc/core_functions.php:54
+msgid "Hover Background Color"
+msgstr "Valinnan taustaväri"
+
+#: inc/core_functions.php:58
+msgid "Big Text Color"
+msgstr "Suuren tekstin väri"
+
+#: inc/core_functions.php:59
+msgid "Small Text Color"
+msgstr "Pienen tekstin väri"
+
+#: inc/core_functions.php:196
+msgid "Name is empty or too short."
+msgstr "Nimi on tyhjä tai liian lyhyt."
+
+#: inc/core_functions.php:200
+msgid "Name is too large."
+msgstr "Nimi on liian pitkä."
+
+#: inc/core_functions.php:204
+msgid "Email entered is not valid."
+msgstr "Syötetty sähköpostiosoite ei kelpaa."
+
+#: inc/core_functions.php:208
+msgid "Email is too large."
+msgstr "Sähköpostiosoite on liian pitkä."
+
+#: inc/core_functions.php:212
+msgid "Message text is empty or too short."
+msgstr "Viestin teksti on tyhjä tai liian lyhyt."
+
+#: inc/core_functions.php:216
+msgid "Message is too large, please shorten it."
+msgstr "Viesti on liian pitkä, lyhennä sitä."
+
+#: inc/core_functions.php:226 template-parts/contact-form.php:26
+msgid "Email"
+msgstr "Sähköpostiosoite"
+
+#: inc/core_functions.php:230 template-parts/contact-form.php:17
+msgid "Name"
+msgstr "Nimi"
+
+#: inc/core_functions.php:235 template-parts/contact-form.php:35
+msgid "Message"
+msgstr "Viesti"
+
+#: inc/core_functions.php:242
+msgid "Contact query from website"
+msgstr "Yhteydenottokysely verkkosivustolta"
+
+#: inc/core_functions.php:250
+msgid "You received a new message from"
+msgstr "Sait osoitteesta"
+
+#: inc/core_functions.php:251
+msgid "via the contact form on"
+msgstr "uuden viestin, joka on lähetetty yhteydenottolomakkeella osoitteessa"
+
+#: inc/core_functions.php:252
+msgid "Contact Details"
+msgstr "Yhteystiedot"
+
+#: inc/core_functions.php:277
+msgid "Your message has been successfully sent."
+msgstr "Viesti on lähetetty."
+
+#: inc/core_functions.php:304
+msgctxt "Post Type General Name"
+msgid "Tutorials"
+msgstr "Tutoriaali"
+
+#: inc/core_functions.php:305
+msgctxt "Post Type Singular Name"
+msgid "Tutorial"
+msgstr "Tutoriaali"
+
+#: inc/core_functions.php:306
+msgid "New Tutorial"
+msgstr "Uusi tutoriaali"
+
+#: inc/core_functions.php:307
+msgid "Edit Tutorial"
+msgstr "Muokkaa tutoriaalia"
+
+#: inc/core_functions.php:308
+msgid "Update Tutorial"
+msgstr "Päivitä tutoriaali"
+
+#: inc/core_functions.php:309
+msgid "View Tutorial"
+msgstr "Näytä tutoriaali"
+
+#: inc/core_functions.php:310
+msgid "View Tutorials"
+msgstr "Näytä tutoriaalit"
+
+#: inc/core_functions.php:313
+msgid "Tutorial"
+msgstr "Tutoriaali"
+
+#: inc/core_functions.php:314
+msgid "Tutorial Description"
+msgstr "Tutoriaalin kuvaus"
+
+#: inc/core_functions.php:346
+msgid "Search Tutorials Types"
+msgstr "Hae tutoriaalityyppejä"
+
+#: inc/core_functions.php:347
+msgid "All Tutorials Types"
+msgstr "Kaikki tutoriaalityypit"
+
+#: inc/core_functions.php:348
+msgid "Parent Tutorials Type"
+msgstr "Ylempi tutoriaalityyppi"
+
+#: inc/core_functions.php:349
+msgid "Parent Tutorials Type:"
+msgstr "Ylempi tutoriaalityyppi:"
+
+#: inc/core_functions.php:350
+msgid "Edit Tutorials Type"
+msgstr "Muokkaa tutoriaalityyppiä"
+
+#: inc/core_functions.php:351
+msgid "Update Tutorials Type"
+msgstr "Päivitä tutoriaalityyppi"
+
+#: inc/core_functions.php:352
+msgid "Add New Tutorials Type"
+msgstr "Lisää uusi tutoriaalityyppi"
+
+#: inc/core_functions.php:353
+msgid "New Tutorials Type"
+msgstr "Uusi tutoariaalityyppi"
+
+#: inc/core_functions.php:354
+msgid "Tutorials Type"
+msgstr "Tutoriaalityyppi"
+
+#: inc/theme_metaboxes.php:26 inc/theme_metaboxes.php:279
+#: inc/theme_metaboxes.php:324 inc/theme_metaboxes.php:535
+#: inc/theme_options.php:759
+msgid "Page Sections"
+msgstr "Sivun osat"
+
+#: inc/theme_metaboxes.php:35
+msgid "Services"
+msgstr "Palvelut"
+
+#: inc/theme_metaboxes.php:40 inc/theme_metaboxes.php:85
+#: inc/theme_metaboxes.php:142 inc/theme_metaboxes.php:190
+#: inc/theme_metaboxes.php:244 inc/theme_metaboxes.php:376
+#: inc/theme_metaboxes.php:500 inc/theme_metaboxes.php:567
+msgid "Show Section"
+msgstr "Näytä osa"
+
+#: inc/theme_metaboxes.php:54 inc/theme_metaboxes.php:113
+#: inc/theme_metaboxes.php:157 inc/theme_metaboxes.php:215
+#: inc/theme_metaboxes.php:406 inc/theme_metaboxes.php:515
+#: inc/theme_metaboxes.php:582
+msgid "Description"
+msgstr "Kuvaus"
+
+#: inc/theme_metaboxes.php:62
+msgid "Show Services"
+msgstr "Näytä palvelut"
+
+#: inc/theme_metaboxes.php:71
+msgid "Select Services"
+msgstr "Valitse palvelut"
+
+#: inc/theme_metaboxes.php:72
+msgid "The selected services will be displayed."
+msgstr "Valitut palvelut näytetään."
+
+#: inc/theme_metaboxes.php:80 inc/theme_metaboxes.php:562
+#: inc/theme_options.php:295
+msgid "Featured"
+msgstr "Ajankohtaista"
+
+#: inc/theme_metaboxes.php:92 inc/theme_metaboxes.php:258
+#: inc/theme_metaboxes.php:383
+msgid "Banner Image"
+msgstr "Bannerikuva"
+
+#: inc/theme_metaboxes.php:106 inc/theme_metaboxes.php:206
+#: inc/theme_metaboxes.php:307 inc/theme_metaboxes.php:351
+msgid "Title Icon"
+msgstr "Otsikon kuvake"
+
+#: inc/theme_metaboxes.php:122 inc/theme_metaboxes.php:224
+msgid "Button Label"
+msgstr "Painikkeen nimi"
+
+#: inc/theme_metaboxes.php:129 inc/theme_metaboxes.php:232
+#: inc/theme_metaboxes.php:363
+msgid "Button Link"
+msgstr "Painikkeen linkki"
+
+#: inc/theme_metaboxes.php:137 inc/theme_metaboxes.php:166
+#: inc/theme_metaboxes.php:495 inc/theme_metaboxes.php:524
+msgid "Gallery"
+msgstr "Galleria"
+
+#: inc/theme_metaboxes.php:177
+msgid "Service Details"
+msgstr "Palvelun tiedot"
+
+#: inc/theme_metaboxes.php:185 inc/theme_metaboxes.php:263
+#: inc/theme_metaboxes.php:286 inc/theme_metaboxes.php:331
+#: inc/theme_metaboxes.php:542
+msgid "Content"
+msgstr "Sisältö"
+
+#: inc/theme_metaboxes.php:197
+msgid "Show Title Icon"
+msgstr "Näytä otsikon kuvake"
+
+#: inc/theme_metaboxes.php:239 inc/theme_metaboxes.php:251
+msgid "Information Blocks"
+msgstr "Tietolohkot"
+
+#: inc/theme_metaboxes.php:291 inc/theme_metaboxes.php:336
+#: inc/theme_metaboxes.php:547
+msgid "Show Title"
+msgstr "Näytä otsikko"
+
+#: inc/theme_metaboxes.php:299 inc/theme_metaboxes.php:343
+#: inc/theme_metaboxes.php:555
+msgid "Custom Title"
+msgstr "Muokattava otsikko"
+
+#: inc/theme_metaboxes.php:314 inc/theme_metaboxes.php:357
+msgid "Button Title"
+msgstr "Painikkeen nimi"
+
+#: inc/theme_metaboxes.php:371
+msgid "Form Section"
+msgstr "Lomakeosa"
+
+#: inc/theme_metaboxes.php:398
+msgid "Icon"
+msgstr "Kuvake"
+
+#: inc/theme_metaboxes.php:414
+msgid "Form Fields Labels"
+msgstr "Lomakkeen kenttäotsikot"
+
+#: inc/theme_metaboxes.php:460
+msgid "Email Subject"
+msgstr "Sähköpostiaihe"
+
+#: inc/theme_metaboxes.php:468
+msgid "Recipients"
+msgstr "Vastaanottajat"
+
+#: inc/theme_metaboxes.php:469
+msgid "Provide email accounts where you want to receive emails from this form."
+msgstr ""
+"Lisää sähköpostitilit, joihin haluat saada tämän lomakkeen kautta lähetetyt "
+"viestit."
+
+#: inc/theme_metaboxes.php:476
+msgid "Custom Form"
+msgstr "Mukautettu lomake"
+
+#: inc/theme_metaboxes.php:477
+msgid "This will replace the default form."
+msgstr "Tämä korvaa oletuslomakkeen"
+
+#: inc/theme_metaboxes.php:484
+msgid "Form Embed Code or Shortcode"
+msgstr "Muodosta upotuskoodi tai lyhytkoodi"
+
+#: inc/theme_metaboxes.php:485
+msgid ""
+"Please copy and paste the Embed Code or Shortcode of the custom form (if "
+"any). This will replace the default form."
+msgstr ""
+"Kopioi ja liitä mukautetun lomakkeen upotuskoodi tai lyhytkoodi (jos on). "
+"Tämä korvaa oletuslomakkeen."
+
+#: inc/theme_metaboxes.php:597 inc/theme_options.php:84
+msgid "Layout"
+msgstr "Asettelu"
+
+#: inc/theme_metaboxes.php:612 inc/theme_options.php:938
+#: inc/theme_options.php:963
+msgid "Right Sidebar"
+msgstr "Oikea sivupalkki"
+
+#: inc/theme_metaboxes.php:617 inc/theme_options.php:943
+#: inc/theme_options.php:968
+msgid "No Sidebar"
+msgstr "Ei sivupalkkia"
+
+#: inc/theme_metaboxes.php:622 inc/theme_options.php:948
+#: inc/theme_options.php:973
+msgid "Left Sidebar"
+msgstr "Vasen sivupalkki"
+
+#: inc/theme_options.php:80
+msgid "Typography"
+msgstr "Typografia"
+
+#: inc/theme_options.php:88
+msgid "Social"
+msgstr "Sosiaalinen media"
+
+#: inc/theme_options.php:92
+msgid "Color Scheme"
+msgstr "Värimalli"
+
+#: inc/theme_options.php:96
+msgid "Advanced"
+msgstr "Lisäasetukset"
+
+#: inc/theme_options.php:100 inc/theme_options.php:1208
+msgid "Import"
+msgstr "Tuo"
+
+#: inc/theme_options.php:108
+msgid "Skin - Primary Color"
+msgstr "Ulkoasu – ensisijainen väri"
+
+#: inc/theme_options.php:115
+msgid "Skin - Secondary Color"
+msgstr "Ulkoasu – toissijainen väri"
+
+#: inc/theme_options.php:122
+msgid "Customize Skin"
+msgstr "Mukauta ulkoasua"
+
+#: inc/theme_options.php:123
+msgid ""
+"Custom colors selection may override the Primary and Secondary Skin colors "
+"at some places"
+msgstr ""
+"Mukautetut värit voivat korvata ensisijaisen ja toissijaisen ulkoasuvärin "
+"joissakin paikoissa"
+
+#: inc/theme_options.php:131 inc/theme_options.php:624
+#: inc/theme_options.php:630
+msgid "Body"
+msgstr "Leipäteksti"
+
+#: inc/theme_options.php:137 inc/theme_options.php:209
+#: inc/theme_options.php:324
+msgid "Background"
+msgstr "Tausta"
+
+#: inc/theme_options.php:138
+msgid "Body background with image, color, etc."
+msgstr "Leipätekstin tausta kuvalla, väreillä jne."
+
+#: inc/theme_options.php:149
+msgid "Show Background Image"
+msgstr "Näytä taustakuva"
+
+#: inc/theme_options.php:158
+msgid "Body Text Color"
+msgstr "Leipätekstin väri"
+
+#: inc/theme_options.php:166
+msgid "Headings Colors"
+msgstr "Otsikkovärit"
+
+#: inc/theme_options.php:181 inc/theme_options.php:765
+msgid "Page Title"
+msgstr "Sivun otsikko"
+
+#: inc/theme_options.php:189
+msgid "Link Color"
+msgstr "Linkin väri"
+
+#: inc/theme_options.php:219
+msgid "Logo Text Color"
+msgstr "Logon tekstin väri"
+
+#: inc/theme_options.php:230
+msgid "Menu"
+msgstr "Valikko"
+
+#: inc/theme_options.php:237
+msgid "Menu Background Color"
+msgstr "Valikon taustaväri"
+
+#: inc/theme_options.php:247
+msgid "Menu Item Color"
+msgstr "Valikkokohteen väri"
+
+#: inc/theme_options.php:259
+msgid "Menu Item Background Color"
+msgstr "Valikkokohteen taustaväri"
+
+#: inc/theme_options.php:271
+msgid "Submenu Item Color"
+msgstr "Alavalikon kohteen väri"
+
+#: inc/theme_options.php:283
+msgid "Submenu Item Background Color"
+msgstr "Alavalikon kohteen taustaväri"
+
+#: inc/theme_options.php:301
+msgid "Section Title"
+msgstr "Osan otsikko"
+
+#: inc/theme_options.php:309
+msgid "Section Content"
+msgstr "Osan sisältö"
+
+#: inc/theme_options.php:342 inc/theme_options.php:875
+msgid "Buttons"
+msgstr "Painikkeet"
+
+#: inc/theme_options.php:350 inc/theme_options.php:881
+msgid "Content Buttons"
+msgstr "Sisältöpainikkeet"
+
+#: inc/theme_options.php:363
+msgid "Content Buttons - Show Border"
+msgstr "Sisältöpainikkeet – näytä reuna"
+
+#: inc/theme_options.php:371
+msgid "Content Buttons - Border"
+msgstr "Sisältöpainikkeet – reuna"
+
+#: inc/theme_options.php:378
+msgid "Content Buttons - Border Radius"
+msgstr "Sisältöpainikkeet – reunan säde"
+
+#: inc/theme_options.php:387 inc/theme_options.php:900
+msgid "Form Buttons"
+msgstr "Lomakepainikkeet"
+
+#: inc/theme_options.php:400
+msgid "Form Buttons - Show Border"
+msgstr "Lomakepainikkeet – näytä reuna"
+
+#: inc/theme_options.php:408
+msgid "Form Buttons - Border"
+msgstr "Lomakepainikkeet – reuna"
+
+#: inc/theme_options.php:415
+msgid "Form Buttons - Border Radius"
+msgstr "Lomakepainikkeet – reunan säde"
+
+#: inc/theme_options.php:426
+msgid "Show Logo"
+msgstr "Näytä logo"
+
+#: inc/theme_options.php:434
+msgid "Upload Logo"
+msgstr "Lataa logo palvelimelle"
+
+#: inc/theme_options.php:435
+msgid "Site title will be displayed if no image uploaded."
+msgstr "Sivuston nimi näytetään, jos mitään kuvaa ei ole ladattu palvelimelle."
+
+#: inc/theme_options.php:435
+msgid "Site title"
+msgstr "Sivuston nimi"
+
+#: inc/theme_options.php:445
+msgid "Show Header"
+msgstr "Näytä ylätunniste"
+
+#: inc/theme_options.php:453
+msgid "Show Header Image"
+msgstr "Näytä ylätunniste"
+
+#: inc/theme_options.php:462
+msgid "Upload Header Image"
+msgstr "Lataa ylätunnisteen kuva palvelimelle"
+
+#: inc/theme_options.php:472
+msgid "Header Left Text"
+msgstr "Ylätunnisteen vasen teksti"
+
+#: inc/theme_options.php:481
+msgid "Header Right Text"
+msgstr "Ylätunnisteen oikea teksti"
+
+#: inc/theme_options.php:490
+msgid "Header Subtitle"
+msgstr "Ylätunnisteen alaotsikko"
+
+#: inc/theme_options.php:499
+msgid "Header Tagline"
+msgstr "Ylätunnisteen tunnuslause"
+
+#: inc/theme_options.php:508
+msgid "Manage Site Title"
+msgstr "Hallinnoi sivuston nimeä"
+
+#: inc/theme_options.php:509 inc/theme_options.php:519
+msgid "Manage Logo Text"
+msgstr "Hallinnoi logon tekstiä"
+
+#: inc/theme_options.php:509
+msgid "To change the font style of logo"
+msgstr "Logon fonttityylin muuttamiseksi"
+
+#: inc/theme_options.php:509
+msgid "Typography > Header Font Style > Logo Font Style"
+msgstr "Typografia > Ylätunnisteen fonttityyli > Logon fonttityyli"
+
+#: inc/theme_options.php:520
+msgid "Manage Header Menu"
+msgstr "Hallinnoi ylätunnisteen valikkoa"
+
+#: inc/theme_options.php:520
+msgid "To change the font style of header"
+msgstr "Ylätunnisteen fonttityylin muuttamiseksi"
+
+#: inc/theme_options.php:520
+msgid "Typography > Header Font Style > Header Menu Font Style"
+msgstr ""
+"Typografia > Ylätunnisteen fonttityyli > Ylätunnisteen valikon fonttityyli"
+
+#: inc/theme_options.php:528
+msgid "Upload Favicon"
+msgstr "Lataa favicon palvelimelle"
+
+#: inc/theme_options.php:528
+msgid "Upload favicon of your website."
+msgstr "Siirrä verkkosivustosi favicon palvelimelle."
+
+#: inc/theme_options.php:528
+msgid "Customize > Site Identity > Site Icon"
+msgstr "Muokata > Sivuston tunniste > Sivuston kuvake"
+
+#: inc/theme_options.php:537
+msgid "Font Families"
+msgstr "Fonttiperheet"
+
+#: inc/theme_options.php:538
+msgid "Add fonts in your website."
+msgstr "Lisää fontteja verkkosivustolle."
+
+#: inc/theme_options.php:538
+msgid "The newly added font families will appear after saving the options."
+msgstr ""
+"Juuri lisätyt fonttiperheet ilmestyvät näkyviin asetusten tallentamisen "
+"jälkeen."
+
+#: inc/theme_options.php:563
+msgid "Font Styles"
+msgstr "Fonttityylit"
+
+#: inc/theme_options.php:564
+msgid ""
+"Theme's default font properties can be changed from the section specific "
+"tabs given below."
+msgstr ""
+"Teeman oletusfonttiasetuksia voi muuttaa osakohtaisten välilehtien kautta."
+
+#: inc/theme_options.php:585
+msgid "Logo Font Style"
+msgstr "Logon fonttityyli"
+
+#: inc/theme_options.php:586
+msgid "This will change the typography of logo text only."
+msgstr "Tämä muuttaa ainoastaan logon tekstin typografiaa."
+
+#: inc/theme_options.php:604
+msgid "Header Menu Font Style"
+msgstr "Ylätunnistevalikon fonttityyli"
+
+#: inc/theme_options.php:605
+msgid "This will change the typography of navigation menu in header."
+msgstr "Tämä muuttaa ylätunnisteen siirtymisvalikon typografiaa."
+
+#: inc/theme_options.php:631 inc/theme_options.php:804
+msgid "This will change the typography of content areas only."
+msgstr "Tämä muuttaa ainoastaan sisältöalueiden typografiaa."
+
+#: inc/theme_options.php:650
+msgid "H1 Font Style"
+msgstr "H1-fonttityyli"
+
+#: inc/theme_options.php:668
+msgid "H2 Font Style"
+msgstr "H2-fonttityyli"
+
+#: inc/theme_options.php:686
+msgid "H3 Font Style"
+msgstr "H3-fonttityyli"
+
+#: inc/theme_options.php:704
+msgid "H4 Font Style"
+msgstr "H4-fonttityyli"
+
+#: inc/theme_options.php:722
+msgid "H5 Font Style"
+msgstr "H5-fonttityyli"
+
+#: inc/theme_options.php:740
+msgid "H6 Font Style"
+msgstr "H6-fonttityyli"
+
+#: inc/theme_options.php:766
+msgid "This will change the typography of main titles on pages."
+msgstr "Tämä muuttaa sivujen pääotsikoiden typografiaa."
+
+#: inc/theme_options.php:784
+msgid "Section Titles Font Style"
+msgstr "Osien otsikoiden fonttityyli"
+
+#: inc/theme_options.php:785
+msgid "This will change the typography of section titles on pages."
+msgstr "Tämä muuttaa osien otsikoiden typografiaa."
+
+#: inc/theme_options.php:803
+msgid "Text"
+msgstr "Teksti"
+
+#: inc/theme_options.php:830 inc/theme_options.php:856
+msgid "This will change the typography of the Footer."
+msgstr "Tämä muuttaa alatunnisteen typografiaa."
+
+#: inc/theme_options.php:920
+msgid "Show Post Metadata"
+msgstr "Näytä julkaisun metatiedot"
+
+#: inc/theme_options.php:921
+msgid "This will show/hide the post details."
+msgstr "Tämä näyttää/piilottaa julkaisun tiedot."
+
+#: inc/theme_options.php:921
+msgid "For example: Post Author, Published Date, Post Categories"
+msgstr "Esimerkiksi: julkaisun kirjoittaja, julkaisupäivä, julkaisuluokka"
+
+#: inc/theme_options.php:930
+msgid "Blog Listing - Page Layout"
+msgstr "Blogiluettelo – sivuasettelu"
+
+#: inc/theme_options.php:931
+msgid ""
+"This will change the visibility and position of sidebar on the blog post "
+"listing pages."
+msgstr ""
+"Tämä muuttaa sivupalkin näkyvyyttä ja sijaintia blogijulkaisujen "
+"luettelosivuilla."
+
+#: inc/theme_options.php:955
+msgid "Single Post - Page Layout"
+msgstr "Yksi julkaisu – sivuasettelu."
+
+#: inc/theme_options.php:956
+msgid ""
+"This will change the visibility and position of sidebar on the post details "
+"pages."
+msgstr ""
+"Tämä muuttaa sivupalkin näkyvyyttä ja sijaintia julkaisun tietosivuilla."
+
+#: inc/theme_options.php:956
+msgid "Note: You can override this setting on a specific post."
+msgstr "Huom.: voit ohittaa tämän asetuksen yksittäisessä julkaisussa."
+
+#: inc/theme_options.php:981
+msgid "Social Links"
+msgstr "Sosiaalisen median linkit"
+
+#: inc/theme_options.php:982
+msgid "Enter your social profile links here:"
+msgstr "Syötä sosiaalisen median profiilin linkit tänne:"
+
+#: inc/theme_options.php:994
+msgid "Social Profile Icon"
+msgstr "Sosiaalisen median profiilin kuvake"
+
+#: inc/theme_options.php:1148
+msgid "Social Profile Link"
+msgstr "Sosiaalisen median profiilin linkki"
+
+#: inc/theme_options.php:1157
+msgid "Footer Color"
+msgstr "Alatunnisteen väri"
+
+#: inc/theme_options.php:1165
+msgid "Manage Footer Widgets"
+msgstr "Hallinnoi alatunnisteen pienoissovelluksia"
+
+#: inc/theme_options.php:1166
+msgid "Edit Footer Widgets"
+msgstr "Muokkaa alatunnisteen pienoissovelluksia"
+
+#: inc/theme_options.php:1175
+msgid "Custom CSS"
+msgstr "Mukautettu CSS"
+
+#: inc/theme_options.php:1176
+msgid "The rules added here will be applied as additional CSS."
+msgstr "Tähän lisättyjä sääntöjä käytetään ylimääräisenä CSS:nä."
+
+#: inc/theme_options.php:1183
+msgid "Head Scripts"
+msgstr "Head-komentosarjat"
+
+#: inc/theme_options.php:1184
+msgid "Scripts to be inserted in \"head\" tag."
+msgstr "\"head\"-tunnisteeseen lisättävät komentosarjat."
+
+#: inc/theme_options.php:1192
+msgid "Footer Scripts"
+msgstr "Alatunnisteen komentosarjat"
+
+#: inc/theme_options.php:1193
+msgid "Scripts to be inserted after footer."
+msgstr "Alatunnisteen jälkeen lisättävät komentosarjat."
+
+#: inc/theme_options.php:1201
+msgid "404 Page Content"
+msgstr "404-sivun sisältö"
+
+#: searchform.php:3
+msgid "Search for:"
+msgstr "Hakukriteeri:"
+
+#: searchform.php:9
+msgid "Search"
+msgstr "Etsi"
+
+#: template-parts/content-blog.php:43
+msgid "Read More"
+msgstr "Lue lisää"
+
+#: template-parts/content-none.php:8
+msgid "No entries found!"
+msgstr "Tietoja ei löytynyt!"
+
+#: template-parts/content-none.php:10
+msgid "Try searching with a different keyword."
+msgstr "Kokeile hakua toisella hakusanalla."
+
+#: template-parts/content-none.php:12
+msgid "Try a search instead"
+msgstr "Kokeile hakua"
+
+#: template-parts/section-blog-info.php:13
+#, php-format
+msgid "Search: %s"
+msgstr "Hae: %s"

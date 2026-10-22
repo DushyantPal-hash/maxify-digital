@@ -1,0 +1,934 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-10-06 13:39+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: comments.php:37
+#, php-format
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Ett svar til &ldquo;%s&rdquo;"
+
+#: comments.php:62
+msgid "Reply"
+msgstr "Svar"
+
+#: comments.php:71
+msgid "Previous"
+msgstr "Forrige"
+
+#: comments.php:72
+msgid "Next"
+msgstr "Neste"
+
+#: comments.php:82
+msgid "Comments are closed."
+msgstr "Kommentarer er lukket."
+
+#: core/widgets.php:19
+msgid "Social Icons"
+msgstr "Delelinker"
+
+#: core/widgets.php:20
+msgid "Displays social icons list."
+msgstr "Vist liste med sosiale ikoner."
+
+#: core/widgets.php:83 inc/theme_metaboxes.php:47 inc/theme_metaboxes.php:99
+#: inc/theme_metaboxes.php:149 inc/theme_metaboxes.php:391
+#: inc/theme_metaboxes.php:507 inc/theme_metaboxes.php:574
+msgid "Title"
+msgstr "Tittel"
+
+#: core/widgets.php:88
+msgid "Social Icon Default Colors"
+msgstr "Standardfarge sosiale ikoner"
+
+#: core/widgets.php:92
+msgid "Icon Color"
+msgstr "Ikon-farge"
+
+#: core/widgets.php:96
+msgid "Icon Hover Color"
+msgstr "Ikon pekefarge"
+
+#: core/widgets.php:101
+msgid "If colors are not set, skin colors will be applied."
+msgstr "Hvis fargen ikker er angitt, brukes standard farge."
+
+#: core/widgets.php:106
+msgid "Manage Social Icons"
+msgstr "Administrer sosiale ikoner"
+
+#: functions.php:141 functions.php:161
+msgid "Please wait..."
+msgstr "Vennligst vent ..."
+
+#: functions.php:142 functions.php:162
+msgid "Subscribe"
+msgstr "Abonner"
+
+#: functions.php:143 functions.php:163 template-parts/contact-form.php:65
+msgid "SUBMIT"
+msgstr "Send"
+
+#: functions.php:238
+msgid "Missing Attachment"
+msgstr "Manglende vedlegg"
+
+#: functions.php:265
+msgid "Sidebar"
+msgstr "Sidepanel"
+
+#: functions.php:267
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Legg til widgets her for at de skal vises i sidepanelet."
+
+#: functions.php:276 inc/theme_options.php:72 inc/theme_options.php:202
+#: inc/theme_options.php:579
+msgid "Header"
+msgstr "Overskrift"
+
+#: functions.php:278
+msgid "Add widgets here to appear in your header."
+msgstr "Legg til widgets som skal vises i toppteksten."
+
+#: functions.php:287 functions.php:296 functions.php:305
+#: inc/theme_options.php:76 inc/theme_options.php:317 inc/theme_options.php:823
+#: inc/theme_options.php:829 inc/theme_options.php:849
+#: inc/theme_options.php:855
+msgid "Footer"
+msgstr "Bunntekst"
+
+#: functions.php:289 functions.php:298 functions.php:307
+msgid "Add widgets here to appear in your footer."
+msgstr "Legg til widgets her for at de skal vises i bunnteksten."
+
+#: inc/OCSpamProtection.php:199
+msgid "Please Wait"
+msgstr "Vennligst vent ..."
+
+# This is will be a small text hyperlink given under captcha fields. This will take the site administrator to captcha enable/disable control in customizer.
+#: inc/OCSpamProtection.php:204
+msgid "Captcha Settings"
+msgstr "Captcha-innstillinger"
+
+# This is an error message that becomes visible if someone cannot do their math. You are welcome to change it a bit to make it shorter, for example, "That is not correct, try again".
+# ____________________________
+#: inc/OCSpamProtection.php:351 inc/core_functions.php:380
+msgid "Invalid answer, please try again."
+msgstr "Det var dessverre ikke riktig svar, prøv igjen."
+
+#: inc/OCSpamProtection.php:360 inc/core_functions.php:282
+#: inc/core_functions.php:389
+msgid "Some error occurred, please reload the page and try again."
+msgstr "Det oppsto en feil, vennligst last siden inn på nytt og prøv igjen."
+
+#: inc/OCSpamProtection.php:389 inc/OCSpamProtection.php:393
+msgid " <b>Something went wrong! Please try again!</b>"
+msgstr "Det oppsto en feil. Vennligst prøv igjen."
+
+# This is an error message that becomes visible if someone cannot do their math. You are welcome to change it a bit to make it shorter, for example, "That is not correct, try again".
+# ____________________________
+#: inc/OCSpamProtection.php:395
+msgid "<b>Invalid answer, please try again.</b>"
+msgstr "Det var dessverre ikke riktig svar, prøv igjen."
+
+#
+# Label for CAPTCHA. If the translation becomes too long, leave out "below" or just stick to "Type in the answer".
+#
+# _________________________________
+#: inc/OCSpamProtection.php:405 inc/core_functions.php:423
+msgid "Type in the answer to the sum below:"
+msgstr "Skriv inn svaret nedenfor."
+
+# Enable captcha on comment forms
+#: inc/OCSpamProtection.php:477
+msgid "Enable captcha on comment form"
+msgstr "Aktiver captcha på kommentarskjema"
+
+# Please note that if you are using any spam prevention or captcha plugins for your comment forms then this should be disabled.
+#: inc/OCSpamProtection.php:478
+msgid ""
+"Please note that if you are using any spam prevention or captcha plugins for "
+"your comment forms then disable this."
+msgstr ""
+"Deaktiver denne funksjonen dersom du allerede bruker en annen captcha eller "
+"forebyggende spam-plugginn, for å unngå konflikter."
+
+#: inc/category-media.php:41 inc/category-media.php:73
+msgid "Image"
+msgstr "Bilde"
+
+#: inc/category-media.php:45 inc/category-media.php:84
+msgid "Add Image"
+msgstr "Legg til bilde"
+
+#: inc/category-media.php:46 inc/category-media.php:85
+msgid "Remove Image"
+msgstr "Fjern bilde"
+
+#: inc/core_functions.php:51 inc/theme_options.php:334
+msgid "Text Color"
+msgstr "Tekstfarge"
+
+#: inc/core_functions.php:52
+msgid "Hover Text Color"
+msgstr "Pekefølsom kobling tekstfarge"
+
+#: inc/core_functions.php:53 inc/core_functions.php:60
+msgid "Background Color"
+msgstr "Bakgrunnsfarge"
+
+#: inc/core_functions.php:54
+msgid "Hover Background Color"
+msgstr "Bakgrunnsfarge"
+
+#: inc/core_functions.php:58
+msgid "Big Text Color"
+msgstr "Farge stor tekst"
+
+#: inc/core_functions.php:59
+msgid "Small Text Color"
+msgstr "Farge liten tekst"
+
+#: inc/core_functions.php:196
+msgid "Name is empty or too short."
+msgstr "Navn er tomt eller for kort."
+
+#: inc/core_functions.php:200
+msgid "Name is too large."
+msgstr "Navn er for langt."
+
+#: inc/core_functions.php:204
+msgid "Email entered is not valid."
+msgstr "Oppgitt e-post er ikke gyldig."
+
+#: inc/core_functions.php:208
+msgid "Email is too large."
+msgstr "E-post er for lang."
+
+#: inc/core_functions.php:212
+msgid "Message text is empty or too short."
+msgstr "Meldingstekst er tom eller for kort."
+
+#: inc/core_functions.php:216
+msgid "Message is too large, please shorten it."
+msgstr "Melding er for lang, vennligst forkort den."
+
+#: inc/core_functions.php:226 template-parts/contact-form.php:26
+msgid "Email"
+msgstr "E-post"
+
+#: inc/core_functions.php:230 template-parts/contact-form.php:17
+msgid "Name"
+msgstr "Navn"
+
+#: inc/core_functions.php:235 template-parts/contact-form.php:35
+msgid "Message"
+msgstr "Melding"
+
+#: inc/core_functions.php:242
+msgid "Contact query from website"
+msgstr "Kontaktskjema dra nettside"
+
+#: inc/core_functions.php:250
+msgid "You received a new message from"
+msgstr "Du har mottatt en ny melding fra"
+
+#: inc/core_functions.php:251
+msgid "via the contact form on"
+msgstr "via kontaktskjemaet på"
+
+#: inc/core_functions.php:252
+msgid "Contact Details"
+msgstr "Kontaktopplysninger"
+
+#: inc/core_functions.php:277
+msgid "Your message has been successfully sent."
+msgstr "Meldingen din er sendt."
+
+#: inc/core_functions.php:304
+msgctxt "Post Type General Name"
+msgid "Tutorials"
+msgstr "Tutorial"
+
+#: inc/core_functions.php:305
+msgctxt "Post Type Singular Name"
+msgid "Tutorial"
+msgstr "Tutorial"
+
+#: inc/core_functions.php:306
+msgid "New Tutorial"
+msgstr "Ny tutorial"
+
+#: inc/core_functions.php:307
+msgid "Edit Tutorial"
+msgstr "Rediger tutorial"
+
+#: inc/core_functions.php:308
+msgid "Update Tutorial"
+msgstr "Oppdater tutorial"
+
+#: inc/core_functions.php:309
+msgid "View Tutorial"
+msgstr "Se tutorial"
+
+#: inc/core_functions.php:310
+msgid "View Tutorials"
+msgstr "Se tutorials"
+
+#: inc/core_functions.php:313
+msgid "Tutorial"
+msgstr "Tutorial"
+
+#: inc/core_functions.php:314
+msgid "Tutorial Description"
+msgstr "Beskrivelse av tutorial"
+
+#: inc/core_functions.php:346
+msgid "Search Tutorials Types"
+msgstr "Søk tutorialtyper"
+
+#: inc/core_functions.php:347
+msgid "All Tutorials Types"
+msgstr "Alle tutorialtyper"
+
+#: inc/core_functions.php:348
+msgid "Parent Tutorials Type"
+msgstr "Hovedtutorialtype"
+
+#: inc/core_functions.php:349
+msgid "Parent Tutorials Type:"
+msgstr "Hovedtutorialtype:"
+
+#: inc/core_functions.php:350
+msgid "Edit Tutorials Type"
+msgstr "Rediger tutorialtype"
+
+#: inc/core_functions.php:351
+msgid "Update Tutorials Type"
+msgstr "Oppdater tutorialtype"
+
+#: inc/core_functions.php:352
+msgid "Add New Tutorials Type"
+msgstr "Legg til ny tutorialtype"
+
+#: inc/core_functions.php:353
+msgid "New Tutorials Type"
+msgstr "Ny tutorialtype"
+
+#: inc/core_functions.php:354
+msgid "Tutorials Type"
+msgstr "Tutorialtype"
+
+#: inc/theme_metaboxes.php:26 inc/theme_metaboxes.php:279
+#: inc/theme_metaboxes.php:324 inc/theme_metaboxes.php:535
+#: inc/theme_options.php:759
+msgid "Page Sections"
+msgstr "Sideinndeling"
+
+#: inc/theme_metaboxes.php:35
+msgid "Services"
+msgstr "Tjenester"
+
+#: inc/theme_metaboxes.php:40 inc/theme_metaboxes.php:85
+#: inc/theme_metaboxes.php:142 inc/theme_metaboxes.php:190
+#: inc/theme_metaboxes.php:244 inc/theme_metaboxes.php:376
+#: inc/theme_metaboxes.php:500 inc/theme_metaboxes.php:567
+msgid "Show Section"
+msgstr "Vis inndeling"
+
+#: inc/theme_metaboxes.php:54 inc/theme_metaboxes.php:113
+#: inc/theme_metaboxes.php:157 inc/theme_metaboxes.php:215
+#: inc/theme_metaboxes.php:406 inc/theme_metaboxes.php:515
+#: inc/theme_metaboxes.php:582
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: inc/theme_metaboxes.php:62
+msgid "Show Services"
+msgstr "Vis tjenester"
+
+#: inc/theme_metaboxes.php:71
+msgid "Select Services"
+msgstr "Velg tjenester"
+
+#: inc/theme_metaboxes.php:72
+msgid "The selected services will be displayed."
+msgstr "De valgte tjenester vil bli vist."
+
+#: inc/theme_metaboxes.php:80 inc/theme_metaboxes.php:562
+#: inc/theme_options.php:295
+msgid "Featured"
+msgstr "Aktuelt"
+
+#: inc/theme_metaboxes.php:92 inc/theme_metaboxes.php:258
+#: inc/theme_metaboxes.php:383
+msgid "Banner Image"
+msgstr "Bannerbilde"
+
+#: inc/theme_metaboxes.php:106 inc/theme_metaboxes.php:206
+#: inc/theme_metaboxes.php:307 inc/theme_metaboxes.php:351
+msgid "Title Icon"
+msgstr "Tittelikon"
+
+#: inc/theme_metaboxes.php:122 inc/theme_metaboxes.php:224
+msgid "Button Label"
+msgstr "Knappetikett"
+
+#: inc/theme_metaboxes.php:129 inc/theme_metaboxes.php:232
+#: inc/theme_metaboxes.php:363
+msgid "Button Link"
+msgstr "Knappelenke"
+
+#: inc/theme_metaboxes.php:137 inc/theme_metaboxes.php:166
+#: inc/theme_metaboxes.php:495 inc/theme_metaboxes.php:524
+msgid "Gallery"
+msgstr "Galleri"
+
+#: inc/theme_metaboxes.php:177
+msgid "Service Details"
+msgstr "Tjenestedetaljer"
+
+#: inc/theme_metaboxes.php:185 inc/theme_metaboxes.php:263
+#: inc/theme_metaboxes.php:286 inc/theme_metaboxes.php:331
+#: inc/theme_metaboxes.php:542
+msgid "Content"
+msgstr "Innhold"
+
+#: inc/theme_metaboxes.php:197
+msgid "Show Title Icon"
+msgstr "Vis tittelikon"
+
+#: inc/theme_metaboxes.php:239 inc/theme_metaboxes.php:251
+msgid "Information Blocks"
+msgstr "Informasjonsblokker"
+
+#: inc/theme_metaboxes.php:291 inc/theme_metaboxes.php:336
+#: inc/theme_metaboxes.php:547
+msgid "Show Title"
+msgstr "Vis tittel"
+
+#: inc/theme_metaboxes.php:299 inc/theme_metaboxes.php:343
+#: inc/theme_metaboxes.php:555
+msgid "Custom Title"
+msgstr "Egendefinert tittel"
+
+#: inc/theme_metaboxes.php:314 inc/theme_metaboxes.php:357
+msgid "Button Title"
+msgstr "Knappetittel"
+
+#: inc/theme_metaboxes.php:371
+msgid "Form Section"
+msgstr "Skjemainndeling"
+
+#: inc/theme_metaboxes.php:398
+msgid "Icon"
+msgstr "Ikon"
+
+#: inc/theme_metaboxes.php:414
+msgid "Form Fields Labels"
+msgstr "Etiketter til skjemafelt"
+
+#: inc/theme_metaboxes.php:460
+msgid "Email Subject"
+msgstr "E-postemne"
+
+#: inc/theme_metaboxes.php:468
+msgid "Recipients"
+msgstr "Mottakere"
+
+#: inc/theme_metaboxes.php:469
+msgid "Provide email accounts where you want to receive emails from this form."
+msgstr ""
+"Oppgi e-postkontoer som du vil at dette skjemaet skal sende e-post til."
+
+#: inc/theme_metaboxes.php:476
+msgid "Custom Form"
+msgstr "Egendefinert skjema"
+
+#: inc/theme_metaboxes.php:477
+msgid "This will replace the default form."
+msgstr "Dette erstatter standardskjema."
+
+#: inc/theme_metaboxes.php:484
+msgid "Form Embed Code or Shortcode"
+msgstr "Skjema Embed Code eller Shortcode"
+
+#: inc/theme_metaboxes.php:485
+msgid ""
+"Please copy and paste the Embed Code or Shortcode of the custom form (if "
+"any). This will replace the default form."
+msgstr ""
+"Kopier og lim inn Embed Code eller Shortcode til det egendefinerte skjemaet "
+"(hvis aktuelt). Dette erstatter standardskjema."
+
+#: inc/theme_metaboxes.php:597 inc/theme_options.php:84
+msgid "Layout"
+msgstr "Oppsett"
+
+#: inc/theme_metaboxes.php:612 inc/theme_options.php:938
+#: inc/theme_options.php:963
+msgid "Right Sidebar"
+msgstr "Høyre sidestolpe"
+
+#: inc/theme_metaboxes.php:617 inc/theme_options.php:943
+#: inc/theme_options.php:968
+msgid "No Sidebar"
+msgstr "Ingen sidestolpe"
+
+#: inc/theme_metaboxes.php:622 inc/theme_options.php:948
+#: inc/theme_options.php:973
+msgid "Left Sidebar"
+msgstr "Venstre sidestolpe"
+
+#: inc/theme_options.php:80
+msgid "Typography"
+msgstr "Typografi"
+
+#: inc/theme_options.php:88
+msgid "Social"
+msgstr "Sosiale medier"
+
+#: inc/theme_options.php:92
+msgid "Color Scheme"
+msgstr "Fargevalg"
+
+#: inc/theme_options.php:96
+msgid "Advanced"
+msgstr "Avansert"
+
+#: inc/theme_options.php:100 inc/theme_options.php:1208
+msgid "Import"
+msgstr "Importer"
+
+#: inc/theme_options.php:108
+msgid "Skin - Primary Color"
+msgstr "Skall - Primærfarge"
+
+#: inc/theme_options.php:115
+msgid "Skin - Secondary Color"
+msgstr "Skall - Sekundærfarge"
+
+#: inc/theme_options.php:122
+msgid "Customize Skin"
+msgstr "Egendefinert skall"
+
+#: inc/theme_options.php:123
+msgid ""
+"Custom colors selection may override the Primary and Secondary Skin colors "
+"at some places"
+msgstr ""
+"Egendefinerte fargevalg kan overstyre primære og sekundære skallfarger noen "
+"steder"
+
+#: inc/theme_options.php:131 inc/theme_options.php:624
+#: inc/theme_options.php:630
+msgid "Body"
+msgstr "Brødtekst"
+
+#: inc/theme_options.php:137 inc/theme_options.php:209
+#: inc/theme_options.php:324
+msgid "Background"
+msgstr "Bakgrunn"
+
+#: inc/theme_options.php:138
+msgid "Body background with image, color, etc."
+msgstr "Bakgrunn med bilde, farge osv."
+
+#: inc/theme_options.php:149
+msgid "Show Background Image"
+msgstr "Vis bakgrunnsbilde"
+
+#: inc/theme_options.php:158
+msgid "Body Text Color"
+msgstr "Brødtekstfarge"
+
+#: inc/theme_options.php:166
+msgid "Headings Colors"
+msgstr "Overskriftsfarge"
+
+#: inc/theme_options.php:181 inc/theme_options.php:765
+msgid "Page Title"
+msgstr "Sidetittel"
+
+#: inc/theme_options.php:189
+msgid "Link Color"
+msgstr "Lenkefarge"
+
+#: inc/theme_options.php:219
+msgid "Logo Text Color"
+msgstr "Farge logotekst"
+
+#: inc/theme_options.php:230
+msgid "Menu"
+msgstr "Meny"
+
+#: inc/theme_options.php:237
+msgid "Menu Background Color"
+msgstr "Meny bakgrunnstekst"
+
+#: inc/theme_options.php:247
+msgid "Menu Item Color"
+msgstr "Farge menyelement"
+
+#: inc/theme_options.php:259
+msgid "Menu Item Background Color"
+msgstr "Bakgrunnsfarge menyelement"
+
+#: inc/theme_options.php:271
+msgid "Submenu Item Color"
+msgstr "Farge undermenyelement"
+
+#: inc/theme_options.php:283
+msgid "Submenu Item Background Color"
+msgstr "Bakgrunnsfarge for undermenyelement"
+
+#: inc/theme_options.php:301
+msgid "Section Title"
+msgstr "Inndelingstittel"
+
+#: inc/theme_options.php:309
+msgid "Section Content"
+msgstr "Inndelingsinnhold"
+
+#: inc/theme_options.php:342 inc/theme_options.php:875
+msgid "Buttons"
+msgstr "Knapper"
+
+#: inc/theme_options.php:350 inc/theme_options.php:881
+msgid "Content Buttons"
+msgstr "Innholdsknapper"
+
+#: inc/theme_options.php:363
+msgid "Content Buttons - Show Border"
+msgstr "Innholdsknapper - Vis kantlinje"
+
+#: inc/theme_options.php:371
+msgid "Content Buttons - Border"
+msgstr "Innholdsknapper - Kantlinje"
+
+#: inc/theme_options.php:378
+msgid "Content Buttons - Border Radius"
+msgstr "Innholdsknapper - Radius kantlinje"
+
+#: inc/theme_options.php:387 inc/theme_options.php:900
+msgid "Form Buttons"
+msgstr "Skjemaknapper"
+
+#: inc/theme_options.php:400
+msgid "Form Buttons - Show Border"
+msgstr "Skjemaknapper - Vis kantlinje"
+
+#: inc/theme_options.php:408
+msgid "Form Buttons - Border"
+msgstr "Skjemaknapp - Kantlinje"
+
+#: inc/theme_options.php:415
+msgid "Form Buttons - Border Radius"
+msgstr "Skjemaknapper - Radius kantlinje"
+
+#: inc/theme_options.php:426
+msgid "Show Logo"
+msgstr "Vis logo"
+
+#: inc/theme_options.php:434
+msgid "Upload Logo"
+msgstr "Last opp logo"
+
+#: inc/theme_options.php:435
+msgid "Site title will be displayed if no image uploaded."
+msgstr "Nettstedtittel vises hvis ingen bilder er lastet opp."
+
+#: inc/theme_options.php:435
+msgid "Site title"
+msgstr "Sidetittel"
+
+#: inc/theme_options.php:445
+msgid "Show Header"
+msgstr "Vis header"
+
+#: inc/theme_options.php:453
+msgid "Show Header Image"
+msgstr "Vis header"
+
+#: inc/theme_options.php:462
+msgid "Upload Header Image"
+msgstr "Last opp headerbilde"
+
+#: inc/theme_options.php:472
+msgid "Header Left Text"
+msgstr "Header venstre tekst"
+
+#: inc/theme_options.php:481
+msgid "Header Right Text"
+msgstr "Header høyre tekst"
+
+#: inc/theme_options.php:490
+msgid "Header Subtitle"
+msgstr "Header underoverskrift"
+
+#: inc/theme_options.php:499
+msgid "Header Tagline"
+msgstr "Header tagline"
+
+#: inc/theme_options.php:508
+msgid "Manage Site Title"
+msgstr "Administrer nettsidetittel"
+
+#: inc/theme_options.php:509 inc/theme_options.php:519
+msgid "Manage Logo Text"
+msgstr "Administrer logotekst"
+
+#: inc/theme_options.php:509
+msgid "To change the font style of logo"
+msgstr "Slik endrer du skrifttypestilen på logoen"
+
+#: inc/theme_options.php:509
+msgid "Typography > Header Font Style > Logo Font Style"
+msgstr "Typografi > Skrifttypestil for topptekst > Skrifttypestil for logo"
+
+#: inc/theme_options.php:520
+msgid "Manage Header Menu"
+msgstr "Administrere topptekstmeny"
+
+#: inc/theme_options.php:520
+msgid "To change the font style of header"
+msgstr "Slik endrer du skrifttypen på toppteksten"
+
+#: inc/theme_options.php:520
+msgid "Typography > Header Font Style > Header Menu Font Style"
+msgstr "Typografi > Skrifttypestil topptekst > Skrifttypestil topptekstmeny"
+
+#: inc/theme_options.php:528
+msgid "Upload Favicon"
+msgstr "Last opp Favicon"
+
+#: inc/theme_options.php:528
+msgid "Upload favicon of your website."
+msgstr "Last opp favicon for nettstedet."
+
+#: inc/theme_options.php:528
+msgid "Customize > Site Identity > Site Icon"
+msgstr "Tilpass > Nettsted Identitet > Site Icon"
+
+#: inc/theme_options.php:537
+msgid "Font Families"
+msgstr "Skrifttypefamilier"
+
+#: inc/theme_options.php:538
+msgid "Add fonts in your website."
+msgstr "Legg til skrifttyper på nettsiden."
+
+#: inc/theme_options.php:538
+msgid "The newly added font families will appear after saving the options."
+msgstr "Den nye skrifttypefamilien vises etter at du har lagret."
+
+#: inc/theme_options.php:563
+msgid "Font Styles"
+msgstr "Skrifttypestiler"
+
+#: inc/theme_options.php:564
+msgid ""
+"Theme's default font properties can be changed from the section specific "
+"tabs given below."
+msgstr ""
+"Temaets standard skrifttypeegenskaper kan endres fra de inndelingsspesifikke "
+"fanene nedenfor."
+
+#: inc/theme_options.php:585
+msgid "Logo Font Style"
+msgstr "Logo-skrifttype"
+
+#: inc/theme_options.php:586
+msgid "This will change the typography of logo text only."
+msgstr "Dette endrer bare typografien på logoteksten."
+
+#: inc/theme_options.php:604
+msgid "Header Menu Font Style"
+msgstr "Skrifttype for overskriftsmeny"
+
+#: inc/theme_options.php:605
+msgid "This will change the typography of navigation menu in header."
+msgstr "Dette endrer bare typografien på navigasjonsmenyen."
+
+#: inc/theme_options.php:631 inc/theme_options.php:804
+msgid "This will change the typography of content areas only."
+msgstr "Dette endrer bare typografien på innholdsområdet."
+
+#: inc/theme_options.php:650
+msgid "H1 Font Style"
+msgstr "H1 Skriftstil"
+
+#: inc/theme_options.php:668
+msgid "H2 Font Style"
+msgstr "H2 Skriftstil"
+
+#: inc/theme_options.php:686
+msgid "H3 Font Style"
+msgstr "H3 Skriftstil"
+
+#: inc/theme_options.php:704
+msgid "H4 Font Style"
+msgstr "H4 Skriftstil"
+
+#: inc/theme_options.php:722
+msgid "H5 Font Style"
+msgstr "H5 Skriftstil"
+
+#: inc/theme_options.php:740
+msgid "H6 Font Style"
+msgstr "H6 Skriftstil"
+
+#: inc/theme_options.php:766
+msgid "This will change the typography of main titles on pages."
+msgstr "Dette endrer typografien på hovedoverskriftene på sidene."
+
+#: inc/theme_options.php:784
+msgid "Section Titles Font Style"
+msgstr "Inndelingstittel skrifttypestil"
+
+#: inc/theme_options.php:785
+msgid "This will change the typography of section titles on pages."
+msgstr "Dette endrer typografien til inndelingstitlene på sidene."
+
+#: inc/theme_options.php:803
+msgid "Text"
+msgstr "Tekst"
+
+#: inc/theme_options.php:830 inc/theme_options.php:856
+msgid "This will change the typography of the Footer."
+msgstr "Dette endrer typografien på bunnteksten."
+
+#: inc/theme_options.php:920
+msgid "Show Post Metadata"
+msgstr "Vis metadata for innlegg"
+
+#: inc/theme_options.php:921
+msgid "This will show/hide the post details."
+msgstr "Dette viser/skjuler detaljer om innlegget."
+
+#: inc/theme_options.php:921
+msgid "For example: Post Author, Published Date, Post Categories"
+msgstr "For eksempel: forfatter, publisert dato og kategori"
+
+#: inc/theme_options.php:930
+msgid "Blog Listing - Page Layout"
+msgstr "Bloggoppføring - Sideoppsett"
+
+#: inc/theme_options.php:931
+msgid ""
+"This will change the visibility and position of sidebar on the blog post "
+"listing pages."
+msgstr ""
+"Dette endrer synligheten og plasseringen av sidestolpen på sider med lister "
+"over bloggposter."
+
+#: inc/theme_options.php:955
+msgid "Single Post - Page Layout"
+msgstr "Enkelt innlegg - Sideoppsett"
+
+#: inc/theme_options.php:956
+msgid ""
+"This will change the visibility and position of sidebar on the post details "
+"pages."
+msgstr ""
+"Dette endrer synligheten og plasseringen av sidestolpen på sidene med "
+"innleggsdetaljer."
+
+#: inc/theme_options.php:956
+msgid "Note: You can override this setting on a specific post."
+msgstr "Merk: Du kan overstyre denne innstillingen på et bestemt innlegg."
+
+#: inc/theme_options.php:981
+msgid "Social Links"
+msgstr "Sosiale lenker"
+
+#: inc/theme_options.php:982
+msgid "Enter your social profile links here:"
+msgstr "Skriv inn  lenker til profiler på sosiale medier her:"
+
+#: inc/theme_options.php:994
+msgid "Social Profile Icon"
+msgstr "Sosial profil-ikon"
+
+#: inc/theme_options.php:1148
+msgid "Social Profile Link"
+msgstr "Sosial profil-lenke"
+
+#: inc/theme_options.php:1157
+msgid "Footer Color"
+msgstr "Bunntekstfarge"
+
+#: inc/theme_options.php:1165
+msgid "Manage Footer Widgets"
+msgstr "Administrer bunnekst-widgets"
+
+#: inc/theme_options.php:1166
+msgid "Edit Footer Widgets"
+msgstr "Rediger bunntekst-widgets"
+
+#: inc/theme_options.php:1175
+msgid "Custom CSS"
+msgstr "Egendefinert CSS"
+
+#: inc/theme_options.php:1176
+msgid "The rules added here will be applied as additional CSS."
+msgstr "Reglene lagt til her gjelder som ekstra CSS."
+
+#: inc/theme_options.php:1183
+msgid "Head Scripts"
+msgstr "Hovedscript"
+
+#: inc/theme_options.php:1184
+msgid "Scripts to be inserted in \"head\" tag."
+msgstr "Scrip for innsetting i \"head\"-taggen."
+
+#: inc/theme_options.php:1192
+msgid "Footer Scripts"
+msgstr "Bunntekst-script"
+
+#: inc/theme_options.php:1193
+msgid "Scripts to be inserted after footer."
+msgstr "Script som kan settes inn etter bunnteksten."
+
+#: inc/theme_options.php:1201
+msgid "404 Page Content"
+msgstr "404 Sideinnhold"
+
+#: searchform.php:3
+msgid "Search for:"
+msgstr "Søk etter:"
+
+#: searchform.php:9
+msgid "Search"
+msgstr "Søk"
+
+#: template-parts/content-blog.php:43
+msgid "Read More"
+msgstr "Les mer"
+
+#: template-parts/content-none.php:8
+msgid "No entries found!"
+msgstr "Ingen oppføringer funnet!"
+
+#: template-parts/content-none.php:10
+msgid "Try searching with a different keyword."
+msgstr "Prøv å søke med et annet søkeord."
+
+#: template-parts/content-none.php:12
+msgid "Try a search instead"
+msgstr "Prøv heller et søk"
+
+#: template-parts/section-blog-info.php:13
+#, php-format
+msgid "Search: %s"
+msgstr "Søk:%s"

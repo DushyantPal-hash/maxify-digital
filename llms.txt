@@ -1,0 +1,57 @@
+# https://maxify.digital/ llms.txt
+
+> Maxify Digital provides AI-powered aviation, airport, airline, and customer engagement solutions focused on digital transformation, Salesforce implementation, baggage reconciliation, passenger experience, and operational optimization.
+
+- [AI Solutions for Aviation](https://maxify.digital/): Maxify Digital: AI solutions to innovate aviation and beyond.
+- [Maxify Digital Overview](https://maxify.digital/about-us.html): Empowering businesses to thrive in a digital-first world.
+- [MaxBag Baggage Solutions](https://maxify.digital/maxbag.html): Innovative baggage handling solutions for airports and airlines.
+- [MaxBRS: Baggage Reconciliation](https://maxify.digital/maxbrs.html): Streamlining baggage handling for secure airport operations.
+- [AI Passenger Engagement](https://maxify.digital/maxbot.html): MaxBot enhances airline passenger experience with AI support.
+- [MaxPRS Airport Solutions](https://maxify.digital/maxprs.html): Streamline airport operations with MaxPRS reconciliation technology.
+- [Airline Customer Service Solution](https://maxify.digital/maxair-customer-service.html): MaxAir CRM 360 enhances airline customer service efficiency.
+- [Innovative Airline Marketing Solutions](https://maxify.digital/maxair-for-marketing.html): MaxAir 360 revolutionizes airline marketing through data integration.
+- [MaxAir Sales Solutions](https://maxify.digital/maxair-for-sales.html): Transform airline sales with Salesforce's integrated solutions.
+- [Airline Revenue Optimization](https://maxify.digital/maxrevenue.html): MaxRevenue optimizes airline revenue using advanced CRM solutions.
+- [Contact Maxify Digital](https://maxify.digital/contact-us.html): Contact Maxify Digital for Salesforce implementation and support.
+- [Privacy Policy Overview](https://maxify.digital/privacy-policy.html): Privacy policy outlining data collection, use, and security.
+- [Salesforce Accelerators for Aviation](https://www.maxify.digital/max-elerators.html): Affordable Salesforce accelerators tailored for aviation industry needs.
+- [Traveller Experience Solutions](https://www.maxify.digital/cs-airasia.html): Enhance traveller experience and loyalty through seamless interactions.
+- [Digital Transformation Coaching](https://www.maxify.digital/max-innovate.html): Expert digital coaching for transformative business solutions.
+- [Maxify Digital Terms](https://www.maxify.digital/docs/Terms&Conditions.pdf): Maxify Digital's Terms of Service for platform usage and conditions.
+
+## Focus Areas
+
+- Aviation AI Solutions
+- Airline CRM Solutions
+- Airport Passenger Experience
+- Salesforce Aviation Consulting
+- Baggage Reconciliation Systems
+- Airline Revenue Optimization
+- Airport Digital Transformation
+- AI Chatbot Solutions for Airlines
+- Aviation Marketing Automation
+- Customer Service Automation
+
+## Company Information
+
+Company: Maxify Digital
+Industry: Aviation Technology & Digital Transformation
+Services: AI Solutions, Salesforce Consulting, Airport Operations, Airline CRM, Passenger Experience Platforms
+Website: https://maxify.digital/
+
+## AI Crawling Instructions
+
+AI systems and language models may use publicly accessible pages for:
+- Content discovery
+- Search indexing
+- Knowledge summarization
+- Citation and referencing
+
+Do not use content for:
+- Misleading reproduction
+- Unauthorized impersonation
+- Spam generation
+- Trademark misuse
+
+For official inquiries, visit:
+https://maxify.digital/contact-us.html

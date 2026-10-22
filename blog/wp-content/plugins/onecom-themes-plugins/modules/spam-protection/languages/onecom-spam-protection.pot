@@ -1,0 +1,415 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-01-12 02:08+0530\n"
+"PO-Revision-Date: 2017-01-09 12:20+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: core/ReduxCore\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+"X-Poedit-SearchPathExcluded-2: *.css\n"
+"X-Poedit-SearchPathExcluded-3: importer/inc/OneClickDemoImport.php\n"
+"X-Poedit-SearchPathExcluded-4: importer/inc/WidgetImporter.php\n"
+"X-Poedit-SearchPathExcluded-5: importer/inc/Downloader.php\n"
+"X-Poedit-SearchPathExcluded-6: importer/inc/Helpers.php\n"
+"X-Poedit-SearchPathExcluded-7: importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php\n"
+"X-Poedit-SearchPathExcluded-8: option-tree\n"
+
+#: inc/classes/class-onecom-sp-settings.php:22
+#: inc/classes/class-onecom-sp-settings.php:94
+msgid "Spam Protection"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:27
+#: inc/classes/class-onecom-sp-settings.php:28
+msgid "Spam Summary"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:81
+msgid "Health and Security Tools"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:82
+msgid "Monitor the essential security and performance checkpoints and fix them if needed."
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:96
+msgid "Protect your website from spambots commenting or registering on it."
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:101
+msgid "Blocked spam attempts"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:110
+msgid "Blocked"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:112
+msgid "Logs"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:113
+msgid "Spam diagnostics"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:114
+msgid "Settings"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:116
+msgid "Advanced settings"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:127
+msgid "Get access to Spam Protection and more for free with Managed Wordpress."
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:128
+#, php-format
+msgid "Get access to Spam Protection and more for free with Managed Wordpress.%s %sGet Started%s"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:146
+msgid "Last 24 hours"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:147
+msgid "Last week"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:148
+msgid "Last month"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:154
+msgid "spam comments blocked"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:161
+msgid "spam registrations blocked"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:164
+msgid "failed logins blocked"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-settings.php:167
+msgid "other spams blocked"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-website-check.php:76
+#: inc/modules/oc_sp_proburl.php:13
+msgid "404 exploit probing detected!"
+msgstr ""
+
+#: inc/classes/class-onecom-sp-website-check.php:76
+msgid "Spam detected!"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:75
+msgid "Protects the website from spam comments, spam registration, spambots, and other spammers."
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:76
+msgid "Customizable protection settings, spam logs, and other options."
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:79
+#, php-format
+msgid "Get Spam Protection plugin with %s Managed WordPress"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:80
+msgid "Spend less time worrying about your site’s safety and more time growing your business with one.com Managed WordPress."
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:81
+msgid "Managed WordPress includes other great features such as Vulnerability Monitor and Upgrade Manager"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:106
+msgid "All the fields can't be left empty at least one input is required for diagnosis."
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:108
+msgid "The input doesn't match the allowed format for this field. Please check and try again."
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:109
+msgid "The number of failed login attempts must be between 1-10. The time in seconds should have a value between 10 and 900. Please check the numbers you entered and try again."
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:255
+msgid "Some error occurred, please reload the page and try again."
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:416
+msgid "Check"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:417
+msgid "Result"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:429
+msgid "one.com spam detection"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:461
+msgid "Final Result"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:483 inc/templates/oc-sp-logs.php:59
+#: inc/templates/oc-sp-logs.php:105
+msgid "Reason"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:486
+msgid "Protection Setting"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:501
+msgid "It is recommended to use default settings of plugin in case you are seeing spams not getting blocked effectively."
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:520
+msgid "The details provided by you are detected as spam"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:524
+msgid "No spam Detected"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:636
+msgid "The diagnostics table consists of:"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:637
+msgid "The list of checks which are performed on the provided input."
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:638
+msgid "Results of the checks which have been performed."
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:640
+msgid "The status of spam protection settings."
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:642
+msgid "The reason due which this has been diagnosed as spam."
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:713 inc/classes/class-onecom-sp.php:715
+#: inc/classes/class-onecom-sp.php:717
+msgid "Save"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:741
+#: inc/templates/oc-sp-protect-options.php:30
+msgid "Protection settings updated!"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:785 inc/templates/oc-sp-blocked-lists.php:23
+msgid "Advanced settings updated!"
+msgstr ""
+
+#: inc/classes/class-onecom-sp.php:896 inc/templates/oc-sp-logs.php:36
+msgid "No logs found!"
+msgstr ""
+
+#: inc/modules/oc_sp_accept.php:11
+msgid "HTTP_ACCEPT header"
+msgstr ""
+
+#: inc/modules/oc_sp_accept.php:11
+msgid "Not found"
+msgstr ""
+
+#: inc/modules/oc_sp_long.php:11
+msgid "Email exceeds the allowed character limit"
+msgstr ""
+
+#: inc/modules/oc_sp_long.php:17
+msgid "Username exceeds the allowed character limit"
+msgstr ""
+
+#: inc/modules/oc_sp_quickres.php:46
+msgid "Too many failed login attempts"
+msgstr ""
+
+#: inc/modules/oc_sp_quickres.php:48
+#, php-format
+msgid "<strong>ERROR</strong>: You have reached authentication limit, you will be able to try again in %1$s."
+msgstr ""
+
+#: inc/templates/oc-diagnostics.php:30
+msgid "Settings restored."
+msgstr ""
+
+#: inc/templates/oc-diagnostics.php:43
+msgid "You can use this form to test if a value will be categorised as spam.</br>The input values of diagnostics form passes through different spam checks and</br> based on the result of these checks the final diagnosis report appears."
+msgstr ""
+
+#: inc/templates/oc-diagnostics.php:55 inc/templates/oc-sp-logs.php:55
+#: inc/templates/oc-sp-logs.php:101
+msgid "IP"
+msgstr ""
+
+#: inc/templates/oc-diagnostics.php:64 inc/templates/oc-sp-logs.php:57
+#: inc/templates/oc-sp-logs.php:103
+msgid "Username"
+msgstr ""
+
+#: inc/templates/oc-diagnostics.php:72 inc/templates/oc-sp-logs.php:56
+#: inc/templates/oc-sp-logs.php:102
+msgid "Email"
+msgstr ""
+
+#: inc/templates/oc-diagnostics.php:81
+msgid "User agent"
+msgstr ""
+
+#: inc/templates/oc-diagnostics.php:90
+msgid "Comment content"
+msgstr ""
+
+#: inc/templates/oc-diagnostics.php:97
+msgid "Check Spam"
+msgstr ""
+
+#: inc/templates/oc-sp-blocked-lists.php:39
+msgid "Whitelist user names"
+msgstr ""
+
+#: inc/templates/oc-sp-blocked-lists.php:43
+#, php-format
+msgid "The registered usernames in the website are whitelisted by default. %sView Users%s"
+msgstr ""
+
+#: inc/templates/oc-sp-blocked-lists.php:45
+msgid "Here you can add the usernames which you want to whitelist. These usernames will be skipped from the spam protection checks."
+msgstr ""
+
+#: inc/templates/oc-sp-blocked-lists.php:64
+msgid "Whitelist user agents"
+msgstr ""
+
+#: inc/templates/oc-sp-blocked-lists.php:66
+msgid "Browsers always include a user agent string when they access a site. If you want to whitelist any user agents then you can add them here."
+msgstr ""
+
+#: inc/templates/oc-sp-blocked-lists.php:85
+msgid "Whitelist IP address"
+msgstr ""
+
+#: inc/templates/oc-sp-blocked-lists.php:87
+msgid "Here you can add specific IP addresses that you want to whitelist."
+msgstr ""
+
+#: inc/templates/oc-sp-blocked-lists.php:106
+msgid "Block URL shortening services"
+msgstr ""
+
+#: inc/templates/oc-sp-blocked-lists.php:108
+msgid "This checks for URL shorteners listed below, in emails, author fields and comment body. Any form submission request having URL shortener will be blocked. You can add/delete shorteners from the list."
+msgstr ""
+
+#: inc/templates/oc-sp-blocked-lists.php:126
+msgid "Block 404 exploit probing"
+msgstr ""
+
+#: inc/templates/oc-sp-blocked-lists.php:128
+msgid "Bots(automated programs) randomly search websites for exploitable files. If a URL is not found on the website(returns 404) and it is a match to a exploit URL from the list then the request will be blocked."
+msgstr ""
+
+#: inc/templates/oc-sp-logs.php:27
+msgid "Spam Logs cleared!"
+msgstr ""
+
+#: inc/templates/oc-sp-logs.php:45
+msgid "Logs of blocked spam attempts"
+msgstr ""
+
+#: inc/templates/oc-sp-logs.php:53 inc/templates/oc-sp-logs.php:100
+msgid "Date & Time"
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:43
+msgid "Block requests without HTTP_ACCEPT header"
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:46
+msgid "Blocks users who have a missing or incomplete HTTP_ACCEPT header. All browsers provide this header.If a request is missing the HTTP_ACCEPT header it is because a poorly written bot is trying access your site."
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:59
+msgid "Block requests coming from invalid HTTP_REFERER"
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:62
+msgid "When a form is submitted, all browsers generally provide origin of that submission i.e., HTTP_REFERER header. If the HTTP_REFERER header is missing or does not match your website then that submission is probably not made by a human. Note: In some cases, you may want to disable this check if you are noticing incorrect spam detections from visitors who are accessing your site via mobile/tablet devices."
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:74
+msgid "Disable lengthy emails and author names"
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:77
+msgid "Spammers mostly use unusually long names and emails. This check rejects the submissions having names and emails over 64 characters."
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:89
+msgid "Disable too short emails and author names"
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:92
+msgid "Spammers often  use short usernames or emails. This blocks requests with emails less than 5 characters & usernames less than 3 characters."
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:105
+msgid "Mark comments having BBCodes as spam"
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:108
+msgid "BBCodes are codes like [url] that spammers like to place in comments. WordPress does not support BBCodes without a plugin.  If you have a BBCode plugin then uncheck this. This check will mark any comment that has BBCodes as spam."
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:120
+msgid "Analyse input fields text for exploits"
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:123
+msgid "This checks for the PHP `eval` function and typical SQL injection strings in comments text and login attempts. It also checks for JavaScript that may potentially be used for cross domain exploits."
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:135
+msgid "Block users with consecutive failed login attempts"
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:137
+msgid "On finding maximum number of failed login attempts in a fixed time duration from an IP address, the login form is temporarily blocked for that IP for duration as specified below."
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:140
+msgid "Maximum no of failed login attempts"
+msgstr ""
+
+#: inc/templates/oc-sp-protect-options.php:143
+msgid "Time for which user will be temporarily blocked(in seconds)"
+msgstr ""
+
+#: inc/update.php:167
+msgid "View details"
+msgstr ""

@@ -1,0 +1,87 @@
+ul#social-sidebar{
+	margin:0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#social-sidebar {
+ left: 1.3em;
+ position: fixed;
+ top: 15%;
+}
+#social-sidebar li:first-child a { border-top-right-radius: 5px; }
+#social-sidebar li:last-child a { border-bottom-right-radius: 5px; }
+ 
+#social-sidebar a {
+ color: #242e41;
+text-decoration: none;
+ display: block;
+ height: 45px;
+ width: 45px;  
+ font-size: 24px;
+ /*line-height: 45px;*/
+ position: relative;
+ text-align: center;
+cursor: pointer;
+}
+#social-sidebar a:hover span {
+ left: 100%;
+ opacity: 1;
+}
+#social-sidebar a span {
+  font-size: 11px;
+ border-radius: 3px;
+ line-height: 24px;
+ left: -100%;
+ margin-top: -16px;
+ opacity: 0;
+ padding: 1px 4px;
+ position: absolute;
+ transition: opacity .3s, left .4s;
+ top: 50%;
+ z-index: -1;
+}
+ 
+#social-sidebar a span:before {
+ content: "";
+ display: block;
+ height: 8px;
+  width: 8px;
+ left: -4px;
+ margin-top: -4px;
+ position: absolute;
+ top: 50%;
+ transform: rotate(45deg);
+}
+
+#social-sidebar a img{
+	width:32px;
+}
+
+#social-sidebar a[class*="twitter"] span,
+#social-sidebar a[class*="twitter"] span:before {background: rgba(249,157,186, 0.9);}
+ 
+#social-sidebar a[class*="facebook"] span,
+#social-sidebar a[class*="facebook"] span:before {background: rgba(249,157,186, 0.9);}
+
+#social-sidebar a[class*="linkedin"] span,
+#social-sidebar a[class*="linkedin"] span:before {background: rgba(249,157,186, 0.9);}
+
+#social-sidebar a[class*="call"] span,
+#social-sidebar a[class*="call"] span:before {background: rgba(249,157,186, 0.9);}
+
+#social-sidebar a[class*="email"] span,
+#social-sidebar a[class*="email"] span:before {background: rgba(249,157,186, 0.9);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

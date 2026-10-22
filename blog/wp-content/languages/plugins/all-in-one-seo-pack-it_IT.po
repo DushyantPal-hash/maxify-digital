@@ -1,0 +1,416 @@
+# Translation of Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Development (trunk) in Italian
+# This file is distributed under the same license as the Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-26 21:37:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Development (trunk)\n"
+
+#: app/Common/Views/sitemap/html/widget-options.php:128
+msgid "ID"
+msgstr "ID"
+
+#: app/Common/Breadcrumbs/Widget.php:104
+msgid "Title:"
+msgstr "Titolo:"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:647
+msgid "media"
+msgstr "media"
+
+#: app/Common/Admin/Admin.php:158
+msgid "Dashboard"
+msgstr "Bacheca"
+
+#: app/Common/Admin/Admin.php:196
+msgid "Tools"
+msgstr "Strumenti"
+
+#: app/Common/Traits/Helpers/Wp.php:184
+msgid "Attachments"
+msgstr "Allegati"
+
+#: app/Common/Breadcrumbs/Tags.php:118 app/Common/Utils/Tags.php:361
+msgid "Permalink"
+msgstr "Permalink"
+
+#: app/Common/Utils/Tags.php:499
+msgid "Tagline"
+msgstr "Motto"
+
+#: app/Common/Utils/Tags.php:494
+msgid "The description for your site."
+msgstr "La descrizione del tuo sito."
+
+#: app/Common/Breadcrumbs/Tags.php:141 app/Common/Utils/Tags.php:458
+msgid "Separator"
+msgstr "Separatore"
+
+#: app/Common/Utils/Tags.php:526
+msgid "Parent Title"
+msgstr "Titolo genitore"
+
+#: app/Common/Utils/Tags.php:386
+msgid "Current Year"
+msgstr "Anno corrente"
+
+#: app/Common/Utils/Tags.php:381
+msgid "Current Month"
+msgstr "Mese corrente"
+
+#: app/Common/Utils/Tags.php:376
+msgid "Current Day"
+msgstr "Giorno corrente"
+
+#: app/Common/Breadcrumbs/Tags.php:156 app/Common/Utils/Tags.php:314
+msgid "Author First Name"
+msgstr "Nome dell'autore"
+
+#: app/Common/Breadcrumbs/Tags.php:161 app/Common/Utils/Tags.php:319
+msgid "Author Last Name"
+msgstr "Cognome dell'autore"
+
+#: app/Common/Utils/Tags.php:305
+msgid "The biography of the author."
+msgstr "La biografia dell'autore."
+
+#: app/Common/Utils/Tags.php:309
+msgid "Author Name"
+msgstr "Nome dell'autore"
+
+#: app/Common/Utils/Tags.php:304
+msgid "Author Biography"
+msgstr "Biografia dell'autore"
+
+#: app/Common/Utils/Tags.php:510
+msgid "Search Term"
+msgstr "Termine di ricerca"
+
+#: app/Common/Api/Wizard.php:57
+msgid "Try Again"
+msgstr "Riprova"
+
+#: app/Common/Api/Wizard.php:261 app/Common/Api/Wizard.php:269
+msgid "Install MonsterInsights"
+msgstr "Installa MonsterInsights"
+
+#: app/Common/Tools/RobotsTxt.php:374
+msgid "Delete"
+msgstr "Elimina"
+
+#: app/Common/Tools/SystemStatus.php:104
+msgid "Url:"
+msgstr "Url:"
+
+#: app/Common/Tools/SystemStatus.php:42
+msgid "Latest version:"
+msgstr "Ultima versione:"
+
+#: app/Common/Tools/SystemStatus.php:65
+msgid "Timezone"
+msgstr "Fuso orario"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://aioseo.com/"
+msgstr "https://aioseo.com/"
+
+#: app/Common/Admin/SiteHealth.php:329 app/Common/Admin/SiteHealth.php:395
+msgid "Search Page"
+msgstr "Pagina di ricerca"
+
+#: app/Common/Admin/SiteHealth.php:328 app/Common/Admin/SiteHealth.php:394
+msgid "Date Archives"
+msgstr "Archivi per data"
+
+#: app/Common/Admin/SiteHealth.php:327 app/Common/Admin/SiteHealth.php:393
+msgid "Author Archives"
+msgstr "Archivi autore"
+
+#: app/Common/Utils/Tags.php:531
+msgid "Categories"
+msgstr "Categorie"
+
+#: app/Common/Admin/SiteHealth.php:157
+msgid "Go to Settings > General"
+msgstr "Vai su Impostazioni > Generale"
+
+#: app/Common/Admin/Admin.php:394 app/Common/Admin/Admin.php:669
+msgid "Notifications"
+msgstr "Notifiche"
+
+#: app/Common/Views/sitemap/xsl/default.php:102
+#: app/Common/Views/sitemap/xsl/default.php:190
+#: app/Common/Views/sitemap/xsl/default.php:268
+#: app/Common/Views/sitemap/xsl/templates/header.php:37
+msgid "URL"
+msgstr "URL"
+
+#: app/Common/Views/sitemap/html/widget-options.php:119
+msgid "Publish Date"
+msgstr "Data di pubblicazione"
+
+#: app/Common/Admin/Notices/Review.php:91
+msgid "Yes I love it"
+msgstr "Sì, mi piace"
+
+#: app/Common/Admin/Notices/Review.php:92
+msgid "Not Really..."
+msgstr "Non proprio..."
+
+#. Translators: 1 - The marketing site anchor name ("aioseo.com").
+#: app/Lite/Admin/Connect.php:288
+msgid "Plugin installed & activated."
+msgstr "Plugin installato e attivato."
+
+#: app/Common/Admin/Admin.php:298
+msgid "Update"
+msgstr "Aggiorna"
+
+#: app/Common/Admin/Admin.php:920
+msgid "Give us a 5-star rating!"
+msgstr "Lasciaci una valutazione 5 stelle!"
+
+#: app/Common/Admin/Admin.php:300
+msgid "(no title)"
+msgstr "(senza titolo)"
+
+#: app/Common/Admin/Admin.php:302
+msgid "No results found."
+msgstr "Nessun risultato trovato."
+
+#: app/Common/Admin/Admin.php:299
+msgid "Add Link"
+msgstr "Aggiungi link"
+
+#: app/Common/Admin/Admin.php:304
+msgid "Link has been inserted."
+msgstr "Il link è stato inserito."
+
+#: app/Common/Breadcrumbs/Tags.php:197
+msgid "The page number."
+msgstr "Il numero della pagina."
+
+#: app/Common/Utils/Tags.php:329
+msgid "Category"
+msgstr "Categoria"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:637
+msgid "year"
+msgstr "anno"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:40
+msgid "URLs"
+msgstr "URL"
+
+#: app/Common/Tools/SystemStatus.php:97
+msgid "Search Engine Visibility"
+msgstr "Visibilità nel Motore di Ricerca"
+
+#: app/Common/Tools/SystemStatus.php:57
+msgid "Site Language"
+msgstr "Lingua del sito"
+
+#: app/Common/Tools/SystemStatus.php:53 app/Common/Utils/Tags.php:475
+#: app/Common/Utils/Tags.php:487
+msgid "Site Title"
+msgstr "Titolo del sito"
+
+#. Translators: This is an action link users can click to open our general
+#. documentation page.
+#: app/Lite/Main/Filters.php:58
+msgid "Documentation"
+msgstr "Documentazione"
+
+#. Translators: This is an action link users can click to purchase a license
+#. for All in One SEO Pro.
+#: app/Lite/Admin/Admin.php:42 app/Lite/Admin/Admin.php:68
+#: app/Lite/Main/Filters.php:63
+msgid "Upgrade to Pro"
+msgstr "Aggiorna a Pro"
+
+#. Translators: This is an action link users can click to open the General
+#. Settings menu.
+#: app/Common/Admin/Admin.php:553 app/Lite/Main/Filters.php:48
+msgid "SEO Settings"
+msgstr "Impostazioni SEO"
+
+#: app/Common/Views/sitemap/html/widget-options.php:92
+msgid "Taxonomies"
+msgstr "Tassonomie"
+
+#: app/Common/Sitemap/Output.php:32
+msgid "dynamically"
+msgstr "dinamicamente"
+
+#: app/Common/Tools/SystemStatus.php:221
+msgid "PHP IPTC Support"
+msgstr "Supporto IPTC PHP"
+
+#: app/Common/Tools/SystemStatus.php:225
+msgid "PHP XML Support"
+msgstr "Supporto XML PHP"
+
+#: app/Common/Tools/SystemStatus.php:73
+msgid "Site URL"
+msgstr "URL sito"
+
+#: app/Common/Tools/SystemStatus.php:69
+msgid "Home URL"
+msgstr "URL home"
+
+#: app/Common/Tools/SystemStatus.php:81
+msgid "Multisite"
+msgstr "Multisito"
+
+#: app/Common/Tools/SystemStatus.php:243
+msgid "Active Theme"
+msgstr "Tema attivo"
+
+#: app/Common/Views/sitemap/html/widget-options.php:69
+msgid "Post Types"
+msgstr "Tipi di articoli"
+
+#: app/Common/Sitemap/Xsl.php:35
+msgid "Additional Pages"
+msgstr "Pagine aggiuntive"
+
+#: app/Common/Views/sitemap/xsl/default.php:306
+msgid "Priority"
+msgstr "Priorità"
+
+#. Translators: This is an action link users can click to open our premium
+#. support.
+#: app/Lite/Main/Filters.php:53
+msgid "Support"
+msgstr "Supporto"
+
+#: app/Common/Tools/SystemStatus.php:82 app/Common/Tools/SystemStatus.php:86
+#: app/Common/Tools/SystemStatus.php:218 app/Common/Tools/SystemStatus.php:222
+#: app/Common/Tools/SystemStatus.php:226
+msgid "Yes"
+msgstr "Sì"
+
+#: app/Common/Tools/SystemStatus.php:82 app/Common/Tools/SystemStatus.php:86
+#: app/Common/Tools/SystemStatus.php:218 app/Common/Tools/SystemStatus.php:222
+#: app/Common/Tools/SystemStatus.php:226
+msgid "No"
+msgstr "No"
+
+#: app/Common/Admin/Admin.php:386 app/Common/Admin/SiteHealth.php:91
+msgid "SEO"
+msgstr "SEO"
+
+#: app/Common/Admin/Admin.php:534
+msgid "Edit SEO"
+msgstr "Modifica SEO"
+
+#. Plugin Name of the plugin
+msgid "All in One SEO"
+msgstr "All in One SEO"
+
+#: app/Common/Tools/SystemStatus.php:49
+msgid "Version"
+msgstr "Versione"
+
+#: app/Common/Tools/SystemStatus.php:78
+msgid "Default"
+msgstr "Predefinito"
+
+#: app/Common/Tools/SystemStatus.php:129 app/Common/Tools/SystemStatus.php:133
+#: app/Common/Tools/SystemStatus.php:137 app/Common/Tools/SystemStatus.php:141
+#: app/Common/Tools/SystemStatus.php:145 app/Common/Tools/SystemStatus.php:149
+#: app/Common/Tools/SystemStatus.php:153
+msgid "Not set"
+msgstr "Non impostato"
+
+#: app/Common/Tools/SystemStatus.php:185
+msgid "Memory Usage"
+msgstr "Utilizzo memoria"
+
+#: app/Common/Tools/SystemStatus.php:197
+msgid "PHP Version"
+msgstr "Versione PHP"
+
+#: app/Common/Tools/SystemStatus.php:217
+msgid "PHP Exif Support"
+msgstr "Supporto Exif PHP"
+
+#: app/Common/Tools/SystemStatus.php:177
+msgid "Operating System"
+msgstr "Sistema operativo"
+
+#: app/Common/Tools/SystemStatus.php:186
+msgid "N/A"
+msgstr "Non disponibile"
+
+#: app/Common/Tools/SystemStatus.php:201
+msgid "PHP Memory Limit"
+msgstr "Limite di memoria PHP"
+
+#: app/Common/Tools/SystemStatus.php:205
+msgid "PHP Max Upload Size"
+msgstr "Dimensione upload massima PHP"
+
+#: app/Common/Tools/SystemStatus.php:209
+msgid "PHP Max Post Size"
+msgstr "Dimensione massima Post PHP"
+
+#: app/Common/Tools/SystemStatus.php:213
+msgid "PHP Max Script Execution Time"
+msgstr "Tempo massimo di esecuzione PHP"
+
+#: app/Common/Admin/Admin.php:200
+msgid "Feature Manager"
+msgstr "Gestione delle funzionalità"
+
+#: app/Common/Migration/SocialMeta.php:79
+msgid "Run Shortcodes in Description"
+msgstr "Esegui gli shortcode nella descrizione"
+
+#: app/Common/Migration/SocialMeta.php:83
+msgid "Run Shortcodes in Title"
+msgstr "Esegui gli shortcode nel titolo"
+
+#: app/Common/Tools/SystemStatus.php:189
+msgid "MySQL Version"
+msgstr "Versione MySQL"
+
+#: app/Common/Utils/Tags.php:493
+msgid "Site Description"
+msgstr "Descrizione del sito"
+
+#: app/Common/Utils/Tags.php:521
+msgid "Description"
+msgstr "Descrizione"
+
+#: app/Common/Admin/Admin.php:301 app/Common/Models/Post.php:433
+#: app/Common/Views/sitemap/html/widget-options.php:8
+msgid "Title"
+msgstr "Titolo"
+
+#: app/Common/Tools/SystemStatus.php:129 app/Common/Tools/SystemStatus.php:133
+#: app/Common/Tools/SystemStatus.php:137 app/Common/Tools/SystemStatus.php:141
+#: app/Common/Tools/SystemStatus.php:145 app/Common/Tools/SystemStatus.php:149
+#: app/Common/Tools/SystemStatus.php:153
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#. Translators: 1 - The IP address. 2 - The user agent.
+#: app/Common/Tools/BadBotBlocker.php:228
+msgid "Blocked bot with IP %1$s -- matched user agent %2$s found in blocklist."
+msgstr "Bloccato bot con IP %1$s -- corrispondenza con user agent %2$s trovato nella blocklist."
+
+#. Translators: 1 - The IP address. 2 - The referer.
+#: app/Common/Tools/BadBotBlocker.php:237
+msgid "Blocked bot with IP %1$s -- matched referer %2$s found in blocklist."
+msgstr "Bloccato bot con IP %1$s -- corrispondenza con referer %2$s trovato nella blocklist."
+
+#: app/Common/Admin/Admin.php:162
+msgid "General Settings"
+msgstr "Impostazioni generali"

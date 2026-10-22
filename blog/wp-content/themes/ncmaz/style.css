@@ -1,0 +1,289 @@
+/*!
+Theme Name: NCMAZ
+Theme URI: https://ncmaz.chisnghiax.com/
+Author: ChisNghiax
+Author URI: https://chisnghiax.com/
+Description: Ncmaz is a theme for blog, magazines, news, multi-purpose... Great and Modern design, using React & Graphql to make the theme have many powerful functions, fast and easy page loading in Home page building. Dark mode, post format video, audio, gallery beautiful... Try using it, and it will show you great things
+Version: 2.2.5
+Tested up to: 5.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: ncmaz
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+*/
+
+/*--------------------------------------------------------------
+# Layouts
+--------------------------------------------------------------*/
+@font-face {
+  font-family: Poppins;
+  font-weight: 300;
+  src: url("assets/fonts/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 400;
+  src: url("assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 500;
+  src: url("assets/fonts/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 600;
+  src: url("assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: Poppins;
+  font-weight: 700;
+  src: url("assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+/* CSS VARIABLE ROOT */
+
+/* FONT  */
+:root {
+  --font-display: "Open Sans",sans-serif;
+  --font-body: "Open Sans",sans-serif;
+ }
+
+/* COLOR */
+:root {
+  /* // PRIMARY COLOR */
+  --c-primary-50: 238, 242, 255;
+  --c-primary-100: 224, 231, 255;
+  --c-primary-200: 199, 210, 254;
+  --c-primary-300: 165, 180, 252;
+  --c-primary-400: 129, 140, 248;
+  --c-primary-500: 99, 102, 241;
+  --c-primary-600: 79, 70, 229;
+  --c-primary-700: 67, 56, 202;
+  --c-primary-800: 55, 48, 163;
+  --c-primary-900: 49, 46, 129;
+
+  /* // SECONDARY COLOR */
+  --c-secondary-50: 240, 253, 250;
+  --c-secondary-100: 204, 251, 241;
+  --c-secondary-200: 153, 246, 228;
+  --c-secondary-300: 153, 246, 228;
+  --c-secondary-400: 45, 212, 191;
+  --c-secondary-500: 20, 184, 166;
+  --c-secondary-600: 13, 148, 136;
+  --c-secondary-700: 15, 118, 110;
+  --c-secondary-800: 17, 94, 89;
+  --c-secondary-900: 19, 78, 74;
+
+  /* // NEUTRAL COLOR */
+  --c-neutral-50: 249, 250, 251;
+  --c-neutral-100: 243, 244, 246;
+  --c-neutral-200: 229, 231, 235;
+  --c-neutral-300: 209, 213, 219;
+  --c-neutral-400: 156, 163, 175;
+  --c-neutral-500: 107, 114, 128;
+  --c-neutral-600: 75, 85, 99;
+  --c-neutral-700: 55, 65, 81;
+  --c-neutral-800: 54, 171, 217;
+  --c-neutral-900: 87, 119, 186;
+}
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+.updated:not(.published) {
+  display: none;
+}
+
+/* Comments
+--------------------------------------------- */
+.comment-content a {
+  word-wrap: break-word;
+}
+
+.bypostauthor {
+  display: block;
+}
+
+/* Widgets
+--------------------------------------------- */
+
+.widget select {
+  max-width: 100%;
+}
+
+/* Media
+--------------------------------------------- */
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+  display: inline-block;
+}
+
+/* Captions
+--------------------------------------------- */
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+  text-align: center;
+}
+
+/* Galleries
+--------------------------------------------- */
+.gallery {
+  margin-bottom: 1.5em;
+  display: grid;
+  grid-gap: 1.5em;
+}
+
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.gallery-columns-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery-columns-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.gallery-columns-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.gallery-columns-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.gallery-columns-8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.gallery-columns-9 {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.gallery-caption {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+
+/* Accessibility
+--------------------------------------------- */
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+/* Do not show the outline on the skip link target. */
+#primary[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+/* Alignments
+--------------------------------------------- */
+.alignleft {
+  /*rtl:ignore*/
+  float: left;
+
+  /*rtl:ignore*/
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.alignright {
+  /*rtl:ignore*/
+  float: right;
+
+  /*rtl:ignore*/
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+}
+
+@media (max-width: 500px) {
+  .wp-block-spacer {
+    max-height: 80px;
+  }
+}

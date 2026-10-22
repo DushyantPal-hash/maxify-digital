@@ -1,0 +1,121 @@
+# Translation of Plugins - Reading Time WP - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Reading Time WP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-10-05 17:19:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Reading Time WP - Stable (latest release)\n"
+
+#: rt-reading-time-admin.php:124
+msgid "The shortcode shows the reading time for the current page/post by default. To show the reading time for another one, use the optional \"post_id\" attribute. For example - to show the reading time for post ID 123: <code>[rt_reading_time post_id=\"123\"]</code>."
+msgstr "El shortcode muestra por defecto el tiempo de lectura de la entrada/página actual. Para mostrar el tiempo de lectura de otra, utiliza el atributo opcional «post_id». Por ejemplo -para mostrar el tiempo de lectura de la entrada con el ID 123: <code>[rt_reading_time post_id=\"123\"]</code>."
+
+#: rt-reading-time-admin.php:112
+msgid "Display on "
+msgstr "Mostrar en"
+
+#: rt-reading-time-admin.php:123
+msgid "Want to insert the reading time into your theme? Use <code>do_shortcode('[rt_reading_time]')</code>."
+msgstr "¿Quieres insertar el tiempo de lectura en tu tema? Utiliza <code>do_shortcode('[rt_reading_time]')</code>."
+
+#: rt-reading-time-admin.php:122
+msgid "Or simply use <code>[rt_reading_time]</code> to return the number with no labels."
+msgstr "O simplemente utiliza <code>[rt_reading_time]</code> para mostrar el número sin etiquetas."
+
+#: rt-reading-time-admin.php:121
+msgid "Shortcode: <code>[rt_reading_time label=\"Reading Time:\" postfix=\"minutes\" postfix_singular=\"minute\"]</code>"
+msgstr "Shortcode: <code>[rt_reading_time label=\"Tiempo de lectura:\" postfix=\"minutos\" postfix_singular=\"minuto\"]</code>"
+
+#: rt-reading-time-admin.php:116
+msgid "Update Options"
+msgstr "Actualizar las opciones"
+
+#: rt-reading-time-admin.php:109
+msgid "Select Post Types to Display Reading Time On"
+msgstr "Selecciona los tipos de contenido en los que se mostrará el tiempo de lectura"
+
+#: rt-reading-time-admin.php:107
+msgid "Include shortcodes in the reading time: "
+msgstr "Incluir los shortcodes en el tiempo de lectura:"
+
+#: rt-reading-time-admin.php:106
+msgid "Exclude images from the reading time: "
+msgstr "Excluir las imágenes del tiempo de lectura:"
+
+#: rt-reading-time-admin.php:105
+msgid "Insert Reading Time before excerpt: "
+msgstr "Insertar el tiempo de lectura antes del extracto:"
+
+#: rt-reading-time-admin.php:104
+msgid "Insert Reading Time before content: "
+msgstr "Insertar el tiempo de lectura antes del contenido:"
+
+#: rt-reading-time-admin.php:102
+msgid " (defaults to 300, the average reading speed for adults)"
+msgstr "(por defecto es 300, el promedio de velocidad de lectura en adultos)"
+
+#: rt-reading-time-admin.php:102
+msgid "Words per minute: "
+msgstr "Palabras por minuto:"
+
+#: rt-reading-time-admin.php:100
+msgid " This value appears after the reading time, when lecture time is 1 minute."
+msgstr "Este valor aparece antes del tiempo de lectura, cuando el tiempo de lectura es de 1 minuto."
+
+#: rt-reading-time-admin.php:100
+msgid "Reading time postfix singular: "
+msgstr "Postfix singular del tiempo de lectura:"
+
+#: rt-reading-time-admin.php:99
+msgid " This value appears after the reading time. Leave blank for none."
+msgstr "Este valor aparece después del tiempo de lectura. Déjalo en blanco para que no se muestre."
+
+#: rt-reading-time-admin.php:99
+msgid "Reading time postfix: "
+msgstr "Postifx del tiempo de lectura:"
+
+#: rt-reading-time-admin.php:97
+msgid " This value appears before the reading time. Leave blank for none."
+msgstr "Este valor aparece antes del tiempo de lectura. Déjalo en blanco para que no se muestre."
+
+#: rt-reading-time-admin.php:97
+msgid "Reading time label: "
+msgstr "Etiqueta del tiempo de lectura:"
+
+#: rt-reading-time-admin.php:95
+msgid "Reading Time Settings"
+msgstr "Ajustes del tiempo de lectura"
+
+#: rt-reading-time-admin.php:54
+msgid "Options saved."
+msgstr "Opciones guardadas."
+
+#: rt-reading-time-admin.php:90 rt-reading-time.php:270
+msgid "Reading Time WP Settings"
+msgstr "Ajustes de Reading Time WP"
+
+#: rt-reading-time.php:160
+msgid "< 1"
+msgstr "< 1"
+
+#: rt-reading-time.php:80
+msgid "minute"
+msgstr "minuto"
+
+#: rt-reading-time.php:79
+msgid "minutes"
+msgstr "minutos"
+
+#: rt-reading-time.php:78
+msgid "Reading Time: "
+msgstr "Tiempo de lectura:"
+
+#. Plugin Name of the plugin
+#: rt-reading-time.php:271
+msgid "Reading Time WP"
+msgstr "Reading Time WP"

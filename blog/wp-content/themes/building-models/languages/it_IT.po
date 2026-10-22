@@ -1,0 +1,941 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-10-06 13:39+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: comments.php:37
+#, php-format
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Una risposta a &ldquo;%s&rdquo;"
+
+#: comments.php:62
+msgid "Reply"
+msgstr "Rispondi"
+
+#: comments.php:71
+msgid "Previous"
+msgstr "Indietro"
+
+#: comments.php:72
+msgid "Next"
+msgstr "Avanti"
+
+#: comments.php:82
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi."
+
+#: core/widgets.php:19
+msgid "Social Icons"
+msgstr "Condividi link"
+
+#: core/widgets.php:20
+msgid "Displays social icons list."
+msgstr "Visualizza elenco icone social."
+
+#: core/widgets.php:83 inc/theme_metaboxes.php:47 inc/theme_metaboxes.php:99
+#: inc/theme_metaboxes.php:149 inc/theme_metaboxes.php:391
+#: inc/theme_metaboxes.php:507 inc/theme_metaboxes.php:574
+msgid "Title"
+msgstr "Titolo"
+
+#: core/widgets.php:88
+msgid "Social Icon Default Colors"
+msgstr "Colori predefiniti icone social"
+
+#: core/widgets.php:92
+msgid "Icon Color"
+msgstr "Colore icona"
+
+#: core/widgets.php:96
+msgid "Icon Hover Color"
+msgstr "Colore al passaggio del mouse sopra l'icona"
+
+#: core/widgets.php:101
+msgid "If colors are not set, skin colors will be applied."
+msgstr "Se non imposti i colori, verranno applicati i colori interfaccia."
+
+#: core/widgets.php:106
+msgid "Manage Social Icons"
+msgstr "Gestisci icone social"
+
+#: functions.php:141 functions.php:161
+msgid "Please wait..."
+msgstr "Attendere..."
+
+#: functions.php:142 functions.php:162
+msgid "Subscribe"
+msgstr "Sottoscrivi"
+
+#: functions.php:143 functions.php:163 template-parts/contact-form.php:65
+msgid "SUBMIT"
+msgstr "INVIA"
+
+#: functions.php:238
+msgid "Missing Attachment"
+msgstr "Allegato mancante"
+
+#: functions.php:265
+msgid "Sidebar"
+msgstr "Barra laterale"
+
+#: functions.php:267
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Aggiungi qui i widgets che compariranno nella tua barra laterale."
+
+#: functions.php:276 inc/theme_options.php:72 inc/theme_options.php:202
+#: inc/theme_options.php:579
+msgid "Header"
+msgstr "Intestazione"
+
+#: functions.php:278
+msgid "Add widgets here to appear in your header."
+msgstr "Aggiungi qui i widget che compariranno nella tua intestazione"
+
+#: functions.php:287 functions.php:296 functions.php:305
+#: inc/theme_options.php:76 inc/theme_options.php:317 inc/theme_options.php:823
+#: inc/theme_options.php:829 inc/theme_options.php:849
+#: inc/theme_options.php:855
+msgid "Footer"
+msgstr "Piè di pagina"
+
+#: functions.php:289 functions.php:298 functions.php:307
+msgid "Add widgets here to appear in your footer."
+msgstr "Aggiungi qui i widgets che compariranno a piè di pagina."
+
+#: inc/OCSpamProtection.php:199
+msgid "Please Wait"
+msgstr "Attendere..."
+
+# This is will be a small text hyperlink given under captcha fields. This will take the site administrator to captcha enable/disable control in customizer.
+#: inc/OCSpamProtection.php:204
+msgid "Captcha Settings"
+msgstr "Impostazioni captcha"
+
+# This is an error message that becomes visible if someone cannot do their math. You are welcome to change it a bit to make it shorter, for example, "That is not correct, try again".
+# ____________________________
+#: inc/OCSpamProtection.php:351 inc/core_functions.php:380
+msgid "Invalid answer, please try again."
+msgstr "Risposta errata, riprova."
+
+#: inc/OCSpamProtection.php:360 inc/core_functions.php:282
+#: inc/core_functions.php:389
+msgid "Some error occurred, please reload the page and try again."
+msgstr "Si è verificato un errore, ricarica la pagina e riprova."
+
+#: inc/OCSpamProtection.php:389 inc/OCSpamProtection.php:393
+msgid " <b>Something went wrong! Please try again!</b>"
+msgstr "Si è verificato un errore. Riprova!"
+
+# This is an error message that becomes visible if someone cannot do their math. You are welcome to change it a bit to make it shorter, for example, "That is not correct, try again".
+# ____________________________
+#: inc/OCSpamProtection.php:395
+msgid "<b>Invalid answer, please try again.</b>"
+msgstr "Risposta errata, riprova."
+
+#
+# Label for CAPTCHA. If the translation becomes too long, leave out "below" or just stick to "Type in the answer".
+#
+# _________________________________
+#: inc/OCSpamProtection.php:405 inc/core_functions.php:423
+msgid "Type in the answer to the sum below:"
+msgstr "Digita il risultato della somma:"
+
+# Enable captcha on comment forms
+#: inc/OCSpamProtection.php:477
+msgid "Enable captcha on comment form"
+msgstr "Abilita captcha nei moduli di commento"
+
+# Please note that if you are using any spam prevention or captcha plugins for your comment forms then this should be disabled.
+#: inc/OCSpamProtection.php:478
+msgid ""
+"Please note that if you are using any spam prevention or captcha plugins for "
+"your comment forms then disable this."
+msgstr ""
+"Disabilita questa funzione se utilizzi già un altro captcha o plug-in di "
+"prevenzione dello spam, per evitare conflitti."
+
+#: inc/category-media.php:41 inc/category-media.php:73
+msgid "Image"
+msgstr "Immagine"
+
+#: inc/category-media.php:45 inc/category-media.php:84
+msgid "Add Image"
+msgstr "Aggiungi immagine"
+
+#: inc/category-media.php:46 inc/category-media.php:85
+msgid "Remove Image"
+msgstr "Rimuovi immagine"
+
+#: inc/core_functions.php:51 inc/theme_options.php:334
+msgid "Text Color"
+msgstr "Colore testo"
+
+#: inc/core_functions.php:52
+msgid "Hover Text Color"
+msgstr "Colore del testo al passaggio del mouse"
+
+#: inc/core_functions.php:53 inc/core_functions.php:60
+msgid "Background Color"
+msgstr "Colore sfondo"
+
+#: inc/core_functions.php:54
+msgid "Hover Background Color"
+msgstr "Colore sfondo al passaggio del mouse"
+
+#: inc/core_functions.php:58
+msgid "Big Text Color"
+msgstr "Colore del testo grande al passaggio del mouse"
+
+#: inc/core_functions.php:59
+msgid "Small Text Color"
+msgstr "Colore del testo piccolo al passaggio del mouse"
+
+#: inc/core_functions.php:196
+msgid "Name is empty or too short."
+msgstr "Il campo Nome è vuoto o nome troppo corto."
+
+#: inc/core_functions.php:200
+msgid "Name is too large."
+msgstr "Il nome è troppo lungo."
+
+#: inc/core_functions.php:204
+msgid "Email entered is not valid."
+msgstr "L’indirizzo e-mail immesso non è valido."
+
+#: inc/core_functions.php:208
+msgid "Email is too large."
+msgstr "L’indirizzo e-mail immesso è troppo lungo."
+
+#: inc/core_functions.php:212
+msgid "Message text is empty or too short."
+msgstr ""
+"Il campo Testo del messaggio è vuoto o il testo del messaggio è troppo corto."
+
+#: inc/core_functions.php:216
+msgid "Message is too large, please shorten it."
+msgstr "Il messaggio è troppo lungo; abbrevialo."
+
+#: inc/core_functions.php:226 template-parts/contact-form.php:26
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/core_functions.php:230 template-parts/contact-form.php:17
+msgid "Name"
+msgstr "Nome"
+
+#: inc/core_functions.php:235 template-parts/contact-form.php:35
+msgid "Message"
+msgstr "Messaggio"
+
+#: inc/core_functions.php:242
+msgid "Contact query from website"
+msgstr "Modulo di richiesta dal sito web"
+
+#: inc/core_functions.php:250
+msgid "You received a new message from"
+msgstr "Hai ricevuto un messaggio da"
+
+#: inc/core_functions.php:251
+msgid "via the contact form on"
+msgstr "tramite il modulo di contatto su"
+
+#: inc/core_functions.php:252
+msgid "Contact Details"
+msgstr "Dati di contatto"
+
+#: inc/core_functions.php:277
+msgid "Your message has been successfully sent."
+msgstr "Il messaggio è stato inviato."
+
+#: inc/core_functions.php:304
+msgctxt "Post Type General Name"
+msgid "Tutorials"
+msgstr "Tutorial"
+
+#: inc/core_functions.php:305
+msgctxt "Post Type Singular Name"
+msgid "Tutorial"
+msgstr "Tutorial"
+
+#: inc/core_functions.php:306
+msgid "New Tutorial"
+msgstr "Nuovo tutorial"
+
+#: inc/core_functions.php:307
+msgid "Edit Tutorial"
+msgstr "Modifica tutorial"
+
+#: inc/core_functions.php:308
+msgid "Update Tutorial"
+msgstr "Aggiorna tutorial"
+
+#: inc/core_functions.php:309
+msgid "View Tutorial"
+msgstr "Mostra Tutorial"
+
+#: inc/core_functions.php:310
+msgid "View Tutorials"
+msgstr "Visualizza Tutorial"
+
+#: inc/core_functions.php:313
+msgid "Tutorial"
+msgstr "Tutorial"
+
+#: inc/core_functions.php:314
+msgid "Tutorial Description"
+msgstr "Descrizione tutorial"
+
+#: inc/core_functions.php:346
+msgid "Search Tutorials Types"
+msgstr "Ricerca tipo di tutorial"
+
+#: inc/core_functions.php:347
+msgid "All Tutorials Types"
+msgstr "Tutti i tipi di tutorial"
+
+#: inc/core_functions.php:348
+msgid "Parent Tutorials Type"
+msgstr "Tipo di tutorial genitore"
+
+#: inc/core_functions.php:349
+msgid "Parent Tutorials Type:"
+msgstr "Tipo di tutorial genitore:"
+
+#: inc/core_functions.php:350
+msgid "Edit Tutorials Type"
+msgstr "Modifica tipo di tutorial"
+
+#: inc/core_functions.php:351
+msgid "Update Tutorials Type"
+msgstr "Aggiorna tipo di tutorial"
+
+#: inc/core_functions.php:352
+msgid "Add New Tutorials Type"
+msgstr "Aggiungi nuovi tipi di tutorial"
+
+#: inc/core_functions.php:353
+msgid "New Tutorials Type"
+msgstr "Nuovi tipi di tutorial"
+
+#: inc/core_functions.php:354
+msgid "Tutorials Type"
+msgstr "Tipo di tutorial"
+
+#: inc/theme_metaboxes.php:26 inc/theme_metaboxes.php:279
+#: inc/theme_metaboxes.php:324 inc/theme_metaboxes.php:535
+#: inc/theme_options.php:759
+msgid "Page Sections"
+msgstr "Sezioni della pagina"
+
+#: inc/theme_metaboxes.php:35
+msgid "Services"
+msgstr "Servizi"
+
+#: inc/theme_metaboxes.php:40 inc/theme_metaboxes.php:85
+#: inc/theme_metaboxes.php:142 inc/theme_metaboxes.php:190
+#: inc/theme_metaboxes.php:244 inc/theme_metaboxes.php:376
+#: inc/theme_metaboxes.php:500 inc/theme_metaboxes.php:567
+msgid "Show Section"
+msgstr "Mostra sezione"
+
+#: inc/theme_metaboxes.php:54 inc/theme_metaboxes.php:113
+#: inc/theme_metaboxes.php:157 inc/theme_metaboxes.php:215
+#: inc/theme_metaboxes.php:406 inc/theme_metaboxes.php:515
+#: inc/theme_metaboxes.php:582
+msgid "Description"
+msgstr "Descrizione"
+
+#: inc/theme_metaboxes.php:62
+msgid "Show Services"
+msgstr "Mostra servizi"
+
+#: inc/theme_metaboxes.php:71
+msgid "Select Services"
+msgstr "Seleziona servizi"
+
+#: inc/theme_metaboxes.php:72
+msgid "The selected services will be displayed."
+msgstr "Seleziona i servizi che saranno mostrati."
+
+#: inc/theme_metaboxes.php:80 inc/theme_metaboxes.php:562
+#: inc/theme_options.php:295
+msgid "Featured"
+msgstr "In primo piano"
+
+#: inc/theme_metaboxes.php:92 inc/theme_metaboxes.php:258
+#: inc/theme_metaboxes.php:383
+msgid "Banner Image"
+msgstr "Immagine banner"
+
+#: inc/theme_metaboxes.php:106 inc/theme_metaboxes.php:206
+#: inc/theme_metaboxes.php:307 inc/theme_metaboxes.php:351
+msgid "Title Icon"
+msgstr "Icona titolo"
+
+#: inc/theme_metaboxes.php:122 inc/theme_metaboxes.php:224
+msgid "Button Label"
+msgstr "Etichetta pulsante"
+
+#: inc/theme_metaboxes.php:129 inc/theme_metaboxes.php:232
+#: inc/theme_metaboxes.php:363
+msgid "Button Link"
+msgstr "Collegamento pulsante"
+
+#: inc/theme_metaboxes.php:137 inc/theme_metaboxes.php:166
+#: inc/theme_metaboxes.php:495 inc/theme_metaboxes.php:524
+msgid "Gallery"
+msgstr "Galleria"
+
+#: inc/theme_metaboxes.php:177
+msgid "Service Details"
+msgstr "Dettaglio servizi"
+
+#: inc/theme_metaboxes.php:185 inc/theme_metaboxes.php:263
+#: inc/theme_metaboxes.php:286 inc/theme_metaboxes.php:331
+#: inc/theme_metaboxes.php:542
+msgid "Content"
+msgstr "Contenuto"
+
+#: inc/theme_metaboxes.php:197
+msgid "Show Title Icon"
+msgstr "Mostra icona titolo"
+
+#: inc/theme_metaboxes.php:239 inc/theme_metaboxes.php:251
+msgid "Information Blocks"
+msgstr "Blocchi informali"
+
+#: inc/theme_metaboxes.php:291 inc/theme_metaboxes.php:336
+#: inc/theme_metaboxes.php:547
+msgid "Show Title"
+msgstr "Mostra titolo"
+
+#: inc/theme_metaboxes.php:299 inc/theme_metaboxes.php:343
+#: inc/theme_metaboxes.php:555
+msgid "Custom Title"
+msgstr "Personalizza titolo"
+
+#: inc/theme_metaboxes.php:314 inc/theme_metaboxes.php:357
+msgid "Button Title"
+msgstr "Titolo pulsante"
+
+#: inc/theme_metaboxes.php:371
+msgid "Form Section"
+msgstr "Sezione modulo"
+
+#: inc/theme_metaboxes.php:398
+msgid "Icon"
+msgstr "Icona"
+
+#: inc/theme_metaboxes.php:414
+msgid "Form Fields Labels"
+msgstr "Modulo per i campi delle etichette"
+
+#: inc/theme_metaboxes.php:460
+msgid "Email Subject"
+msgstr "Oggetto email"
+
+#: inc/theme_metaboxes.php:468
+msgid "Recipients"
+msgstr "Destinatari"
+
+#: inc/theme_metaboxes.php:469
+msgid "Provide email accounts where you want to receive emails from this form."
+msgstr ""
+"Immetti gli account e-mail ai quali desideri ricevere i messaggi e-mail da "
+"questo modulo."
+
+#: inc/theme_metaboxes.php:476
+msgid "Custom Form"
+msgstr "Modulo personalizzato"
+
+#: inc/theme_metaboxes.php:477
+msgid "This will replace the default form."
+msgstr "Sostituirà il modulo predefinito."
+
+#: inc/theme_metaboxes.php:484
+msgid "Form Embed Code or Shortcode"
+msgstr "Codice breve o codice di incorporamento"
+
+#: inc/theme_metaboxes.php:485
+msgid ""
+"Please copy and paste the Embed Code or Shortcode of the custom form (if "
+"any). This will replace the default form."
+msgstr ""
+"Copia e incolla il codice breve o il codice di incorporamento del modulo "
+"personalizzato (se presente). Sostituirà il modulo predefinito."
+
+#: inc/theme_metaboxes.php:597 inc/theme_options.php:84
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/theme_metaboxes.php:612 inc/theme_options.php:938
+#: inc/theme_options.php:963
+msgid "Right Sidebar"
+msgstr "Barra laterale a destra"
+
+#: inc/theme_metaboxes.php:617 inc/theme_options.php:943
+#: inc/theme_options.php:968
+msgid "No Sidebar"
+msgstr "Nessuna barra laterale"
+
+#: inc/theme_metaboxes.php:622 inc/theme_options.php:948
+#: inc/theme_options.php:973
+msgid "Left Sidebar"
+msgstr "Barra laterale a sinistra"
+
+#: inc/theme_options.php:80
+msgid "Typography"
+msgstr "Tipografia"
+
+#: inc/theme_options.php:88
+msgid "Social"
+msgstr "Social"
+
+#: inc/theme_options.php:92
+msgid "Color Scheme"
+msgstr "Combinazione colori"
+
+#: inc/theme_options.php:96
+msgid "Advanced"
+msgstr "Avanzate"
+
+#: inc/theme_options.php:100 inc/theme_options.php:1208
+msgid "Import"
+msgstr "Importa"
+
+#: inc/theme_options.php:108
+msgid "Skin - Primary Color"
+msgstr "Interfaccia - Colore principale"
+
+#: inc/theme_options.php:115
+msgid "Skin - Secondary Color"
+msgstr "Interfaccia - Colore secondario"
+
+#: inc/theme_options.php:122
+msgid "Customize Skin"
+msgstr "Personalizza interfaccia"
+
+#: inc/theme_options.php:123
+msgid ""
+"Custom colors selection may override the Primary and Secondary Skin colors "
+"at some places"
+msgstr ""
+"La selezione di colori personalizzati può sostituire i colori principali e "
+"secondari (interfaccia) in alcune parti"
+
+#: inc/theme_options.php:131 inc/theme_options.php:624
+#: inc/theme_options.php:630
+msgid "Body"
+msgstr "Corpo"
+
+#: inc/theme_options.php:137 inc/theme_options.php:209
+#: inc/theme_options.php:324
+msgid "Background"
+msgstr "Sfondo"
+
+#: inc/theme_options.php:138
+msgid "Body background with image, color, etc."
+msgstr "Sfondo corpo documento con immagine, colore, ecc."
+
+#: inc/theme_options.php:149
+msgid "Show Background Image"
+msgstr "Mostra Immagine di Sfondo"
+
+#: inc/theme_options.php:158
+msgid "Body Text Color"
+msgstr "Colore testo corpo"
+
+#: inc/theme_options.php:166
+msgid "Headings Colors"
+msgstr "Colori intestazioni"
+
+#: inc/theme_options.php:181 inc/theme_options.php:765
+msgid "Page Title"
+msgstr "Titolo pagina"
+
+#: inc/theme_options.php:189
+msgid "Link Color"
+msgstr "Colore collegamenti"
+
+#: inc/theme_options.php:219
+msgid "Logo Text Color"
+msgstr "Colore testo logo"
+
+#: inc/theme_options.php:230
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/theme_options.php:237
+msgid "Menu Background Color"
+msgstr "Colore di sfondo del menu"
+
+#: inc/theme_options.php:247
+msgid "Menu Item Color"
+msgstr "Colore voce menu"
+
+#: inc/theme_options.php:259
+msgid "Menu Item Background Color"
+msgstr "Colore sfondo voce menu"
+
+#: inc/theme_options.php:271
+msgid "Submenu Item Color"
+msgstr "Colore voce sottomenu"
+
+#: inc/theme_options.php:283
+msgid "Submenu Item Background Color"
+msgstr "Colore di sfondo dell'oggetto del sottomenu"
+
+#: inc/theme_options.php:301
+msgid "Section Title"
+msgstr "Mostra titolo"
+
+#: inc/theme_options.php:309
+msgid "Section Content"
+msgstr "Contenuto sezione"
+
+#: inc/theme_options.php:342 inc/theme_options.php:875
+msgid "Buttons"
+msgstr "Pulsanti"
+
+#: inc/theme_options.php:350 inc/theme_options.php:881
+msgid "Content Buttons"
+msgstr "Pulsanti Contenuto"
+
+#: inc/theme_options.php:363
+msgid "Content Buttons - Show Border"
+msgstr "Pulsanti Contenuto - Mostra bordo"
+
+#: inc/theme_options.php:371
+msgid "Content Buttons - Border"
+msgstr "Pulsanti Contenuto - Bordo"
+
+#: inc/theme_options.php:378
+msgid "Content Buttons - Border Radius"
+msgstr "Pulsanti Banner - Raggio bordo"
+
+#: inc/theme_options.php:387 inc/theme_options.php:900
+msgid "Form Buttons"
+msgstr "Pulsanti Modulo "
+
+#: inc/theme_options.php:400
+msgid "Form Buttons - Show Border"
+msgstr "Pulsanti Modulo - Mostra bordo"
+
+#: inc/theme_options.php:408
+msgid "Form Buttons - Border"
+msgstr "Pulsanti Modulo - Bordo"
+
+#: inc/theme_options.php:415
+msgid "Form Buttons - Border Radius"
+msgstr "Pulsanti Modulo - Raggio bordo"
+
+#: inc/theme_options.php:426
+msgid "Show Logo"
+msgstr "Mostra logo"
+
+#: inc/theme_options.php:434
+msgid "Upload Logo"
+msgstr "Carica logo"
+
+#: inc/theme_options.php:435
+msgid "Site title will be displayed if no image uploaded."
+msgstr "Se non carichi un’immagine verrà visualizzato il titolo del sito."
+
+#: inc/theme_options.php:435
+msgid "Site title"
+msgstr "Titolo sito"
+
+#: inc/theme_options.php:445
+msgid "Show Header"
+msgstr "Mostra intestazione"
+
+#: inc/theme_options.php:453
+msgid "Show Header Image"
+msgstr "Mostra intestazione"
+
+#: inc/theme_options.php:462
+msgid "Upload Header Image"
+msgstr "Carica l’immagine d’intestazione"
+
+#: inc/theme_options.php:472
+msgid "Header Left Text"
+msgstr "Testo a sinistra dell’intestazione"
+
+#: inc/theme_options.php:481
+msgid "Header Right Text"
+msgstr "Testo a destra dell’intestazione"
+
+#: inc/theme_options.php:490
+msgid "Header Subtitle"
+msgstr "Sottotitolo intestazione"
+
+#: inc/theme_options.php:499
+msgid "Header Tagline"
+msgstr "Slogan dell’intestazione"
+
+#: inc/theme_options.php:508
+msgid "Manage Site Title"
+msgstr "Gestisci titolo sito"
+
+#: inc/theme_options.php:509 inc/theme_options.php:519
+msgid "Manage Logo Text"
+msgstr "Gestisci testo logo"
+
+#: inc/theme_options.php:509
+msgid "To change the font style of logo"
+msgstr "Per modificare lo stile carattere del logo"
+
+#: inc/theme_options.php:509
+msgid "Typography > Header Font Style > Logo Font Style"
+msgstr "Tipografia > Stile carattere intestazione > Stile carattere logo"
+
+#: inc/theme_options.php:520
+msgid "Manage Header Menu"
+msgstr "Gestisci menu intestazione"
+
+#: inc/theme_options.php:520
+msgid "To change the font style of header"
+msgstr "Per modificare lo stile cratere dell’intestazione"
+
+#: inc/theme_options.php:520
+msgid "Typography > Header Font Style > Header Menu Font Style"
+msgstr ""
+"Tipografia > Stile carattere intestazione > Stile carattere menu intestazione"
+
+#: inc/theme_options.php:528
+msgid "Upload Favicon"
+msgstr "Carica Favicon"
+
+#: inc/theme_options.php:528
+msgid "Upload favicon of your website."
+msgstr "Carica Favicon sul tuo sito Web"
+
+#: inc/theme_options.php:528
+msgid "Customize > Site Identity > Site Icon"
+msgstr "Personalizzare > Identità del sito > Icona del sito"
+
+#: inc/theme_options.php:537
+msgid "Font Families"
+msgstr "Famiglie di caratteri"
+
+#: inc/theme_options.php:538
+msgid "Add fonts in your website."
+msgstr "Aggiungi caratteri al tuo sito Web."
+
+#: inc/theme_options.php:538
+msgid "The newly added font families will appear after saving the options."
+msgstr ""
+"Le famiglie di caratteri appena aggiunte compariranno dopo aver salvato le "
+"opzioni."
+
+#: inc/theme_options.php:563
+msgid "Font Styles"
+msgstr "Stili carattere"
+
+#: inc/theme_options.php:564
+msgid ""
+"Theme's default font properties can be changed from the section specific "
+"tabs given below."
+msgstr ""
+"Le proprietà carattere predefinite del tema possono essere modificate nelle "
+"sottostanti schede specifiche del prodotto."
+
+#: inc/theme_options.php:585
+msgid "Logo Font Style"
+msgstr "Stile carattere logo"
+
+#: inc/theme_options.php:586
+msgid "This will change the typography of logo text only."
+msgstr "Consente di modificare solo la tipografia del testo del logo."
+
+#: inc/theme_options.php:604
+msgid "Header Menu Font Style"
+msgstr "Stile carattere menu intestazione"
+
+#: inc/theme_options.php:605
+msgid "This will change the typography of navigation menu in header."
+msgstr ""
+"Consente di modificare la tipografia del menu di navigazione "
+"nell’intestazione."
+
+#: inc/theme_options.php:631 inc/theme_options.php:804
+msgid "This will change the typography of content areas only."
+msgstr "Consente di modificare solo la tipografia delle aree contenuto."
+
+#: inc/theme_options.php:650
+msgid "H1 Font Style"
+msgstr "Stile carattere H1"
+
+#: inc/theme_options.php:668
+msgid "H2 Font Style"
+msgstr "Stile carattere H2"
+
+#: inc/theme_options.php:686
+msgid "H3 Font Style"
+msgstr "Stile carattere H3"
+
+#: inc/theme_options.php:704
+msgid "H4 Font Style"
+msgstr "Stile carattere H4"
+
+#: inc/theme_options.php:722
+msgid "H5 Font Style"
+msgstr "Stile carattere H5"
+
+#: inc/theme_options.php:740
+msgid "H6 Font Style"
+msgstr "Stile carattere H6"
+
+#: inc/theme_options.php:766
+msgid "This will change the typography of main titles on pages."
+msgstr "Questo cambierà la tipografia del titolo principale delle pagine."
+
+#: inc/theme_options.php:784
+msgid "Section Titles Font Style"
+msgstr "Stile carattere titoli sezioni"
+
+#: inc/theme_options.php:785
+msgid "This will change the typography of section titles on pages."
+msgstr "Consente di modificare la tipografia dei titoli sezioni delle pagine."
+
+#: inc/theme_options.php:803
+msgid "Text"
+msgstr "Testo"
+
+#: inc/theme_options.php:830 inc/theme_options.php:856
+msgid "This will change the typography of the Footer."
+msgstr "Consente di modificare la tipografia del piè di pagina."
+
+#: inc/theme_options.php:920
+msgid "Show Post Metadata"
+msgstr "Mostra metadati post"
+
+#: inc/theme_options.php:921
+msgid "This will show/hide the post details."
+msgstr "Consente di mostrare/nascondere i dettagli post."
+
+#: inc/theme_options.php:921
+msgid "For example: Post Author, Published Date, Post Categories"
+msgstr "Ad esempio: autore post, data di pubblicazione, categorie post"
+
+#: inc/theme_options.php:930
+msgid "Blog Listing - Page Layout"
+msgstr "Presentazione blog - layout pagina"
+
+#: inc/theme_options.php:931
+msgid ""
+"This will change the visibility and position of sidebar on the blog post "
+"listing pages."
+msgstr ""
+"Consente di modificare la visibilità e la posizione della barra laterale "
+"sulle pagine di presentazione post"
+
+#: inc/theme_options.php:955
+msgid "Single Post - Page Layout"
+msgstr "Post singolo - layout pagina"
+
+#: inc/theme_options.php:956
+msgid ""
+"This will change the visibility and position of sidebar on the post details "
+"pages."
+msgstr ""
+"Consente di modificare la visibilità e la posizione della barra laterale "
+"sulle pagine dettagli post."
+
+#: inc/theme_options.php:956
+msgid "Note: You can override this setting on a specific post."
+msgstr "Nota: puoi sovrascrivere questa impostazione su una pagina specifica."
+
+#: inc/theme_options.php:981
+msgid "Social Links"
+msgstr "Collegamenti social"
+
+#: inc/theme_options.php:982
+msgid "Enter your social profile links here:"
+msgstr "Digita qui i collegamenti ai profili social"
+
+#: inc/theme_options.php:994
+msgid "Social Profile Icon"
+msgstr "Icona profilo social"
+
+#: inc/theme_options.php:1148
+msgid "Social Profile Link"
+msgstr "Collegamento profilo social"
+
+#: inc/theme_options.php:1157
+msgid "Footer Color"
+msgstr "Colore piè di pagina"
+
+#: inc/theme_options.php:1165
+msgid "Manage Footer Widgets"
+msgstr "Gestisci widget piè di pagina"
+
+#: inc/theme_options.php:1166
+msgid "Edit Footer Widgets"
+msgstr "Modifica widget piè di pagina"
+
+#: inc/theme_options.php:1175
+msgid "Custom CSS"
+msgstr "CSS personalizzato"
+
+#: inc/theme_options.php:1176
+msgid "The rules added here will be applied as additional CSS."
+msgstr "Le regole qui aggiunte verranno applicate come CCS personalizzato."
+
+#: inc/theme_options.php:1183
+msgid "Head Scripts"
+msgstr "Script per intestazione"
+
+#: inc/theme_options.php:1184
+msgid "Scripts to be inserted in \"head\" tag."
+msgstr "Script da inserire nel tag \"intestazione\"."
+
+#: inc/theme_options.php:1192
+msgid "Footer Scripts"
+msgstr "Script per piè di pagina"
+
+#: inc/theme_options.php:1193
+msgid "Scripts to be inserted after footer."
+msgstr "Script da inserire come piè di pagina."
+
+#: inc/theme_options.php:1201
+msgid "404 Page Content"
+msgstr "Contenuto pagina 404"
+
+#: searchform.php:3
+msgid "Search for:"
+msgstr "Cerca:"
+
+#: searchform.php:9
+msgid "Search"
+msgstr "Ricerca"
+
+#: template-parts/content-blog.php:43
+msgid "Read More"
+msgstr "Maggiori informazioni"
+
+#: template-parts/content-none.php:8
+msgid "No entries found!"
+msgstr "Nessuna voce trovata!"
+
+#: template-parts/content-none.php:10
+msgid "Try searching with a different keyword."
+msgstr "Ritenta la ricerca con una parola chiave differente."
+
+#: template-parts/content-none.php:12
+msgid "Try a search instead"
+msgstr "Ripeti la ricerca"
+
+#: template-parts/section-blog-info.php:13
+#, php-format
+msgid "Search: %s"
+msgstr "Cerca: %s"

@@ -1,0 +1,89 @@
+# Translation of Plugins - MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy) - Stable (latest release) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-01-23 10:41:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: pt\n"
+"Project-Id-Version: Plugins - MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy) - Stable (latest release)\n"
+
+#: languages/vue.php:1977
+msgid "Performance"
+msgstr "Desempenho"
+
+#. Author of the plugin
+#: includes/admin/admin.php:31 includes/admin/admin.php:34
+#: includes/admin/admin.php:42 includes/admin/wp-site-health.php:37
+#: includes/emails/class-emails.php:254
+#: lite/includes/admin/dashboard-widget.php:99
+#: lite/includes/admin/wp-site-health.php:246
+#: lite/includes/admin/wp-site-health.php:298
+#: lite/includes/admin/wp-site-health.php:325
+#: lite/includes/admin/wp-site-health.php:363
+#: lite/includes/admin/wp-site-health.php:390
+#: lite/includes/admin/wp-site-health.php:417
+#: lite/includes/admin/wp-site-health.php:442
+#: lite/includes/admin/wp-site-health.php:481
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: includes/admin/admin.php:31 includes/admin/admin.php:37
+#: includes/admin/admin.php:45 includes/admin/admin.php:89
+#: includes/admin/admin.php:92 includes/admin/admin.php:126
+#: languages/vue.php:245
+msgid "Insights"
+msgstr "Insights"
+
+#: languages/vue.php:2583
+msgid "Enhanced Link Attribution"
+msgstr "Atribuição avançada de ligações"
+
+#: languages/vue.php:979
+msgid "License Key"
+msgstr "Chave da licença"
+
+#: languages/vue.php:2242
+msgid "Enable Demographics and Interests Reports for Remarketing and Advertising"
+msgstr "Activar os relatórios de Dados demográficos e Interesses para marketing e publicidade"
+
+#: languages/vue.php:1980
+msgid "Custom code"
+msgstr "Código personalizado"
+
+#: includes/admin/reports/overview.php:34 languages/vue.php:568
+msgid "Overview"
+msgstr "Visão geral"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:290 languages/vue.php:526
+msgid "General"
+msgstr "Gerais"
+
+#: languages/vue.php:541
+msgid "Advanced"
+msgstr "Avançadas"
+
+#: includes/admin/admin.php:34 includes/admin/admin.php:42
+#: includes/admin/admin.php:222 languages/vue.php:520
+msgid "Settings"
+msgstr "Definições"
+
+#: includes/admin/admin.php:39 includes/admin/admin.php:130
+#: languages/vue.php:1987
+msgid "Reports"
+msgstr "Relatórios"
+
+#: languages/vue.php:339
+msgid "Custom Dimensions"
+msgstr "Dimensões personalizadas"
+
+#: languages/vue.php:2232
+msgid "Manually enter your UA code"
+msgstr "Inserir manualmente o seu código UA"
+
+#: languages/vue.php:460
+msgid "Save Changes"
+msgstr "Guardar alterações"

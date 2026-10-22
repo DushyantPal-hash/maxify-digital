@@ -1,0 +1,61 @@
+
+---Downloaded files---
+The import files for: Ncmaz Demo 1 - No Data were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://ncmaz-2.chisnghiax.com
+Data file = /home/mwy5dos1t2l8/public_html/ncmaz-2.chisnghiax.com/wp-content/themes/ncmaz/ocdi-demos/demo1-no-data/ncmaz.xml
+Widget file = /home/mwy5dos1t2l8/public_html/ncmaz-2.chisnghiax.com/wp-content/themes/ncmaz/ocdi-demos/demo1-no-data/widgets.wie
+Customizer file = /home/mwy5dos1t2l8/public_html/ncmaz-2.chisnghiax.com/wp-content/themes/ncmaz/ocdi-demos/demo1-no-data/customize.dat
+Redux files:
+ncmaz_redux_demo -> /home/mwy5dos1t2l8/public_html/ncmaz-2.chisnghiax.com/wp-content/themes/ncmaz/ocdi-demos/demo1-no-data/redux.json 
+
+
+---Importing widgets---
+Mobile Menu Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Single Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer-1 Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer-2 Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Footer-3 Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Footer-4 Sidebar : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+
+
+---Importing Redux settings---
+Redux settings import for: ncmaz_redux_demo finished successfully!
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

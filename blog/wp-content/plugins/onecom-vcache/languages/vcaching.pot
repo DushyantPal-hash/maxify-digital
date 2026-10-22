@@ -1,0 +1,391 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: varnish\n"
+"POT-Creation-Date: 2024-01-12 02:08+0530\n"
+"PO-Revision-Date: 2018-09-10 17:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: *.css\n"
+
+#: onecom-addons/inc/class-onecom-exclude-cache.php:53
+msgid "Exclude"
+msgstr ""
+
+#: onecom-addons/inc/class-onecom-vcache-shortcuts.php:39
+#: onecom-addons/inc/class-onecom-vcache-shortcuts.php:41
+#: onecom-addons/onecom-inc.php:359
+#: onecom-addons/templates/cache-settings.php:47
+#: tests/test-vcache-shortcuts.php:39 tests/test-vcache-shortcuts.php:41
+#: vcaching.php:641
+msgid "Performance Cache"
+msgstr ""
+
+#: onecom-addons/inc/class-onecom-vcache-shortcuts.php:40
+#: tests/test-vcache-shortcuts.php:40
+msgid "With one.com Performance Cache enabled your website loads a lot faster. We save a cached copy of your website on a Varnish server, that will then be served to your next visitors."
+msgstr ""
+
+#: onecom-addons/inc/class-onecom-vcache-shortcuts.php:84
+msgid "Settings saved."
+msgstr ""
+
+#: onecom-addons/inc/class-onecom-vcache-shortcuts.php:84
+#: onecom-addons/inc/class-onecom-vcache-shortcuts.php:100
+msgid "If you are using a caching plugin, remember to empty your cache"
+msgstr ""
+
+#: onecom-addons/inc/class-onecom-vcache-shortcuts.php:84
+#: onecom-addons/inc/class-onecom-vcache-shortcuts.php:100 vcaching.php:408
+msgid "Purge Performance Cache"
+msgstr ""
+
+#: onecom-addons/inc/class-onecom-vcache-shortcuts.php:99
+msgid "Permalink structure updated."
+msgstr ""
+
+#: onecom-addons/inc/update.php:167
+msgid "View details"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:238
+msgid "To get the best out of One.com Performance Cache, kindly deactivate the existing \"Varnish Caching\" plugin.&nbsp;&nbsp;"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:239
+msgid "Deactivate"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:359
+msgid "Performance Cache&nbsp;"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:387
+#: onecom-addons/templates/cache-settings.php:88
+msgid "Cache TTL"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:387
+#: onecom-addons/templates/cache-settings.php:88
+msgid "The time that website data is stored in the Varnish cache. After the TTL expires the data will be updated, 0 means no caching."
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:456
+msgid "This is a Managed WordPress feature."
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:456
+msgid "Learn more"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:521 tests/test-onecom-inc.php:664
+#, php-format
+msgid "It seems that %s is already purged. There is no resource in the cache to purge."
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:522 tests/test-onecom-inc.php:665
+#, php-format
+msgid "%s is purged successfully."
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:616
+msgid "A custom URL or permalink structure is required for the Performance Cache plugin to work correctly. Please go to the <a href=\"options-permalink.php\">Permalinks Options Page</a> to configure them."
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:753
+msgid "Performance cache settings updated"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:759 onecom-addons/onecom-inc.php:804
+#: onecom-addons/onecom-inc.php:853 onecom-addons/onecom-inc.php:889
+#: onecom-addons/onecom-inc.php:943 onecom-addons/onecom-inc.php:980
+msgid "Something went wrong!"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:799
+msgid "TTL updated"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:847
+msgid "Development mode updated"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:883
+msgid "Exclude CDN mode updated"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:938
+msgid "CDN data saved successfuly"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:974
+msgid "CDN state updated"
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:1201 onecom-addons/onecom-inc.php:1266
+msgid "Some error occurred, please reload the page and try again."
+msgstr ""
+
+#: onecom-addons/onecom-inc.php:1491
+msgid "Connection timed out"
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:31
+#: onecom-addons/templates/cdn-settings.php:44
+#: onecom-addons/templates/wp-rocket.php:30
+msgid "Performance Tools"
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:36
+#: onecom-addons/templates/cdn-settings.php:49
+#: onecom-addons/templates/wp-rocket.php:35
+msgid "Tools to help you improve your website’s performance"
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:50
+msgid "Caching saves a copy of your website, which will then be shown to the next visitors of your site. This results in faster loading times and can improve your SEO ranking."
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:53
+msgid "Learn more about Performance Cache in our guide."
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:54
+msgid "Learn more in our guide."
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:57
+msgid "Clear Cache now"
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:68
+msgid "Enable Performance Cache"
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:91
+msgid "TTL value must be at least 1 second."
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:96
+msgid "Frequency"
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:100
+msgid "Seconds"
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:103
+msgid "Minutes"
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:106
+msgid "Hours"
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:109
+msgid "Days"
+msgstr ""
+
+#: onecom-addons/templates/cache-settings.php:115
+#: onecom-addons/templates/cache-settings.php:121
+#: onecom-addons/templates/cdn-settings.php:152
+#: onecom-addons/templates/cdn-settings.php:158
+msgid "Save"
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:10
+msgid "Premium feature"
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:60
+msgid "CDN"
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:63
+#, php-format
+msgid "A content delivery network (CDN) is a network of servers in multiple locations that save copies of your website closer to users’ location. %sThis means that your website data has to travel a shorter distance, making your site load quicker. A CDN is especially useful if you have a lot of visitors spread across the globe.%s"
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:67
+msgid "If you made changes via File Manager you might want to manually clear your CDN."
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:69
+msgid "Show more"
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:73 vcaching.php:388
+#: vcaching.php:391
+msgid "Clear CDN"
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:85
+msgid "Enable CDN"
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:97
+msgid "Development mode"
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:106
+msgid "Disable development mode (hours)"
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:106
+msgid "CDN will not work for logged-in users until development mode is active."
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:110
+msgid "Value must be at least 1 hour."
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:121
+msgid "Exclude from CDN"
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:132
+msgid "Enter files, file extensions and folders that you want to exclude"
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:132
+msgid "Enter one per line, for example:"
+msgstr ""
+
+#: onecom-addons/templates/cdn-settings.php:145
+msgid "Enter what you want to exclude."
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:51
+msgid "WP Rocket is active"
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:55
+msgid "WP Rocket was successfully activated on this installation."
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:58
+msgid "Go to WP Rocket plugin"
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:67
+#: onecom-addons/templates/wp-rocket.php:78
+msgid "Activate WP Rocket"
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:73
+#, php-format
+msgid "You purchased WP Rocket for %s, but it hasn’t been activated on this %s yet. Activate the plugin to boost your site’s performance."
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:88
+msgid "WP Rocket plugin is missing"
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:92
+msgid "To install and activate the WP Rocket go to one.com Control Panel."
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:95
+msgid "Go to control panel"
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:106
+#: onecom-addons/templates/wp-rocket.php:127
+msgid "WP Rocket"
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:110
+#: onecom-addons/templates/wp-rocket.php:131
+msgid "discount"
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:115
+#, no-php-format
+msgid "We partnered up with WP Rocket to offer -20% off regular price to all one.com customers."
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:118
+msgid "Read about the offer"
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:136
+msgid "WP Rocket is the most powerful caching plugin in the world. Use it to improve the speed of your WordPress site, SEO ranking and conversions. No coding required."
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:138
+msgid "WP Rocket is a trusted one.com partner and works seamlessly with one.com plugin and service offering."
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:140
+msgid "WP Rocket instantly improves your site’s performance and Core Web Vitals scores."
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:143
+#, no-php-format
+msgid "WP Rocket automatically applies the 80% of web performance best practices."
+msgstr ""
+
+#: onecom-addons/templates/wp-rocket.php:148
+msgid "Get WP Rocket"
+msgstr ""
+
+#: tests/test-vcaching.php:251 vcaching.php:448
+msgid "Truncate message activated. Showing only first 3 messages."
+msgstr ""
+
+#: vcaching.php:76
+#, php-format
+msgid "Not required. If filled in overrides default TTL of %s seconds. 0 means no caching."
+msgstr ""
+
+#: vcaching.php:355
+#, php-format
+msgid "Performance cache works with domains which are hosted on %sone.com%s."
+msgstr ""
+
+#: vcaching.php:360
+msgid "Performance Cache requires you to use custom permalinks. Please go to the <a href=\"options-permalink.php\">Permalinks Options Page</a> to configure them."
+msgstr ""
+
+#: vcaching.php:368 vcaching.php:371
+msgid "Clear Performance Cache"
+msgstr ""
+
+#: vcaching.php:378 vcaching.php:381
+msgid "Clear Cache"
+msgstr ""
+
+#: vcaching.php:403
+msgid "Varnish environment not present for Performance cache to work."
+msgstr ""
+
+#: vcaching.php:405
+#, php-format
+msgid "<a href=\"%1$s\">Performance Cache</a> automatically purges your posts when published or updated. Sometimes you need a manual flush."
+msgstr ""
+
+#: vcaching.php:406
+msgid "Press the button below to force it to purge your entire cache."
+msgstr ""
+
+#: vcaching.php:410
+msgid "You do not have permission to purge the cache for the whole site. Please contact your adminstrator."
+msgstr ""
+
+#: vcaching.php:492
+msgid "Trying to purge URL : "
+msgstr ""
+
+#: vcaching.php:653 vcaching.php:663
+msgid "Purge from Varnish"
+msgstr ""

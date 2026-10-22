@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteCond %{HTTP_COOKIE} !OnecomWPAuth=qKDNOPLzrPGaCgpj
+RewriteCond %{REQUEST_URI} /wp-admin/install.php
+RewriteRule . "-" [F]
+ErrorDocument 403 /../wp-content/oci/403.html

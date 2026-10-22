@@ -1,0 +1,393 @@
+.oc-wp-type {
+	color: var(--color-gray-500)
+}
+
+.oc-header-action {
+	place-content: start end;
+	gap: 10px;
+}
+
+.wrap2.gv-activated{
+	max-width: 1440px;
+	margin: auto;
+}
+
+.oc-grid-link {
+	place-content: end end;
+}
+
+.oc-place-ce {
+	place-content: center end;
+}
+
+/*
+ * WPIN-9042: the row's own gv-grid utility class (.gv-activated .gv-grid,
+ * 2 classes) resolves `display: grid` at higher specificity than a bare
+ * `.oc-toggle-wrap { display: inline-flex }` (1 class) would. That never
+ * mattered while the spinner was position: absolute — with only one in-flow
+ * grid item, a single-column grid and a flex row are visually identical.
+ * Once the spinner became a second in-flow sibling (moved out of absolute
+ * positioning, see below), the single-column grid stacked it above the
+ * toggle instead of placing it beside it. Matching the ancestor + both of
+ * the element's own classes (3 classes) reliably wins that specificity
+ * fight regardless of stylesheet load order.
+ */
+.gv-activated .gv-grid.oc-toggle-wrap {
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+/*
+ * Sits in normal flex flow (before the toggle in the markup) so it occupies
+ * a reserved slot to the LEFT of the control, instead of the previous
+ * position: absolute; right: -28px, which rendered outside
+ * .oc-toggle-wrap's own box on the wrong side. The base WP-core .spinner
+ * class already reserves its box via `display: inline-block` and only
+ * toggles `visibility` on `.is-active` (not `display`), so this slot's
+ * width/height is constant whether or not the spinner is currently shown —
+ * no layout shift when it appears/disappears.
+ */
+.oc-toggle-wrap .spinner.oc-module-toggle-spinner {
+	float: none;
+	margin: 0 8px 0 0;
+}
+
+/*
+ * WPIN-9042: at >= 600px wide (the same breakpoint the row's own
+ * .gv-tab-span-10 / .gv-tab-span-1 utilities use, see one.min.css) the
+ * row's 12-column grid is fully packed: icon (1) + label (10) + toggle (1)
+ * = 12. The toggle's single column is only ~36px, barely wide enough for
+ * the 42px toggle control alone (it already overflows it by a few px,
+ * unnoticeably, in the unmodified design) — nowhere near enough for a
+ * second 20px+8px-margin spinner beside it. Simply widening the toggle
+ * column without taking a column back from the label would push the total
+ * past 12 and make the grid wrap the toggle into an implicit extra row
+ * (confirmed live on test.non-mwp.1prod.one). So for the mwp_only row only
+ * (flagged by the template via oc-label-reserve-spinner /
+ * oc-toggle-wrap--reserve-spinner), the label column gives up exactly the
+ * one column the toggle column gains: 10/1 becomes 9/2. That keeps the
+ * total at 12 (no grid overflow), gives the toggle column ~73px (enough for
+ * spinner + margin + toggle with room to spare), and never overlaps the
+ * label's text — verified live at both desktop width and the 782px
+ * breakpoint. Wrapped in the same (min-width: 600px) query as the rules
+ * being overridden so the <600px default spans (8/2, which already sum to
+ * 12 on their own) are left untouched. 3 classes each so this reliably
+ * outweighs the 2-class .gv-tab-span-10 / .gv-tab-span-1 rules regardless
+ * of stylesheet load order (same specificity pattern as the display fix
+ * above).
+ */
+@media (min-width: 600px) {
+	.gv-activated .gv-tab-span-10.oc-label-reserve-spinner {
+		grid-column: auto / span 9;
+	}
+	.gv-activated .gv-tab-span-1.oc-toggle-wrap--reserve-spinner {
+		grid-column: auto / span 2;
+	}
+}
+.gv-activated .oc-grid-link .gv-action{
+	color: var(--color-link)
+}
+.gv-activated.wrap2 .inner-wrapper{
+	padding-left: 28px;
+}
+.gv-activated .gv-card .oc-grid-img{
+	align-self: center;
+}
+.gv-notice.gv-notice-info.gv-mt-fluid.gv-p-md.oc-reset-wlk-tour.gv-max-mob-pt-lg a {
+	display: inline-table;
+}
+#oc_login_masking_overlay,
+#oc-mp-modal-overlay,
+#oc_data_consent_overlay,
+#oc_premium_care_overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.2);
+	z-index: 99999;
+}
+
+#oc_login_masking_overlay_wrap,
+#oc-mp-modal-wrap {
+	margin: 0;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 700px;
+	min-height: 246px;
+	color: #3C3C3C;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	box-shadow: 0 0 12px rgba(0 0 0 0.4);
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
+}
+.oc_welcome_modal_close img{
+	width: 24px;
+	height: 24px;
+}
+
+.oc-bg-wl-inner-wrap {
+	background: #fff;
+	padding: 48px;
+}
+.oc-bg-wl-inner-wrap img,
+.mp-awareness-modal img{
+	width: 632px;
+	aspect-ratio: 151/70;
+	object-fit: cover;
+}
+.mp-awareness-modal img{
+	object-fit: contain;
+}
+.oc_welcome_modal_close {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	cursor: pointer;
+}
+span.oc-all-articles{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.oc-dicover-wp{
+	align-self: center;
+}
+/* Starts: Premium care style */
+.gv-activated .oc-premium-care-box .gv-notice-premium-care,
+.gv-activated .oc-premium-care-box .gv-notice-premium-care-requested{
+	background: #ffffff;
+}
+
+.gv-activated .modal-loader-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.9); /* semi-transparent white */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 9999; /* higher than modal content */
+}
+.gv-activated .gv-loader-container {
+	background: none;
+}
+
+/* Starts: Consent banner style */
+.oc_home_modal_wrap h3 {
+	font-weight: 600;
+}
+#oc_data_consent_overlay .oc_home_modal_wrap ul li {
+	margin-bottom: 0;
+}
+#oc-consent-settings label {
+	cursor: pointer
+}
+#oc-consent-settings .oc-wp-type {
+	margin-left: 36px
+}
+#oc-consent-settings .gv-description {
+	margin-top: 4px;
+}
+#oc-consent-settings .oc_consent_modal_show {
+	font-weight: 500;
+}
+/* Add this class to body via JS when banner is active */
+:root {
+	--consent-banner-height: 94px; /* JS will override this on load */
+}
+
+body.oc-consent-banner-active #wpbody {
+	padding-top: var(--consent-banner-height);
+}
+#oc-data-consent-banner {
+	position: fixed;
+	top: 32px;
+	left: auto;
+	right: 0;
+	width: calc(100% - 160px); /* exclude admin menu (usually 160px wide) */
+	z-index: 999;
+}
+body.folded #oc-data-consent-banner {
+	width: calc(100% - 36px); /* when WP menu is collapsed */
+}
+#oc-data-consent-banner .oc-consent-heading {
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+/* @todo - should be replaced/remove once gravity example known */
+.oc-consent-toast-container {
+	display: none;
+}
+
+/* Recommended section product list */
+.gv-grid.recommendations-grid .gv-card-image {
+	width: auto !important;
+}
+.gv-grid.recommendations-grid .gv-card-image img {
+	width: auto;
+}
+/* Recommended section product list end */
+
+.oc-mwp-badge{
+	vertical-align: bottom;
+	margin-left: 5px;
+}
+
+/* WPIN-8936: momentary highlight for the module toggle row a disabled-module
+   tile scrolls to, so the customer can see why its link didn't go anywhere. */
+.oc-module-row-highlight {
+	border-radius: 8px;
+	outline: 2px solid var(--color-link);
+	outline-offset: 4px;
+	animation: oc-module-row-pulse 2.2s ease-out;
+}
+@keyframes oc-module-row-pulse {
+	0% { background-color: color-mix(in srgb, var(--color-link) 16%, transparent); }
+	100% { background-color: transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+	.oc-module-row-highlight {
+		animation: none;
+		background-color: color-mix(in srgb, var(--color-link) 16%, transparent);
+	}
+}
+
+@media (max-width: 599px) {
+	#oc-data-consent-banner .oc-data-consent-decline {
+		order: 2;
+	}
+	#oc-data-consent-banner .oc-data-consent-accept {
+		margin-top: 16px;
+	}
+	#oc_data_consent_overlay #oc_login_masking_overlay_wrap {
+		margin: 0;
+		position: fixed;
+		bottom: 0;
+		left: 50%;
+		top: auto; /* Need to override existing */
+		transform: translateX(-50%);
+	}
+	#oc-data-consent-banner {
+		top: auto;
+		bottom: 0;
+	}
+	.oc-place-ce{
+		place-content: end;
+	}
+}
+/* Auto-folded menu between 783px and 960px */
+@media screen and (max-width: 960px) and (min-width: 783px) {
+	#oc-data-consent-banner {
+		width: calc(100% - 36px);
+	}
+}
+@media screen and (max-width: 782px) {
+	#oc-data-consent-banner {
+		left: 0;
+		width: 100%;
+	}
+	#oc_data_consent_overlay #oc_login_masking_overlay_wrap {
+		width: 100%;
+	}
+}
+
+/* Ends: Consent banner style */
+
+@media (min-width: 960px) {
+	.oc-header-desc {
+		width: 700px;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+	.gv-activated .gv-card .oc-grid-img{
+		grid-column: auto / span 4;
+	}
+	.gv-activated .gv-card .oc-grid-text{
+		grid-column: auto / span 7;
+	}
+	.oc-bg-wl-inner-wrap{
+		padding:40px;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+	.gv-activated .gv-card .oc-grid-img{
+		grid-column: auto / span 1;
+	}
+	.gv-activated .gv-card .oc-grid-text{
+		grid-column: auto / span 10;
+		padding-left: 14px;
+	}
+	.footer-section{
+		padding-top: 15px;
+	}
+	.oc-bg-wl-inner-wrap{
+		padding:34px;
+	}
+}
+
+@media (max-width: 599px) {
+	.oc-ol {
+		order: 99;
+	}
+	.gv-activated .oc-header-action {
+		gap: 10px;
+	}
+	.gv-activated.wrap2 .inner-wrapper{
+		padding-left: 14px;
+	}
+	.gv-activated .gv-card .oc-grid-img{
+		grid-column: auto / span 3;
+	}
+	.gv-activated .gv-card .oc-grid-text{
+		grid-column: auto / span 8;
+	}
+
+	.gv-activated .gv-card .oc-grid-img-two{
+		grid-column: auto / span 2;
+	}
+	.gv-activated .gv-card .oc-grid-content-two{
+		grid-column: auto / span 9;
+	}
+	#oc_login_masking_overlay_wrap{
+		width: 100%;
+	}
+	.oc-bg-wl-inner-wrap{
+		padding:24px;
+	}
+	.oc-welcome-head{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 8px;
+	}
+	.oc-welcome-head h5{
+		flex: 0 0 93%;
+	}
+	.oc-welcome-head .oc_welcome_modal_close{
+		flex: 1;
+	}
+	.oc_welcome_modal_close{
+		right: 24px;
+		top: 24px;
+	}
+	span.oc-all-articles {
+		margin-bottom: 2px;
+	}
+
+}
+@media (max-width: 388px) {
+	.oc-welcome-head{
+		margin-bottom: 0px;
+	}
+}

@@ -1,0 +1,4593 @@
+# Copyright (C) 2026 one.com
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: one.com 5.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/onecom-themes-plugins\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-31T13:24:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: onecom-wp\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: onecom-themes-plugins.php
+msgid "one.com"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: onecom-themes-plugins.php
+msgid "https://help.one.com/hc/en-us/articles/115005593945"
+msgstr ""
+
+#. Description of the plugin
+#: onecom-themes-plugins.php
+msgid "Integrate your WordPress site with the one.com control panel to get improved performance, security and feature updates."
+msgstr ""
+
+#. Author URI of the plugin
+#: onecom-themes-plugins.php
+msgid "https://one.com/"
+msgstr ""
+
+#: inc/class-onecom-contextual-recommendations.php:55
+msgid "Speed up your WooCommerce store"
+msgstr ""
+
+#: inc/class-onecom-contextual-recommendations.php:56
+msgid "Slow shops lose sales. WP Rocket is the easiest way to boost your store's speed — caching, lazy load and more, out of the box."
+msgstr ""
+
+#: inc/class-onecom-contextual-recommendations.php:57
+#: inc/class-onecom-performance-column.php:133
+msgid "Get WP Rocket"
+msgstr ""
+
+#: inc/class-onecom-contextual-recommendations.php:77
+msgid "Improve your search rankings"
+msgstr ""
+
+#: inc/class-onecom-contextual-recommendations.php:78
+msgid "No SEO plugin detected — your site may be missing a sitemap and key ranking signals. Rank Math PRO sets it all up in minutes."
+msgstr ""
+
+#: inc/class-onecom-contextual-recommendations.php:79
+msgid "Get Rank Math PRO"
+msgstr ""
+
+#: inc/class-onecom-contextual-recommendations.php:104
+msgid "Optimise your images automatically"
+msgstr ""
+
+#: inc/class-onecom-contextual-recommendations.php:105
+msgid "Your site has images that could be slowing it down. Imagify compresses and optimises them automatically — available now in the one.com Marketplace."
+msgstr ""
+
+#: inc/class-onecom-contextual-recommendations.php:106
+msgid "Get Imagify"
+msgstr ""
+
+#: inc/class-onecom-imagify-promoter.php:70
+msgid "Optimize your images"
+msgstr ""
+
+#: inc/class-onecom-imagify-promoter.php:71
+msgid "Did you know you can compress and optimize your images automatically? We recommend Imagify — a free, easy-to-use image optimization plugin."
+msgstr ""
+
+#: inc/class-onecom-imagify-promoter.php:72
+msgid "Try Imagify for free"
+msgstr ""
+
+#: inc/class-onecom-imagify-promoter.php:73
+msgid "No thanks"
+msgstr ""
+
+#: inc/class-onecom-marketplace-modal.php:103
+msgid "Discover the one.com Marketplace"
+msgstr ""
+
+#: inc/class-onecom-marketplace-modal.php:109
+msgid "Boost your site with premium plugins — WP Rocket, Rank Math PRO and more — at exclusive one.com prices. All in one place, built for your WordPress site."
+msgstr ""
+
+#: inc/class-onecom-marketplace-modal.php:113
+msgid "Explore Marketplace"
+msgstr ""
+
+#: inc/class-onecom-mcp.php:84
+msgid "One.com Site Assistant"
+msgstr ""
+
+#: inc/class-onecom-mcp.php:85
+msgid "Discover, install and manage plugins and one.com site features over MCP."
+msgstr ""
+
+#: inc/class-onecom-performance-column.php:67
+msgid "Performance score"
+msgstr ""
+
+#. translators: %s: "Install" or "Activate"
+#: inc/class-onecom-performance-column.php:102
+#, php-format
+msgid "%s WP Rocket to see your real score."
+msgstr ""
+
+#: inc/class-onecom-performance-column.php:154
+#: inc/functions.php:281
+#: inc/functions.php:699
+#: inc/functions.php:701
+#: inc/functions.php:1216
+#: modules/marketplace/classes/class-marketplace.php:129
+#: templates/network/theme-listing-loop.php:102
+#: templates/network/theme-listing-loop.php:104
+msgid "Activate"
+msgstr ""
+
+#: inc/class-onecom-performance-column.php:156
+#: inc/functions.php:1224
+#: templates/network/theme-listing-loop.php:107
+msgid "Install"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:39
+#: inc/class-onecom-shortcuts.php:414
+msgid "Health Monitor scans your website for potential security issues and checks the overall state of your site."
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:40
+msgid "Exclusive themes specially crafted for one.com customers."
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:41
+#: inc/class-onecom-shortcuts.php:835
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:65
+msgid "Show a banner on your website to inform visitors about cookies and get their consent."
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:72
+msgid "Go to control panel"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:117
+msgid "More insights"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:123
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:262
+msgid "Score"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:128
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:247
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:265
+msgid "To do"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:128
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:269
+msgid "items"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:130
+#: modules/health-monitor/traits/trait-onecom-texts.php:47
+msgid "Health Monitor lets you monitor the essential security and performance checkpoints and fix them if needed."
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:151
+msgid "Discover"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:154
+msgid "See all guides"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:171
+msgid "Missed plugin introduction?"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:171
+#: modules/home/templates/home.php:244
+msgid "Restart tour"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:189
+#: inc/class-onecom-shortcuts.php:270
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:219
+msgid "Fuel your online success with powerful add-ons"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:191
+#: inc/class-onecom-shortcuts.php:272
+msgid "NEW"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:202
+#: modules/home/oc-home-sections.php:93
+msgid "How can I improve the speed of my WordPress site"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:214
+msgid "How to optimise the WordPress database"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:226
+#: inc/class-onecom-shortcuts.php:295
+msgid "Improve security of your WordPress site"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:237
+#: inc/class-onecom-shortcuts.php:306
+msgid "Improve performance of your WordPress site"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:249
+#: modules/home/oc-home-sections.php:113
+msgid "What is one.com's Managed WordPress"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:283
+#: modules/home/oc-home-sections.php:78
+#: modules/home/oc-home-sections.php:118
+msgid "What is Maintenance Mode"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:326
+#: onecom-themes-plugins.php:634
+#: onecom-themes-plugins.php:635
+msgid "Themes"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:339
+#: inc/lib/onecom-nested-menu.php:263
+#: inc/lib/onecom-nested-menu.php:268
+#: onecom-themes-plugins.php:687
+#: onecom-themes-plugins.php:690
+#: onecom-themes-plugins.php:703
+msgid "Marketplace"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:361
+msgid "Explore and install plugins recommended by one.com to boost your website and business."
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:391
+#: inc/class-onecom-shortcuts.php:402
+msgid "Create a staging version of your site to try out new plugins, themes and customizations"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:401
+#: modules/home/oc-home-sections.php:37
+#: onecom-themes-plugins.php:714
+#: onecom-themes-plugins.php:717
+#: onecom-themes-plugins.php:984
+#: staging/Includes/Core/Administrator.php:99
+#: staging/Includes/Core/Administrator.php:100
+#: staging/Includes/Core/Administrator.php:114
+#: staging/Includes/Core/Administrator.php:115
+#: staging/Includes/Core/views/includes/header.php:4
+#: staging/one_staging.php:240
+#: staging/one_staging.php:243
+msgid "Staging"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:834
+msgid "one.com Cookie Banner"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:836
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:63
+msgid "Cookie banner"
+msgstr ""
+
+#: inc/class-onecom-shortcuts.php:858
+msgid "Health Monitor scans your website for potential security issues and checks the overall state of your site"
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:143
+msgid "Got it!"
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:145
+msgid "End tour"
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:147
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:358
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:12
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:14
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:66
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:68
+msgid "Back"
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:202
+#: modules/home/inc/functions.php:78
+msgid "Home"
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:203
+msgid "Here you find shortcuts to main features of our one.com plugin, such as performance and security tools."
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:203
+msgid "Get inspired by our selected articles or browse the complete help centre."
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:203
+msgid "If you need support, you've also come to the right place."
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:208
+#: inc/class-onecom-walkthrough.php:241
+#: inc/class-onecom-walkthrough.php:260
+#: inc/class-onecom-walkthrough.php:266
+#: inc/class-onecom-walkthrough.php:293
+#: inc/class-onecom-walkthrough.php:313
+#: inc/class-onecom-walkthrough.php:333
+msgid "Next"
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:223
+msgid "Choose the perfect theme to suit your brand and give your site a professional appearance."
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:238
+msgid "Boost the performance, security, marketing, and design of your WordPress site with tools that help your site and business grow faster and smarter."
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:253
+msgid "Create a copy fo your page to try out new plugins and themes without disturbing or breaking your existing website."
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:281
+#: modules/home/oc-home-sections.php:19
+msgid "Health and Security"
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:282
+#, php-format
+msgid "%1$s and %2$s keeps an eye on any issues, spammers, vulnerabilities and lets you fix most of them with just 1-click."
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:282
+msgid "The tour can be restarted anytime from the dashboard."
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:308
+#, php-format
+msgid "%1$s and %2$s will enhance the speed of your website and improve its overall performance."
+msgstr ""
+
+#: inc/class-onecom-walkthrough.php:328
+#, php-format
+msgid "Add features such as an %1$s, %2$s or a %3$s to increase the usability of your site."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:133
+msgid "Plugin Marketplace"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:133
+msgid "Discover, install, and manage WordPress plugins via the marketplace."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:146
+msgid "Install a plugin"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:147
+msgid "Install a WordPress plugin from a download URL obtained from the marketplace catalog. Does not activate it."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:149
+msgid "Plugin slug (used for idempotency)."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:149
+msgid "Package URL from the marketplace catalog (list-products)."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:161
+msgid "Activate a plugin"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:162
+msgid "Activate an installed plugin by slug."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:173
+msgid "Deactivate a plugin"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:174
+msgid "Deactivate an active plugin by slug."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:185
+msgid "Delete a plugin"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:186
+msgid "Delete an installed, inactive plugin by slug. Deactivate it first if active."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:216
+#, php-format
+msgid "List %s marketplace products"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:216
+msgid "List products available in the marketplace catalog. Each entry includes its categories, whether it is featured, install/activation state, and the download URL needed to install it."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:224
+#, php-format
+msgid "Get %s product details"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:224
+msgid "Get full catalog details for a single marketplace product by slug, including its install/activation state and download URL."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:224
+msgid "Product/plugin slug."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:227
+msgid "Missing product slug."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:244
+#, php-format
+msgid "Product \"%s\" was not found in the marketplace catalog."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:250
+#, php-format
+msgid "List installed %s products"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:250
+msgid "List the marketplace products that are already installed on this site (\"My Products\"), with their activation state."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:267
+#, php-format
+msgid "List %s subscriptions"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:267
+msgid "List the current marketplace product subscriptions for this site (\"My Subscriptions\")."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:283
+#, php-format
+msgid "Get a %s subscription"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:283
+msgid "Get details for a single subscription — including status and renewal/expiry date — by subscription id or product slug."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:283
+msgid "Subscription id (from list-subscriptions)."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:283
+msgid "Product slug, e.g. seo-by-rank-math-pro."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:294
+#, php-format
+msgid "Refresh %s products"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:295
+msgid "Clear the marketplace cache (catalog + subscriptions transients) and re-fetch the catalog fresh from the API. Returns the refreshed plugin list."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:328
+msgid "Provide a subscriptionId or a product slug."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:359
+msgid "No matching subscription was found."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:392
+msgid "The marketplace is temporarily unavailable."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:581
+msgid "Plugin slug."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Abilities/MarketplaceAbilities.php:588
+msgid "Machine-readable outcome code."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Controllers/MarketplaceController.php:674
+msgid "You do not have permission to activate plugins."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Controllers/MarketplaceController.php:1278
+msgid "Failed to fetch subscriptions."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:39
+msgid "Invalid plugin data."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:47
+msgid "Plugin is already installed."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:55
+msgid "An install is already in progress for this plugin. Please wait a moment and try again."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:72
+msgid "Plugin installed successfully"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:80
+msgid "Plugin installation failed. Unable to download or extract the plugin. The download URL may be invalid or inaccessible."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:83
+msgid "Plugin installation failed. The plugin was not found after installation."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:94
+msgid "Missing plugin slug."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:97
+msgid "Plugin not installed."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:102
+msgid "Plugin file not found."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:115
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:126
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:161
+msgid "Invalid plugin slug"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:129
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:164
+msgid "Plugin not installed"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:140
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:169
+msgid "Plugin file not found"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:148
+msgid "Failed to deactivate plugin"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:150
+msgid "Plugin deactivated successfully"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:172
+msgid "Cannot delete an active plugin. Please deactivate it first."
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:181
+msgid "Failed to delete plugin"
+msgstr ""
+
+#: inc/Dependencies/WPMarketplace/Groupone/Marketplace/Services/PluginService.php:183
+msgid "Plugin deleted successfully"
+msgstr ""
+
+#: inc/functions.php:205
+msgid "WordPress is being upgraded. Please try again later."
+msgstr ""
+
+#: inc/functions.php:220
+msgid "Installing theme"
+msgstr ""
+
+#: inc/functions.php:240
+#: inc/functions.php:654
+msgid "Something went wrong. Please contact the support at One.com."
+msgstr ""
+
+#: inc/functions.php:254
+#: inc/functions.php:671
+msgid "Unable to connect to the file system. Please contact the support at One.com."
+msgstr ""
+
+#: inc/functions.php:280
+msgid "Theme installed successfully"
+msgstr ""
+
+#: inc/functions.php:344
+msgid "Connection timed out"
+msgstr ""
+
+#: inc/functions.php:383
+msgid "Sorry, no compatible plugins found with your version of WordPress and PHP."
+msgstr ""
+
+#: inc/functions.php:383
+#: modules/marketplace/classes/class-marketplace.php:1079
+msgid "Try again"
+msgstr ""
+
+#: inc/functions.php:442
+msgid "The specified theme does not exist or is not installed."
+msgstr ""
+
+#: inc/functions.php:456
+#, php-format
+msgid "The theme \"%1$s\" is a child theme, but its parent theme \"%2$s\" is not installed."
+msgstr ""
+
+#: inc/functions.php:481
+#: inc/functions.php:1208
+msgid "Customise"
+msgstr ""
+
+#: inc/functions.php:636
+msgid "Installing plugin"
+msgstr ""
+
+#: inc/functions.php:679
+#: modules/marketplace/classes/class-marketplace.php:111
+msgid "Couldn’t install plugin."
+msgstr ""
+
+#: inc/functions.php:685
+msgid "Plugin installed."
+msgstr ""
+
+#: inc/functions.php:752
+msgid "Couldn’t activate plugin."
+msgstr ""
+
+#: inc/functions.php:755
+msgid "Plugin activated."
+msgstr ""
+
+#: inc/functions.php:1211
+#: modules/error-page/inc/classes/class-onecom-error-page.php:43
+#: modules/marketplace/classes/class-marketplace.php:116
+#: templates/network/theme-listing-loop.php:89
+msgid "Active"
+msgstr ""
+
+#: inc/functions.php:1218
+msgid "Installed"
+msgstr ""
+
+#: inc/functions.php:1246
+msgid "Select"
+msgstr ""
+
+#: inc/functions.php:1247
+msgid "Continue"
+msgstr ""
+
+#: inc/functions.php:1248
+#: templates/network/theme-listing-loop.php:59
+#: templates/theme-listing.php:155
+msgid "Preview"
+msgstr ""
+
+#: inc/functions.php:1745
+#: inc/functions.php:1782
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:357
+msgid "Couldn’t deactivate plugin."
+msgstr ""
+
+#: inc/functions.php:1780
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:356
+msgid "Plugin deactivated."
+msgstr ""
+
+#: inc/lib/onecom-nested-menu.php:291
+#: inc/lib/onecom-nested-menu.php:292
+msgid "My products"
+msgstr ""
+
+#: inc/module-registry.php:218
+msgid "Performance Cache"
+msgstr ""
+
+#: inc/module-registry.php:219
+msgid "Spam Protection"
+msgstr ""
+
+#: inc/module-registry.php:220
+msgid "Maintenance Mode"
+msgstr ""
+
+#: inc/module-registry.php:235
+msgid "Speeds up your site with server-side caching."
+msgstr ""
+
+#: inc/module-registry.php:236
+msgid "Blocks spam comments and form submissions automatically."
+msgstr ""
+
+#: inc/module-registry.php:237
+msgid "Shows visitors a maintenance page while you make changes."
+msgstr ""
+
+#: inc/module-registry.php:379
+msgid "This feature"
+msgstr ""
+
+#: inc/module-registry.php:383
+msgid "This feature is currently switched off."
+msgstr ""
+
+#: inc/module-registry.php:385
+msgid "Go to Features to turn it back on"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-helper.php:30
+msgid "one.com site management"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-helper.php:31
+msgid "First-party abilities for managing this WordPress site: posts and pages, navigation menus, plugins and themes."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-helper.php:48
+msgid "Authentication is required."
+msgstr ""
+
+#. translators: %s: WordPress capability name
+#: modules/abilities/classes/class-onecom-abilities-helper.php:61
+#, php-format
+msgid "Missing required capability: %s"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:47
+msgid "List menus"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:48
+msgid "List navigation menus with their assigned theme locations and item counts."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:63
+msgid "Get menu"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:64
+msgid "Get a navigation menu and its items (hierarchy via parent_item_id)."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:88
+msgid "Create menu"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:89
+msgid "Create an empty navigation menu."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:110
+msgid "Delete menu"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:111
+msgid "Delete a navigation menu and all of its items."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:132
+msgid "Get menu locations"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:133
+msgid "List the theme's registered menu locations and which menu each one shows."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:148
+msgid "Assign menu location"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:149
+msgid "Show a menu at a theme location, or clear the location by passing menu_id 0."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:154
+msgid "0 clears the location."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:169
+msgid "Add menu item"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:170
+msgid "Add an item to a menu: either a custom link (title + url) or a link to existing content (post_id)."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:177
+msgid "For custom link items."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:178
+msgid "Link to this post/page instead of a custom url."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:196
+msgid "Update menu item"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:197
+msgid "Update a menu item's title, url, parent or position. Only the provided fields change."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:205
+msgid "0 makes it top-level."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:222
+msgid "Remove menu item"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:223
+msgid "Remove a single item from a menu. The linked content is not deleted."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:314
+#: modules/abilities/classes/class-onecom-abilities-menus.php:354
+#: modules/abilities/classes/class-onecom-abilities-menus.php:405
+#: modules/abilities/classes/class-onecom-abilities-menus.php:428
+msgid "Menu not found."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:334
+msgid "A menu name is required."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:358
+msgid "Could not delete the menu."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:400
+msgid "The theme does not register this menu location."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:444
+msgid "Linked content not found."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:458
+msgid "Provide either post_id, or both title and url for a custom link."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:482
+#: modules/abilities/classes/class-onecom-abilities-menus.php:527
+msgid "Menu item not found."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-menus.php:530
+msgid "Could not remove the menu item."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:93
+msgid "Invalid plugin file path."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:96
+msgid "Plugin not found."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:110
+msgid "Plugin file path relative to the plugins directory, e.g. \"akismet/akismet.php\" (see list-plugins)."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:119
+msgid "List installed plugins"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:120
+msgid "List installed plugins with activation state and available updates."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:146
+msgid "Get plugin details"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:147
+msgid "Get details for one installed plugin."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:162
+msgid "Install plugin from WordPress.org"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:163
+msgid "Install a free plugin from the WordPress.org directory by slug, optionally activating it. For marketplace/premium products use the marketplace tools instead."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:168
+msgid "WordPress.org plugin slug."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:188
+msgid "Activate plugin"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:189
+msgid "Activate an installed plugin."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:202
+msgid "Deactivate plugin"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:203
+msgid "Deactivate an active plugin. one.com platform plugins cannot be deactivated this way."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:216
+msgid "Update plugin"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:217
+msgid "Update an installed plugin to its latest available version."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:315
+msgid "A plugin slug is required."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:331
+msgid "Could not resolve a download for this plugin."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:335
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:447
+#: modules/abilities/classes/class-onecom-abilities-themes.php:246
+#: modules/abilities/classes/class-onecom-abilities-themes.php:329
+msgid "The WordPress filesystem is not writable."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:344
+msgid "Plugin installation failed."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:352
+msgid "Installed, but you are not allowed to activate plugins."
+msgstr ""
+
+#. translators: %s: activation error message
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:359
+#, php-format
+msgid "Installed, but activation failed: %s"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:410
+msgid "This one.com platform plugin cannot be deactivated over MCP."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:442
+msgid "No update is available for this plugin."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-plugins.php:456
+msgid "Plugin update failed."
+msgstr ""
+
+#. translators: %s: post type slug
+#: modules/abilities/classes/class-onecom-abilities-posts.php:56
+#, php-format
+msgid "Unsupported post type: %s"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:71
+msgid "Content type to operate on. Defaults to \"post\"."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:77
+msgid "Find posts"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:78
+msgid "Find posts or pages with optional status filter, search and pagination."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:87
+msgid "Filter by post status. Defaults to \"any\" readable status."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:110
+msgid "Get post"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:111
+msgid "Get a single post or page by id, including its content."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:116
+msgid "Post or page id."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:139
+msgid "Create post"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:140
+msgid "Create a post or page. Content accepts block markup or HTML. Created as draft unless a status is given."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:154
+msgid "Parent id (pages only)."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:177
+msgid "Update post"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:178
+msgid "Update fields of an existing post or page. Only the provided fields change."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:211
+msgid "Delete post"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:212
+msgid "Move a post or page to trash. Set force=true to delete permanently."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:218
+msgid "Skip trash and delete permanently."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:323
+#: modules/abilities/classes/class-onecom-abilities-posts.php:381
+#: modules/abilities/classes/class-onecom-abilities-posts.php:431
+msgid "Post not found."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:345
+msgid "You are not allowed to publish this content — create it as a draft instead."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:407
+msgid "You are not allowed to publish this content."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-posts.php:437
+msgid "Could not delete the post."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:59
+msgid "Theme directory name, e.g. \"twentytwentyfive\" (see list-themes)."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:68
+msgid "List installed themes"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:69
+msgid "List installed themes with the active one flagged and available updates."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:87
+msgid "Get theme details"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:88
+msgid "Get details for one installed theme, or the active theme when no stylesheet is given."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:108
+msgid "Install theme from WordPress.org"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:109
+msgid "Install a free theme from the WordPress.org directory by slug. Does not switch to it unless activate=true."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:114
+msgid "WordPress.org theme slug."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:134
+msgid "Switch active theme"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:135
+msgid "Switch the site to another installed theme. Changes the site's appearance immediately."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:150
+msgid "Update theme"
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:151
+msgid "Update an installed theme to its latest available version."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:210
+#: modules/abilities/classes/class-onecom-abilities-themes.php:287
+#: modules/abilities/classes/class-onecom-abilities-themes.php:312
+msgid "Theme not found."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:226
+msgid "A theme slug is required."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:242
+msgid "Could not resolve a download for this theme."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:255
+msgid "Theme installation failed."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:263
+msgid "Installed, but you are not allowed to switch themes."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:324
+msgid "No update is available for this theme."
+msgstr ""
+
+#: modules/abilities/classes/class-onecom-abilities-themes.php:338
+msgid "Theme update failed."
+msgstr ""
+
+#: modules/advanced-login-protection/classes/class-onecom-alp-notice.php:35
+#, php-format
+msgid "You have the one.com Advanced Login Protection enabled for administrators. If you want to allow another user to login as administrator, create a guest user in the %sone.com control panel%s."
+msgstr ""
+
+#: modules/advanced-login-protection/classes/class-onecom-alp-notice.php:42
+#, php-format
+msgid "You have the one.com Advanced Login Protection enabled which means that only users with one.com credentials can login to your site. You can invite other users to login as administrator by creating a Guest user in the %sone.com control panel%s."
+msgstr ""
+
+#: modules/advanced-login-protection/classes/class-onecom-alp-onecom-login.php:121
+msgid "Admin sign in with one.com"
+msgstr ""
+
+#: modules/api/class-onecom-plugins-api.php:336
+msgid "Healthy"
+msgstr ""
+
+#: modules/api/class-onecom-plugins-api.php:338
+msgid "Fair"
+msgstr ""
+
+#: modules/api/class-onecom-plugins-api.php:340
+msgid "Unhealthy"
+msgstr ""
+
+#: modules/api/class-onecom-plugins-api.php:583
+msgid "Success."
+msgstr ""
+
+#: modules/cookie-banner/inc/functions.php:29
+#: modules/cookie-banner/inc/functions.php:30
+msgid "Cookie Banner"
+msgstr ""
+
+#: modules/cookie-banner/inc/functions.php:276
+msgid "Since you are using One.com Analytics plugin, we recommend that you enable a cookie banner. This banner tells your visitors about your site storing data about them."
+msgstr ""
+
+#: modules/cookie-banner/inc/functions.php:283
+msgid "Setup cookie banner"
+msgstr ""
+
+#: modules/cookie-banner/inc/functions.php:285
+msgid "Skip setup"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:4
+msgid "Utility Tools"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:6
+msgid "Helpful tools for building and maintaining your site."
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:16
+msgid "This website uses cookies. By continuing to use this site, you accept our use of cookies."
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:20
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:115
+msgid "Accept"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:74
+msgid "Enable cookie banner"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:81
+msgid "Banner text"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:82
+msgid "Add a text asking your users to accept cookies."
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:84
+msgid "Cookie requirements vary. This default text is for general use but may not meet your particular legal requirements."
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:88
+msgid "Cookie policy link (Optional)"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:91
+msgid "Add a link to your cookie policy"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:93
+msgid "Your privacy policy can contain information about which cookies you use, so visitors can read more about what you collect information about."
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:94
+msgid "What should be included in my cookie policy?"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:99
+msgid "Link text"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:104
+msgid "Link URL"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:107
+msgid "You can link to any page on your website or even add an external link."
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:114
+msgid "Button text"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:117
+msgid "This is the text that appears on the button that activates cookies."
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:121
+msgid "Banner style"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:123
+msgid "Grey"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:124
+msgid "Black"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:125
+msgid "White"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:131
+msgid "Tip"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:131
+msgid "Remember to delete cache in case you are using any caching plugin."
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:135
+msgid "Purge Performance Cache"
+msgstr ""
+
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:141
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:145
+#: modules/cookie-banner/templates/oc_cookie_banner_admin.php:152
+#: modules/error-page/inc/classes/class-onecom-error-page.php:42
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:276
+#: modules/health-monitor/templates/uploads-security.php:82
+#: modules/health-monitor/traits/trait-onecom-texts.php:40
+msgid "Save"
+msgstr ""
+
+#: modules/error-page/inc/classes/class-onecom-error-page.php:21
+#: modules/error-page/inc/classes/class-onecom-error-page.php:63
+msgid "Advanced Error Page"
+msgstr ""
+
+#: modules/error-page/inc/classes/class-onecom-error-page.php:40
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:274
+#: modules/health-monitor/traits/trait-onecom-texts.php:46
+msgid "Status"
+msgstr ""
+
+#: modules/error-page/inc/classes/class-onecom-error-page.php:41
+msgid "Saving"
+msgstr ""
+
+#: modules/error-page/inc/classes/class-onecom-error-page.php:44
+msgid "Inactive"
+msgstr ""
+
+#: modules/error-page/inc/classes/class-onecom-error-page.php:45
+#: modules/error-page/inc/classes/class-onecom-error-page.php:112
+#: modules/error-page/inc/classes/class-onecom-error-page.php:134
+msgid "Couldn’t save your settings."
+msgstr ""
+
+#: modules/error-page/inc/classes/class-onecom-error-page.php:46
+msgid "We detected a custom error on your site. You need to deactivate it before you can use the Advanced Error Page."
+msgstr ""
+
+#: modules/error-page/inc/classes/class-onecom-error-page.php:65
+msgid "The advanced error page shows admin users if the error is related to a plugin or theme and what might be possible causes."
+msgstr ""
+
+#: modules/error-page/inc/classes/class-onecom-error-page.php:81
+msgid "File already exist"
+msgstr ""
+
+#: modules/error-page/inc/classes/class-onecom-error-page.php:100
+msgid "An error handler is already present!"
+msgstr ""
+
+#: modules/error-page/inc/classes/class-onecom-error-page.php:107
+#: modules/error-page/inc/classes/class-onecom-error-page.php:123
+#: modules/error-page/inc/classes/class-onecom-error-page.php:129
+msgid "Your settings were saved."
+msgstr ""
+
+#: modules/error-page/inc/classes/fatal-error-handler.php:50
+msgid "There has been a critical error on your website, putting it in recovery mode. Please check the Themes and Plugins screens for more details. If you just installed or updated a theme or plugin, check the relevant page for that first."
+msgstr ""
+
+#: modules/error-page/inc/classes/fatal-error-handler.php:52
+msgid "There has been a critical error on your website. Please check your site admin email inbox for instructions."
+msgstr ""
+
+#: modules/error-page/inc/classes/fatal-error-handler.php:55
+msgid "There has been a critical error on your website."
+msgstr ""
+
+#: modules/error-page/inc/classes/fatal-error-handler.php:68
+msgid "Learn more about debugging in WordPress."
+msgstr ""
+
+#. translators: %s: Plugin name.
+#: modules/error-page/inc/classes/fatal-error-handler.php:197
+#, php-format
+msgid "WordPress has detected an issue with your plugin %s."
+msgstr ""
+
+#. translators: %s: Theme name.
+#: modules/error-page/inc/classes/fatal-error-handler.php:203
+#, php-format
+msgid "WordPress has detected an issue with your theme %s."
+msgstr ""
+
+#: modules/error-page/inc/classes/fatal-error-handler.php:210
+msgid "Here are some possible reasons for this error:"
+msgstr ""
+
+#: modules/error-page/inc/classes/fatal-error-handler.php:213
+msgid "A recent theme update"
+msgstr ""
+
+#: modules/error-page/inc/classes/fatal-error-handler.php:214
+msgid "Activation of a child theme"
+msgstr ""
+
+#: modules/error-page/inc/classes/fatal-error-handler.php:217
+msgid "A recent plugin update"
+msgstr ""
+
+#: modules/error-page/inc/classes/fatal-error-handler.php:219
+msgid "Deactivation of a required plugin"
+msgstr ""
+
+#: modules/error-page/inc/classes/fatal-error-handler.php:220
+msgid "WordPress update"
+msgstr ""
+
+#: modules/error-page/inc/classes/fatal-error-handler.php:221
+msgid "PHP version update"
+msgstr ""
+
+#: modules/error-page/inc/classes/fatal-error-handler.php:225
+#, php-format
+msgid "For further information, you can visit our <a href=\"%s\" target=\"_blank\"> help center</a>"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:30
+msgid "Discouraged Plugins"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:118
+msgid "Scan again"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:120
+msgid "An error occurred. Please reload the page and try again"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:128
+msgid "This field cannot be empty"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:129
+msgid "Please, enter your site key."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:130
+msgid "The entered value seems to be incomplete."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:139
+msgid "Awesome, you completed all recommendations!"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:140
+msgid "You haven't completed any recommendations. See the <span data-target=\"todo\">To do</span> section."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:141
+msgid "You haven’t ignored any recommendations."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:144
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:261
+#: modules/health-monitor/traits/trait-onecom-texts.php:43
+msgid "Unignore"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:145
+msgid "Ignore from future scans"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:146
+#: modules/health-monitor/traits/trait-onecom-texts.php:45
+msgid "Ignore for 24 hours"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:168
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:176
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:41
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:236
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:244
+msgid "No scan available"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:248
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:253
+msgid "Done"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:249
+msgid "Ignored"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:250
+msgid "All recommended action items that were marked to be ignored in future scans."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:251
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:267
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:314
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:238
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:283
+msgid "Vulnerabilities"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:252
+msgid "Recommendations for common security and performance optimisations you can implement to make your site more protected against hackers and bots. We run automatic scans daily."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:254
+msgid "Your item was solved and moved to “Done”."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:255
+msgid "Couldn’t perform action."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:256
+#: modules/health-monitor/traits/trait-onecom-texts.php:41
+msgid "Revert"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:257
+msgid "The item was reverted and moved to “To do”."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:258
+msgid "Couldn’t revert item."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:259
+msgid "An error occurred while undoing the action."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:260
+#: modules/health-monitor/traits/trait-onecom-texts.php:42
+msgid "Always ignore"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:263
+msgid "Your site’s combined score based on security, performance and best practices."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:264
+msgid "for security and performance"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:266
+msgid "Our recommendations to optimise your site’s security and performance."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:268
+msgid "Detected insecure plugins, themes, or WordPress core files."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:270
+msgid "Action in progress..."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:271
+msgid "Scan now"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:272
+msgid "Scanning..."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:273
+msgid "Last scan:"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:275
+#: modules/health-monitor/classes/class-onecom-health-monitor.php:273
+#: modules/health-monitor/classes/class-onecom-health-monitor.php:284
+msgid "Delete"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:277
+msgid "Confirm"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:278
+msgid "Your WP Admin username was successfully changed"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:279
+msgid "Change your username"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:280
+msgid "Use a personal username so your WordPress account and website become more protected against potential hacking."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:281
+msgid "When you confirm your new username, you’ll be logged out immediately and will be asked to log back in to WP Admin with your new username."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:282
+msgid "Current WP Admin username"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:283
+msgid "New WP Admin username"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:284
+msgid "Go to Login"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:285
+#: modules/home/templates/premium-wp-care-modal.php:54
+#: staging/Includes/Core/views/includes/footer.php:21
+#: staging/Includes/Core/views/includes/footer.php:40
+#: staging/Includes/Core/views/includes/footer.php:61
+msgid "Cancel"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:286
+msgid "Enter a username."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:287
+msgid "You can only use letters, numbers, underscores, hyphens, periods, and the @ symbol in your username."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:288
+msgid "Enter a different username than your current one."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:289
+#, php-format
+msgid "Your WP Admin username was changed from %s to %s. Please log back in to your account with the new username."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:295
+msgid "No items to do!"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:296
+msgid "Your site’s score is great and there is currently no action needed to improve the security or performance."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:299
+msgid "No item resolved yet"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:300
+msgid "Once you resolve the first item from the “To do” column, it will appear here."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:303
+msgid "No items to show"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:304
+msgid "Once the first item will be marked to be ignored in future scans, it will appear here."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:307
+msgid "Nothing here"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:308
+msgid "There is no data to display."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:348
+msgid "Discouraged plugins"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:349
+#: modules/notice-discouraged-plugins.php:103
+msgid "View discouraged plugins"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:350
+msgid "Keep your WordPress site running smoothly. We review your plugins and list those we don’t recommend using."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:351
+msgid "Well done!"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:352
+msgid "No discouraged plugins found on your site."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:353
+#: modules/marketplace/classes/class-marketplace.php:112
+msgid "Deactivate"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:354
+msgid "Deactivating"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-admin-pages.php:355
+msgid "More details"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-asset-minification.php:19
+msgid "Some of your static assets are not minified."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-asset-minification.php:19
+msgid "You could use a minified version of following files to further optimize your site."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-asset-minification.php:22
+msgid "All your static assets are minified."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-db.php:72
+msgid "Database security"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-db.php:73
+#, php-format
+msgid "You are using default table prefix. This means that attackers can easily guess your database configuration. %sChange the table prefix for WordPress%s"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-db.php:77
+msgid "You are not using default table prefix"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-files.php:44
+msgid "File execution in uploads"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-files.php:46
+msgid "File execution is blocked in \"Uploads\" folder."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-files.php:235
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:405
+msgid "Failed"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-files.php:241
+msgid "Deleted"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-files.php:269
+msgid "WP file directory and files permissions"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-files.php:270
+#, php-format
+msgid "Your file and folder permissions are not set correctly. If they are too strict you get errors on your site, if they are too loose this poses a security risk. %sChange the file permissions via an FTP client%s"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-files.php:274
+msgid "Correct file permissions."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-files.php:297
+msgid "File editing from WordPress admin is disabled"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-files.php:303
+msgid "File editing from WordPress admin is allowed"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-files.php:304
+#, php-format
+msgid "File editing from your WordPress dashboard is allowed, meaning users with a role that has this right can edit all the core files of your site. Someone might accidentally break it, or a hacker might get access to a password. %sDisable file editing in WordPress admin%s"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-login.php:45
+#: modules/health-monitor/traits/trait-onecom-texts.php:162
+msgid "You are using the default login expiration."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-login.php:45
+msgid "Current settings logout users after 48 hours. Consider shortening this duration."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-login.php:48
+#: modules/health-monitor/traits/trait-onecom-texts.php:161
+msgid "You are using optimal logout duration."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-login.php:59
+msgid "Failed to fix logout duration"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-login.php:75
+msgid "Failed to rollback"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-login.php:112
+msgid "There were no failed login attempts"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-login.php:114
+msgid "There were some failed login attempts."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-login.php:114
+msgid "There were some of the failed login attempts for existing users. Consider changing the username for following users."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-login.php:130
+msgid "Failed login data reset"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-login.php:133
+msgid "Unable to reset login attempts"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-login.php:206
+#: modules/health-monitor/classes/class-onecom-check-login.php:209
+msgid "Invalid captcha value"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-plugins.php:77
+msgid "All the plugins are tested with last 2 major releases of WordPress"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-plugins.php:80
+msgid "Some of the plugins are not tested with last 2 major releases of WordPress"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-plugins.php:518
+#: modules/health-monitor/classes/class-onecom-check-plugins.php:527
+msgid "Remove inactive plugins"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-plugins.php:520
+#, php-format
+msgid "Your site currently has %d inactive plugins. Inactive plugins are tempting targets for hackers. We recommend removing any plugins that you no longer need."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-plugins.php:565
+#: modules/health-monitor/traits/trait-onecom-texts.php:280
+msgid "Remove inactive themes"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-ssl.php:14
+msgid "SSL certificate"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-ssl.php:15
+#, php-format
+msgid "Your site isn’t using HTTPS. Visitors on your site might get a warning that your website isn’t secure and it can also have a negative effect on your SEO rating. %sContact support%s"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-ssl.php:19
+msgid "Your site has valid SSL certificate!"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:22
+msgid "PHP version"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:23
+#, php-format
+msgid "You are running an outdated version of PHP. We recommend using the latest version of PHP. %sHow do I update PHP for my WordPress site?%s"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:26
+msgid "You have the latest PHP version enabled!"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:51
+msgid "Plugins"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:52
+#, php-format
+msgid "One or more of your plugins are outdated. Outdated plugins make your site vulnerable to security attacks. %sUpdate your Plugins to the newest version%s"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:63
+msgid "All your plugins are updated"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:131
+msgid "WordPress version"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:132
+#, php-format
+msgid "Update WordPress to the latest version, especially minor updates are important because they usually include security fixes. Check this guide for more instructions:  %sHow do I update a CMS like WordPress?%s"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:134
+msgid "Your WordPress version is updated"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:154
+msgid "Connection to Wordpress.org was successful"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:169
+msgid "Connection to Wordpress.org"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:179
+#: modules/health-monitor/classes/class-onecom-check-updates.php:185
+#, php-format
+msgid "Your site could not connect to wordpress.org, which means background updates may not be working properly. %Contact support%s"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-updates.php:188
+msgid "Background updates are working properly."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-check-username.php:34
+#: modules/health-monitor/classes/class-onecom-health-monitor.php:311
+msgid "Change username"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-checks.php:182
+msgid "Enable features"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-checks.php:184
+#: modules/health-monitor/classes/class-onecom-checks.php:217
+#: modules/health-monitor/traits/trait-onecom-texts.php:112
+msgid "Activate Performance cache"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-checks.php:205
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:321
+#: modules/health-monitor/traits/trait-onecom-texts.php:138
+msgid "Turn off pingbacks"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-checks.php:259
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:515
+msgid "Enable recaptcha"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-checks.php:264
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:520
+msgid "Site key"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-checks.php:269
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:525
+msgid "Site secret"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-checks.php:272
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:528
+#, php-format
+msgid "You can obtain these values <a href=\"%s\">here</a>"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-checks.php:285
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:469
+msgid "Enable spam protection"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-checks.php:288
+msgid "View recommended plugins"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-checks.php:300
+msgid "Reset failed login data"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-checks.php:309
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:431
+#: modules/health-monitor/traits/trait-onecom-texts.php:157
+#, php-format
+msgid "Change logout time to %s hours"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-checks.php:319
+msgid "Disable XML RPC"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-debug-mode.php:85
+#: modules/health-monitor/classes/class-onecom-debug-mode.php:92
+msgid "Something went wrong with deleting the file. Please try again."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:363
+msgid "The item was ignored and moved to “Ignored”."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:365
+msgid "Failed to ignore the item."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:386
+msgid "The item was unignored and will be part of future scans."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:388
+msgid "Couldn’t unignore the item."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-health-monitor-ajax.php:401
+#: modules/marketplace/classes/class-marketplace.php:199
+msgid "Success"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-pingback.php:18
+msgid "Pingback is enabled."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-pingback.php:19
+msgid "You have pingbacks enabled on your site."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-pingback.php:23
+#: modules/health-monitor/traits/trait-onecom-texts.php:148
+#: modules/health-monitor/traits/trait-onecom-texts.php:150
+msgid "Pingbacks are disabled."
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-template.php:21
+#: modules/health-monitor/templates/oc_sh_health_monitor.php:10
+#: onecom-themes-plugins.php:983
+msgid "Health Monitor"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-xml-rpc.php:25
+msgid "You can ignore this warning if you are using Jetpack"
+msgstr ""
+
+#: modules/health-monitor/classes/class-onecom-xml-rpc.php:52
+msgid "Failed to disable XML RPC"
+msgstr ""
+
+#: modules/health-monitor/templates/multisite_support_banner.php:11
+msgid "Health and Security Tools"
+msgstr ""
+
+#: modules/health-monitor/templates/multisite_support_banner.php:12
+msgid "Monitor the essential security and performance checkpoints and fix them if needed."
+msgstr ""
+
+#: modules/health-monitor/templates/multisite_support_banner.php:23
+msgid "Not supported on Multisite"
+msgstr ""
+
+#: modules/health-monitor/templates/multisite_support_banner.php:24
+msgid "This feature is not available because your site is part of a Multisite installation."
+msgstr ""
+
+#: modules/health-monitor/templates/oc_sh_health_monitor.php:11
+msgid "Monitor essential security and performance checkpoints and fix them if needed."
+msgstr ""
+
+#: modules/health-monitor/templates/uploads-security.php:30
+msgid "Modify the file security settings in your uploads directory"
+msgstr ""
+
+#: modules/health-monitor/templates/uploads-security.php:32
+msgid "Select the files that you want to block in your uploads directory. More the number of files selected, higher is the security"
+msgstr ""
+
+#: modules/health-monitor/templates/uploads-security.php:39
+msgid "Edit the rules manually"
+msgstr ""
+
+#: modules/health-monitor/templates/uploads-security.php:41
+msgid "Please use manual edit mode only if you know what you are doing."
+msgstr ""
+
+#: modules/health-monitor/templates/uploads-security.php:73
+msgid "Current .htaccess file"
+msgstr ""
+
+#: modules/health-monitor/templates/uploads-security.php:84
+msgid "Reset"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-check-category.php:9
+msgid "Security"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-check-category.php:10
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:417
+msgid "Critical"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-check-category.php:11
+#: modules/home/oc-home-sections.php:26
+msgid "Performance"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:39
+msgid "Change"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:44
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:310
+msgid "How to fix"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:48
+msgid "Monitor essential security and performance checkpoints, and fix them if needed. With the Pro version, you get the quick fix, ignore, and more functionalities."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:49
+msgid "Get access to ignore functionality and more for free."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:50
+#: modules/home/oc-home-sections.php:443
+#: modules/marketplace/classes/class-marketplace.php:192
+msgid "Get started"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:51
+#: modules/health-monitor/traits/trait-onecom-texts.php:128
+msgid "Free upgrade"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:61
+msgid "Reduce the amount of files in the uploads folder"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:62
+msgid "When you upload an image, video or other files to your WordPress Media library, they are saved in the /wp-content/uploads/ folder on your web space. In addition, WordPress adds information about the uploads in the wp_posts and wp_postmeta tables in your database. If you upload a lot of files, the uploads folder can take up so much disk space that it slows down your site. In the worst case, it could affect the performance of our server and force us to temporarily suspend the website."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:64
+#, php-format
+msgid "Reduce the size of the uploads folder by cleaning up your Media Library in WP Admin. Check out %sour guide%s to learn more about the WordPress Media Library and how to clean it up."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:68
+msgid "Great! Your uploads folder is optimal."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:69
+msgid "Your uploads folder is too big:"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:73
+msgid "Clean your options table"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:74
+msgid "Whenever you install a plugin or change a setting, data is added to your options table. Over time, this file may accumulate a lot of unnecessary data, which can slow down your site."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:76
+#, php-format
+msgid "Reduce the size of the \"%s_options\" table by deleting obsolete data in phpMyAdmin. %sFollow our guide%s for instructions. If you need help, contact our support."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:81
+msgid "Great! Your options table is optimal."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:82
+msgid "The options table in your database contains more than 20000 rows and needs to be cleaned."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:86
+msgid "Delete old staging websites"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:87
+msgid "A staging site is a copy of your website that is used for testing. Even though it isn't visible to your customers, the staging site is still available online, which makes it a potential target for hackers. That's why we recommend deleting old staging sites when you no longer need them."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:88
+msgid "In WP Admin, go to the Staging section of the one.com plugin and delete your old staging sites."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:91
+msgid "Go to Staging section"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:94
+msgid "Great! You don’t have old staging websites."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:95
+msgid "We've detected one or more staging sites on your web space which haven't been used in the past six months."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:99
+msgid "Remove backups from your web space"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:100
+msgid "We detected one or more .zip files on your web space. They were likely created as backups. If you no longer need these files, we recommend deleting them or saving them somewhere else. Zip files can be downloaded by anyone and pose a potential security risk."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:101
+msgid "Remove the .zip files listed above from your web space and save them in another location if you still need them."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:103
+#, php-format
+msgid "File %s deleted"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:104
+msgid "Fix by deleting"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:107
+msgid "No old .zip files (backups) detected."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:108
+msgid "We detected the following .zip files on your web space. They were likely created as backups."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:113
+msgid "When the Performance Cache is active your website loads a lot faster. The Varnish server saves a cached copy of your website, which will then be shown to your next visitors. <br/>This is especially useful if you have a lot of visitors. It may also help to improve your SEO ranking. If you would like to learn more, please read our help article: <a href=\"https://help.one.com/hc/en-us/articles/360000080458\" target=\"_blank\">How to use the One.com Performance Cache for WordPress</a>."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:114
+msgid "Activate Performance Cache"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:115
+msgid "Activate the Performance Cache to improve the loading time of your site."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:117
+msgid "Performance cache enabled."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:119
+msgid "Performance cache is enabled"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:120
+msgid "Performance Cache is inactive."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:124
+msgid "Use compatible plugins"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:125
+msgid "If a plugin is not compatible with the last two major WordPress versions, we recommend deleting it and using an alternative plugin instead."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:127
+#: modules/health-monitor/traits/trait-onecom-texts.php:129
+msgid "Delete  incompatible plugins and replace them with alternative plugins with similar functions."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:128
+msgid "Need help? Upgrade to one.com Managed WordPress for free and get specialised WordPress Support."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:131
+msgid "All installed plugins are compatible with the last two major releases of WordPress."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:132
+msgid "The following plugins are not compatible with the last two major WordPress versions:"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:136
+msgid "Turn off pingbacks and trackbacks"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:137
+msgid "Pingbacks and trackbacks were meant to notify sites of backlinks, which means when content on their site is being linked to from another site. However, they are nowadays mostly used for spam. Turning them off reduces spam without affecting SEO."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:139
+msgid "Turn off pingbacks and trackbacks to reduce spam."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:140
+msgid "Go to WordPress admin > Settings > Discussion and uncheck the boxes that say"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:142
+msgid "Attempt to notify any blogs linked to from the post"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:144
+msgid "Allow link notifications from other blogs (pingbacks and trackbacks) on new posts"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:146
+msgid "You have successfuly disabled pingbacks and trackbacks."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:147
+#: modules/health-monitor/traits/trait-onecom-texts.php:183
+#: modules/health-monitor/traits/trait-onecom-texts.php:366
+#: modules/health-monitor/traits/trait-onecom-texts.php:442
+#: modules/health-monitor/traits/trait-onecom-texts.php:502
+msgid "Fix this in one click with one.com's Managed WP add-on. Including 1-click fixes, automatic updates, and more, Managed WP helps you keep your website secure and save time."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:151
+msgid "Pingbacks are active on your site."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:155
+msgid "Logout duration"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:156
+msgid "By default, WordPress allows users to be logged in for 14 days. This can create security issues if a User logs in on a public computer and forgets to logout. To prevent this, you can reduce the duration for which a user session is remembered."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:158
+#, php-format
+msgid "Logout time changed to %s hours"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:159
+msgid "Click on fix now below"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:166
+msgid "Deactivate XML-RPC if you don’t need it"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:168
+msgid "XML-RPC is an old feature that allows WordPress to communicate with other systems. It's still used by the Jetpack plugin and the WordPress mobile application. Unless you're using either of these features, we recommend deactivating XML-RPC, as it can make your site more vulnerable to cyber attacks."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:169
+msgid "Deactivate XML-RPC"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:170
+msgid "If you’re not using the Jetpack plugin or the WordPress mobile application, click the button below to deactivate XML-RPC."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:171
+#, php-format
+msgid "If you’re not using the Jetpack plugin or the WordPress mobile application, deactivate XML-RPC by pasting the following code snippet in your .htaccess file. Read more about how to find and edit this file in %sour guide%s."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:178
+msgid "XML RPC disabled."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:180
+msgid "Great! XML-RPC is not active on your site."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:181
+msgid "XML-RPC is currently active on your site, making it less secure. Hackers can exploit XML-RPC to target your site with brute force and DDos attacks."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:186
+msgid "Install a spam protection plugin"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:187
+msgid "Unprotected forms on your website are the biggest source of spam registrations and comments. We recommend using a spam protection plugin to save time in handling spam manually."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:188
+msgid "Install the plugin"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:189
+msgid "Install and activate the one.com Spam Protection plugin."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:190
+#, php-format
+msgid "Install and activate a spam protection plugin. See the options in our %srecommended%s plugins section."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:191
+msgid "one.com spam plugin is now installed and activated."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:192
+#: modules/health-monitor/traits/trait-onecom-texts.php:202
+msgid "Protect your website with one.com's Managed WP add-on, which includes a Spam Protection plugin, automatic updates, and more."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:194
+msgid "Great! A spam protection plugin is active on this site."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:195
+msgid "Your website doesn’t have an active spam protection plugin."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:199
+msgid "Limit failed logins"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:200
+msgid "By default, WordPress allows unlimited login attempts. Hackers can exploit this by using automated scripts to guess your username and password. You can block login attempts after multiple failed entries to prevent this."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:201
+msgid "Activate Spam Protection"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:203
+msgid "Activate the Spam Protection plugin and block users from trying to log in after multiple failed login attempts."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:204
+msgid "Install a plugin, such as Spam Protection (included in Managed WP) or Login Lockdown to block users after multiple failed login attempts."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:205
+msgid "Failed login attempts limited"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:208
+msgid "Failed login attempts are limited."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:209
+msgid "There is no limit on failed login attempts."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:213
+msgid "Protect your login-form"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:214
+msgid "By default, WordPress does not have any feature to protect the login form against brute force attacks.<br/>To address this, you can use Google reCaptcha in login form."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:215
+msgid "Enable reCaptcha"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:216
+msgid "The login form can be protected by entering Site key and Site secret obtained from <a target='_blank' href='https://www.google.com/recaptcha/admin/create'>Google's dashboard</a>.<br/>Go to Google ReCaptcha Dasboard and follow these steps:"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:216
+msgid "Get the Site key and Site secret from <a target='_blank' href='https://www.google.com/recaptcha/admin/create'>Google's ReCaptcha Dashboard</a>."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:216
+msgid "Click Enable reCaptcha below."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:216
+msgid "Enter the Site key and Site secret values and click enter"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:217
+msgid "You can install a suitable plugin from WordPress plugin repo to fix this"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:218
+msgid "Login form protected with reCaptcha"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:219
+msgid "one.com Managed WordPress comes with login protection included and more."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:221
+msgid "Your login form is protected."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:222
+msgid "Your login form is unprotected"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:226
+msgid "Asset minification Title"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:236
+msgid "Update to latest PHP version"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:237
+msgid "To keep your site fast and secure, it's important to use the recommended PHP version. Newer versions offer enhanced security features and improved performance that help your website run more efficiently. That's why one.com updates PHP regularly and encourages updating to current versions."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:238
+msgid "You can update PHP from the one.com control panel, under PHP & Database - MariaDB. Check our guide for more information: <a target=\"_blank\" href=\"https://help.one.com/hc/en/articles/360000449117-How-do-I-update-PHP-for-my-WordPress-site-\">How do I update PHP for my WordPress site?</a>"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:241
+#, php-format
+msgid "Your site uses the recommended PHP version %s."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:242
+#, php-format
+msgid "Your site doesn’t use the recommended PHP version %s."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:246
+msgid "Update plugins"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:247
+msgid "Plugins that are not updated to the latest version can make your site vulnerable to attacks. We recommend keeping your plugins up to date and  removing any plugins that you don’t use."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:249
+#, php-format
+msgid "Update your plugins to their latest version on the %sPlugins%s page in WP Admin, and uninstall any plugins you don't need."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:251
+msgid "Good work! All your plugins are up to date."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:252
+msgid "These plugins are not up to date:"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:256
+msgid "Update theme(s)"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:257
+msgid "Just like WordPress core and plugins, themes need to be updated regularly. Outdated themes can become incompatible with the newest WordPress version and vulnerable to hackers. We recommend  recommend keeping your themes up to date and uninstalling any themes that you don’t need."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:259
+#, php-format
+msgid "Update you themes to their latest version on the %sThemes%s page in WP Admin, and uninstall any themes you don't need."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:262
+msgid "All your themes are up to date."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:263
+msgid "These themes are not up to date"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:267
+msgid "Delete inactive plugins"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:268
+msgid "Inactive plugins may contain vulnerabilities that hackers could exploit. We recommend deleting any plugins that you don’t need."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:269
+msgid "Manage inactive plugins"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:270
+#: modules/health-monitor/traits/trait-onecom-texts.php:271
+msgid "Go to 'Plugins' in the left-hand menu and delete any plugins that you don't need. You can see all unused plugins in the 'Inactive' tab."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:274
+msgid "Great! Your site has no inactive plugins."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:275
+msgid "We detected one or more inactive plugins on this site:"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:281
+msgid "Inactive themes may contain vulnerabilities that hackers could exploit. To improve your site’s security, we recommend deleting any themes that you don’t need, except for the default WordPress themes (called 'Twenty Twenty-Three' and similar) and the theme you're currently using."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:282
+msgid "Manage themes"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:283
+msgid "Go to “Appearance” > “Themes” in the left-hand menu."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:284
+msgid "Hover over the theme you want to delete and select 'Theme Details'."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:285
+msgid "Click \"Delete\" in the bottom-right corner."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:300
+msgid "Great! Your site has no inactive themes."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:301
+msgid "We detected one or more inactive themes on this site:"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:305
+msgid "Update WordPress to the latest version"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:306
+msgid "Due to its popularity, WordPress is a popular target for hackers. WordPress updates often include security fixes which are listed for everyone in the update’s release notes. If your WordPress installation is not updated to the latest version, it may include known vulnerabilities which hackers could exploit."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:308
+#: modules/health-monitor/traits/trait-onecom-texts.php:309
+#, php-format
+msgid "Update WordPress to the latest version. Minor updates are especially important as they usually include security fixes. Read our guide for instructions: %sHow do I update a CMS like WordPress?%s"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:311
+msgid "You are using the latest WordPress version"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:312
+msgid "You are not using the latest WordPress version. This can make your site vulnerable hackers."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:316
+msgid "Connect to wordpress.org to get update information"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:317
+msgid "Your site is unable to connect to wordpress.org and receive the latest update information. This can compromise your site’s security."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:319
+#, php-format
+msgid "Deactivate all plugins and themes and run a new scan to check if the connection to wordpress.org  is restored. If this worked, reactivate your plugins one by one to find out which one caused the issue. If this didn't work, %splease contact our support%s."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:321
+msgid "Great! Your site is connected to wordpress.org."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:322
+msgid "Your site’s connection to wordpress.org  failed, and the latest update information cannot be fetched."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:326
+msgid "Activate automatic minor core updates"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:327
+msgid "Minor WordPress core updates can include important security patches, without which your site may be more vulnerable to hackers. Activate automatic minor core updates to make sure that your site is always up to date."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:330
+#: modules/health-monitor/traits/trait-onecom-texts.php:336
+#, php-format
+msgid "Activate automatic minor WordPress core updates again, either by changing the settings in the plugin you use to manage updates, or in the wp-config file. For more information, read our guide: %sWhy you should always update WordPress%s."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:341
+msgid "Great! Automatic minor core updates are active for your site."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:342
+msgid "Automatic minor core updates are not active for your site. This can make it vulnerable to hackers."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:347
+msgid "Use a valid SSL certificate"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:348
+msgid "An SSL certificate encrypts the connection between your browser and the server, protecting your visitor’s data against hackers and showing them that your site is trustworthy."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:349
+#, php-format
+msgid "All domains hosted with %sone.com%s include an SSL certificate, so this state means that something is wrong with its configuration."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:352
+#: modules/health-monitor/traits/trait-onecom-texts.php:353
+#, php-format
+msgid "Please %scontact our support%s, so we can check what is wrong and fix it."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:355
+msgid "Great! Your site’s SSL certificate is working. "
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:356
+msgid "Your site doesn't have a working SSL certificate."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:360
+msgid "Prevent file execution in uploads folder"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:361
+msgid "Your WordPress site’s images and other media files are stored in the uploads folder. If file execution is allowed in the uploads folder, hackers could abuse it by uploading and executing malware. Prevent this by blocking file execution in this folder."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:362
+msgid "Protect uploads folder"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:363
+msgid "Uploads folder is protected"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:364
+msgid "Block file execution in the uploads folder by clicking the button below."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:365
+#, php-format
+msgid "Block file execution in the uploads folder by following %sour guides%s."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:368
+msgid "Great! File execution is blocked in your uploads folder. This prevents hackers from exploiting it."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:369
+msgid "one.com Managed WordPress comes with an easy fix and more.<br/><a>Free Upgrade</a>"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:370
+msgid "File execution is allowed in your uploads folder, making it vulnerable to hackers."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:374
+msgid "Reduce File Permissions as recommended by wordpress.org"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:375
+msgid "File and folder permissions define what different users can do on your site. While too strict permissions can cause issues on your site, too loose ones may allow hackers to exploit your files. Prevent this by using the file permissions recommended by wordpress.org."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:377
+#: modules/health-monitor/traits/trait-onecom-texts.php:378
+#, php-format
+msgid "To fix this, use an FTP client to change the permissions of your files to 644, and of your folders to 755. Read  %sour guide%s for step-by-step instructions."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:381
+msgid "Great! Your site uses the recommended file permissions."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:382
+msgid "Your site does not use the file permissions recommended by wordpress.org."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:386
+msgid "Some title"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:387
+msgid "Some overview"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:388
+msgid "Fix"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:391
+msgid "Resolved"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:392
+msgid "Open"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:396
+msgid "Disallow file editing"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:397
+msgid "If file editing is allowed, administrators can edit the code of themes and plugins directly in WP Admin. Editing the code in a wrong way can cause issues on your website, and if your website gets hacked while file editing is allowed, the hacker could access all your data. That's why we recommend disallowing this feature."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:399
+#: modules/health-monitor/traits/trait-onecom-texts.php:400
+#, php-format
+msgid "Disallow file editing in WP Admin by adding a line to your wp-config.php file. Read step-by-step instructions from our %sguide%s."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:402
+msgid "Great! File editing in WP admin is not allowed."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:403
+msgid "File editing in WP admin is allowed for your site, making it less secure."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:408
+msgid "Change from a common username to a personal one, for example, based on your name or nickname."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:408
+msgid "Ask the other users listed above to do the same."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:410
+msgid "Ask these users to change from a common username to a personal one, for example, based on their name or nickname."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:414
+msgid "Use a personal username"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:415
+msgid "Common usernames like “admin” are easy for hackers to guess. They use bots that try millions of password combinations - a personal username makes it much harder to break into your site."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:418
+#: modules/health-monitor/traits/trait-onecom-texts.php:568
+msgid "User name is changed"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:420
+msgid "Great! You are using personal usernames for your login."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:421
+msgid "The following username(s) for this WordPress installation are easy to guess:"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:425
+msgid "You're using a plugin which we advice against"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:426
+#, php-format
+msgid "Certain plugins can harm your website by making it slower or vulnerable to hackers, or because they don’t work as intended. That’s why we recommend deactivating them. You can find more information on discouraged plugins in %sour guide%s."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:427
+msgid "Deactivate plugin(s)"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:428
+msgid "These plugins are now deactivated:"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:429
+#, php-format
+msgid "Go to %sthis page%s to deactivate the plugins listed above."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:431
+msgid "Great! You are not using any discouraged plugins."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:432
+msgid "You are using one or more plugins that we advise against using:"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:436
+msgid "Delete expired WooCommerce sessions"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:437
+msgid "When a user puts something in their cart on your site, it’s saved as a session in your database. Normally, these sessions expire and are automatically deleted. If this doesn’t happen, it could be because you've changed the expiration time in your settings."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:438
+msgid "Over time, this can fill up the woocommerce_sessions table in your database, which can potentially slow down your site. That's why we recommend clearing all expired WooCommerce sessions."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:439
+#: modules/health-monitor/traits/trait-onecom-texts.php:452
+msgid "Fix now"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:440
+msgid "Click the \"Fix now\" button below to delete all expired session data in the woocommerce_sessions table in your database."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:441
+#, php-format
+msgid "Clean expired WooCommerce session data and make sure that expired sessions are scheduled to be cleaned up, and that the scheduled action is working correctly. You can do this in WooCommerce > Status > Scheduled actions. Check %sour guide%s for more information."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:443
+msgid "The expired woocommerce session data is deleted."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:445
+msgid "Great! The expired WooCommerce session data is now deleted."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:446
+msgid "The woocommerce_sessions table in your database contains a lot of expired session data and needs to be cleaned up."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:450
+msgid "Deactivate error reporting"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:451
+msgid "Error messages can be useful for development purposes and troubleshooting. However, they can also give hackers informationa bout vulnerabilities on your site, as well as harm its user experience. We recommend deactivating  error messages when you don’t need them."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:453
+msgid "You can deactivate PHP error messages  in the one.com Control Panel, and WordPress debugging in the wp.config.php file. Read more about how to manage these settings:"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:454
+#, php-format
+msgid "%sHow do I enable error messages for PHP?%s"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:455
+#, php-format
+msgid "%sHow do I manage debugging in WordPress?%s"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:458
+msgid "Error reporting is not active on your site, and your visitors cannot  see error messages."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:459
+msgid "Error reporting is active on your site, and error messages may be shown to its visitors."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:464
+msgid "Deactivate debug mode to hide your error log"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:465
+msgid "Debug mode is active on your website. It can help with troubleshooting by providing information about errors, but the file where this information is collected may be publicly available to all users. A public error log can make your website vulnerable to hackers. To improve security, we recommend deactivating debug mode as soon as you don’t need it anymore, and removing the public error log from your web space "
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:466
+msgid "Go to your File Manager and open the file called \" wp - config.php \""
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:467
+msgid "Scroll down to the line that says: define( 'WP_DEBUG_LOG', true ); in that file."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:468
+msgid "Change it to: define( 'WP_DEBUG_LOG', false ); and then click “Save” at the top of the page."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:469
+msgid "In File Manager, remove the existing error log from your WordPress site’s directory. It can be found in wp-content/debug.log. If you still need the information in it, copy it to a private location before deleting it from your public wp-content directory."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:470
+#, php-format
+msgid "Deactivate debug mode if you don’t need it anymore. Read more in our guide: %sHow do I manage debugging in WordPress?%s "
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:471
+msgid "If you still need debug mode, deactivate  error logging in this way:"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:481
+msgid "Debug mode is inactive."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:482
+msgid "Debug mode is active on this site, potentially making the error log publicly accessible."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:486
+msgid "Delete your debug.log file  to free up disk space"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:487
+msgid "When debug mode is active, your website’s errors can be logged to a file called debug.log. This file can occupy a significant amount of your disk space. We recommend deleting it if you no longer need it."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:488
+msgid "Delete file"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:489
+msgid "one.com Managed WordPress comes with a quick fix so you can spend more time on your website, less on security"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:490
+msgid "If you don’t need the debug.log file any more, click the \"Delete file\" button below to delete it."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:491
+msgid "Delete the debug.log file using File Manager or an SFTP client. In most cases, the debug.log file can be found in a folder called \"wp-content\"."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:494
+msgid "Great! You’ve deleted your debug.log file."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:495
+msgid "Your debug.log file takes up over 100 MB in disk space."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:499
+#: modules/health-monitor/traits/trait-onecom-texts.php:501
+msgid "Deactivate user enumeration"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:500
+msgid "When user enumeration is active, anyone can find out the list of usernames on your website. This makes it more vulnerable to brute force attacks in which hackers try millions of username and password combinations in order to gain access to a site. Deactivate user enumeration to improve your website’s security."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:503
+msgid "Deactivate user enumeration by clicking the button below."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:504
+#, php-format
+msgid "Deactivate user enumeration with a plugin such as %sStop User Enumeration%s."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:505
+msgid "User enumeration is disabled."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:507
+msgid "Great! User enumeration is not active on your site."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:508
+msgid "User enumeration is active on your site, making it more vulnerable to hackers."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:512
+msgid "Optimize uploaded images"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:513
+msgid "By default, WordPress does not optimize images very well. We recommend using the Imagify plugin to increase performance and visitor experience on your website with faster image loading speed."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:514
+msgid "Go to Imagify"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:516
+#: modules/health-monitor/traits/trait-onecom-texts.php:517
+msgid "Install & activate the Imagify plugin, go to Imagify settings, and set up the plugin following the instructions on the page."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:516
+#: modules/health-monitor/traits/trait-onecom-texts.php:517
+#, php-format
+msgid "Go to %sImagify settings%s and set up the plugin following the instructions on the page."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:520
+msgid "Imagify is now set up. The images you upload will be optimized."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:520
+msgid "The images you upload will be optimized."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:521
+msgid "Imagify is not set up"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:525
+#: modules/health-monitor/traits/trait-onecom-texts.php:527
+msgid "Activate CDN"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:526
+msgid "A content delivery network (CDN) is a system of distributed servers that deliver your website content from the server closest to each visitor. This improves loading times, especially for global audiences."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:529
+msgid "Activate the CDN to improve loading times."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:531
+#: modules/health-monitor/traits/trait-onecom-texts.php:533
+msgid "CDN is enabled"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:534
+msgid "CDN is inactive."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:538
+msgid "Enable one.com Advanced Login Protection"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:539
+msgid "We recommend that you enable the Advanced login Protection in the one.com control panel. This means you won’t need to remember passwords for your WordPress sites and your login will be more protected."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:540
+msgid "Go to one.com control panel"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:542
+#: modules/health-monitor/traits/trait-onecom-texts.php:543
+msgid "Click the button below."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:544
+#: modules/health-monitor/traits/trait-onecom-texts.php:546
+msgid "Advanced login protection is enabled."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:547
+msgid "Advanced login protection is disabled."
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:564
+msgid "Please enter a valid username"
+msgstr ""
+
+#: modules/health-monitor/traits/trait-onecom-texts.php:565
+msgid "User name could not be changed"
+msgstr ""
+
+#: modules/home/inc/functions.php:44
+#: modules/home/templates/premium-wp-care-modal.php:73
+msgid "Your preferences were saved."
+msgstr ""
+
+#: modules/home/inc/functions.php:45
+#: modules/home/templates/premium-wp-care-modal.php:84
+msgid "Couldn’t save your preferences."
+msgstr ""
+
+#: modules/home/inc/functions.php:48
+msgid "Couldn’t verify your subscription. Please try again."
+msgstr ""
+
+#: modules/home/inc/functions.php:55
+#, php-format
+msgid "Get Spam Protection plugin with %s Managed WordPress"
+msgstr ""
+
+#: modules/home/inc/functions.php:56
+msgid "Spend less time worrying about your site’s safety and more time growing your business with one.com Managed WordPress."
+msgstr ""
+
+#: modules/home/inc/functions.php:57
+msgid "Managed WordPress includes other great features such as Vulnerability Monitor and Upgrade Manager"
+msgstr ""
+
+#: modules/home/inc/functions.php:59
+msgid "Protects the website from spam comments, spam registration, spambots, and other spammers."
+msgstr ""
+
+#: modules/home/inc/functions.php:60
+msgid "Customizable protection settings, spam logs, and other options."
+msgstr ""
+
+#: modules/home/oc-home-sections.php:20
+msgid "Keep your site secure."
+msgstr ""
+
+#: modules/home/oc-home-sections.php:27
+msgid "Make sure your website loads fast."
+msgstr ""
+
+#: modules/home/oc-home-sections.php:38
+msgid "Test changes in staging."
+msgstr ""
+
+#: modules/home/oc-home-sections.php:49
+msgid "Help Centre"
+msgstr ""
+
+#: modules/home/oc-home-sections.php:50
+msgid "Find answers quickly in our Help Centre."
+msgstr ""
+
+#: modules/home/oc-home-sections.php:56
+msgid "Email support"
+msgstr ""
+
+#: modules/home/oc-home-sections.php:57
+msgid "We will respond within 24 hours, all year round."
+msgstr ""
+
+#: modules/home/oc-home-sections.php:68
+#: modules/home/oc-home-sections.php:103
+msgid "How to build your WordPress website"
+msgstr ""
+
+#: modules/home/oc-home-sections.php:73
+#: modules/home/oc-home-sections.php:108
+msgid "What is the one.com plugin?"
+msgstr ""
+
+#: modules/home/oc-home-sections.php:83
+msgid "Using the one.com Staging feature for WordPress"
+msgstr ""
+
+#: modules/home/oc-home-sections.php:88
+#: modules/home/oc-home-sections.php:123
+msgid "How to use the Performance Cache plugin for WordPress"
+msgstr ""
+
+#: modules/home/oc-home-sections.php:128
+msgid "What is WP Rocket"
+msgstr ""
+
+#: modules/home/oc-home-sections.php:207
+msgid "Not available yet."
+msgstr ""
+
+#: modules/home/oc-home-sections.php:210
+msgid "Managed by the standalone plugin — deactivate it to control this feature here."
+msgstr ""
+
+#: modules/home/oc-home-sections.php:213
+msgid "Available on Managed WordPress plans only."
+msgstr ""
+
+#: modules/home/oc-home-sections.php:224
+msgid "mWP-only"
+msgstr ""
+
+#: modules/home/oc-home-sections.php:455
+msgid "Recommended WordPress products"
+msgstr ""
+
+#: modules/home/oc-home-sections.php:459
+#: modules/home/oc-home-sections.php:461
+msgid "ui.button.seeAllProducts"
+msgstr ""
+
+#: modules/home/templates/data-consent-banner.php:11
+msgid "Help us improve your website experience"
+msgstr ""
+
+#: modules/home/templates/data-consent-banner.php:12
+msgid "Allow anonymous usage analytics to help us improve your services and recommendations. We only collect non-sensitive data."
+msgstr ""
+
+#: modules/home/templates/data-consent-banner.php:13
+#: modules/home/templates/home.php:115
+#: modules/home/templates/home.php:152
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:246
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:41
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:93
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:237
+msgid "Learn more"
+msgstr ""
+
+#: modules/home/templates/data-consent-banner.php:33
+msgid "Decline"
+msgstr ""
+
+#: modules/home/templates/data-consent-banner.php:34
+msgid "Allow"
+msgstr ""
+
+#: modules/home/templates/data-consent-modal.php:38
+msgid "What data is included?"
+msgstr ""
+
+#: modules/home/templates/data-consent-modal.php:44
+msgid "To improve our products and deliver the best customer experience, one.com would like to collect non-sensitive data from your website. You can opt-out at any time via the one.com plugin."
+msgstr ""
+
+#: modules/home/templates/data-consent-modal.php:49
+msgid "We would like to collect the following information:"
+msgstr ""
+
+#: modules/home/templates/data-consent-modal.php:52
+msgid "Installed plugins and themes"
+msgstr ""
+
+#: modules/home/templates/data-consent-modal.php:53
+msgid "Number of: posts, pages, media, products, comments and users"
+msgstr ""
+
+#: modules/home/templates/data-consent-modal.php:54
+msgid "Use of one.com plugins and features"
+msgstr ""
+
+#: modules/home/templates/data-consent-modal.php:55
+msgid "Staging and multisite creation"
+msgstr ""
+
+#: modules/home/templates/data-consent-modal.php:56
+msgid "Help centre article visits"
+msgstr ""
+
+#: modules/home/templates/data-consent-modal.php:57
+msgid "Feature access and actions taken in the interface"
+msgstr ""
+
+#: modules/home/templates/data-consent-modal.php:58
+msgid "Upgrade start and completion"
+msgstr ""
+
+#: modules/home/templates/data-consent-modal.php:63
+#, php-format
+msgid "Find out more about how we process your personal data in our %sPrivacy Policy%s."
+msgstr ""
+
+#: modules/home/templates/data-consent-modal.php:67
+msgid "Got it"
+msgstr ""
+
+#: modules/home/templates/home.php:8
+msgid "Managed WordPress"
+msgstr ""
+
+#: modules/home/templates/home.php:8
+msgid "Basic WordPress"
+msgstr ""
+
+#: modules/home/templates/home.php:36
+msgid "Back to control panel"
+msgstr ""
+
+#: modules/home/templates/home.php:39
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:271
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:285
+msgid "View site"
+msgstr ""
+
+#: modules/home/templates/home.php:42
+msgid "Enhance your WordPress experience with the one.com plugin and one.com dashboard. Get automated updates, boosted security, recommended plugins, and optimised performance."
+msgstr ""
+
+#: modules/home/templates/home.php:49
+#, php-format
+msgid "Thank you for your request! We will send a reply to your email address %s soon."
+msgstr ""
+
+#: modules/home/templates/home.php:94
+msgid "Expert care for your WordPress site"
+msgstr ""
+
+#: modules/home/templates/home.php:100
+#: modules/home/templates/home.php:111
+#: modules/home/templates/home.php:125
+msgid "Premium WP care"
+msgstr ""
+
+#: modules/home/templates/home.php:101
+msgid "You have access to premium WordPress support! As a Premium WP Care customer, you have priority access to our expert support team."
+msgstr ""
+
+#: modules/home/templates/home.php:104
+msgid "Contact premium support"
+msgstr ""
+
+#: modules/home/templates/home.php:112
+msgid "Let us monitor your site 24/7 and keep it safe and secure. Including emergency fixes and monthly reports."
+msgstr ""
+
+#: modules/home/templates/home.php:126
+#, php-format
+msgid "We’ve received your request and will reply to your email address %s as soon as possible."
+msgstr ""
+
+#: modules/home/templates/home.php:138
+msgid "Preferences"
+msgstr ""
+
+#: modules/home/templates/home.php:139
+msgid "Allow us to collect non-sensitive data to enhance our services."
+msgstr ""
+
+#: modules/home/templates/home.php:150
+msgid "Allow analytics"
+msgstr ""
+
+#: modules/home/templates/home.php:152
+msgid "Help us improve your services and recommendations by allowing anonymous usage analytics. We only collect non-sensitive data."
+msgstr ""
+
+#: modules/home/templates/home.php:179
+msgid "Image optimisation"
+msgstr ""
+
+#: modules/home/templates/home.php:181
+msgid "Show Imagify recommendations when editing posts, pages, or uploading media."
+msgstr ""
+
+#: modules/home/templates/home.php:207
+msgid "Enable Performance Score"
+msgstr ""
+
+#: modules/home/templates/home.php:209
+msgid "Show a performance score column on the Pages list. Unlock real scores by installing WP Rocket from the one.com Marketplace."
+msgstr ""
+
+#: modules/home/templates/home.php:219
+msgid "Any questions?"
+msgstr ""
+
+#: modules/home/templates/home.php:220
+msgid "Check out our Help Centre or get in touch with customer support."
+msgstr ""
+
+#: modules/home/templates/home.php:245
+msgid "Get introduced to our plugin and WordPress."
+msgstr ""
+
+#: modules/home/templates/home.php:262
+msgid "Modules"
+msgstr ""
+
+#: modules/home/templates/home.php:264
+msgid "Turn individual one.com features on or off. Disabling a feature stops its code from loading on this site."
+msgstr ""
+
+#: modules/home/templates/home.php:351
+msgid "Discover WordPress"
+msgstr ""
+
+#: modules/home/templates/home.php:355
+msgid "See all articles"
+msgstr ""
+
+#: modules/home/templates/home.php:361
+msgid "Get inspired by our articles and learn more about WordPress."
+msgstr ""
+
+#: modules/home/templates/premium-wp-care-modal.php:22
+msgid "Premium WP Care support"
+msgstr ""
+
+#: modules/home/templates/premium-wp-care-modal.php:28
+msgid "With Premium WP Care, your WordPress site is always in expert hands."
+msgstr ""
+
+#: modules/home/templates/premium-wp-care-modal.php:28
+msgid "We monitor your site 24/7, act immediately if something goes wrong, and send you monthly reports so you always know what’s been done."
+msgstr ""
+
+#: modules/home/templates/premium-wp-care-modal.php:32
+msgid "Whether you're already using the service or just curious to learn more, our team is here to help."
+msgstr ""
+
+#: modules/home/templates/premium-wp-care-modal.php:33
+#, php-format
+msgid "We'll reply via your %sregistered email%s: %s."
+msgstr ""
+
+#: modules/home/templates/premium-wp-care-modal.php:38
+msgid "Couldn't send your request due to a technical issue. Please try again."
+msgstr ""
+
+#: modules/home/templates/premium-wp-care-modal.php:43
+msgid "Your description"
+msgstr ""
+
+#: modules/home/templates/premium-wp-care-modal.php:44
+msgid "optional"
+msgstr ""
+
+#: modules/home/templates/premium-wp-care-modal.php:55
+msgid "Send request"
+msgstr ""
+
+#: modules/home/templates/premium-wp-care-modal.php:62
+msgid "Sending request"
+msgstr ""
+
+#: modules/home/templates/welcome-modal.php:36
+#, php-format
+msgid "Your site was set up with the \"%s\" theme and the plugins you selected were installed and activated."
+msgstr ""
+
+#: modules/home/templates/welcome-modal.php:42
+msgid "We added custom, AI-generated texts to your website to help you get started."
+msgstr ""
+
+#: modules/home/templates/welcome-modal.php:45
+msgid "We added demo content to your website to help you get started."
+msgstr ""
+
+#: modules/home/templates/welcome-modal.php:49
+#, php-format
+msgid "Your site was set up with the \"%s\" theme."
+msgstr ""
+
+#: modules/home/templates/welcome-modal.php:66
+msgid "Welcome to WP Admin - your new site is ready"
+msgstr ""
+
+#: modules/home/templates/welcome-modal.php:69
+msgid "Take our tour to learn more about WP Admin and our one.com features."
+msgstr ""
+
+#: modules/home/templates/welcome-modal.php:72
+msgid "Start tour"
+msgstr ""
+
+#. translators: %s a text wrapped in span
+#: modules/maintenance-mode/classes/class-ocuc-toolbar.php:47
+#: modules/maintenance-mode/classes/class-ocuc-toolbar.php:49
+#, php-format
+msgid "Maintenance Mode is %sON%s"
+msgstr ""
+
+#: modules/maintenance-mode/classes/class-ocuc-toolbar.php:52
+#: modules/maintenance-mode/classes/class-ocuc-toolbar.php:53
+msgid "Maintenance Mode is OFF"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace-admin-survey.php:107
+msgid "Tell us what you think"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace-admin-survey.php:108
+msgid "Take a quick survey and help us improve your experience with the Marketplace."
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace-admin-survey.php:113
+msgid "close"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace-admin-survey.php:118
+msgid "Take survey"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:110
+msgid "ui.notifications.installing"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:113
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:114
+msgid "WP Rocket"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:115
+msgid "Rank Math PRO"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:120
+msgid "Plugin was activated"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:121
+msgid "You can start using it."
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:122
+msgid "Manage"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:127
+msgid "Plugin was installed."
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:128
+msgid "Activate it now to start using it."
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:172
+msgid "{name} is active"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:175
+msgid "{name} was successfully activated on this installation."
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:179
+msgid "Go to {name}"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:186
+msgid "ui.notifications.pluginActivated"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:189
+msgid "ui.notifications.manageInMyProducts"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:209
+msgid "Close"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:215
+#: modules/marketplace/classes/class-marketplace.php:216
+msgid "ui.labels.manage"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:766
+msgid "Go to plugin"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:1060
+msgid "ui.notifications.activationFailedTitle"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:1063
+msgid "ui.notifications.activationFailedText"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:1101
+msgid "Activate {name}"
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:1107
+msgid "You have a {name} subscription for {domain.one}, but you still need to activate it for the installation on {domain.one}. Activate the plugin to boost your site's performance."
+msgstr ""
+
+#: modules/marketplace/classes/class-marketplace.php:1115
+msgid "You have a {name} subscription for {domain}, but you still need to activate it for the installation on {domain}. Activate the plugin to start improving your site's SEO."
+msgstr ""
+
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:140
+msgid "Premium add-on to act on."
+msgstr ""
+
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:161
+msgid "Get premium add-on status"
+msgstr ""
+
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:162
+msgid "Check a one.com premium add-on (WP Rocket, Rank Math PRO): whether the domain has an active subscription, and whether the plugin is installed and active. When not subscribed, returns the purchase URL."
+msgstr ""
+
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:186
+msgid "Install a premium add-on"
+msgstr ""
+
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:187
+msgid "Install and activate a one.com premium add-on (WP Rocket, Rank Math PRO) when the domain has an active subscription. If there is no subscription, no install happens and the purchase URL is returned. WP Rocket is provisioned server-side and may take a short while — re-check with get-addon-status."
+msgstr ""
+
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:195
+msgid "Premium add-on to install."
+msgstr ""
+
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:199
+msgid "Activate after install when possible. Defaults to true."
+msgstr ""
+
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:240
+msgid "Unknown premium add-on. Use \"wp-rocket\" or \"rank-math\"."
+msgstr ""
+
+#. translators: %s: add-on name
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:317
+#, php-format
+msgid "%s is already installed and active."
+msgstr ""
+
+#. translators: %s: add-on name
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:330
+#, php-format
+msgid "%s requires an active one.com subscription for this domain. Purchase it, then install."
+msgstr ""
+
+#. translators: %s: add-on name
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:369
+#, php-format
+msgid "%s installed and activated."
+msgstr ""
+
+#. translators: %s: add-on name
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:381
+#, php-format
+msgid "%s installed. Activate it to start using it."
+msgstr ""
+
+#. translators: %s: add-on name
+#: modules/marketplace/classes/class-onecom-marketplace-premium-abilities.php:393
+#, php-format
+msgid "%s is being provisioned for this site. Re-check its status in a little while."
+msgstr ""
+
+#: modules/notice-discouraged-plugins.php:91
+#, php-format
+msgid "The plugin <strong>%s</strong>, that you are using, creates a lot of large temporary files causing high load on our servers and possible time-outs on your site.<br/>We strongly advise you to deactivate it. If you keep on using this plugin we may be forced to suspend your site. "
+msgstr ""
+
+#: modules/notice-discouraged-plugins.php:100
+msgid "You are using one or more plugins from the list of plugins we discourage. We recommend that you deactivate them, to ensure the best performance of your website. "
+msgstr ""
+
+#: modules/notice-spam-protection.php:94
+msgid "Your website forms are not protected against spam and abuse. We recommend installing a captcha or spam protection plugin. &nbsp;<a href="
+msgstr ""
+
+#: modules/notice-spam-protection.php:97
+#: modules/notice-spam-protection.php:99
+msgid "Your website forms are not protected against spam and abuse. We recommend installing spam protection plugin."
+msgstr ""
+
+#: modules/performance-cache/classes/class-vcachingoc.php:368
+#: modules/performance-cache/classes/class-vcachingoc.php:371
+msgid "Clear Performance Cache"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-admin-page.php:67
+msgid "Vulnerability Monitor"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-admin-page.php:128
+msgid "Showing"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-admin-page.php:129
+msgid "to"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-admin-page.php:130
+msgid "of"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-admin-page.php:131
+msgid "entries"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-admin-page.php:162
+msgid "Update instantly to the latest and most secure version"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-admin-page.php:163
+msgid "Track exploited vulnerabilities in real time"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-admin-page.php:164
+msgid "Unlock your website’s full vulnerability log"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-admin-page.php:168
+msgid "Repair vulnerabilities automatically with Managed WordPress"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-admin-page.php:169
+msgid "Tired of fixing vulnerabilities manually? Enjoy automated repairs in the background with Managed WordPress."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-admin-page.php:170
+msgid "Managed WordPress includes other great features like Update Manager and priority support so you can skip the line when you need our help."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-auto-updates.php:84
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:368
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:366
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:39
+msgid "wp_vul_unknown"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:120
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:221
+msgid "See details"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:271
+msgid "Outdated WordPress core make your site vulnerable to security attacks. You should consider updating to the latest version."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:272
+#, php-format
+msgid "WordPress core updates are managed from the Updates section in WP Admin. %sGo to Dashboard > Updates%s to do it manually."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:273
+msgid "Update WordPress"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:278
+msgid "Outdated plugins make your site vulnerable to security attacks. You should also delete plugins you do not use."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:279
+#, php-format
+msgid "Go to %sWP Admin > Updates%s and update all plugins for which a newer version is available."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:280
+msgid "Update Plugin"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:282
+msgid "Outdated themes make your site vulnerable to security attacks. You should also delete themes you do not use."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:283
+#, php-format
+msgid "Go to %sWP Admin > Updates%s and update all themes for which a newer version is available."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:285
+msgid "Update Theme"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:300
+msgid "Current version"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:302
+msgid "Fix version"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:311
+msgid "Your website is vulnerable due to"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:329
+msgid "Do not show this again"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:371
+msgid "See more details"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-notifications.php:426
+msgid "Vulnerability is known to be exploited"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:59
+#, php-format
+msgid "Vulnerability found on %s by one.com WordPress Vulnerability Monitor."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:62
+#, php-format
+msgid "Vulnerability fixed on %s by one.com WordPress Vulnerability Monitor."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:64
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:80
+#, php-format
+msgid "Vulnerability found in your WordPress installation on %s cannot be fixed automatically"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:75
+#, php-format
+msgid "Vulnerability detected in your WordPress installation on %s"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:78
+#, php-format
+msgid "Vulnerability fixed in your WordPress installation on %s"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:92
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:265
+msgid "Note that vulnerabilities can exist both in your live website and staging environment. Please, do a manual update if you don't have automatic updates enabled in both locations."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:97
+msgid "Note that vulnerabilities can exist both in your live website and staging environment."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:97
+msgid "Please, do a manual update to fix the vulnerabilities."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:118
+msgid "What is the Vulnerability Monitor?"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:122
+msgid "Warns against serious vulnerabilities that need to be secured"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:123
+msgid "Checks against world's biggest database of vulnerabilities"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:124
+msgid "Compliments other security plugins"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:125
+msgid "It’s included in your current plan — for free!"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:127
+#, php-format
+msgid "You can manage email notifications in the %sVulnerability Monitor settings%s."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:202
+msgid "Action required"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:203
+msgid "Hi,"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:204
+msgid "Reference"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:205
+msgid "Have a question? We're here to help."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:208
+#, php-format
+msgid "Vulnerability monitor powered by %sPatchstack%s"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:209
+msgid "Contact us today"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:210
+msgid "Terms"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:211
+msgid "Privacy policy"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:212
+msgid "Unsubscribe"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:213
+#: staging/Includes/Core/views/includes/header.php:43
+#: staging/Includes/Core/views/includes/header.php:113
+#: staging/one_staging.php:196
+msgid "View your site"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:215
+msgid "Our Vulnerability Monitor for WordPress found a potential security risk in your WordPress installation on"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:220
+msgid "Boost the performance, security, marketing, and design of your WordPress site with tools that help your website grow faster and work smarter."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:221
+msgid "Read more"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:234
+msgid "To fix this:"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:240
+msgid "Update now"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:242
+msgid "See more"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:244
+#, php-format
+msgid "Upgrade to %sManaged WordPress%s to automatically fix vulnerabilities."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:248
+msgid "Tip! Enable the auto-update feature for the Vulnerability monitor in your WordPress dashboard to fix issues automatically."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:250
+msgid "Click here to enable auto-update feature."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:256
+msgid "Vulnerabilities fixed"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:258
+#, php-format
+msgid "Our Vulnerability Monitor for WordPress fixed a potential security risk in your WordPress installation on %s by updating the below mentioned."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:261
+#, php-format
+msgid "We recommend that you check your website to see if everything is still working as expected. If you experience issues, please follow our guide to %sroll back to a previous version%s."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:269
+msgid "Fixed vulnerabilities"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:275
+#, php-format
+msgid "Our Vulnerability Monitor for WordPress found a potential security risk in your WordPress installation on %s, but was not able to automatically update the vulnerable plugin/theme to the latest version. This likely means the plugin/theme is outdated and no longer actively maintained by the developers."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:279
+msgid "We recommend you remove the vulnerable plugin or theme and look for an alternative instead. Note that vulnerabilities can exist both in your live website and staging environment."
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:334
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:336
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:338
+#, php-format
+msgid "%s has a vulnerability that is known to be exploited"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:334
+msgid "This plugin"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:336
+msgid "This theme"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:338
+msgid "This core version"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:343
+msgid "This vulnerability is known to be exploited"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:370
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:389
+msgid "See full Patchstack report"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:378
+#, php-format
+msgid "now updated to %s"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:408
+msgid "Low"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:411
+msgid "Medium"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/class-ocvm-send-emails.php:414
+msgid "High"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:12
+msgid "wp_vul_content_injection"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:13
+msgid "wp_vul_fpd"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:14
+msgid "wp_vul_idor"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:15
+msgid "wp_vul_sensitive_data_disclosure"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:16
+msgid "wp_vul_dos"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:17
+msgid "wp_vul_injection"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:18
+msgid "wp_vul_multi"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:19
+msgid "wp_vul_ssrf"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:20
+msgid "wp_vul_xxe"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:21
+msgid "wp_vul_backdoor"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:22
+msgid "wp_vul_rfi"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:23
+msgid "wp_vul_cross_frame_scripting"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:24
+msgid "wp_vul_csrf"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:25
+msgid "wp_vul_csv_injection"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:26
+msgid "wp_vul_lfi"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:27
+msgid "wp_vul_object_injection"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:28
+msgid "wp_vul_rce"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:29
+msgid "wp_vul_upload"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:30
+msgid "wp_vul_xss"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:31
+msgid "wp_vul_authbypass"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:32
+msgid "wp_vul_bypass"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:33
+msgid "wp_vul_file_deletion"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:34
+msgid "wp_vul_file_download"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:35
+msgid "wp_vul_privesc"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:36
+msgid "wp_vul_redirect"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:37
+msgid "wp_vul_sqli"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:38
+msgid "wp_vul_traversal"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:40
+msgid "wp_vul_access_controls"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:41
+msgid "wp_vul_arbitrary_content_deletion"
+msgstr ""
+
+#: modules/vulnerability-monitor/classes/trait-ocvm-vulnerabilities.php:42
+msgid "wp_vul_other_vulnerability_type"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:18
+msgid "Vulnerability log"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:21
+msgid "Your overview of all resolved vulnerabilities of core files, plugins and themes."
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:27
+msgid "Date"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:28
+msgid "Issue"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:29
+msgid "Severity"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:30
+msgid "Type"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:31
+msgid "Name"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:32
+msgid "Version"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:33
+msgid "Result"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:77
+msgid "Once the first vulnerability on your site has been resolved, it will show up here."
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-history-log.php:84
+#, php-format
+msgid "The full vulnerability log is a Managed WordPress feature. Upgrade to unlock it. %sLearn more.%s"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:32
+msgid "Get notified when we detect any unsecure plugin, theme, or WordPress version, and act before your website gets compromised."
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:35
+msgid "Log"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:36
+msgid "Settings"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:41
+msgid "With Managed WordPress we will fix your vulnerabilities for you"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:53
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:54
+msgid "Awesome, your website doesn’t have any vulnerabilities!"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:59
+#, php-format
+msgid "Powered by %sPatchstack%s"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:87
+msgid "Vulnerability Monitor auto-update"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:93
+msgid "With this Managed WordPress feature we fix your site's vulnerabilities for you."
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:98
+msgid "Fix vulnerabilities automatically when we detect any unsecure plugin, theme, or WordPress version."
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:104
+msgid "Please note:"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:106
+msgid "If this setting is enabled, your unsecure plugins will get auto-updated. This means that any custom code will be lost."
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:107
+#, php-format
+msgid "If in any case you want to rollback to a previous version of any of your plugins, please follow the steps in this guide: %sHow to rollback plugin to a previous version?%s"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:108
+msgid "Your whole webspace is backed up every 24 hours. In case anything has gone wrong, you have an option to rollback."
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:131
+msgid "Email notifications are enabled"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:155
+msgid "Notify administrators"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:161
+msgid "Notify others via email"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:169
+msgid "Enter valid Email."
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:170
+msgid "Separate emails with comma."
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:186
+msgid "Notification preferences"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:207
+msgid "Vulnerability Monitor detects a vulnerability."
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:228
+msgid "Vulnerability Monitor automatically fixes a vulnerability."
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:233
+msgid "requires auto-update enabled"
+msgstr ""
+
+#: modules/vulnerability-monitor/templates/vulnerability-monitor-admin-page.php:237
+msgid "This is a Managed WordPress feature"
+msgstr ""
+
+#: onecom-themes-plugins.php:412
+#: onecom-themes-plugins.php:623
+#: onecom-themes-plugins.php:676
+msgid "One.com"
+msgstr ""
+
+#: onecom-themes-plugins.php:706
+msgid "Explore one.com Marketplace"
+msgstr ""
+
+#: onecom-themes-plugins.php:754
+msgid "One.com Control Panel"
+msgstr ""
+
+#: onecom-themes-plugins.php:757
+msgid "Go to Control Panel at One.com"
+msgstr ""
+
+#: onecom-themes-plugins.php:771
+msgid "One.com Guides & FAQ"
+msgstr ""
+
+#: onecom-themes-plugins.php:774
+msgid "Go to Guides & FAQ at One.com"
+msgstr ""
+
+#: staging/Includes/Core/Jobs/Directories.php:271
+#, php-format
+msgid "Unable to open %s with mode %s"
+msgstr ""
+
+#: staging/Includes/Core/Jobs/Directories.php:289
+#, php-format
+msgid "Unable to write to: %s"
+msgstr ""
+
+#: staging/Includes/Core/Jobs/Directories.php:292
+msgid "Out of disk space."
+msgstr ""
+
+#: staging/Includes/Core/views/ajax/staging_details.php:13
+#: staging/Includes/Core/views/staging.php:13
+msgid "Your staging environment"
+msgstr ""
+
+#: staging/Includes/Core/views/ajax/staging_details.php:17
+#: staging/Includes/Core/views/staging.php:21
+msgid "When you copy from the staging to the live environment, the live website will get replaced with a snapshot of this staging website."
+msgstr ""
+
+#: staging/Includes/Core/views/ajax/staging_details.php:18
+#: staging/Includes/Core/views/staging.php:22
+msgid "The login details for the staging backend are the same as for the live website."
+msgstr ""
+
+#: staging/Includes/Core/views/ajax/staging_details.php:26
+#: staging/Includes/Core/views/includes/footer.php:15
+#: staging/Includes/Core/views/includes/footer.php:22
+msgid "Rebuild staging"
+msgstr ""
+
+#: staging/Includes/Core/views/ajax/staging_details.php:27
+msgid "Overwrite the files and database of your current staging website with the files and database of your live website."
+msgstr ""
+
+#: staging/Includes/Core/views/ajax/staging_details.php:34
+#: staging/Includes/Core/views/includes/footer.php:34
+#: staging/Includes/Core/views/includes/footer.php:41
+msgid "Delete staging"
+msgstr ""
+
+#: staging/Includes/Core/views/ajax/staging_details.php:35
+msgid "Delete the staging environment including all its files."
+msgstr ""
+
+#: staging/Includes/Core/views/blocked.php:8
+msgid "Staging feature not available"
+msgstr ""
+
+#: staging/Includes/Core/views/blocked.php:9
+msgid "The one.com Staging feature is not available for WordPress websites that:"
+msgstr ""
+
+#: staging/Includes/Core/views/blocked.php:11
+msgid "Are part of a Multisite installation"
+msgstr ""
+
+#: staging/Includes/Core/views/blocked.php:12
+msgid "Have their files stored on a subdirectory but are running from the root domain"
+msgstr ""
+
+#: staging/Includes/Core/views/includes/footer.php:17
+msgid "This will overwrite your staging website with a copy of the files and database from your live website. All changes made in your staging website will be lost."
+msgstr ""
+
+#: staging/Includes/Core/views/includes/footer.php:36
+msgid "Your staging site including all its files will be deleted. This action cannot be undone, but you can create a new staging site later."
+msgstr ""
+
+#: staging/Includes/Core/views/includes/footer.php:55
+#: staging/Includes/Core/views/includes/footer.php:62
+#: staging/Includes/Core/views/includes/header.php:33
+#: staging/Includes/Core/views/includes/header.php:99
+msgid "Copy staging to live"
+msgstr ""
+
+#: staging/Includes/Core/views/includes/footer.php:57
+msgid "This will overwrite your live website with a copy of the files and database from your staging website."
+msgstr ""
+
+#: staging/Includes/Core/views/includes/header.php:25
+#: staging/Includes/Core/views/includes/header.php:87
+#: staging/Includes/Core/views/live.php:53
+#: staging/one_staging.php:194
+msgid "Create staging site"
+msgstr ""
+
+#: staging/Includes/Core/views/includes/header.php:37
+#: staging/Includes/Core/views/includes/header.php:96
+msgid "Back to live site"
+msgstr ""
+
+#: staging/Includes/Core/views/includes/header.php:51
+#: staging/Includes/Core/views/includes/header.php:109
+#: staging/one_staging.php:197
+msgid "Log in to staging"
+msgstr ""
+
+#: staging/Includes/Core/views/includes/header.php:65
+#, php-format
+msgid "Your staging site is a snapshot of your live website. In Staging, you can test changes without affecting your live website.  %sLearn more%s"
+msgstr ""
+
+#: staging/Includes/Core/views/includes/header.php:74
+#, php-format
+msgid "A staging site is a copy of your live website, where you can test new plugins and themes without affecting your live website. Only one staging environment can be created for each website. %sLearn more%s"
+msgstr ""
+
+#: staging/Includes/Core/views/live.php:7
+msgid "Staging site broken"
+msgstr ""
+
+#: staging/Includes/Core/views/live.php:8
+msgid "It looks like your staging site is broken due to missing database tables and/or directories. You can fix this by rebuilding or deleting your staging site."
+msgstr ""
+
+#: staging/Includes/Core/views/live.php:34
+msgid "This is a Managed WP feature"
+msgstr ""
+
+#: staging/Includes/Core/views/live.php:35
+msgid "Upgrade now to get access to Staging and many other features."
+msgstr ""
+
+#: staging/Includes/Core/views/live.php:42
+msgid "Upgrade now"
+msgstr ""
+
+#: staging/Includes/Core/views/live.php:48
+msgid "No staging site yet"
+msgstr ""
+
+#: staging/Includes/Core/views/live.php:49
+msgid "Create a staging environment of your site to try out new plugins, themes and customisations."
+msgstr ""
+
+#: staging/Includes/Core/views/live.php:64
+msgid "Please wait, while we are updating staging site."
+msgstr ""
+
+#: staging/Includes/Core/views/live.php:72
+msgid "Please wait, while we are deleting staging site."
+msgstr ""
+
+#: staging/Includes/Core/views/live.php:80
+msgid "Please wait, while we are copying your live site to the staging site."
+msgstr ""
+
+#: staging/Includes/Core/views/staging.php:20
+msgid "Your staging website is a snapshot of your live website. Here you can test changes without affecting your live website. "
+msgstr ""
+
+#: staging/Includes/Core/views/staging.php:27
+msgid "Live website details not found. Can not copy staging into live!"
+msgstr ""
+
+#: staging/Includes/Core/views/staging.php:32
+msgid "Please note: Plugins that are URL-sensitive may not work as expected on the staging site."
+msgstr ""
+
+#: staging/Includes/Core/views/staging.php:41
+msgid "Please wait, while we are copying staging into live."
+msgstr ""
+
+#: staging/one_staging.php:174
+msgid "Copied successfully."
+msgstr ""
+
+#: staging/one_staging.php:175
+msgid "Something went wrong; please try again."
+msgstr ""
+
+#: staging/one_staging.php:179
+msgid "Preparing..."
+msgstr ""
+
+#: staging/one_staging.php:180
+msgid "Start copying..."
+msgstr ""
+
+#: staging/one_staging.php:181
+msgid "Copying database..."
+msgstr ""
+
+#: staging/one_staging.php:182
+msgid "Preparing directories..."
+msgstr ""
+
+#: staging/one_staging.php:183
+msgid "Copying files..."
+msgstr ""
+
+#: staging/one_staging.php:184
+msgid "Updating database..."
+msgstr ""
+
+#: staging/one_staging.php:185
+msgid "Finalising..."
+msgstr ""
+
+#: staging/one_staging.php:186
+msgid "Finished!"
+msgstr ""
+
+#: staging/one_staging.php:187
+msgid "Deleting staging..."
+msgstr ""
+
+#: staging/one_staging.php:188
+msgid "Your staging site was deleted."
+msgstr ""
+
+#: staging/one_staging.php:189
+msgid "Your staging site was created."
+msgstr ""
+
+#: staging/one_staging.php:190
+msgid "Couldn’t create a staging site. Please try again and contact our support if the issue persists."
+msgstr ""
+
+#: staging/one_staging.php:191
+msgid "Your staging site was rebuilt."
+msgstr ""
+
+#: staging/one_staging.php:192
+msgid "Couldn’t rebuild your staging site. Please try again and contact our support if the issue persists."
+msgstr ""
+
+#: staging/one_staging.php:198
+msgid "Failed to scan the files or database required to create the staging environment."
+msgstr ""
+
+#: staging/one_staging.php:199
+msgid "Failed to check the available disk space at the moment."
+msgstr ""
+
+#: staging/one_staging.php:200
+msgid "Failed to delete staging."
+msgstr ""
+
+#: staging/one_staging.php:201
+msgid "Failed to copy the staging site to the live site."
+msgstr ""
+
+#: staging/one_staging.php:202
+msgid "Failed to initiate the staging clone process."
+msgstr ""
+
+#: staging/one_staging.php:203
+msgid "Failed to update the staging environment."
+msgstr ""
+
+#: staging/one_staging.php:204
+msgid "Failed to copy the database."
+msgstr ""
+
+#: staging/one_staging.php:205
+msgid "Failed to create directories for the staging site."
+msgstr ""
+
+#: staging/one_staging.php:206
+msgid "Failed to copy the files for the staging site."
+msgstr ""
+
+#: staging/one_staging.php:207
+msgid "Failed while replacing variables and URLs."
+msgstr ""
+
+#: staging/one_staging.php:208
+msgid "Cloning was mostly successful. The snapshot was copied, but we ran into an issue saving the final details."
+msgstr ""
+
+#: staging/one_staging.php:209
+msgid "Your staging site was copied to your live site."
+msgstr ""
+
+#: staging/one_staging.php:210
+msgid "Couldn’t copy your staging site to your live site. Please try again and contact our support if the issue persists."
+msgstr ""
+
+#: templates/wpapi-error.php:10
+msgid "Plugin error"
+msgstr ""
+
+#: templates/wpapi-error.php:12
+msgid "We’re currently experiencing issues with our one.com plugin. This does not affect your site. <br />Please come back later."
+msgstr ""
+
+#: templates/wpapi-themes-error.php:5
+msgid "Connection issue"
+msgstr ""
+
+#: templates/wpapi-themes-error.php:6
+msgid "Couldn’t load the theme because of a connection issue. Please try again."
+msgstr ""

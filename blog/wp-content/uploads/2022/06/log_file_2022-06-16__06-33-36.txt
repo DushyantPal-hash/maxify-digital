@@ -1,0 +1,61 @@
+
+---Downloaded files---
+The import files for: Ncmaz Demo 1 were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://blog.maxify.digital
+Data file = /customers/a/9/d/maxify.digital/httpd.www/blog/wp-content/themes/ncmaz/ocdi-demos/demo1/ncmaz.xml
+Widget file = /customers/a/9/d/maxify.digital/httpd.www/blog/wp-content/themes/ncmaz/ocdi-demos/demo1/widgets.wie
+Customizer file = /customers/a/9/d/maxify.digital/httpd.www/blog/wp-content/themes/ncmaz/ocdi-demos/demo1/customize.dat
+Redux files:
+ncmaz_redux_demo -> /customers/a/9/d/maxify.digital/httpd.www/blog/wp-content/themes/ncmaz/ocdi-demos/demo1/redux.json 
+
+
+---Importing widgets---
+mobile-menu-sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+Block - No Title - Imported to Inactive
+Block - No Title - Imported to Inactive
+Block - No Title - Imported to Inactive
+Block - No Title - Imported to Inactive
+
+Single Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer-1 Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer-2 Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer-3 Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+
+Footer-4 Sidebar : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+
+
+---Importing Redux settings---
+The Redux plugin is not activated, so the Redux import was skipped!
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

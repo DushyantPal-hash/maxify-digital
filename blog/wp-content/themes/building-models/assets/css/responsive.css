@@ -1,0 +1,149 @@
+/* Responsive Queries in Descending Order */
+
+@media (min-width: 768px) {
+    .main-col:nth-child(odd) {
+        padding-right: 30px;
+    }
+    .main-col:nth-child(even) {
+        padding-left: 30px;
+    }
+    .footer-widgets .container {
+        max-width: calc(100% - 30px);
+    }
+}
+
+@media (max-width: 1024px) {
+    .banner-box-content {
+        padding: 20px 56px 0px 56px;
+    }
+}
+
+@media (max-width: 992px) {
+    .banner-content-box {
+        padding-left: 0px;
+    }
+    .home-services .service-col .featured-block {
+        display: inline-block;
+        margin: 15px auto;
+    }
+    .inner-services .service-col .featured-block {
+        display: inline-block;
+        margin: 15px auto;
+    }
+}
+@media (max-width: 768px) {
+    .mobile-only {
+        display: inline-block;
+    }
+    .desktop-only {
+        display: none;
+    }
+    .main-content-box {
+        padding-right: 0px;
+    }
+    .service-list-section .featured-image-box {
+        margin-bottom: 20px;
+    }
+    #site-header {
+        padding: 10px 0;
+        border-bottom: 1px solid rgb(206,220,184);
+    }
+    .mobile-page-title {
+        width: calc(100% - 92px);
+        text-align: center;
+        color: #4d4d4d;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .site-logo, .menu-toggle {
+        vertical-align: middle;
+        -ms-word-break: break-all;
+        word-break: break-all;
+        margin-left: 10px;
+    }
+    .header-banner {
+        display: inline-block;
+        text-align: center;
+    }
+    .header-banner img {
+        display: block;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .sticky_menu_collapse i {
+        display: block;
+        height: 42px;
+        width: 42px;
+        background-image: url(../images/close.png);
+        background-repeat: no-repeat;
+        opacity: 0.3;
+        background-size: 27px;
+        margin-left: 7px;
+        background-position: center center;
+    }  
+    .page-thumb .featured-image {
+        margin-top: 30px;
+    }
+    .section {
+        padding: 15px 0;
+    }
+    .main-col {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .footer-widgets .flex-column:nth-child(1),
+    .footer-widgets .flex-column:nth-child(2),
+    .footer-widgets .flex-column:nth-child(3) {
+        text-align: center;
+    }
+    .widget {
+        padding: 15px 30px 0 15px;
+    }
+    .section-title {
+        text-align: center;
+    }
+   
+    .banner-box-image,
+    .banner-box-content {
+        padding: 15px 15px 15px 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .featured-block {
+        padding: 15px;
+    }
+    .featured-image-box {
+        margin: 30px 0;
+        padding: 0 15px;
+    }
+
+    .button {
+        width: 100%;
+    }
+    #searchform .button {
+        margin-top:14px;
+    }
+    .testimonial-box {
+        padding: 10px;
+    }
+    .footer-widgets {
+        padding: 15px 0;
+        margin-top: 0px;
+    }
+    .button {
+        margin: 0px;
+        width: 100%;
+        
+    }
+    .main-col:nth-child(odd) {
+        padding-right: 15px;
+    }
+    .main-col:nth-child(even)
+    {
+        padding-left: 15px;
+    }
+    .form fieldset {
+        padding: 0 0px 26px;
+    }
+}

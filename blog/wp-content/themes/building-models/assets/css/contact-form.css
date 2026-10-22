@@ -1,0 +1,56 @@
+.wp-block-onecom-contact-form div{
+    margin-bottom: 25px;
+}
+.wp-block-onecom-contact-form label{
+    display: block;
+    padding: 5px 0;
+    word-wrap: break-word;
+    margin: 0;
+}
+.wp-block-onecom-contact-form input, .wp-block-onecom-contact-form textarea{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #BBBBBB;
+    background: #FFF;
+    margin: 0;
+}
+.wp-block-onecom-contact-form textarea{
+    display: block;
+    height: 130px;
+}
+.wp-block-onecom-contact-form button{
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    background: #b89567;
+    display: inline-block;
+    border: none;
+    line-height: 1.5;
+}
+.wp-block-onecom-contact-form .oc-spinner,
+.wp-block-onecom-contact-form .dashicons-image-rotate:before{
+    display:none;
+}
+.oc-cap-container {
+    border: 1px solid #BBB;
+    background-color: #fff;
+}
+.oc-cap-container img,
+.post-content .oc-cap-container img{
+    padding: 0;
+}
+.oc_csrf_token{
+    display: none;
+}
+.wp-block-onecom-contact-form input.oc-captcha-val {
+    width: 50px;
+    height: 30px;
+    vertical-align: middle;
+    border: 0;
+    font-size: 16px;
+    outline: 0;
+    text-align: center;
+    border-left: 1px solid #ccc;
+    margin-left: 8px;
+}

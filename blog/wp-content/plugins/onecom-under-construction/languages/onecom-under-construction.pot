@@ -1,0 +1,574 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-01-12 01:45+0530\n"
+"PO-Revision-Date: 2017-01-09 12:20+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: core/ReduxCore\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+"X-Poedit-SearchPathExcluded-2: *.css\n"
+"X-Poedit-SearchPathExcluded-3: importer/inc/OneClickDemoImport.php\n"
+"X-Poedit-SearchPathExcluded-4: importer/inc/WidgetImporter.php\n"
+"X-Poedit-SearchPathExcluded-5: importer/inc/Downloader.php\n"
+"X-Poedit-SearchPathExcluded-6: importer/inc/Helpers.php\n"
+"X-Poedit-SearchPathExcluded-7: importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php\n"
+"X-Poedit-SearchPathExcluded-8: option-tree\n"
+
+#: inc/classes/class-ocuc-admin-settings-api.php:29
+msgid "This is a Managed WordPress feature."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings-api.php:253
+msgid "Settings saved."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings-api.php:254
+msgid "Remember to delete cache in case you are using any caching plugin."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings-api.php:355
+#: inc/classes/class-ocuc-admin-settings-api.php:359
+#: inc/classes/class-ocuc-admin-settings-api.php:363
+msgid "Save"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings-api.php:509 inc/lib/validator.php:824
+msgid "Premium"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings-api.php:651
+#: inc/classes/class-ocuc-admin-settings-api.php:653
+msgid "All"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings-api.php:781
+msgid "Choose File"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:35
+msgid "General settings"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:41
+msgid "Content"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:46
+msgid "Customization"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:69
+msgid "Status"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:71
+msgid "Enable Maintenance Mode on your website"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:76
+msgid "Select design"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:77
+msgid "Choose a design for the Maintenance Mode page"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:99
+msgid "Mode"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:103
+msgid "Coming soon"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:105
+msgid "Returns standard 200 HTTP OK response code to indexing robots"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:107
+msgid "Maintenance mode"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:109
+msgid "Returns 503 HTTP Service unavailable code to indexing robots"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:116
+msgid "Countdown timer"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:117
+msgid "Would you like to show countdown timer?"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:125
+msgid "Select date"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:126
+msgid "Set countdown timer. Current Wordpress time: "
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:128
+msgid "Change timezone"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:135
+msgid "Countdown action"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:138
+msgid "No action"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:139
+msgid "Hide countdown timer"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:140
+msgid "Disable the Maintenance Mode and show your website"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:142
+msgid "Select action after countdown ends"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:147
+msgid "Subscribe form"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:148
+msgid "Would you like to show subscription form?"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:154
+msgid "Whitelisted user roles"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:155
+msgid "Selected user roles will see the normal site, instead of the Maintenance Mode."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:162
+msgid "Exclude pages"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:165
+msgid "Select the page(s) to be excluded by maintenance mode such as \"WooCommerce Lost password\" or any custom login page. To avoid performance issues on sites, we show only the first 250 entries for each post type (post, page, product etc)."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:180
+msgid "Logo"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:184
+#: inc/classes/class-ocuc-admin-settings.php:197
+#: inc/classes/class-ocuc-admin-settings.php:315
+msgid "Select Image"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:186
+msgid "Site title will be displayed if no image uploaded."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:186
+msgid "Site title"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:193
+msgid "Site icon"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:199
+msgid "Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:199
+msgid "Site Icons should be square and at least 512 × 512 pixels."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:205
+msgid "Headline"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:213
+msgid "Description"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:221
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:229
+msgid "Facebook"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:236
+msgid "Twitter"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:244
+msgid "Instagram"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:252
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:260
+msgid "YouTube"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:268
+msgid "SEO title"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:272
+msgid "Search engines displays the 50 to 65 characters of a title tag on search engine results pages."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:277
+msgid "SEO description"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:279
+msgid "SEO meta description length is recommended between 120 to 160 characters."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:293
+msgid "Background Color"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:301
+msgid "Primary color"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:305
+msgid "Set color for site title and button"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:310
+msgid "Background image"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:311
+msgid "Choose between having a solid color background or uploading an image. By default images will cover the entire background."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:322
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:324
+msgid "Add custom CSS code"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:330
+msgid "Header scripts"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:334
+msgid "Paste in your universal or classic google analytics code in header"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:340
+msgid "Footer scripts"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:344
+msgid "Paste in your analytics or custom scripts in footer"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:380
+#: inc/classes/class-ocuc-admin-settings.php:411
+#: inc/lib/class-onecom-centralized-menu.php:53
+msgid "Maintenance Mode"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:414
+msgid "Pro"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:421
+#: inc/classes/class-ocuc-admin-settings.php:424
+msgid "Make your website private when editing it. Maintenance Mode tells the visitors that your website is under construction."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:421
+msgid "With the Pro version, you get more customization options."
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:464
+msgid "Utility Tools"
+msgstr ""
+
+#: inc/classes/class-ocuc-admin-settings.php:468
+msgid "Helpful tools for building and maintaining your site."
+msgstr ""
+
+#: inc/classes/class-ocuc-captcha.php:32
+msgid "Type in the answer:"
+msgstr ""
+
+#: inc/classes/class-ocuc-captcha.php:81
+msgid "Invalid answer, please try again."
+msgstr ""
+
+#: inc/classes/class-ocuc-captcha.php:91
+#: inc/classes/class-ocuc-newsletter.php:166 inc/lib/OCPushStats.php:148
+#: inc/lib/class-onecom-usage-stats.php:245 inc/lib/validator.php:22
+#: inc/lib/validator.php:200 inc/lib/validator.php:1745
+msgid "Some error occurred, please reload the page and try again."
+msgstr ""
+
+#: inc/classes/class-ocuc-newsletter.php:64
+msgid "Please enter your email."
+msgstr ""
+
+#: inc/classes/class-ocuc-newsletter.php:72
+msgid "Submit"
+msgstr ""
+
+#: inc/classes/class-ocuc-newsletter.php:91
+msgid "To enable newsletter subscriptions user registrations must be allowed."
+msgstr ""
+
+#: inc/classes/class-ocuc-newsletter.php:94
+msgid "Anyone can register"
+msgstr ""
+
+#: inc/classes/class-ocuc-newsletter.php:109
+msgid "Invalid security token, please reload the page and try again."
+msgstr ""
+
+#: inc/classes/class-ocuc-newsletter.php:119
+msgid "Email entered is not valid or empty."
+msgstr ""
+
+#: inc/classes/class-ocuc-newsletter.php:126
+msgid "Email is too large, please use a valid email."
+msgstr ""
+
+#: inc/classes/class-ocuc-newsletter.php:136
+msgid "This email is already used. Please use a different email."
+msgstr ""
+
+#: inc/classes/class-ocuc-toolbar.php:42 inc/classes/class-ocuc-toolbar.php:43
+#, php-format
+msgid "Maintenance Mode is %sON%s"
+msgstr ""
+
+#: inc/classes/class-ocuc-toolbar.php:46 inc/classes/class-ocuc-toolbar.php:47
+msgid "Maintenance Mode is OFF"
+msgstr ""
+
+#: inc/lib/class-onecom-centralized-menu.php:21
+#: inc/lib/class-onecom-centralized-menu.php:81
+#: inc/lib/onecom-nested-menu.php:66 inc/lib/validator.php:1713
+msgid "One.com"
+msgstr ""
+
+#: inc/lib/class-onecom-centralized-menu.php:47
+msgid "Performance Cache"
+msgstr ""
+
+#: inc/lib/class-onecom-centralized-menu.php:47
+msgid "Performance Cache&nbsp;"
+msgstr ""
+
+#: inc/lib/class-onecom-centralized-menu.php:66
+msgid "Themes"
+msgstr ""
+
+#: inc/lib/class-onecom-centralized-menu.php:67
+msgid "Plugins"
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:64
+msgid "For delivering best customer experience, one.com wants to collect non-sensitive data from your website."
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:65
+msgid "Which data?"
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:66
+msgid "Allow one.com to collect data."
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:71
+msgid "Installed plugins"
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:72
+msgid "Installed themes"
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:73
+msgid "Counts of "
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:75
+msgid "Posts"
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:76
+msgid "Pages"
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:77
+msgid "Media"
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:78
+msgid "Products"
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:79
+msgid "Comments"
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:80
+msgid "Users"
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:82
+msgid "Staging exists"
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:83
+msgid "Frontpage settings"
+msgstr ""
+
+#: inc/lib/class-onecom-usage-stats.php:84
+msgid "Multisite"
+msgstr ""
+
+#: inc/lib/onecom-nested-menu.php:30 inc/lib/validator.php:1911
+msgid "one.com"
+msgstr ""
+
+#: inc/lib/onecom-nested-menu.php:223
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: inc/lib/validator.php:25 inc/lib/validator.php:854
+msgid "Learn more"
+msgstr ""
+
+#: inc/lib/validator.php:475
+msgid "Make your WordPress more powerful"
+msgstr ""
+
+#: inc/lib/validator.php:480
+msgid "Spend less time worrying about your site and more time growing your business with one.com Managed WordPress."
+msgstr ""
+
+#: inc/lib/validator.php:481
+msgid "Quick fix or ignore recommendations"
+msgstr ""
+
+#: inc/lib/validator.php:482
+msgid "Get better performance with Performance Cache and CDN"
+msgstr ""
+
+#: inc/lib/validator.php:483
+msgid "Get notified about security with Vulnerability Monitoring"
+msgstr ""
+
+#: inc/lib/validator.php:484
+msgid "Get helpful tips with Advanced Error Page"
+msgstr ""
+
+#: inc/lib/validator.php:485
+msgid "Get access to our Premium themes"
+msgstr ""
+
+#: inc/lib/validator.php:486
+msgid "Increase your authentication security"
+msgstr ""
+
+#: inc/lib/validator.php:487
+msgid "Host on our WordPress servers built for speed"
+msgstr ""
+
+#: inc/lib/validator.php:495
+msgid "Free upgrade"
+msgstr ""
+
+#: inc/lib/validator.php:498 inc/lib/validator.php:802
+msgid "Cancel"
+msgstr ""
+
+#: inc/lib/validator.php:805
+msgid "Get Managed WordPress"
+msgstr ""
+
+#: inc/lib/validator.php:852
+msgid "This is a Premium Theme"
+msgstr ""
+
+#: inc/lib/validator.php:959
+msgid "Connection timed out"
+msgstr ""
+
+#: inc/lib/validator.php:984
+msgid "Sorry, no compatible themes found for your version of WordPress and PHP."
+msgstr ""
+
+#: inc/lib/validator.php:984
+msgid "Try again"
+msgstr ""
+
+#: inc/lib/validator.php:1078
+#, php-format
+msgid "Make your website even more powerful with %sManaged WordPress%s"
+msgstr ""
+
+#: inc/lib/validator.php:1751
+msgid "Updated"
+msgstr ""
+
+#: inc/lib/validator.php:1906
+#, php-format
+msgid "Welcome to %s plugins"
+msgstr ""
+
+#: inc/lib/validator.php:1907
+msgid "Look after the health, security and performance of your website, and customise it with recommended themes and plugins."
+msgstr ""
+
+#: inc/lib/validator.php:1908
+msgid "Explore plugins"
+msgstr ""
+
+#: inc/modules/timer.php:7
+msgid "Days"
+msgstr ""
+
+#: inc/modules/timer.php:11
+msgid "Hours"
+msgstr ""
+
+#: inc/modules/timer.php:15
+msgid "Minutes"
+msgstr ""
+
+#: inc/modules/timer.php:19
+msgid "Seconds"
+msgstr ""
+
+#: inc/update.php:167
+msgid "View details"
+msgstr ""

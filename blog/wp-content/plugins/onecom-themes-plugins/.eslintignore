@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+vendor/
+inc/lib/
+assets/
+modules/**/assets/
+modules/**/js/
+staging/
+coverage-report/
+tests/
+*.min.js

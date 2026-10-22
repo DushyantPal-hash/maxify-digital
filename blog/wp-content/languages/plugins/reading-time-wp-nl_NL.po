@@ -1,0 +1,137 @@
+# Translation of Plugins - Reading Time WP - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Reading Time WP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-05 13:14:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Reading Time WP - Stable (latest release)\n"
+
+#: rt-reading-time-admin.php:124
+msgid "The shortcode shows the reading time for the current page/post by default. To show the reading time for another one, use the optional \"post_id\" attribute. For example - to show the reading time for post ID 123: <code>[rt_reading_time post_id=\"123\"]</code>."
+msgstr "De shortcode toont standaard de leestijd van de huidige pagina/bericht. Om de leestijd voor een andere te tonen, gebruik je het optionele \"post_id\" attribuut. Bijvoorbeeld - om de leestijd voor bericht ID 123 te tonen: <code>[rt_reading_time post_id=\"123\"]</code>."
+
+#: rt-reading-time-admin.php:112
+msgid "Display on "
+msgstr "Weergeven bij"
+
+#: rt-reading-time-admin.php:123
+msgid "Want to insert the reading time into your theme? Use <code>do_shortcode('[rt_reading_time]')</code>."
+msgstr "Wil je de leestijd in jouw thema invoegen? Gebruik <code>do_shortcode('[rt_reading_time]')</code>."
+
+#: rt-reading-time-admin.php:122
+msgid "Or simply use <code>[rt_reading_time]</code> to return the number with no labels."
+msgstr "Of gebruik gewoon <code>[rt_reading_time]</code> om het nummer zonder labels terug te sturen."
+
+#: rt-reading-time-admin.php:121
+msgid "Shortcode: <code>[rt_reading_time label=\"Reading Time:\" postfix=\"minutes\" postfix_singular=\"minute\"]</code>"
+msgstr "Shortcode: <code>[rt_reading_time label=\"Reading Time:\" postfix=\"minutes\" postfix_singular=\"minute\"]</code>"
+
+#: rt-reading-time-admin.php:116
+msgid "Update Options"
+msgstr "Update opties"
+
+#: rt-reading-time-admin.php:109
+msgid "Select Post Types to Display Reading Time On"
+msgstr "Selecteer berichttypes om de leestijd weer te geven"
+
+#: rt-reading-time-admin.php:107
+msgid "Include shortcodes in the reading time: "
+msgstr "Neem shortcodes op in de leestijd: "
+
+#: rt-reading-time-admin.php:106
+msgid "Exclude images from the reading time: "
+msgstr "Sluit afbeeldingen uit van de leestijd: "
+
+#: rt-reading-time-admin.php:105
+msgid "Insert Reading Time before excerpt: "
+msgstr "Voeg leestijd voor samenvatting in: "
+
+#: rt-reading-time-admin.php:104
+msgid "Insert Reading Time before content: "
+msgstr "Voeg leestijd voor inhoud in: "
+
+#: rt-reading-time-admin.php:102
+msgid " (defaults to 300, the average reading speed for adults)"
+msgstr " (standaard 300, de gemiddelde leessnelheid voor volwassenen)"
+
+#: rt-reading-time-admin.php:102
+msgid "Words per minute: "
+msgstr "Woorden per minuut:"
+
+#: rt-reading-time-admin.php:100
+msgid " This value appears after the reading time, when lecture time is 1 minute."
+msgstr "Deze waarde verschijnt na de leestijd, wanneer de spreektijd 1 minuut is."
+
+#: rt-reading-time-admin.php:100
+msgid "Reading time postfix singular: "
+msgstr "Leestijd achtervoegsel enkelvoudig:"
+
+#: rt-reading-time-admin.php:99
+msgid " This value appears after the reading time. Leave blank for none."
+msgstr "Deze waarde verschijnt na de leestijd. Laat leeg voor geen waarde."
+
+#: rt-reading-time-admin.php:99
+msgid "Reading time postfix: "
+msgstr "Leestijd achtervoegsel:"
+
+#: rt-reading-time-admin.php:97
+msgid " This value appears before the reading time. Leave blank for none."
+msgstr "Deze waarde verschijnt voor de leestijd. Laat leeg voor geen waarde."
+
+#: rt-reading-time-admin.php:97
+msgid "Reading time label: "
+msgstr "Leestijd label: "
+
+#: rt-reading-time-admin.php:95
+msgid "Reading Time Settings"
+msgstr "Leestijd instellingen"
+
+#: rt-reading-time-admin.php:54
+msgid "Options saved."
+msgstr "Opties opgeslagen."
+
+#: rt-reading-time-admin.php:90 rt-reading-time.php:270
+msgid "Reading Time WP Settings"
+msgstr "Reading Time WP instellingen"
+
+#: rt-reading-time.php:160
+msgid "< 1"
+msgstr "< 1"
+
+#: rt-reading-time.php:80
+msgid "minute"
+msgstr "minuut"
+
+#: rt-reading-time.php:79
+msgid "minutes"
+msgstr "minuten"
+
+#: rt-reading-time.php:78
+msgid "Reading Time: "
+msgstr "Leestijd:"
+
+#. Author URI of the plugin
+msgid "https://jasonyingling.me"
+msgstr "https://jasonyingling.me"
+
+#. Author of the plugin
+msgid "Jason Yingling"
+msgstr "Jason Yingling"
+
+#. Description of the plugin
+msgid "Add an estimated reading time to your posts."
+msgstr "Voeg een geschatte leestijd toe aan je berichten."
+
+#. Plugin URI of the plugin
+msgid "https://jasonyingling.me/reading-time-wp/"
+msgstr "https://jasonyingling.me/reading-time-wp/"
+
+#. Plugin Name of the plugin
+#: rt-reading-time.php:271
+msgid "Reading Time WP"
+msgstr "Reading Time WP"

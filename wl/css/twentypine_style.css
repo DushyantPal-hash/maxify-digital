@@ -1,0 +1,38 @@
+body#login {
+    background: #0b876b;
+    background-repeat: no-repeat;
+}
+
+#footer {
+    background: #0b876b;
+}
+
+.nav-menu .get-started a {
+    background: #0a497b;
+}
+
+a.btn-login {
+    background: #0b876b;
+}
+
+.main-logo{
+	background: url(../images/whitelabeling/main-logo.png);
+    width: 450px;
+    height: 300px;
+    display: block;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.mini-logo{
+	background: url(../images/whitelabeling/mini-logo.jpg);
+    width: 110px;
+    height: 90px;
+    display: block;
+	background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.lBlueTxt {
+    color: #2872ac;
+}

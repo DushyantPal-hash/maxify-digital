@@ -1,0 +1,500 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OCI Setup Wizard\n"
+"POT-Creation-Date: 2021-08-23 12:41+0530\n"
+"PO-Revision-Date: 2017-03-17 10:01+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: oci\n"
+"X-Poedit-SearchPath-1: install.php\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: *.css\n"
+
+#: install.php:81
+msgid "Help"
+msgstr ""
+
+#: install.php:87 install.php:119
+msgid "WordPress installation"
+msgstr ""
+
+#: install.php:123
+msgid "Step 1 of 4"
+msgstr ""
+
+#: install.php:124
+msgid "Create a WordPress admin account for this website"
+msgstr ""
+
+#: install.php:125
+msgid "This is the account you’re gonna use to log in to your WordPress admin, where you can edit your website."
+msgstr ""
+
+#: install.php:132
+msgid "Step 2 of 4"
+msgstr ""
+
+#: install.php:133
+msgid "Tell us about your website"
+msgstr ""
+
+#: install.php:134
+msgid "You’ll get the chance to setup all the other details once you log in to the WordPress admin."
+msgstr ""
+
+#: install.php:141
+msgid "Step 3 of 4"
+msgstr ""
+
+#: install.php:142
+msgid "Select your theme"
+msgstr ""
+
+#: install.php:143
+msgid "We offer a great variety of themes. Anything from eCommerce, blogs, portfolios, and more."
+msgstr ""
+
+#: install.php:161
+msgid "Congratulations!"
+msgstr ""
+
+#: install.php:162
+#, php-format
+msgid "You've successfully installed WordPress on %syour website%s."
+msgstr ""
+
+#: install.php:165 install.php:169
+msgid "Back to One Dashboard"
+msgstr ""
+
+#: install.php:171
+msgid "or"
+msgstr ""
+
+#: install.php:176
+msgid "Go to WP Admin"
+msgstr ""
+
+#: install.php:192
+msgid "Add an admin email"
+msgstr ""
+
+#: install.php:193
+msgid "An email address where website visitors can contact you."
+msgstr ""
+
+#: install.php:196
+msgid "Email"
+msgstr ""
+
+#: install.php:200
+msgid "Enable Advanced Login Protection"
+msgstr ""
+
+#: install.php:201
+msgid "Allows you to login directly to WordPress from the control panel to add an extra layer of ease and security to your site."
+msgstr ""
+
+#: install.php:206
+msgid "Choose an admin username"
+msgstr ""
+
+#: install.php:207
+msgid "Usernames can have only alphanumeric characters, spaces, underscores, hyphens, periods, and the @ symbol."
+msgstr ""
+
+#: install.php:210
+msgid "Username"
+msgstr ""
+
+#: install.php:214
+msgid "Enter a password"
+msgstr ""
+
+#: install.php:215
+msgid "You will need this password to log in. Please store it in a secure location."
+msgstr ""
+
+#: install.php:219
+msgid "Password"
+msgstr ""
+
+#: install.php:221
+msgid "Generate"
+msgstr ""
+
+#: install.php:222
+msgid "Hide password"
+msgstr ""
+
+#: install.php:222
+msgid "Show password"
+msgstr ""
+
+#: install.php:227
+msgid "Password strength"
+msgstr ""
+
+#: install.php:242
+msgid "Title"
+msgstr ""
+
+#: install.php:243
+msgid "The title of your website appears at the top of all pages and in search results."
+msgstr ""
+
+#: install.php:246
+msgid "My Amazing WordPress Website"
+msgstr ""
+
+#: install.php:249
+msgid "Tagline"
+msgstr ""
+
+#: install.php:250
+msgid "Think of the tagline as a slogan that describes what makes your website special. It will also appear in search results."
+msgstr ""
+
+#: install.php:253
+msgid "I’m gonna do great things!"
+msgstr ""
+
+#: install.php:253
+msgid "Just another WordPress site"
+msgstr ""
+
+#: install.php:262
+#, php-format
+msgid "I have read the %sTerms and Conditions%s and I agree to these"
+msgstr ""
+
+#: install.php:268
+msgid "Discourage search engines from indexing this site"
+msgstr ""
+
+#: install.php:268
+msgid "(optional)"
+msgstr ""
+
+#: install.php:279
+msgid "All categories"
+msgstr ""
+
+#: install.php:280
+msgid "Blog"
+msgstr ""
+
+#: install.php:281
+msgid "Business & Services"
+msgstr ""
+
+#: install.php:282
+msgid "Events"
+msgstr ""
+
+#: install.php:283
+msgid "Family & Recreation"
+msgstr ""
+
+#: install.php:284
+msgid "Food & Hospitality"
+msgstr ""
+
+#: install.php:285
+msgid "Music & Art"
+msgstr ""
+
+#: install.php:286
+msgid "Online Shop"
+msgstr ""
+
+#: install.php:287
+msgid "Portfolio & CV"
+msgstr ""
+
+#: install.php:288 oci/oci-mwp.php:131 oci/validator/validator.php:720
+msgid "Premium"
+msgstr ""
+
+#: install.php:324
+msgid "Preview"
+msgstr ""
+
+#: install.php:329
+msgid "Select theme"
+msgstr ""
+
+#: install.php:334
+msgid "Selected"
+msgstr ""
+
+#: install.php:348
+msgid "Install"
+msgstr ""
+
+#: install.php:358
+msgid "No themes found"
+msgstr ""
+
+#: install.php:362
+msgid "Load more themes"
+msgstr ""
+
+#: install.php:380
+msgid "Preview on desktop"
+msgstr ""
+
+#: install.php:381
+msgid "Preview on tablet"
+msgstr ""
+
+#: install.php:382
+msgid "Preview on mobile"
+msgstr ""
+
+#: install.php:383
+msgid "Close Preview"
+msgstr ""
+
+#: install.php:412 oci/validator/validator.php:469
+msgid "Make your WordPress more powerful"
+msgstr ""
+
+#: install.php:417 oci/validator/validator.php:474
+msgid "Spend less time worrying about your site and more time growing your business with one.com Managed WordPress."
+msgstr ""
+
+#: install.php:418 oci/validator/validator.php:475
+msgid "Quick fix or ignore recommendations"
+msgstr ""
+
+#: install.php:419 oci/validator/validator.php:476
+msgid "Get better performance with Performance Cache and CDN"
+msgstr ""
+
+#: install.php:420 oci/validator/validator.php:477
+msgid "Get notified about security with Vulnerability Monitoring"
+msgstr ""
+
+#: install.php:421 oci/validator/validator.php:478
+msgid "Get helpful tips with Advanced Error Page"
+msgstr ""
+
+#: install.php:422 oci/validator/validator.php:479
+msgid "Get access to our Premium themes"
+msgstr ""
+
+#: install.php:423 oci/validator/validator.php:480
+msgid "Increase your authentication security"
+msgstr ""
+
+#: install.php:424 oci/validator/validator.php:481
+msgid "Host on our WordPress servers built for speed"
+msgstr ""
+
+#: install.php:436
+msgid "Free Upgrade"
+msgstr ""
+
+#: install.php:439 oci/validator/validator.php:492
+msgid "Cancel"
+msgstr ""
+
+#: install.php:445
+msgid "Managed WordPress is being phased in. Please check the one.com Control Panel if you are eligible for this offer."
+msgstr ""
+
+#: install.php:458
+msgid "If you wish to preview themes before selecting them, please visit this page on desktop."
+msgstr ""
+
+#: install.php:459
+msgid "OK"
+msgstr ""
+
+#: oci/ajax.php:85 oci/ajax.php:143 oci/ajax.php:171 oci/ajax.php:312
+#: oci/ajax.php:524 oci/ajax.php:602
+msgid "Finalising..."
+msgstr ""
+
+#: oci/ajax.php:109 oci/ajax.php:630
+msgid "WordPress is being upgraded. Please try again later."
+msgstr ""
+
+#: oci/ajax.php:112 oci/ajax.php:333
+msgid "Something went wrong. Please contact the support at one.com."
+msgstr ""
+
+#: oci/ajax.php:126 oci/ajax.php:215 oci/ajax.php:350
+msgid "Unable to connect to the file system. Please contact the support at one.com."
+msgstr ""
+
+#: oci/ajax.php:363 oci/ajax.php:401 oci/ajax.php:407
+msgid "Installing Under construction plugin"
+msgstr ""
+
+#: oci/ajax.php:648
+msgid "password generation failed"
+msgstr ""
+
+#: oci/oci-mwp.php:143 oci/validator/validator.php:748
+msgid "This is a Premium Theme"
+msgstr ""
+
+#: oci/oci-mwp.php:143 oci/validator/validator.php:25
+#: oci/validator/validator.php:750
+msgid "Learn more"
+msgstr ""
+
+#: oci/oci-mwp.php:170
+msgid "Back"
+msgstr ""
+
+#: oci/oci-mwp.php:171
+msgid "Next step"
+msgstr ""
+
+#: oci/oci-mwp.php:172
+msgid "Skip"
+msgstr ""
+
+#: oci/oci-mwp.php:173
+msgid "Install theme"
+msgstr ""
+
+#: oci/oci-mwp.php:174
+msgid "Installing WordPress"
+msgstr ""
+
+#: oci/oci-mwp.php:175
+msgid "This is an invalid email. Please change it."
+msgstr ""
+
+#: oci/oci-mwp.php:176
+msgid "This is an invalid username. Please change it."
+msgstr ""
+
+#: oci/validator/OCPushStats.php:147
+#: oci/validator/class-onecom-usage-stats.php:247
+#: oci/validator/validator.php:22 oci/validator/validator.php:196
+msgid "Some error occurred, please reload the page and try again."
+msgstr ""
+
+#: oci/validator/class-onecom-centralized-menu.php:21
+#: oci/validator/class-onecom-centralized-menu.php:81
+#: oci/validator/validator.php:1536
+msgid "One.com"
+msgstr ""
+
+#: oci/validator/class-onecom-centralized-menu.php:47
+msgid "Performance Cache"
+msgstr ""
+
+#: oci/validator/class-onecom-centralized-menu.php:47
+msgid "Performance Cache&nbsp;"
+msgstr ""
+
+#: oci/validator/class-onecom-centralized-menu.php:53
+msgid "Maintenance Mode"
+msgstr ""
+
+#: oci/validator/class-onecom-centralized-menu.php:66
+msgid "Themes"
+msgstr ""
+
+#: oci/validator/class-onecom-centralized-menu.php:67
+msgid "Plugins"
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:63
+msgid "For delivering best customer experience, one.com wants to collect non-sensitive data from your website."
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:64
+msgid "Which data?"
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:65
+msgid "Allow one.com to collect data."
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:70
+msgid "Installed plugins"
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:71
+msgid "Installed themes"
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:72
+msgid "Counts of "
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:74
+msgid "Posts"
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:75
+msgid "Pages"
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:76
+msgid "Media"
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:77
+msgid "Products"
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:78
+msgid "Comments"
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:79
+msgid "Users"
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:81
+msgid "Staging exists"
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:82
+msgid "Frontpage settings"
+msgstr ""
+
+#: oci/validator/class-onecom-usage-stats.php:83
+msgid "Multisite"
+msgstr ""
+
+#: oci/validator/validator.php:489
+msgid "Free upgrade"
+msgstr ""
+
+#: oci/validator/validator.php:855
+msgid "Connection timed out"
+msgstr ""
+
+#: oci/validator/validator.php:880
+msgid "Sorry, no compatible themes found for your version of WordPress and PHP."
+msgstr ""
+
+#: oci/validator/validator.php:880
+msgid "Try again"
+msgstr ""
+
+#: oci/validator/validator.php:964
+msgid "Make your website even more powerful with"
+msgstr ""
+
+#: oci/validator/validator.php:964
+msgid "<strong>Managed WordPress</strong>"
+msgstr ""

@@ -1,0 +1,230 @@
+# Translation of Plugins - WordPress Importer - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - WordPress Importer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-24 19:29:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - WordPress Importer - Stable (latest release)\n"
+
+#: class-wp-import.php:1112
+msgid "The uploaded file could not be moved"
+msgstr "Den uploaded fil kunne ikke flyttes"
+
+#: class-wp-import.php:1097
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "Beklager, men af sikkerhedsmæssige årsager, er denne filtype ikke tilladt."
+
+#: class-wp-import.php:1059
+msgid "Downloaded file has incorrect size"
+msgstr "Downloaded fil har forkert størrelse"
+
+#. translators: 1: The HTTP error message. 2: The HTTP error code.
+#: class-wp-import.php:1035
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr "Fjernserver returnerede følgende uventede resultat: %1$s (%2$s)"
+
+#. translators: 1: The WordPress error message. 2: The WordPress error code.
+#: class-wp-import.php:1019
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr "Anmodningen mislykkedes på grund af en fejl: %1$s (%2$s)"
+
+#: class-wp-import.php:1000
+msgid "Could not create temporary file."
+msgstr "Kunne ikke oprette midlertidig fil."
+
+#: class-wp-import.php:239
+msgid "To make it simpler for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site, such as your primary administrator account."
+msgstr "For at gøre det lettere for dig at redigere og gemme det importerede indhold, skal du muligvis omfordele forfatteren af den importerede vare til en eksisterende bruger af dette websted, f.eks. din primære administrator konto."
+
+#. Author URI of the plugin
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Author of the plugin
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#. Description of the plugin
+msgid "Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file."
+msgstr "Importer indlæg, sider, kommentere, brugerdefinerede felter, kategorier, tags og andet fra en WordPress eksportfil."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wordpress-importer/"
+msgstr "https://wordpress.org/plugins/wordpress-importer/"
+
+#. Plugin Name of the plugin
+msgid "WordPress Importer"
+msgstr "WordPress Import"
+
+#: wordpress-importer.php:58
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr "Importer <strong>indlæg, sider, kommentarer, egne felter, kategorier og tags </strong> fra en WordPress eksporteret fil."
+
+#: class-wp-import.php:1247
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "Vælg en WXR (.xml) fil du vil uploade. Derefter klik på Upload fil og importer."
+
+#: class-wp-import.php:1246
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr "Hejsa! Upload din WordPress eXtended RSS (WXR) fil og vi importerer indlæg, sider, kommentarer, egne felter, kategorier og tags til dette websted."
+
+#: class-wp-import.php:1231
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr "En ny version af denne importer er tilgængelig. Opdater venligst til version %s for at være sikker på kompatibilitet med nyere eksportfiler."
+
+#: class-wp-import.php:1224
+msgid "Import WordPress"
+msgstr "Importer WordPress"
+
+#: class-wp-import.php:1065
+msgid "Remote file is too large, limit is %s"
+msgstr "Filen er for stor, grænsen er %s"
+
+#: class-wp-import.php:1054
+msgid "Zero size file downloaded"
+msgstr "Fil uden indhold downloadet"
+
+#: class-wp-import.php:1047
+msgid "Remote server did not respond"
+msgstr "Fjernserver svarede ikke"
+
+#: class-wp-import.php:961
+msgid "Invalid file type"
+msgstr "Ugyldig filtype"
+
+#: class-wp-import.php:948
+msgid "Fetching attachments is not enabled"
+msgstr "Hentning af vedhæftede filer ikke aktiveret"
+
+#: class-wp-import.php:885
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Menupunkt sprunget over pga. ugyldigt menu slug: %s"
+
+#: class-wp-import.php:878
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Menupunkt sprunget over pga. manglende menu slug"
+
+#: class-wp-import.php:704
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Kunne ikke importere %s &#8220;%s&#8221;"
+
+#: class-wp-import.php:642
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; eksisterer allerede."
+
+#: class-wp-import.php:605
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "Kunne ikke importere &#8220;%s&#8221;: Ugyldigt inlæg type %s"
+
+#: class-wp-import.php:512 class-wp-import.php:738
+msgid "Failed to import %s %s"
+msgstr "Fejlede import af %s %s"
+
+#: class-wp-import.php:457
+msgid "Failed to import post tag %s"
+msgstr "Kunne ikke importere indlæg tag %s"
+
+#: class-wp-import.php:412
+msgid "Failed to import category %s"
+msgstr "Kunne ikke importere kategori %s"
+
+#: class-wp-import.php:360
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr "Kunne ikke oprette ny bruger for %s. Deres indlæg vil blive tilføjet til den aktuelle bruger."
+
+#: class-wp-import.php:306
+msgid "- Select -"
+msgstr "- Vælg -"
+
+#: class-wp-import.php:298
+msgid "or assign posts to an existing user:"
+msgstr "eller tilføj indlæg til en eksisterende bruger:"
+
+#: class-wp-import.php:296
+msgid "assign posts to an existing user:"
+msgstr "tilføj indlæg til en eksisterende bruger:"
+
+#: class-wp-import.php:286
+msgid "as a new user:"
+msgstr "som ny bruger:"
+
+#: class-wp-import.php:283
+msgid "or create new user with login name:"
+msgstr "eller opret en ny bruger med brugernavn:"
+
+#: class-wp-import.php:271
+msgid "Import author:"
+msgstr "Importer forfatter:"
+
+#: class-wp-import.php:258
+msgid "Submit"
+msgstr "Send"
+
+#: class-wp-import.php:254
+msgid "Download and import file attachments"
+msgstr "Download og importér vedhæftede filer"
+
+#: class-wp-import.php:251
+msgid "Import Attachments"
+msgstr "Importer vedhæftninger"
+
+#: class-wp-import.php:241
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr "Hvis en ny bruger oprettes af WordPress, vil der automatisk blive lavet en tilfældigt genereret kode og den nye brugers role vil blive tildelt som %s. Det vil være nødvendigt at ændre brugerens oplysninger manuelt."
+
+#: class-wp-import.php:238
+msgid "Assign Authors"
+msgstr "Tildel Forfattere"
+
+#: class-wp-import.php:212
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr "Kunne ikke importere forfatter %s. Deres indlæg vil blive krediteret til nuværende bruger."
+
+#: class-wp-import.php:187
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr "Denne WXR fil (version %s) er muligvis ikke understøttet af denne version af importør. Overvej at opdatere."
+
+#: class-wp-import.php:171
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr "Eksport filen kan ikke findes på <code>%s</code>. Det er muligt dette skyldes problemer med adgangstilladelse."
+
+#: class-wp-import.php:151
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "Husk at opdatere kodeord og roller på importerede brugere."
+
+#: class-wp-import.php:150
+msgid "Have fun!"
+msgstr "God fornøjelse!"
+
+#: class-wp-import.php:150
+msgid "All done."
+msgstr "Alt klaret."
+
+#: class-wp-import.php:107
+msgid "The file does not exist, please try again."
+msgstr "Filen eksisterer ikke, prøv venligst igen."
+
+#: class-wp-import.php:106 class-wp-import.php:115 class-wp-import.php:166
+#: class-wp-import.php:170 class-wp-import.php:179
+msgid "Sorry, there has been an error."
+msgstr "Beklager, der har været en fejl."
+
+#: parsers/class-wxr-parser-regex.php:96 parsers/class-wxr-parser-xml.php:48
+#: parsers/class-wxr-parser-simplexml.php:41
+#: parsers/class-wxr-parser-simplexml.php:46
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "Det ser ud som om, at det ikke er en WXR fil, der en manglende eller fejlagtigt WXR versions nummer"
+
+#: parsers/class-wxr-parser.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "Detaljer er vist foroven. Importen forsøger igen med en anden parser..."
+
+#: parsers/class-wxr-parser-simplexml.php:29
+#: parsers/class-wxr-parser-simplexml.php:37 parsers/class-wxr-parser.php:42
+msgid "There was an error when reading this WXR file"
+msgstr "Der var en fejl ved læsning af WXR filen"

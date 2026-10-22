@@ -1,0 +1,2713 @@
+# Translation of Plugins - Email Subscribers &amp; Newsletters &#8211; Simple and Effective Email Marketing WordPress Plugin - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Email Subscribers &amp; Newsletters &#8211; Simple and Effective Email Marketing WordPress Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-06-04 17:04:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Email Subscribers &amp; Newsletters &#8211; Simple and Effective Email Marketing WordPress Plugin - Stable (latest release)\n"
+
+#: lite/admin/partials/onboarding.php:524
+#: lite/admin/partials/trial-optin-form.php:25 lite/language.php:310
+msgid "Your email"
+msgstr "Je e-mail"
+
+#: lite/admin/partials/dashboard.php:135 lite/admin/partials/dashboard.php:147
+#: lite/language.php:209
+msgid "Upgrade to Pro"
+msgstr "Upgraden naar Pro"
+
+#: lite/language.php:1246
+msgid "Remove"
+msgstr "Verwijder"
+
+#: lite/includes/classes/class-es-reports-table.php:101 lite/language.php:815
+msgid "Note: "
+msgstr "Opmerking: "
+
+#: lite/admin/class-email-subscribers-admin.php:332 lite/language.php:71
+msgid "Gallery"
+msgstr "Galerij"
+
+#: lite/language.php:1216
+msgid "Custom Fields"
+msgstr "Aangepaste velden"
+
+#: lite/includes/class-es-common.php:2492 lite/language.php:385
+msgid "Text"
+msgstr "Tekst"
+
+#: lite/includes/class-es-common.php:2494 lite/language.php:387
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: lite/language.php:1366
+msgid "Total Opened"
+msgstr "Totaal geopend"
+
+#: lite/includes/feedback/class-ig-plugin-usage-tracker.php:311
+msgid "No thanks"
+msgstr "Nee, dank je wel"
+
+#: lite/language.php:1589
+msgid "ID"
+msgstr "ID"
+
+#: lite/language.php:1524
+msgid "Product"
+msgstr "Product"
+
+#: lite/language.php:1526
+msgid "Price"
+msgstr "Prijs"
+
+#: lite/language.php:1544
+msgid "Comment"
+msgstr "Reactie"
+
+#: lite/language.php:1455
+msgid "Checkout"
+msgstr "Afrekenen"
+
+#: lite/language.php:1438
+msgid "Order"
+msgstr "Bestellen"
+
+#: lite/language.php:1349
+msgid "API Key"
+msgstr "API sleutel"
+
+#: lite/admin/class-ig-es-campaign-rules.php:224
+#: lite/includes/classes/class-es-post-notifications.php:545
+#: lite/includes/workflows/admin/views/meta-box-actions.php:122
+#: lite/language.php:125
+msgid "Loading..."
+msgstr "Bezig met laden..."
+
+#: lite/admin/partials/dashboard.php:87 lite/language.php:194
+msgid "Setup"
+msgstr "Instellen"
+
+#. translators: %1$s - constant that was used
+#: lite/includes/class-email-subscribers.php:1955 lite/language.php:346
+msgid "Value was set using constant %1$s"
+msgstr "Waarde is bepaald met constante %1$s"
+
+#: lite/includes/classes/class-es-import-subscribers.php:870
+#: lite/includes/classes/class-es-import-subscribers.php:1359
+#: lite/language.php:713
+msgid "Hard Bounced"
+msgstr "Harde afwijzing"
+
+#: lite/includes/classes/class-es-import-subscribers.php:267
+#: lite/language.php:695
+msgid "Import with status \"unsubscribed\""
+msgstr "Importeer met status \"uitgeschreven\""
+
+#: lite/includes/classes/class-es-import-subscribers.php:169
+#: lite/language.php:688
+msgid "You need your API key from Mailchimp to import your data."
+msgstr "Je hebt een API sleutel van Mailchimp nodig om je gegevens te kunnen importeren."
+
+#: lite/includes/classes/class-es-import-subscribers.php:167
+#: lite/language.php:687
+msgid "Enter your API Key"
+msgstr "Type je API sleutel"
+
+#: lite/includes/classes/class-es-import-subscribers.php:105
+#: lite/language.php:677
+msgid "Import from MailChimp"
+msgstr "Importeer van MailChimp"
+
+#: lite/admin/class-email-subscribers-admin.php:216 lite/language.php:61
+msgid "API is valid. Fetching lists..."
+msgstr "API sleutel is geldig. Ophalen lijsten..."
+
+#: lite/includes/classes/class-es-import-subscribers.php:689
+#: lite/includes/classes/class-es-import-subscribers.php:1352
+#: lite/language.php:705
+msgid "List Name"
+msgstr "Lijstnaam"
+
+#: lite/includes/classes/class-es-import-subscribers.php:259
+#: lite/language.php:694
+msgid "Import with status \"pending\""
+msgstr "Importeer met status \"in afwachting\""
+
+#: lite/includes/classes/class-es-import-subscribers.php:275
+#: lite/language.php:696
+msgid "Import with status \"cleaned\""
+msgstr "Importeer met status \"opgeschoond\""
+
+#: lite/includes/classes/class-es-import-subscribers.php:251
+#: lite/language.php:693
+msgid "Import with status \"subscribed\""
+msgstr "Import met status \"geabonneerd\""
+
+#: lite/includes/classes/class-es-import-subscribers.php:239
+#: lite/language.php:692
+msgid "Select the status of the contacts that you want to import from MailChimp"
+msgstr "Selecteer de status van de contactpersonen die je wil importeren van MailChimp"
+
+#: lite/includes/classes/class-es-import-subscribers.php:212
+#: lite/language.php:691
+msgid "Select all the lists that you want to import from MailChimp"
+msgstr "Selecteer alle lijsten die je wil importeren van MailChimp"
+
+#: lite/includes/classes/class-es-import-subscribers.php:172
+#: lite/language.php:689
+msgid "Click here to get it."
+msgstr "Klik hier om aan het te krijgen."
+
+#: lite/admin/class-email-subscribers-admin.php:217 lite/language.php:62
+msgid "Fetching contacts from MailChimp...Please do not close this window"
+msgstr "Ophalen contactpersonen van MailChimp...Dit venster niet sluiten"
+
+#: lite/admin/class-email-subscribers-admin.php:192 lite/language.php:37
+msgid "Please select a list for importing contacts!"
+msgstr "Selecteer een lijst om contactpersonen te importeren!"
+
+#: lite/language.php:1409
+msgid "Unsubscribes"
+msgstr "Uitschrijvingen"
+
+#: lite/includes/pro-features.php:1838 lite/language.php:1027
+msgid "Send campaign to specific audience with PRO"
+msgstr "Stuur campagne e-mail aan specifieke doelgroep met PRO"
+
+#: lite/includes/pro-features.php:1840 lite/language.php:1028
+msgid "Now, you can select multiple lists and also filter your subscribers based on their country, emails and whether they have received, opened or clicked a specific campaign or not and then send campaign emails to them."
+msgstr "Nu kun je meerdere lijsten selecteren en ook filteren op abonnees gebaseerd op hun land, e-mail, en of ze een bepaalde campagne hebben ontvangen, geopend of geklikt op een specifieke campagne of niet en hun een omroep e-mail sturen."
+
+#: lite/includes/pro-features.php:1193 lite/language.php:984
+msgid "Get campaign analytics with PRO"
+msgstr "Verkrijg campagne analyses met PRO"
+
+#: lite/includes/pro-features.php:1062
+msgid "Build your brand, track your links with the help of Link tracking, UTM tracking and schedule your next campaign accordingly. Also prevent your emails from landing into spam by checking its spam score"
+msgstr "Bouw je naamsbekendheid, volg je links met de hulp van Link tracking, UTM tracking en plan je volgende omroepbericht. Ook voorkom dat je e-mails terecht komen in spam door de e-mail spam score te controleren"
+
+#: lite/includes/pro-features.php:887 lite/language.php:963
+msgid "Protect your subscription list now with PRO"
+msgstr "Beveilig je inschrijflijst nu met PRO"
+
+#: lite/includes/pro-features.php:437 lite/language.php:924
+msgid "Enable IP tracking to store IP addresses and country name of subscribers. With this, you can target campaigns like Broadcasts, Sequences to subscribers from specific countries."
+msgstr "Sta IP logging toe om IP adressen op te slaan en land namen van inschrijvers. Met dit kun je gerichte campagnes maken zoals omroep e-mails, opvolg e-mails naar specifieke inschrijvers uit bepaalde landen."
+
+#: lite/includes/pro-features.php:386 lite/language.php:915
+msgid "Secure your list from known spam bot attacker domains, fake email addresses and bot signups."
+msgstr "Beveilig je lijst tegen bekende SPAM robot domeinen, imitatie e-mail adressen en dubbele inschrijvingen."
+
+#: lite/includes/pro-features.php:287 lite/language.php:900
+msgid "Enable Link Tracking, UTM tracking and understand customer behavior to plan your next campaign accordingly."
+msgstr "Sta Link logging toe, UTM logging en analiseer klantgedrag om je volgende campagne te plannen."
+
+#: lite/includes/workflows/admin/views/meta-box-trigger.php:55
+#: lite/language.php:1089
+msgid "Cart Abandoned - Guests Only"
+msgstr "Winkelwagen verlaten - Alleen gasten"
+
+#: lite/includes/workflows/admin/views/meta-box-trigger.php:54
+#: lite/language.php:1088
+msgid "Cart Abandoned - Registered Users Only"
+msgstr "Winkelwagen verlaten - Alleen geregistreerde gebruikers"
+
+#: lite/includes/workflows/admin/views/meta-box-trigger.php:53
+#: lite/language.php:1087
+msgid "Cart Abandoned"
+msgstr "Winkelwagen verlaten"
+
+#: lite/includes/workflows/admin/views/meta-box-trigger.php:50
+#: lite/language.php:1086
+msgid "Wishlist Item On Sale (YITH Wishlists)"
+msgstr "Wensenlijst artikelen in de uitverkoop (YITH Wishlists)"
+
+#: lite/admin/class-email-subscribers-admin.php:188 lite/language.php:35
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: lite/includes/workflows/admin/views/meta-box-trigger.php:58
+#: lite/language.php:1090
+msgid "User Role Changed"
+msgstr "Gebruikersrol gewijzigd"
+
+#: lite/includes/pro-features.php:844 lite/language.php:961
+msgid "Avoid manual actions and make your workflow quick, simple and effortless by integrating popular WordPress plugins with Email Subscribers PRO."
+msgstr "Vermijd handmatige acties en maak je workflow snel, eenvoudig en moeiteloos door populaire WordPress plugins te integreren met Email Subscribers PRO."
+
+#: lite/admin/class-ig-es-campaign-rules.php:689
+#: lite/admin/class-ig-es-campaign-rules.php:725 lite/language.php:166
+msgid "does not match regex pattern"
+msgstr "komt niet overeen met \"regex\" patroon"
+
+#: lite/admin/class-ig-es-campaign-rules.php:688
+#: lite/admin/class-ig-es-campaign-rules.php:724 lite/language.php:165
+msgid "match regex pattern"
+msgstr "vergelijk \"regex\" patroon"
+
+#: lite/admin/class-ig-es-campaign-rules.php:687
+#: lite/admin/class-ig-es-campaign-rules.php:706 lite/language.php:164
+msgid "is smaller or equal"
+msgstr "is kleiner of gelijk"
+
+#: lite/admin/class-ig-es-campaign-rules.php:686
+#: lite/admin/class-ig-es-campaign-rules.php:705 lite/language.php:163
+msgid "is greater or equal"
+msgstr "is groter of gelijk"
+
+#: lite/admin/class-ig-es-campaign-rules.php:685
+#: lite/admin/class-ig-es-campaign-rules.php:704 lite/language.php:162
+msgid "is smaller than"
+msgstr "is kleiner dan"
+
+#: lite/admin/class-ig-es-campaign-rules.php:684
+#: lite/admin/class-ig-es-campaign-rules.php:703 lite/language.php:161
+msgid "is greater than"
+msgstr "is groter dan"
+
+#: lite/admin/class-ig-es-campaign-rules.php:683
+#: lite/admin/class-ig-es-campaign-rules.php:723 lite/language.php:160
+msgid "ends with"
+msgstr "eindigt  met"
+
+#: lite/admin/class-ig-es-campaign-rules.php:682
+#: lite/admin/class-ig-es-campaign-rules.php:722 lite/language.php:159
+msgid "begins with"
+msgstr "begint met"
+
+#: lite/admin/class-ig-es-campaign-rules.php:681
+#: lite/admin/class-ig-es-campaign-rules.php:721 lite/language.php:158
+msgid "contains not"
+msgstr "bevat niet"
+
+#: lite/admin/class-ig-es-campaign-rules.php:680
+#: lite/admin/class-ig-es-campaign-rules.php:720 lite/language.php:157
+msgid "contains"
+msgstr "bevat"
+
+#: lite/admin/class-ig-es-campaign-rules.php:679
+#: lite/admin/class-ig-es-campaign-rules.php:702
+#: lite/admin/class-ig-es-campaign-rules.php:719
+#: lite/admin/class-ig-es-campaign-rules.php:738 lite/language.php:156
+msgid "is not"
+msgstr "is niet"
+
+#: lite/admin/class-ig-es-campaign-rules.php:678
+#: lite/admin/class-ig-es-campaign-rules.php:701
+#: lite/admin/class-ig-es-campaign-rules.php:718
+#: lite/admin/class-ig-es-campaign-rules.php:737 lite/language.php:155
+msgid "is"
+msgstr "is"
+
+#: lite/admin/class-ig-es-campaign-rules.php:666 lite/language.php:154
+msgid "Any Campaigns within the last 12 months"
+msgstr "Campagnes van de laatste 12 maanden."
+
+#: lite/admin/class-ig-es-campaign-rules.php:665 lite/language.php:153
+msgid "Any Campaigns within the last 6 months"
+msgstr "Campagnes van de laatste 6 maanden."
+
+#: lite/admin/class-ig-es-campaign-rules.php:664 lite/language.php:152
+msgid "Any Campaigns within the last 3 months"
+msgstr "Campagnes van de laatste 3 maanden"
+
+#: lite/admin/class-ig-es-campaign-rules.php:663 lite/language.php:151
+msgid "Any Campaigns within the last 1 month"
+msgstr "Campagnes van de laatst maand."
+
+#: lite/admin/class-ig-es-campaign-rules.php:662 lite/language.php:150
+msgid "Any Campaigns within the last 7 days"
+msgstr "Campagnes van de laatste 7 dagen."
+
+#: lite/admin/class-ig-es-campaign-rules.php:661 lite/language.php:149
+msgid "Any of the Last 5 Campaigns"
+msgstr "Campagnes van de laatste 5 dagen."
+
+#: lite/admin/class-ig-es-campaign-rules.php:647 lite/language.php:146
+msgid "has received but not opened"
+msgstr "hebben ontvangen maar niet geopend"
+
+#: lite/admin/class-ig-es-campaign-rules.php:646 lite/language.php:145
+msgid "has received and opened"
+msgstr "hebben ontvangen en geopend"
+
+#: lite/admin/class-ig-es-campaign-rules.php:649 lite/language.php:148
+msgid "has received and not clicked"
+msgstr "hebben ontvangen en niet op geklikt"
+
+#: lite/admin/class-ig-es-campaign-rules.php:648 lite/language.php:147
+msgid "has received and clicked"
+msgstr "hebben ontvangen en geklikt"
+
+#: lite/admin/class-ig-es-campaign-rules.php:645 lite/language.php:144
+msgid "has not received"
+msgstr "hebben niet ontvangen"
+
+#: lite/admin/class-ig-es-campaign-rules.php:644 lite/language.php:143
+msgid "has received"
+msgstr "hebben ontvangen"
+
+#: lite/admin/class-ig-es-campaign-rules.php:613 lite/language.php:140
+msgid "is in List"
+msgstr "zit in een lijst"
+
+#: lite/admin/class-ig-es-campaign-rules.php:538 lite/language.php:139
+msgctxt "closing curly double quote"
+msgid "&#8221;"
+msgstr "&#8221;"
+
+#: lite/admin/class-ig-es-campaign-rules.php:537 lite/language.php:138
+msgctxt "opening curly double quote"
+msgid "&#8220;"
+msgstr "&#8220;"
+
+#: lite/admin/class-ig-es-campaign-rules.php:383
+#: lite/admin/class-ig-es-campaign-rules.php:779 lite/language.php:134
+msgid "Any list"
+msgstr "Iedere lijst"
+
+#: lite/admin/class-ig-es-campaign-rules.php:392 lite/language.php:135
+msgid "No campaigns available"
+msgstr "Geen campagnes beschikbaar"
+
+#: lite/admin/class-ig-es-campaign-rules.php:370
+#: lite/admin/class-ig-es-campaign-rules.php:388 lite/language.php:133
+msgid "no title"
+msgstr "geen titel"
+
+#: lite/admin/class-ig-es-campaign-rules.php:364
+#: lite/admin/class-ig-es-campaign-rules.php:753 lite/language.php:132
+msgid "Any campaign"
+msgstr "Iedere campagne"
+
+#: lite/admin/class-ig-es-campaign-rules.php:273 lite/language.php:131
+msgid "remove condition"
+msgstr "verwijder conditie"
+
+#: lite/admin/class-ig-es-campaign-rules.php:270
+#: lite/admin/class-ig-es-campaign-rules.php:407 lite/language.php:130
+msgid "Add Condition"
+msgstr "Toevoegen conditie"
+
+#: lite/admin/class-ig-es-campaign-rules.php:261
+#: lite/admin/class-ig-es-campaign-rules.php:444
+#: lite/admin/class-ig-es-campaign-rules.php:592 lite/language.php:129
+msgid "and"
+msgstr "en"
+
+#: lite/admin/class-ig-es-campaign-rules.php:241 lite/language.php:128
+msgid "Total recipients"
+msgstr "Totaal aantal ontvangers"
+
+#: lite/admin/class-ig-es-campaign-rules.php:227
+#: lite/includes/classes/class-es-post-notifications.php:548
+#: lite/language.php:127
+msgid "Close panel"
+msgstr "Sluit scherm"
+
+#: lite/admin/class-ig-es-campaign-rules.php:225 lite/language.php:126
+msgid "Save Rules"
+msgstr "Regels opslaan"
+
+#: lite/admin/class-ig-es-campaign-rules.php:220 lite/language.php:124
+msgid "Campaign Rules"
+msgstr "Campagne regels"
+
+#: lite/admin/class-ig-es-campaign-rules.php:200 lite/language.php:123
+msgid "remove all"
+msgstr "Verwijder alle"
+
+#: lite/admin/class-ig-es-campaign-rules.php:198
+#: lite/admin/class-ig-es-campaign-rules.php:270
+#: lite/admin/class-ig-es-campaign-rules.php:272
+#: lite/admin/class-ig-es-campaign-rules.php:544
+#: lite/admin/class-ig-es-campaign-rules.php:549
+#: lite/admin/class-ig-es-campaign-rules.php:555
+#: lite/admin/class-ig-es-campaign-rules.php:561
+#: lite/admin/class-ig-es-campaign-rules.php:595 lite/language.php:122
+msgid "or"
+msgstr "of"
+
+#: lite/admin/class-ig-es-campaign-rules.php:195 lite/language.php:121
+msgid "Add recipients"
+msgstr "Voeg ontvangers toe"
+
+#: lite/admin/class-email-subscribers-admin.php:177 lite/language.php:26
+msgid "Do you really like to remove all conditions?"
+msgstr "Weet je zeker dat je alle condities wilt verwijderen?"
+
+#: lite/includes/pro-features.php:1817 lite/language.php:1026
+msgid "has received and not clicked [PRO]"
+msgstr "hebben ontvangen en niet op geklikt [PRO]"
+
+#: lite/includes/pro-features.php:1813 lite/language.php:1025
+msgid "has received and clicked [PRO]"
+msgstr "hebben ontvangen en op geklikt [PRO]"
+
+#: lite/includes/pro-features.php:1809 lite/language.php:1024
+msgid "has received but not opened [PRO]"
+msgstr "hebben ontvangen maar niet geopend [PRO]"
+
+#: lite/includes/pro-features.php:1805 lite/language.php:1023
+msgid "has received and opened [PRO]"
+msgstr "hebben ontvangen en geopend [PRO]"
+
+#: lite/includes/pro-features.php:1801 lite/language.php:1022
+msgid "has not received [PRO]"
+msgstr "hebben niet ontvangen [PRO]"
+
+#: lite/includes/pro-features.php:1797 lite/language.php:1021
+msgid "has received [PRO]"
+msgstr "hebben ontvangen [PRO]"
+
+#: lite/includes/pro-features.php:1783 lite/language.php:1018
+msgid "Country [PRO]"
+msgstr "Land [PRO]"
+
+#: lite/includes/pro-features.php:1779 lite/language.php:1017
+msgid "Email [PRO]"
+msgstr "E-mail [PRO]"
+
+#: lite/includes/pro-features.php:1773 lite/language.php:1016
+msgid "is not in List [PRO]"
+msgstr "zit niet in de lijst [PRO]"
+
+#: lite/includes/classes/class-es-campaign-report.php:47 lite/language.php:478
+msgid "Activity Info"
+msgstr "Activiteit info"
+
+#: lite/admin/class-es-campaign-admin.php:562
+#: lite/includes/classes/class-es-newsletters.php:403 lite/language.php:111
+msgid "Total recipients:"
+msgstr "Totaal aantal ontvangers:"
+
+#. translators: %s: Total items in the table
+#: lite/includes/classes/class-es-campaign-report.php:92 lite/language.php:480
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s item"
+msgstr[1] "%s items"
+
+#: lite/includes/class-es-common.php:641 lite/language.php:352
+msgid "None (Don't include post from any category)"
+msgstr "Geen (Geen bericht insluiten van enige categorie)"
+
+#: lite/includes/classes/class-es-campaigns-table.php:371
+#: lite/includes/workflows/actions/class-es-action-send-email.php:55
+#: lite/language.php:502
+msgid "None"
+msgstr "Geen"
+
+#. translators: %s: Icegram Pricing page url with utm tracking
+#: lite/includes/pro-features.php:436 lite/language.php:923
+msgid "Track subscribers IP addresses with PRO"
+msgstr "Volg IP adressen van inschrijvers met PRO"
+
+#: lite/includes/pro-features.php:428 lite/language.php:920
+msgid "Track IP address"
+msgstr "Volg IP adressen"
+
+#: lite/includes/classes/class-es-cron.php:288 lite/language.php:562
+msgid "Fifteen minutes"
+msgstr "Vijftien minuten"
+
+#: lite/admin/class-email-subscribers-admin.php:185 lite/language.php:32
+msgid "Copied!"
+msgstr "Gekopieerd!"
+
+#: lite/includes/workflows/admin/class-es-workflow-admin-ajax.php:170
+#: lite/language.php:1048
+msgid "Variable not found."
+msgstr "Variabele niet gevonden."
+
+#: lite/includes/workflows/admin/class-es-workflow-admin-edit.php:394
+#: lite/language.php:1055
+msgid "Placeholders"
+msgstr "Vervangers"
+
+#: lite/includes/workflows/admin/views/modal-variable-info.php:75
+#: lite/language.php:1095
+msgid "Copy to clipboard"
+msgstr "Kopieer naar klembord"
+
+#: lite/includes/workflows/admin/views/modal-variable-info.php:64
+#: lite/language.php:1094
+msgid "Entered text is displayed when there is no value found."
+msgstr "Ingevoerde tekst wordt afgebeeld wanneer er geen waarde wordt gevonden."
+
+#: lite/includes/workflows/admin/views/modal-variable-info.php:59
+#: lite/language.php:1093
+msgid "Fallback"
+msgstr "Vangnet"
+
+#. translators: 1. Customer first name 2. Customer last name
+#. translators: 1. Guest first name 2. Guest last name
+#: lite/includes/workflows/class-es-workflow-data-layer.php:201
+#: lite/language.php:1108
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: lite/includes/workflows/admin/views/meta-box-variables.php:50
+#: lite/language.php:1092
+msgid "Sorry, no placeholder tags are available for this trigger"
+msgstr "Er zijn geen plaatshouder tags beschikbaar voor deze trigger"
+
+#: lite/language.php:1184 lite/public/class-email-subscribers-public.php:374
+#: lite/public/class-email-subscribers-public.php:471
+msgid "Unsubscribe"
+msgstr "Uitschrijven"
+
+#: lite/language.php:1186 lite/public/class-email-subscribers-public.php:464
+msgid "Unsubscribe from all list(s)"
+msgstr "Uitschrijven van alle lijsten"
+
+#: lite/language.php:1187 lite/public/class-email-subscribers-public.php:465
+msgid "You will be unsubscribed from receiving all future emails sent from us."
+msgstr "Je wordt uitgeschreven zodat je geen e-mails van ons meer zult ontvangen."
+
+#: lite/language.php:1185 lite/public/class-email-subscribers-public.php:456
+msgid "is subscribed to our mailing list(s)."
+msgstr "is geabonneerd voor onze mailing lijst(en)."
+
+#: lite/includes/pro-features.php:1720 lite/language.php:1013
+msgid "Import existing WordPress users"
+msgstr "Importeer bestaande WordPress gebruikers"
+
+#: lite/includes/pro-features.php:1690 lite/language.php:1012
+msgid "Add Attachments"
+msgstr "Toevoegen bijlagen"
+
+#: lite/includes/classes/class-es-import-subscribers.php:590
+#: lite/language.php:699
+msgid "Nick Name"
+msgstr "Bijnaam"
+
+#: lite/admin/class-email-subscribers-admin.php:193 lite/language.php:38
+msgid "Please select the email address column!"
+msgstr "Selecteer de e-mailadres kolom!"
+
+#: lite/includes/classes/class-es-import-subscribers.php:591
+#: lite/language.php:700
+msgid "Display Name"
+msgstr "Schermnaam"
+
+#: lite/includes/classes/class-es-import-subscribers.php:1103
+#: lite/language.php:720
+msgid "Reason"
+msgstr "Reden"
+
+#: lite/includes/classes/class-es-import-subscribers.php:837
+#: lite/language.php:712
+msgid "Email address is empty."
+msgstr "E-mail adres is leeg."
+
+#: lite/includes/classes/class-es-import-subscribers.php:836
+#: lite/language.php:711
+msgid "Email address is invalid."
+msgstr "E-mail adres is ongeldig."
+
+#. translators: %s: Hidden contacts count
+#: lite/includes/classes/class-es-import-subscribers.php:764
+#: lite/language.php:710
+msgid "%s contacts are hidden"
+msgstr "%s contactpersonen zijn verborgen"
+
+#: lite/includes/classes/class-es-import-subscribers.php:725
+#: lite/language.php:708
+msgid "Ignore column"
+msgstr "Negeer kolom"
+
+#: lite/includes/classes/class-es-import-subscribers.php:703
+#: lite/language.php:707
+msgid "Define which column represents which field"
+msgstr "Bepaal welke kolom welk veld voorsteld"
+
+#: lite/includes/classes/class-es-import-subscribers.php:700
+#: lite/language.php:706
+msgid "Select columns for mapping"
+msgstr "Selecteer kolommen voor veldtoewijzing"
+
+#: lite/includes/classes/class-es-import-subscribers.php:685
+#: lite/language.php:703
+msgid "(Last Name) (First Name)"
+msgstr "(Achternaam) (Voornaam)"
+
+#: lite/includes/classes/class-es-import-subscribers.php:684
+#: lite/language.php:702
+msgid "(First Name) (Last Name)"
+msgstr "(Voornaam) (Achternaam)"
+
+#: lite/includes/classes/class-es-import-subscribers.php:151
+#: lite/language.php:686
+msgid "Select File"
+msgstr "Selecteer bestand"
+
+#: lite/includes/classes/class-es-import-subscribers.php:150
+#: lite/language.php:685
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "of"
+
+#: lite/includes/classes/class-es-import-subscribers.php:149
+#: lite/language.php:684
+msgid "Drop your CSV here"
+msgstr "Plak je CSV hier"
+
+#: lite/includes/classes/class-es-list-table.php:123 lite/language.php:722
+msgid "Show more details"
+msgstr "Laat meer details zien"
+
+#: lite/admin/class-email-subscribers-admin.php:215 lite/language.php:60
+msgid "You are currently importing subscribers! If you leave the page all pending subscribers don't get imported!"
+msgstr "Je bent op dit moment contactpersonen aan het importeren! Als je de pagina verlaat zullen alle resterende contactpersonen niet worden geïmporteerd!"
+
+#. translators: %s: Process complete svg icon
+#: lite/admin/class-email-subscribers-admin.php:214 lite/language.php:59
+msgid "Import complete! %s"
+msgstr "Import afgerond! %s"
+
+#: lite/admin/class-email-subscribers-admin.php:212 lite/language.php:57
+msgid "Do you really like to import these contacts?"
+msgstr "Weet je zeker dat je deze contactpersonen wilt importeren?"
+
+#: lite/admin/class-email-subscribers-admin.php:211 lite/language.php:56
+msgid "There was a problem during importing contacts. Please check the error logs for more information!"
+msgstr "Er was een probleem met het importeren van contactpersonen. Controleer de fout logging voor meer informatie!"
+
+#. translators: %s: Time left in minutes
+#: lite/admin/class-email-subscribers-admin.php:208 lite/language.php:53
+msgid "Estimate time left: %s minutes"
+msgstr "Geschatte resterende tijd: %s minuten"
+
+#: lite/admin/class-email-subscribers-admin.php:202 lite/language.php:47
+msgid "Preparing Import..."
+msgstr "Import voorbereiden..."
+
+#. translators: %s: Import failed svg icon
+#: lite/admin/class-email-subscribers-admin.php:200 lite/language.php:45
+msgid "Import failed! %s"
+msgstr "Import mislukt! %s"
+
+#. translators: %s: Import progress
+#: lite/admin/class-email-subscribers-admin.php:198 lite/language.php:43
+msgid "Importing contacts...%s"
+msgstr "Importeren contactpersonen...%s"
+
+#. translators: %s: Upload progress
+#: lite/admin/class-email-subscribers-admin.php:196 lite/language.php:41
+msgid "Uploading...%s"
+msgstr "Inlezen...%s"
+
+#: lite/admin/class-email-subscribers-admin.php:194 lite/language.php:39
+msgid "Preparing Data"
+msgstr "Voorbereiden gegevens"
+
+#. translators: %s: Next attempt delaly time
+#: lite/admin/class-email-subscribers-admin.php:210 lite/language.php:55
+msgid "Continues in %s seconds"
+msgstr "Gaat verder over %s seconden"
+
+#: lite/admin/class-email-subscribers-admin.php:201 lite/language.php:46
+msgid "Please do not close this window until it completes..."
+msgstr "Sluit dit scherm niet totdat het is afgerond..."
+
+#: lite/admin/class-email-subscribers-admin.php:191 lite/language.php:36
+msgid "Please select the status for the importing contacts!"
+msgstr "Selecteer de status voor het importeren van contacten!"
+
+#. translators: 1. Total imported contacts 2. Total contacts
+#: lite/includes/classes/class-es-import-subscribers.php:1075
+#: lite/language.php:715
+msgid "%1$s of %2$s contacts imported."
+msgstr "%1$s van %2$s contacten geïmporteerd."
+
+#. translators: 1. Imported contacts count 2. Total contacts count 3. Failed to
+#. import count 4. Memory usage
+#: lite/admin/class-email-subscribers-admin.php:204 lite/language.php:49
+msgid "Currently %1$s of %2$s imported with %3$s errors. %4$s %5$s memory usage"
+msgstr "Op dit moment %1$s van %2$s geïmporteerd met %3$s fouten. %4$s %5$s geheugen gebruik"
+
+#: lite/includes/class-es-common.php:2444
+#: lite/includes/classes/class-es-campaign-report.php:229
+#: lite/includes/classes/class-es-reports-table.php:625 lite/language.php:383
+msgid "In Queue"
+msgstr "In de wachtrij"
+
+#: lite/includes/class-es-common.php:2284
+#: lite/includes/classes/class-es-reports-table.php:628 lite/language.php:382
+msgid "All Status"
+msgstr "Alle statussen"
+
+#: lite/includes/classes/class-es-reports-table.php:613 lite/language.php:827
+msgid "Search Reports"
+msgstr "Zoek rapporten"
+
+#: lite/includes/classes/class-es-cron.php:284 lite/language.php:561
+msgid "Two minutes"
+msgstr "Twee minuten"
+
+#: lite/admin/partials/onboarding.php:402 lite/language.php:292
+msgid "Continue anyway →"
+msgstr "Toch doorgaan →"
+
+#: lite/includes/class-email-subscribers.php:1504 lite/language.php:344
+msgid "Icegram WC"
+msgstr "Icegram WC"
+
+#: lite/includes/pro-features.php:801 lite/language.php:960
+msgid "ES PRO Integrations"
+msgstr "ES PRO Integratie"
+
+#: lite/includes/notices/views/trial-consent.php:35 lite/language.php:862
+msgid "No, it’s ok!"
+msgstr "Nee, het is in orde!"
+
+#: lite/includes/notices/views/trial-consent.php:30 lite/language.php:861
+msgid "Yes, start my free trial!"
+msgstr "Ja, start mijn gratis proberen!"
+
+#. translators: %s: Create list page url
+#: lite/includes/classes/class-es-forms-table.php:486 lite/language.php:621
+msgid "create your first list"
+msgstr "Maak je eerste lijst"
+
+#: lite/includes/classes/class-es-forms-table.php:991 lite/language.php:635
+msgid "Subscribers"
+msgstr "Abonnees"
+
+#: lite/includes/pro-features.php:1060 lite/language.php:977
+msgid "Reduce the possibility to land in spam with PRO"
+msgstr "Verminder de kans om in de SPAM map te komen met PRO"
+
+#: lite/includes/pro-features.php:988 lite/language.php:975
+msgid "Once a day at"
+msgstr "Een keer per dag om"
+
+#: lite/includes/pro-features.php:981 lite/language.php:974
+msgid "When to send?"
+msgstr "Wanneer verzenden?"
+
+#: lite/includes/pro-features.php:959 lite/includes/pro-features.php:1011
+#: lite/language.php:971
+msgid "Is a post digest?"
+msgstr "Is het een bericht verwerking?"
+
+#: lite/includes/pro-features.php:937 lite/language.php:967
+msgid "Enable multiple lists & post digest with PRO"
+msgstr "Activeer meerdere lijsten en berichtverwerkingen met PRO"
+
+#: lite/includes/pro-features.php:846 lite/language.php:962
+msgid "Unlock plugin integrations with PRO"
+msgstr "Beschikbaar maken van plugin integraties met PRO"
+
+#: lite/includes/pro-features.php:979 lite/language.php:973
+msgid "Schedules at"
+msgstr "Gepland op"
+
+#. translators: %s: Icegram Pricing page url with utm tracking
+#: lite/includes/pro-features.php:385 lite/language.php:914
+msgid "Prevent spam attacks with PRO"
+msgstr "Voorkom spam aanvallen met PRO"
+
+#. translators: %s: Icegram Pricing page url with utm tracking
+#: lite/includes/pro-features.php:286 lite/language.php:899
+msgid "Track key insight behaviour with PRO"
+msgstr "Volg achtergrond sleutel gedrag met PRO"
+
+#. translators: 1. Trial expiration message. 2. Discount message.
+#: lite/includes/notices/views/trial-to-premium-offer.php:88
+#: lite/language.php:874
+msgid "Hi there,<br/>Hope you are enjoying <strong>Email Subscribers PRO trial</strong>.<br/>%1$s<br/>Upgrade now to continue uninterrupted use of premium features like <strong>block fake signups, prevent bot attacks, broadcast scheduling, automatic email sending, detailed campaign report, prevent emails from going to spam</strong> & lot more....<br/>%2$s"
+msgstr "Hallo daar,<br/>Ik hoop dat je het naar je zin hebt met <strong>Email Subscribers PRO uitproberen </strong>.<br/>%1$s<br/>Koop nu deze versie om zonder oponthoud te blijven genieten van functies zoals <strong>blokkeren valse inschrijvingen, voorkomen van robot aanvallen, plannen van omroep e-mails, automatische e-mails verzending, gedetailleerde campagne rapportages, voorkomen dat e-mail in de spam map komen</strong> & nog veel meer....<br/>%2$s"
+
+#: lite/includes/notices/views/trial-to-premium-offer.php:80
+#: lite/language.php:872
+msgid "No, it's ok"
+msgstr "Nee, het is in orde!"
+
+#: lite/includes/notices/views/trial-to-premium-offer.php:79
+#: lite/language.php:871
+msgid "Upgrade now"
+msgstr "Upgrade nu"
+
+#: lite/includes/notices/views/trial-to-premium-offer.php:73
+#: lite/language.php:868
+msgid "Today is the <strong>last day</strong> of your free trial."
+msgstr "Vandaag is de <strong>laatste dag</strong> van je uitprobeerperiode."
+
+#. translators: 1. Remaining trial days. 2. day or days text based on number of
+#. remaining trial days.
+#: lite/includes/notices/views/trial-to-premium-offer.php:71
+#: lite/language.php:867
+msgid "Your free trial is going to <strong>expire in %1$s %2$s</strong>."
+msgstr "Je uitprobeerperiode  <strong>vervalt op %1$s %2$s</strong>."
+
+#. translators: 1. Delay amount 2. delay unit
+#: lite/includes/notices/views/trial-to-premium-offer.php:41
+#: lite/language.php:864
+msgid "day"
+msgid_plural "days"
+msgstr[0] "dag"
+msgstr[1] "dagen"
+
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:320
+#: lite/language.php:886
+msgid "Google Analytics link tracking"
+msgstr "Google Analytics link logging"
+
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:309
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:339
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:341
+#: lite/language.php:885
+msgid "Campaign Name"
+msgstr "Campagne naam"
+
+#: lite/includes/pro-features.php:1106 lite/language.php:979
+msgid "Get spam score"
+msgstr "Krijg SPAM score"
+
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:287
+#: lite/includes/pro-features.php:1091 lite/language.php:884
+msgid "UTM tracking"
+msgstr "UTM logging"
+
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:205
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:254
+#: lite/language.php:882
+msgid "Here are some things to fix: "
+msgstr "Hier zijn wat zaken om te verbeteren: "
+
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:202
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:250
+#: lite/language.php:880
+msgid "Awesome score. Your email is almost perfect."
+msgstr "Prima score. Je e-mail is bijna perfect!."
+
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:99
+#: lite/language.php:875
+msgid "Inline CSS"
+msgstr "Inline CSS"
+
+#. translators: 1: <a> 2: </a>
+#: lite/includes/classes/class-es-mailer.php:548 lite/language.php:749
+msgid "If you find this plugin useful, please consider giving us %1$s5 stars review%2$s on WordPress!"
+msgstr "Als je deze plugin handig vind, overweeg dan om ons een %1$s5 sterren beoordeling te geven%2$s op WordPress!"
+
+#: lite/includes/classes/class-es-mailer.php:543 lite/language.php:747
+msgid "Thank you for trying out Email Subscribers. We are on a mission to make the best Email Marketing Automation plugin for WordPress."
+msgstr "Bedankt dat je Email Subscribers uitprobeert. Wij zijn met een missie bezig om dit de beste geautomatiseerde E-mail Marketing plugin voor WordPress te maken."
+
+#: lite/includes/classes/class-es-mailer.php:542 lite/language.php:746
+msgid "Congrats, test email was sent successfully!"
+msgstr "Gefeliciteerd, de test e-mail was succesvol verzonden!"
+
+#: lite/includes/classes/class-es-contacts-table.php:528 lite/language.php:528
+msgid "Contact updated successfully!"
+msgstr "Contactpersoon succesvol bijgewerkt!"
+
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:203
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:251
+#: lite/language.php:881
+msgid "Ouch! your email needs improvement. "
+msgstr "Je e-mail heeft verbeteringen nodig. "
+
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:130
+#: lite/language.php:877
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: lite/includes/classes/class-es-handle-sync-wp-user.php:221
+#: lite/language.php:659
+msgid "Sync contacts"
+msgstr "Synchroniseer contactpersonen"
+
+#: lite/includes/classes/class-es-lists-table.php:299 lite/language.php:730
+msgid "Add New List"
+msgstr "Toevoegen nieuwe lijst"
+
+#: email-subscribers.php:229 lite/language.php:17
+msgid "Email Subscribers requires WooCommerce to be installed and active, plugin is currently NOT RUNNING."
+msgstr "Email Subscribers vereist dat WooCommerce is geïnstalleerd en actief is, de plugin is momenteel NIET ACTIEF."
+
+#: lite/includes/classes/class-es-campaigns-table.php:774 lite/language.php:513
+msgid "Campaign(s) deleted successfully!"
+msgstr "Campagne(s) succesvol verwijderd!"
+
+#: lite/includes/classes/class-es-campaigns-table.php:753 lite/language.php:512
+msgid "Campaign deleted successfully!"
+msgstr "Campagne succesvol verwijderd!"
+
+#: lite/includes/classes/class-es-campaigns-table.php:105 lite/language.php:487
+msgid "Broadcast created successfully."
+msgstr "Omroep e-mail succesvol gemaakt."
+
+#: lite/includes/classes/class-es-forms-table.php:1054 lite/language.php:638
+msgid "Form(s) deleted successfully!"
+msgstr "Formulier(en) succesvol verwijderd!"
+
+#: lite/includes/classes/class-es-templates-table.php:40 lite/language.php:830
+msgid "Select template type"
+msgstr "Selecteer template type"
+
+#: lite/includes/classes/class-es-forms-table.php:1039 lite/language.php:637
+msgid "Form deleted successfully!"
+msgstr "Formulier succesvol verwijderd!"
+
+#: lite/includes/classes/class-es-forms-table.php:108 lite/language.php:595
+msgid "Form added successfully!"
+msgstr "Formulier succesvol toegevoegd!"
+
+#. translators: %s: Campaign Type
+#: lite/includes/classes/class-es-post-notifications.php:111
+#: lite/language.php:775
+msgid "%s added successfully!"
+msgstr "%s succesvol toegevoegd!"
+
+#: lite/includes/classes/class-es-lists-table.php:769 lite/language.php:740
+msgid "List(s) deleted successfully!"
+msgstr "Lijst(en) succesvol verwijderd!"
+
+#: lite/includes/classes/class-es-lists-table.php:754 lite/language.php:739
+msgid "List deleted successfully!"
+msgstr "Lijst succesvol verwijderd!"
+
+#: lite/includes/classes/class-es-lists-table.php:193 lite/language.php:727
+msgid "List added successfully!"
+msgstr "Lijst succesvol toegevoegd!"
+
+#: lite/includes/classes/class-es-reports-table.php:573 lite/language.php:826
+msgid "Reports deleted successfully!"
+msgstr "Rapporten succesvol verwijderd!"
+
+#: lite/includes/classes/class-es-reports-table.php:559 lite/language.php:825
+msgid "Report deleted successfully!"
+msgstr "Rapport succesvol verwijderd!"
+
+#: lite/includes/classes/class-es-admin-settings.php:375 lite/language.php:439
+msgid "Share Icegram"
+msgstr "Deel Icegram"
+
+#: lite/includes/classes/class-es-forms-table.php:111 lite/language.php:596
+msgid "Form updated successfully!"
+msgstr "Formulier succesvol geüpdatet!"
+
+#. translators: %s: Campaign type
+#: lite/includes/classes/class-es-post-notifications.php:260
+#: lite/language.php:779
+msgid "%s updated successfully!"
+msgstr "%s succesvol geüpdatet!"
+
+#: lite/includes/classes/class-es-lists-table.php:244
+#: lite/includes/classes/class-es-lists-table.php:736 lite/language.php:728
+msgid "List updated successfully!"
+msgstr "Lijst succesvol geüpdatet!"
+
+#: lite/includes/classes/class-es-admin-settings.php:122
+msgid "Settings saved successfully!"
+msgstr "Instellingen succesvol opgeslagen!"
+
+#: lite/includes/classes/class-es-contacts-table.php:793 lite/language.php:535
+msgid "Last name"
+msgstr "Achternaam"
+
+#: lite/includes/classes/class-es-contacts-table.php:771 lite/language.php:533
+msgid "First name"
+msgstr "Voornaam"
+
+#: lite/includes/services/class-es-email-delivery-check.php:50
+#: lite/language.php:1032
+msgid " The test email did not reach our test server. Did you get any test emails on your email? This could be a temporary problem, but it can also mean that emails are getting stuck on your server, or getting rejected by recipients."
+msgstr " De test e-mail heeft onze test server niet bereikt. Heb je test e-mail in je mailbox ontvangen? Dit zou een tijdelijke probleem kunnen zijn, maar het betekent ook dat e-mails vast komen te zitten op je server of dat ze worden geweigerd door de geadresseerden."
+
+#: lite/includes/classes/class-es-contacts-table.php:1438 lite/language.php:559
+msgid "Contact(s) added to list successfully!"
+msgstr "Contactpersoon(en) succesvol toegevoegd aan de lijst!"
+
+#: lite/includes/classes/class-es-contacts-table.php:1417 lite/language.php:558
+msgid "Contact(s) moved to list successfully!"
+msgstr "Contactpersoon(en) succesvol verplaatst naar de lijst!"
+
+#: lite/includes/classes/class-es-contacts-table.php:1397 lite/language.php:556
+msgid "Contact(s) status changed successfully!"
+msgstr "Contactpersoon(en) status succesvol geüpdatet!"
+
+#: lite/includes/classes/class-es-contacts-table.php:1309
+#: lite/includes/classes/class-es-contacts-table.php:1372 lite/language.php:551
+msgid "Contact(s) deleted successfully!"
+msgstr "Contactpersoon(en) succesvol verwijderd!"
+
+#. translators: %s: Workflow action
+#: lite/includes/workflows/class-es-workflows-table.php:601
+#: lite/language.php:1140
+msgid "Workflow(s) %s successfully!"
+msgstr "Workflow(s) %s succesvol!"
+
+#: lite/includes/workflows/class-es-workflows-table.php:580
+#: lite/language.php:1135
+msgid "Workflow(s) deleted successfully!"
+msgstr "Workflow(s) succesvol verwijderd!"
+
+#: lite/includes/workflows/class-es-workflows-table.php:563
+#: lite/language.php:1134
+msgid "Workflow deleted successfully!"
+msgstr "Workflow succesvol verwijderd!"
+
+#: lite/admin/partials/onboarding.php:639 lite/language.php:323
+msgid " Understood, continue for now →"
+msgstr " Begrepen, voor nu doorgaan →"
+
+#: lite/admin/partials/onboarding.php:620 lite/language.php:320
+msgid ""
+"We recommend you solve this problem quickly after completing\n"
+"\t\t\t\t\t                  the setup. Do make sure emails are getting delivered before\n"
+"\t\t\t\t\t                  you send any real campaigns."
+msgstr ""
+"We raden aan om dit probleem snel op te lossen na het afronden\n"
+"\t\t\t\t\t                  van de installatie. Controleer of de e-mails afgeleverd worden voordat\n"
+"\t\t\t\t\t                  je een echte campagne start."
+
+#: lite/admin/partials/onboarding.php:609 lite/language.php:319
+msgid "Here's the error we encountered:"
+msgstr "Hier is de fout die we tegenkwamen:"
+
+#: lite/admin/partials/onboarding.php:604 lite/language.php:318
+msgid "Email sending did not work"
+msgstr "Verzenden van e-mails heeft niet gewerkt"
+
+#: lite/admin/partials/onboarding.php:550 lite/language.php:316
+msgid "if you need any help"
+msgstr "als je hulp nodig hebt"
+
+#: lite/admin/partials/onboarding.php:548 lite/language.php:315
+msgid "documentation"
+msgstr "documentatie"
+
+#: lite/admin/partials/onboarding.php:543 lite/language.php:314
+msgid "Review"
+msgstr "Beoordeling"
+
+#: lite/admin/partials/onboarding.php:540 lite/language.php:313
+msgid "Import your contacts, create new campaigns and test"
+msgstr "Importeer je contactpersonen, maak een nieuwe campagne en test"
+
+#: lite/admin/partials/onboarding.php:539 lite/language.php:312
+msgid "Review \"Settings\" and make adjustments if needed"
+msgstr "Controleer \"Instellingen\" en maak wijzigingen indien nodig"
+
+#: lite/admin/partials/onboarding.php:536 lite/language.php:311
+msgid "Recommended next steps:"
+msgstr "Aanbevolen volgende stappen:"
+
+#: lite/admin/partials/onboarding.php:563 lite/language.php:317
+msgid "Complete setup &amp; take me to \"Dashboard\" "
+msgstr "Ronde de installatie af &amp; breng me naar \"Dashboard\" "
+
+#: lite/admin/partials/onboarding.php:498 lite/language.php:307
+msgid ""
+"How to build your list, make sure your email reach your\n"
+"\t\t\t\t\t\t\t\t\taudience and influence your audience."
+msgstr ""
+"Hoe bouw je je lijst op, zorg je ervoor dat je e-mail je\n"
+"\t\t\t\t\t\t\tpubliek bereikt en je publiek beïnvloedt."
+
+#: lite/admin/partials/onboarding.php:456 lite/language.php:296
+msgid "Setup is complete. Couple of things to support you..."
+msgstr "Installatie is afgerond. Een aantal zaken om je te helpen.."
+
+#: lite/admin/partials/onboarding.php:443 lite/language.php:295
+msgid "Done! Now speed up your success!"
+msgstr "Klaar! Nu het proces naar succes versnellen!"
+
+#: lite/admin/partials/onboarding.php:439 lite/language.php:294
+msgid "STEP 3 of 3"
+msgstr "STAP 3 van 3"
+
+#: lite/admin/partials/onboarding.php:404 lite/language.php:293
+msgid "All good, let's finish up →"
+msgstr "Alles is goed, laten we afronden →"
+
+#: lite/admin/partials/onboarding.php:389 lite/language.php:291
+msgid "Excellent! Email delivery setup is working well!"
+msgstr "Uitstekend! Installatie  e-mail bezorging werkt goed!"
+
+#: lite/admin/partials/onboarding.php:378 lite/language.php:290
+msgid "Waiting for test email to arrive on destination server"
+msgstr "Wachten op de test e-mail om aan te komen op de bestemmingsserver"
+
+#: lite/admin/partials/onboarding.php:367 lite/language.php:289
+msgid "Dispatching emails from your server"
+msgstr "Afwikkelen e-mails vanaf je server"
+
+#: lite/admin/partials/onboarding.php:357 lite/language.php:288
+msgid "Queuing up campaign - newsletter broadcast test"
+msgstr "Campagne in de wachtrij plaatsen - nieuwsbericht omroep test"
+
+#: lite/admin/partials/onboarding.php:347 lite/language.php:287
+msgid "Testing email delivery..."
+msgstr "Testen e-mail verzending..."
+
+#: lite/admin/partials/onboarding.php:292 lite/language.php:282
+msgid "Creating a campaign - newsletter broadcast test"
+msgstr "Aanmaken van een campagne - nieuwsbericht omroep test"
+
+#: lite/admin/partials/onboarding.php:280 lite/language.php:281
+msgid " to these lists"
+msgstr " aan deze lijsten"
+
+#: lite/admin/partials/onboarding.php:278 lite/language.php:280
+msgid "Subscribing you and "
+msgstr "Inschrijving jij en"
+
+#. translators: 1: Main List 2: Test List
+#: lite/admin/partials/onboarding.php:264 lite/language.php:279
+msgid "Creating audience lists - %1$s &amp; %2$s"
+msgstr "Aanmaken publiek lijst - %1$s &amp; %2$s"
+
+#: lite/admin/partials/onboarding.php:248 lite/language.php:276
+msgid ""
+"We'll create audience lists, campaigns and a subscription form.\n"
+"\t\t                And then try to send a test email to make sure everything works."
+msgstr ""
+"Wij maken publiek lijsten, campagnes en inschrijvingsformulier aan.\n"
+"\t\t                En daarna proberen we een test e-mail te sturen om te kijken of alles werkt."
+
+#: lite/admin/partials/onboarding.php:243 lite/language.php:275
+msgid "Hold on, personalizing for you..."
+msgstr "Even wachten, wij zijn aan het personaliseren voor je..."
+
+#: lite/admin/partials/onboarding.php:239 lite/language.php:274
+msgid "STEP 2 of 3"
+msgstr "STAP 2 of 3"
+
+#: lite/admin/partials/onboarding.php:209 lite/language.php:273
+msgid "Ok, set it up for me →"
+msgstr "Ok, installeer het voor me →"
+
+#: lite/admin/partials/onboarding.php:196 lite/language.php:272
+msgid "Add GDPR consent in subscription forms"
+msgstr "Voeg GDPR toe om in te stemmen in inschrijfformulieren"
+
+#: lite/admin/partials/onboarding.php:177 lite/language.php:270
+msgid ""
+"Enable double opt-in (people have to click a confirmation\n"
+"\t\t                      link in email before they're subscribed)"
+msgstr ""
+"Activeer dubbele bevestiging (contactpersonen moeten een\n"
+"\t\t                      bevestigingslink aanklikken voordat ze zijn ingeschreven)"
+
+#: lite/admin/partials/onboarding.php:316 lite/language.php:284
+msgid "Creating a subscription opt-in form for the Main list"
+msgstr "Aanmaken van een bevestigings inschrijfformulier voor de Algemene lijst"
+
+#: lite/admin/partials/onboarding.php:91 lite/language.php:263
+msgid ""
+"Add a couple of your own email addresses below. We will add\n"
+"\t\t                  them to your audience lists."
+msgstr ""
+"Voeg een paar e-mail adressen van jezelf toe hier beneden. Wij zullen deze toevoegen\n"
+"\t\t                  aan je publieklijst."
+
+#: lite/admin/partials/onboarding.php:86 lite/language.php:262
+msgid "Email delivery testing:"
+msgstr "Testen e-mail verzending:"
+
+#: lite/admin/partials/onboarding.php:75 lite/language.php:261
+msgid "\"From\" email: "
+msgstr "\"Van e-mail: "
+
+#: lite/admin/partials/onboarding.php:66 lite/language.php:260
+msgid "\"From\" name for emails: "
+msgstr "\"Van\" naam voor e-mails: "
+
+#: lite/admin/partials/onboarding.php:59 lite/language.php:259
+msgid "Essentials:"
+msgstr "Essentieel:"
+
+#: lite/admin/partials/onboarding.php:50 lite/language.php:257
+msgid ""
+"We've simplified and automated email marketing, so you can get\n"
+"\t\t                results quickly."
+msgstr ""
+"Wij hebben e-mail marketing simpeler gemaakt en geautomatiseerd zodat je\n"
+"\t\t                snel resultaat hebt."
+
+#: lite/admin/partials/onboarding.php:40 lite/language.php:255
+msgid "STEP 1 of 3"
+msgstr "STAP 1 van 3"
+
+#. translators: 1. Main list name. 2. Default list name.
+#: lite/admin/class-ig-es-onboarding.php:447 lite/language.php:173
+msgid "Unable to create %1$s and %2$s list."
+msgstr "Niet mogelijk om %1$s te maken en %2$s lijst."
+
+#: lite/admin/class-ig-es-onboarding.php:162 lite/language.php:171
+msgid "An error occured. Please try again later."
+msgstr "Er is een fout ontstaan. Probeer later opnieuw."
+
+#: lite/admin/partials/onboarding.php:329 lite/language.php:285
+msgid ""
+"Adding the form to an active sidebar, so you can show it on\n"
+"\t\t                    the site"
+msgstr ""
+"Toevoegen van het formulier aan een actief zij-menu, zodat je het kunt laten zien op\n"
+"\t\t                    de site"
+
+#: lite/admin/partials/onboarding.php:304 lite/language.php:283
+msgid "Creating a campaign - new post notification test"
+msgstr "Aanmaken van een campagne - nieuw bericht kennisgeving test"
+
+#: lite/admin/partials/onboarding.php:155 lite/language.php:268
+msgid ""
+"I want to send email notifications when new blog posts are\n"
+"\t\t                      published"
+msgstr ""
+"Ik wil e-mail kennisgevingen sturen wanneer er nieuwe berichten zijn\n"
+"\t\t                      gepubliceerd"
+
+#: lite/admin/partials/onboarding.php:120 lite/language.php:265
+msgid "Your preferences:"
+msgstr "Je voorkeuren:"
+
+#: lite/admin/class-ig-es-onboarding.php:1120
+#: lite/includes/classes/class-es-post-notifications.php:709
+#: lite/language.php:185
+msgid "New Post Published - {{POSTTITLE}}"
+msgstr "Nieuw bericht gepubliceerd - {{POSTTITLE}}"
+
+#: lite/admin/class-ig-es-onboarding.php:1017 lite/language.php:184
+msgid "Seems like your server is not setup correctly to send emails. Please confirm if you're getting any other emails from within WordPress"
+msgstr "Het lijkt erop dat je server niet correct is geïnstalleerd om e-mails te verzenden. Controleer of je e-mails ontvangt vanuit WordPress."
+
+#. translators: Active sidebar name.
+#: lite/admin/class-ig-es-onboarding.php:784 lite/language.php:182
+msgid "Unable to add form widget to \"%s\" sidebar. No subscription form found."
+msgstr "Niet mogelijk om de formulier widget toe te voegen aan \"%s\" zijbalk. Geen inschrijfformulier gevonden."
+
+#. translators: Active sidebar name.
+#: lite/admin/class-ig-es-onboarding.php:779 lite/language.php:180
+msgid "Unable to add form widget to \"%s\" sidebar. Widget may already exists."
+msgstr "Niet mogelijk om formulier widget toe te voegen aan \"%s\" zijbalk. Widget bestaat mogelijk al."
+
+#. translators: Active sidebar name.
+#: lite/admin/class-ig-es-onboarding.php:776 lite/language.php:178
+msgid "Adding the form to \"%s\" sidebar, so you can show it on the site"
+msgstr "Formulier aan het toevoegen op \"%s\" zijbalk, zodat je dit kunt tonen op je site"
+
+#: lite/admin/class-ig-es-onboarding.php:718 lite/language.php:176
+msgid "Please accept terms & condition"
+msgstr "Graag bepalingen & condities accepteren"
+
+#. translators: %d. Current year
+#: lite/admin/partials/onboarding.php:493 lite/language.php:306
+msgid "Free course: WordPress Email Marketing Masterclass %d"
+msgstr "Gratis cursus: WordPress E-mail Marketing Masterclass %d"
+
+#: lite/includes/classes/class-es-forms-table.php:379 lite/language.php:610
+msgid "Enter description"
+msgstr "Voer omschrijving in"
+
+#: lite/includes/classes/class-es-post-notifications.php:263
+#: lite/language.php:780
+msgid "Sorry, you are not allowed to update post notification."
+msgstr "Je bent niet gemachtigd om bericht kennisgevingen te updaten."
+
+#: lite/includes/classes/class-es-post-notifications.php:114
+#: lite/language.php:776
+msgid "Sorry, you are not allowed to add post notification."
+msgstr "Je bent niet gemachtigd om bericht kennisgevingen toe te voegen."
+
+#: lite/includes/classes/class-es-lists-table.php:327 lite/language.php:733
+msgid "Enter list name"
+msgstr "Voer lijstnaam in"
+
+#: lite/includes/workflows/admin/class-es-workflow-admin-edit.php:323
+#: lite/language.php:1051
+msgid " Edit Workflow"
+msgstr " Workflow bewerken"
+
+#: lite/language.php:1180 lite/public/class-email-subscribers-public.php:213
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Je bent niet gemachtigd voor deze pagina. "
+
+#: lite/includes/classes/class-es-newsletters.php:93 lite/language.php:752
+msgid "Sorry, you are not allowed to add/edit broadcast."
+msgstr "Je bent niet gemachtigd om omroepberichten toe te voegen of te bewerken."
+
+#: lite/includes/class-es-common.php:1980 lite/language.php:375
+msgid "All Types"
+msgstr "Alle Types"
+
+#. translators: 1: Starting strong tag 2: Closing strong tag
+#: lite/includes/workflows/admin/views/meta-box-actions.php:67
+#: lite/language.php:1059
+msgid "No actions found. Click the %1$s+ Add action%2$s to create an action."
+msgstr "Geen acties gevonden. klik de %1$s+ Toevoegen actie%2$s om een actie aan te maken."
+
+#: lite/includes/pro-features.php:591 lite/includes/pro-features.php:705
+#: lite/language.php:946
+msgid " Now"
+msgstr " Nu"
+
+#: lite/includes/pro-features.php:176 lite/language.php:891
+msgid "Customize user roles permissions with "
+msgstr "Aanpassen gebruikersrol machtigingen met"
+
+#: lite/includes/workflows/admin/views/meta-box-trigger.php:47
+#: lite/language.php:1085
+msgid "WooCommerce Order Refunded"
+msgstr "WooCommerce bestelling terugbetaald"
+
+#: lite/includes/workflows/admin/views/meta-box-trigger.php:44
+#: lite/language.php:1084
+msgid "New Product Review Posted"
+msgstr "Nieuwe product beoordeling geplaatst"
+
+#: lite/includes/classes/class-es-ig-redirect.php:134 lite/language.php:675
+msgid "Keep growing. Get everything you need to target, measure, re-target, behavior rules, personalize, split test, segment, automate and optimize."
+msgstr "Blijf groeien. Pak alles wat je nodig hebt om gericht te benaderen, meten, opnieuw te benaderen, gedragingen, personaliseren, split testen, segmenteren, automatiseren en optimaliseren."
+
+#: lite/includes/classes/class-es-ig-redirect.php:132 lite/language.php:674
+msgid "Optimize Results"
+msgstr "Optimaliseer resultaten"
+
+#: lite/includes/classes/class-es-ig-redirect.php:120 lite/language.php:673
+msgid "Dramatically increase opt-ins and sales. Easily run powerful onsite marketing campaigns. Marketers, owners and visitors– everyone loves Icegram!"
+msgstr "Dramatisch vergroten van inschrijvingen en verkopen. Draai gemakkelijke en krachtige e-mail campagnes. Marketeers, eigenaren en bezoekers – iedereen houd van Icegram!"
+
+#: lite/includes/classes/class-es-campaigns-table.php:187 lite/language.php:495
+msgid "Notification Added Successfully!"
+msgstr "Kennisgeving succesvol toegevoegd!"
+
+#. translators: %s: Create list page url
+#: lite/includes/classes/class-es-forms-table.php:486 lite/language.php:619
+msgid "List not found. Please %s"
+msgstr "Lijst niet gevonden. %s"
+
+#: lite/includes/classes/class-es-ig-redirect.php:118 lite/language.php:672
+msgid "More Subscribers & Customers"
+msgstr "Meer inschrijvers en klanten"
+
+#: lite/includes/classes/class-es-ig-redirect.php:106 lite/language.php:671
+msgid "Show right messages to right people at the right time in the right place. Drive people to landing pages, promotions and stop them from bouncing away."
+msgstr "Laat de juiste berichten aan de juiste mensen op de juiste tijd op de juiste plek zien. Stuur mensen naar start webpagina's, promoties en stop hen om ergens anders te kijken."
+
+#: lite/includes/classes/class-es-ig-redirect.php:104 lite/language.php:670
+msgid "Engage Visitors"
+msgstr "Betrek bezoekers"
+
+#: lite/admin/class-email-subscribers-admin.php:183 lite/language.php:30
+msgid "Please select an action that this workflow should perform before saving the workflow."
+msgstr "Selecteer een actie welke deze workflow zou moeten uitvoeren voordat je de workflow gaat opslaan."
+
+#: lite/includes/workflows/actions/abstracts/class-ig-es-action-send-email-abstract.php:42
+#: lite/language.php:1036
+msgid "E.g. {{EMAIL}}, admin@example.com"
+msgstr "Bv. {{EMAIL}}, admin@example.com"
+
+#: lite/includes/workflows/fields/class-es-wp-editor.php:29
+#: lite/language.php:1157
+msgid "WP Editor"
+msgstr "WP Editor"
+
+#: lite/includes/workflows/actions/abstracts/class-ig-es-action-send-email-abstract.php:41
+#: lite/language.php:1035
+msgid "Enter emails here or use variable such as {{EMAIL}}. Multiple emails can be separated by commas."
+msgstr "Geef hier e-mail adressen op of gebruik een variabele zoals {{EMAIL}}. Meerdere e-mailadressen kunnen worden gescheiden door komma's."
+
+#: lite/includes/workflows/actions/abstracts/class-ig-es-action-send-email-abstract.php:40
+#: lite/language.php:1034
+msgid "Send to"
+msgstr "Verzenden naar"
+
+#: lite/admin/class-es-campaign-admin.php:550
+#: lite/includes/classes/class-es-newsletters.php:362 lite/language.php:110
+msgid "Reply To"
+msgstr "Antwoord aan"
+
+#: lite/language.php:1196 lite/public/partials/subscription-successfull.php:67
+msgid " Take a look here"
+msgstr " Kijk hier"
+
+#: lite/language.php:1195 lite/public/partials/subscription-successfull.php:65
+msgid "The most loved WordPress plugins for lead capture, call to action and email marketing."
+msgstr "De meest gebruikte WordPress plugins voor acquisitie, belrondes en e-mail marketing."
+
+#: lite/language.php:1192 lite/public/partials/subscription-successfull.php:14
+msgid "Unsubscription confirmed !"
+msgstr "Uitschrijving bevestigd!"
+
+#: lite/language.php:1193 lite/public/partials/subscription-successfull.php:56
+msgid "Powered by"
+msgstr "Aangedreven door"
+
+#: lite/language.php:1191 lite/public/partials/subscription-successfull.php:12
+msgid "Subscription confirmed !"
+msgstr "Abonnering bevestigd!"
+
+#: lite/language.php:1194 lite/public/partials/subscription-successfull.php:62
+msgid "Want to Engage, Inspire and Convert Your Website Visitors ?"
+msgstr "Wil je meedoen, je site bezoekers te inspireren en beïnvloeden?"
+
+#: lite/includes/pro-features.php:1410 lite/language.php:1001
+msgid "OS Info"
+msgstr "OS Info"
+
+#: lite/includes/pro-features.php:1405 lite/language.php:1000
+msgid "Browser Info"
+msgstr "Browser Info"
+
+#: lite/includes/pro-features.php:1371 lite/includes/pro-features.php:1585
+#: lite/language.php:998
+msgid "Mail Client"
+msgstr "Mail Client"
+
+#: lite/includes/pro-features.php:1400 lite/language.php:999
+msgid "Device Info"
+msgstr "Apparaat Info"
+
+#: lite/includes/pro-features.php:1294 lite/language.php:997
+msgid "Mail Client Info"
+msgstr "Mail Client Info"
+
+#: lite/includes/pro-features.php:1240 lite/language.php:993
+msgid "Statistics"
+msgstr "Statistieken"
+
+#: lite/includes/class-es-common.php:2248 lite/language.php:381
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: lite/admin/class-email-subscribers-admin.php:1399
+#: lite/includes/pro-features.php:1256 lite/language.php:83
+msgid "Avg Open Rate"
+msgstr "Gem. open waardering"
+
+#: lite/admin/class-email-subscribers-admin.php:1592 lite/language.php:90
+msgid "Please publish it or save it as a draft."
+msgstr "Publiceer of sla op als concept."
+
+#: lite/includes/pro-features.php:1586 lite/language.php:1008
+msgid "OS"
+msgstr "OS"
+
+#: lite/includes/pro-features.php:1574 lite/language.php:1006
+msgid "Last 10 Open Activity"
+msgstr "Laatste 10 open activiteiten"
+
+#: lite/includes/pro-features.php:1440 lite/language.php:1005
+msgid "Total Clicks"
+msgstr "Totaal aantal kliks"
+
+#: lite/includes/pro-features.php:1438 lite/language.php:1004
+msgid "Unique Clicks"
+msgstr "Unieke kliks"
+
+#: lite/includes/pro-features.php:1436 lite/language.php:1003
+msgid "Link (URL)"
+msgstr "Link (URL)"
+
+#: lite/includes/pro-features.php:1429 lite/language.php:1002
+msgid "Link Activity"
+msgstr "Link Activiteit"
+
+#: lite/includes/pro-features.php:1622 lite/language.php:1010
+msgid "Tablet"
+msgstr "Tablet"
+
+#: lite/includes/pro-features.php:1631 lite/language.php:1011
+msgid "Mobile"
+msgstr "Mobiel"
+
+#: lite/admin/class-ig-es-campaign-rules.php:631
+#: lite/includes/pro-features.php:1333 lite/includes/pro-features.php:1582
+#: lite/language.php:142
+msgid "Country"
+msgstr "Land"
+
+#: lite/includes/pro-features.php:1291 lite/language.php:996
+msgid "Country Opens"
+msgstr "Land opend"
+
+#: lite/includes/pro-features.php:1282 lite/language.php:995
+msgid "Open and click activity"
+msgstr "Open en klik activiteit"
+
+#: lite/includes/pro-features.php:1232 lite/language.php:991
+msgid "Date: "
+msgstr "Datum: "
+
+#: lite/includes/pro-features.php:1215
+msgid "Take a look into Icegram"
+msgstr "Bekijk Icegram"
+
+#: lite/includes/pro-features.php:1229 lite/language.php:989
+msgid "List(s): "
+msgstr "Lijst(en): "
+
+#: lite/includes/pro-features.php:1226 lite/language.php:988
+msgid "From: "
+msgstr "Van: "
+
+#: lite/includes/pro-features.php:1223 lite/language.php:987
+msgid "Type: "
+msgstr "Type: "
+
+#: lite/includes/classes/class-es-campaign-report.php:475 lite/language.php:484
+msgid "Campaign Analytics"
+msgstr "Campagne Analysis"
+
+#: lite/includes/pro-features.php:1584 lite/language.php:1007
+msgid "Device"
+msgstr "Apparaat"
+
+#: lite/includes/pro-features.php:1233 lite/language.php:992
+msgid "July 1, 2020 10:00 AM"
+msgstr "Juli 1, 2020 10:00 AM"
+
+#: lite/includes/pro-features.php:1230 lite/language.php:990
+msgid "Test, Main "
+msgstr "Test, Hoofd"
+
+#: lite/includes/pro-features.php:1613 lite/language.php:1009
+msgid "Desktop"
+msgstr "Bureaublad"
+
+#. translators: %s: Next scheduled time
+#: lite/includes/classes/class-es-admin-settings.php:983 lite/language.php:471
+msgid "In %s"
+msgstr "In %s"
+
+#: lite/includes/classes/class-es-admin-settings.php:935 lite/language.php:467
+msgid "Event"
+msgstr "Evenement"
+
+#: lite/includes/classes/class-es-admin-settings.php:868 lite/language.php:466
+msgid "Cron Info"
+msgstr "Cron Info"
+
+#: lite/includes/classes/class-es-admin-settings.php:937 lite/language.php:469
+msgid "Next Execution"
+msgstr "Volgende uitvoering"
+
+#: lite/includes/libraries/action-scheduler/classes/abstracts/ActionScheduler.php:195
+msgid "%s() was called before the Action Scheduler data store was initialized"
+msgstr "%s() werd aangeroepen voor de Actie planner gegevensopslag was geïnitialiseerd"
+
+#: lite/includes/classes/class-es-campaigns-table.php:700
+#: lite/includes/classes/class-es-reports-table.php:637 lite/language.php:510
+msgid "All Type"
+msgstr "Alle types"
+
+#: lite/admin/class-email-subscribers-admin.php:171 lite/language.php:20
+msgid "An error has occured while saving the broadcast. Please try again later."
+msgstr "Er is een fout ontstaan bij het opslaan van het omroepbericht. Probeer later opnieuw."
+
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:198
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:235
+#: lite/includes/pro-features.php:1108 lite/language.php:879
+msgid "Check"
+msgstr "Controleer"
+
+#: lite/includes/pro-features.php:1125 lite/language.php:981
+msgid "Schedule for later"
+msgstr "Plan voor later"
+
+#: lite/admin/class-email-subscribers-admin.php:172 lite/language.php:21
+msgid "Please add a broadcast subject before saving."
+msgstr "A.u.b. voeg een omroepbericht onderwerp toe voordat je gaat opslaan."
+
+#: lite/admin/class-email-subscribers-admin.php:176 lite/language.php:25
+msgid "Please add email body."
+msgstr "Vul de e-mail body in."
+
+#: lite/includes/workflows/admin/views/meta-box-trigger.php:29
+#: lite/language.php:1080
+msgid "Forminator Form Submitted"
+msgstr "Forminator formulier verzonden"
+
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:187
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:223
+#: lite/language.php:878
+msgid "Get Spam Score"
+msgstr "Krijg de spam uitslag"
+
+#: lite/language.php:1190 lite/public/partials/cron-message.php:43
+msgid "Send Now"
+msgstr "Nu verzenden"
+
+#: lite/includes/pro-features.php:1151 lite/language.php:983
+msgid "Local Time: "
+msgstr "Lokale tijd: "
+
+#: lite/includes/pro-features.php:1068 lite/language.php:978
+msgid "Link tracking"
+msgstr "Link volging"
+
+#: lite/includes/pro-features.php:903 lite/language.php:966
+msgid "Show a captcha to protect from bot signups."
+msgstr "Laat een captcha zien om te beschermen tegen robot inschrijvingen."
+
+#: lite/includes/classes/class-es-contacts-table.php:804 lite/language.php:536
+msgid "Enter last name"
+msgstr "Voer achternaam in"
+
+#: lite/includes/classes/class-es-contacts-table.php:783 lite/language.php:534
+msgid "Enter first name"
+msgstr "Voer voornaam in"
+
+#: lite/includes/pro-features.php:1122 lite/language.php:980
+msgid "Send options"
+msgstr "Verzend opties"
+
+#: lite/includes/classes/class-es-contacts-table.php:825 lite/language.php:537
+msgid "Enter email"
+msgstr "Voer e-mailadres in"
+
+#: lite/admin/class-es-campaign-admin.php:576
+#: lite/includes/classes/class-es-newsletters.php:490 lite/language.php:112
+msgid "Open tracking"
+msgstr "Open volging"
+
+#: lite/admin/class-es-campaign-admin.php:501
+#: lite/includes/classes/class-es-newsletters.php:462 lite/language.php:106
+msgid "Email Content Preview"
+msgstr "E-mail inhoud voorbeeld"
+
+#: lite/includes/classes/class-es-newsletters.php:445 lite/language.php:765
+msgid "Something went wrong. Please try again later"
+msgstr "Er ging iets fout. Probeer later opnieuw"
+
+#: lite/includes/classes/class-es-newsletters.php:444 lite/language.php:764
+msgid "Email sent successfully "
+msgstr "E-mail verzending succesvol"
+
+#: lite/admin/class-es-campaign-admin.php:452
+#: lite/includes/classes/class-es-newsletters.php:427
+#: lite/includes/classes/class-es-reports-table.php:588
+#: lite/includes/classes/class-es-templates-table.php:150
+#: lite/includes/workflows/admin/views/meta-box-actions.php:111
+#: lite/language.php:105 lite/admin/dist/main.js:168
+msgid "There could be a slight variation on how your customer will view the email content."
+msgstr "Er kan een kleine variatie zijn in hoe je klanten de e-mail inhoud zullen zien."
+
+#: lite/includes/classes/class-es-newsletters.php:416 lite/language.php:762
+msgid "Browser"
+msgstr "Browser"
+
+#: lite/admin/class-es-campaign-admin.php:369
+#: lite/includes/classes/class-es-newsletters.php:367 lite/language.php:102
+msgid "Message"
+msgstr "Bericht"
+
+#: lite/admin/class-es-campaign-admin.php:533
+#: lite/includes/classes/class-es-newsletters.php:354 lite/language.php:108
+msgid "From Name"
+msgstr "Afzender naam"
+
+#: lite/includes/classes/class-es-newsletters.php:293 lite/language.php:758
+msgid "Save Draft"
+msgstr "Opslaan concept"
+
+#: lite/admin/class-es-campaign-admin.php:336
+#: lite/includes/classes/class-es-newsletters.php:283 lite/language.php:99
+msgid "Previous"
+msgstr "Vorige"
+
+#: lite/admin/class-es-campaign-admin.php:297
+#: lite/includes/classes/class-es-newsletters.php:258 lite/language.php:96
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: lite/includes/classes/class-es-newsletters.php:199 lite/language.php:757
+msgid "Scheduling is disabled for this broadcast since it has been sent already."
+msgstr "Planning is uitgeschakeld voor dit omroepbericht omdat het al eerder is verzonden."
+
+#: lite/includes/classes/class-es-newsletters.php:197 lite/language.php:756
+msgid "Scheduling is disabled for this broadcast since it is being sent."
+msgstr "Planning is uitgeschakeld voor dit omroepbericht omdat deze momenteel wordt verstuurd."
+
+#: lite/includes/class-es-common.php:2008
+#: lite/includes/classes/class-es-campaigns-table.php:569 lite/language.php:376
+msgid "Draft"
+msgstr "Concept"
+
+#: lite/includes/class-es-common.php:2009
+#: lite/includes/class-es-common.php:2454
+#: lite/includes/classes/class-es-campaign-report.php:237
+#: lite/includes/classes/class-es-campaigns-table.php:550
+#: lite/includes/classes/class-es-campaigns-table.php:588
+#: lite/includes/classes/class-es-reports-table.php:236
+#: lite/includes/classes/class-es-reports-table.php:626 lite/language.php:377
+msgid "Sending"
+msgstr "Aan het versturen"
+
+#: lite/includes/feedback.php:303 lite/language.php:851
+msgid "Leave Review"
+msgstr "Laat een beoordeling achter"
+
+#: lite/includes/feedback.php:299 lite/language.php:850
+msgid "If you like new Broadcast UI, leave us a <b>5 stars review</b>. <br /><br />Do you have a feedback? Contact Us."
+msgstr "Als je een nieuwe omroepbericht UI wilt, geef ons dan een <b>5 sterren beoordeling</b>. <br /><br />Heb je een suggestie? Neem contact met ons op."
+
+#: lite/includes/feedback.php:297 lite/language.php:849
+msgid "Broadcast Created Successfully!"
+msgstr "Omroepbericht succesvol gemaakt!"
+
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_ListTable.php:364
+msgid "It appears one or more database tables were missing. Attempting to re-create the missing table(s)."
+msgstr "Het lijkt erop dat er één of meerdere database tabellen ontbreken. Probeer de ontbrekende tabellen opnieuw aan te maken."
+
+#: lite/includes/classes/class-es-newsletters.php:317
+#: lite/includes/classes/class-es-newsletters.php:931 lite/language.php:759
+msgid "Schedule"
+msgstr "Planning"
+
+#: lite/includes/classes/class-es-newsletters.php:115 lite/language.php:753
+msgid "Please add a broadcast subject."
+msgstr "Voeg een omroepbericht onderwerp toe."
+
+#: lite/includes/classes/class-es-newsletters.php:431
+#: lite/includes/classes/class-es-reports-table.php:592
+#: lite/includes/classes/class-es-templates-table.php:154
+#: lite/includes/premium-services-ui/class-ig-es-premium-services-ui.php:261
+#: lite/language.php:763
+msgid "Close"
+msgstr "Sluiten"
+
+#: lite/includes/feedback.php:306 lite/language.php:852
+msgid "Contact Us"
+msgstr "Neem contact op"
+
+#. translators: %s: Max upload size
+#: lite/includes/classes/class-es-import-subscribers.php:127
+#: lite/language.php:680
+msgid "File size should be less than %s"
+msgstr "Bestandsgrootte moet minder zijn dan %s"
+
+#. translators: 1. WordPress URL 2. Email Subscribers version 3. Icegram site
+#. URL
+#: lite/admin/class-email-subscribers-admin.php:923 lite/language.php:77
+msgid "<span id=\"footer-thankyou\">Thank you for creating with <a href=\"%1$s\" target=\"_blank\">WordPress</a> | Email Subscribers <b>%2$s</b>. Developed by team <a href=\"%3$s\" target=\"_blank\">Icegram</a></span>"
+msgstr "<span id=\"footer-thankyou\">Dank je voor het creëren met <a href=\"%1$s\" target=\"_blank\">WordPress</a> | Email Subscribers <b>%2$s</b>. Ontworpen door team <a href=\"%3$s\" target=\"_blank\">Icegram</a></span>"
+
+#: lite/includes/workflows/triggers/class-es-trigger-user-deleted.php:30
+#: lite/language.php:1167
+msgid "User Deleted"
+msgstr "Gebruiker verwijderd"
+
+#: lite/includes/classes/class-es-lists-table.php:384 lite/language.php:736
+msgid "Save List"
+msgstr "Opslaan lijst"
+
+#: lite/includes/classes/class-es-forms-table.php:618 lite/language.php:633
+msgid "Save Form"
+msgstr "Opslaan formulier"
+
+#: lite/includes/classes/class-es-post-notifications.php:451
+#: lite/language.php:792
+msgid "Save Campaign"
+msgstr "Opslaan campagne"
+
+#: lite/includes/pro-features.php:403 lite/includes/pro-features.php:900
+#: lite/language.php:918
+msgid "Enable Captcha"
+msgstr "Inschakelen Captcha"
+
+#: lite/includes/workflows/triggers/class-es-trigger-user-updated.php:30
+#: lite/language.php:1178
+msgid "User Updated"
+msgstr "Gebruiker geüpdatet"
+
+#: lite/includes/workflows/admin/views/meta-box-trigger.php:34
+#: lite/includes/workflows/db/class-es-db-workflows.php:425
+#: lite/language.php:1083
+msgid "Give Donation Added"
+msgstr "Geef donatie toegevoegd"
+
+#: lite/includes/pro-features.php:391 lite/language.php:916
+msgid "Block temporary / fake emails"
+msgstr "Blokkeer tijdelijke / valse e-mailadressen"
+
+#: lite/includes/workflows/fields/class-es-checkbox.php:34
+#: lite/language.php:1152
+msgid "Checkbox"
+msgstr "Selectievakje"
+
+#: lite/admin/partials/help.php:243 lite/language.php:252
+msgid "Not Installed"
+msgstr "Niet geïnstalleerd"
+
+#: lite/admin/partials/help.php:256 lite/language.php:253
+msgid "Install"
+msgstr "Installeer"
+
+#: lite/includes/libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Add"
+msgstr "Toevoegen"
+
+#: lite/includes/libraries/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:523
+msgid "Filter"
+msgstr "Filter"
+
+#: lite/includes/libraries/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:755
+msgid "Search"
+msgstr "Zoeken"
+
+#: lite/includes/libraries/action-scheduler/classes/abstracts/ActionScheduler_Store.php:378
+msgid "Pending"
+msgstr "In afwachting"
+
+#. translators: %s: search query
+#: lite/includes/libraries/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:650
+msgid "Search results for \"%s\""
+msgstr "Zoekresultaten voor \"%s\""
+
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:139
+msgid "Columns"
+msgstr "Kolommen"
+
+#: lite/includes/workflows/admin/views/meta-box-timing.php:37
+#: lite/language.php:1068
+msgid "Fixed"
+msgstr "Vast"
+
+#: lite/includes/pro-features.php:1141
+#: lite/includes/workflows/fields/class-es-time.php:64 lite/language.php:982
+msgid "Time"
+msgstr "Tijd"
+
+#: lite/includes/workflows/triggers/class-es-trigger-user-deleted.php:32
+#: lite/includes/workflows/triggers/class-es-trigger-user-registered.php:32
+#: lite/includes/workflows/triggers/class-es-trigger-user-updated.php:32
+#: lite/language.php:1169
+msgid "User"
+msgstr "Gebruiker"
+
+#: lite/admin/partials/help.php:259
+#: lite/includes/classes/class-es-post-notifications.php:501
+#: lite/includes/workflows/class-es-workflows-table.php:488
+#: lite/language.php:254
+msgid "Activate"
+msgstr "Activeer"
+
+#: lite/includes/class-es-common.php:2497 lite/includes/pro-features.php:1132
+#: lite/includes/workflows/admin/views/meta-box-timing.php:82
+#: lite/includes/workflows/fields/class-es-date.php:31 lite/language.php:390
+msgid "Date"
+msgstr "Datum"
+
+#: lite/includes/workflows/class-es-workflows-table.php:489
+#: lite/language.php:1131
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+#: lite/includes/workflows/class-es-workflows-table.php:459
+#: lite/language.php:1129
+msgid "Title"
+msgstr "Titel"
+
+#: lite/includes/class-es-common.php:2496
+#: lite/includes/workflows/fields/class-es-number.php:48 lite/language.php:389
+msgid "Number"
+msgstr "Nummer"
+
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:127
+msgid "About"
+msgstr "Over"
+
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:114
+msgid "Version:"
+msgstr "Versie:"
+
+#. translators: %s: time difference
+#: lite/includes/workflows/class-es-format.php:134 lite/language.php:1101
+msgid "%s ago"
+msgstr "%s geleden"
+
+#: lite/admin/partials/dashboard.php:201 lite/language.php:216
+msgid "Premium"
+msgstr "Premium"
+
+#: lite/includes/classes/class-es-forms-table.php:398 lite/language.php:616
+msgid "Placeholder"
+msgstr "Plaatshouder"
+
+#: lite/includes/class-es-common.php:1802 lite/includes/feedback.php:123
+#: lite/language.php:374
+msgid "Join Now"
+msgstr "Meld je nu aan"
+
+#: lite/includes/classes/class-es-campaigns-table.php:369 lite/language.php:501
+msgid "All"
+msgstr "Alle"
+
+#: lite/includes/class-es-common.php:620 lite/language.php:350
+msgid "Select Categories"
+msgstr "Selecteer categorieën"
+
+#: lite/includes/classes/class-es-campaigns-table.php:629 lite/language.php:507
+msgid "Categories"
+msgstr "Categorieën"
+
+#: lite/includes/classes/class-es-export-subscribers.php:337
+#: lite/includes/classes/class-es-import-subscribers.php:588
+#: lite/includes/classes/class-es-import-subscribers.php:682
+#: lite/includes/classes/class-es-import-subscribers.php:1094
+#: lite/includes/classes/class-es-import-subscribers.php:1349
+#: lite/language.php:586
+msgid "First Name"
+msgstr "Voornaam"
+
+#: lite/includes/classes/class-es-export-subscribers.php:338
+#: lite/includes/classes/class-es-import-subscribers.php:589
+#: lite/includes/classes/class-es-import-subscribers.php:683
+#: lite/includes/classes/class-es-import-subscribers.php:1099
+#: lite/includes/classes/class-es-import-subscribers.php:1350
+#: lite/language.php:587
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: lite/includes/pro-features.php:474 lite/language.php:927
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: lite/includes/feedback/class-ig-feedback.php:1376
+#: lite/includes/workflows/abstracts/class-es-workflow-action.php:164
+#: lite/includes/workflows/abstracts/class-es-workflow-action.php:179
+#: lite/includes/workflows/abstracts/class-es-workflow-trigger.php:384
+#: lite/language.php:1033
+msgid "Other"
+msgstr "Andere"
+
+#: lite/includes/pro-features.php:464 lite/language.php:926
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: lite/includes/classes/class-es-handle-sync-wp-user.php:247
+#: lite/language.php:660
+msgid "WordPress"
+msgstr "WordPress"
+
+#: lite/includes/classes/class-es-forms-table.php:397 lite/language.php:615
+msgid "Label"
+msgstr "Label"
+
+#: lite/includes/pro-features.php:453 lite/language.php:925
+msgid "Comments"
+msgstr "Reacties"
+
+#: lite/includes/classes/class-es-forms-table.php:455 lite/language.php:617
+msgid "Button"
+msgstr "Knop"
+
+#: lite/includes/classes/class-es-templates-table.php:237
+#: lite/includes/db/class-es-db-campaigns.php:746
+#: lite/includes/db/class-es-db-campaigns.php:749 lite/language.php:835
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: lite/includes/classes/class-es-contacts-table.php:883
+#: lite/includes/classes/class-es-forms-table.php:618
+#: lite/includes/classes/class-es-lists-table.php:384
+#: lite/includes/classes/class-es-post-notifications.php:451
+#: lite/language.php:541
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: lite/admin/class-es-campaign-admin.php:294
+#: lite/includes/classes/class-es-newsletters.php:255 lite/language.php:95
+msgid "Content"
+msgstr "Inhoud"
+
+#: lite/admin/class-email-subscribers-admin.php:299
+#: lite/admin/partials/dashboard.php:166 lite/language.php:63
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: lite/includes/classes/class-es-campaigns-table.php:630
+#: lite/includes/classes/class-es-contacts-table.php:1102
+#: lite/includes/classes/class-es-forms-table.php:992 lite/language.php:508
+msgid "Created"
+msgstr "Gemaakt"
+
+#: lite/admin/class-es-campaign-admin.php:363
+#: lite/includes/classes/class-es-newsletters.php:350
+#: lite/includes/classes/class-es-reports-table.php:315 lite/language.php:101
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: lite/includes/classes/class-es-reports-table.php:624 lite/language.php:828
+msgid "Completed"
+msgstr "Afgerond"
+
+#: lite/includes/classes/class-es-widget.php:50 lite/includes/feedback.php:231
+#: lite/language.php:838
+msgid "Yes"
+msgstr "Ja"
+
+#: lite/includes/classes/class-es-forms-table.php:990 lite/language.php:634
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: lite/includes/classes/class-es-widget.php:51 lite/includes/feedback.php:235
+#: lite/language.php:839
+msgid "No"
+msgstr "Nee"
+
+#: lite/includes/classes/class-es-export-subscribers.php:340
+#: lite/includes/classes/class-es-lists-table.php:33
+#: lite/includes/compatibilities/elementor/actions/class-es-ig-form-action.php:51
+#: lite/includes/workflows/actions/class-es-action-add-to-list.php:31
+#: lite/language.php:588
+msgid "List"
+msgstr "Lijst"
+
+#: lite/includes/classes/class-es-admin-settings.php:145 lite/language.php:393
+msgid "General"
+msgstr "Algemeen"
+
+#: lite/admin/class-email-subscribers-admin.php:314
+#: lite/includes/classes/class-es-form-widget.php:77
+#: lite/includes/classes/class-es-forms-table.php:39
+#: lite/includes/classes/class-es-forms-table.php:40
+#: lite/includes/classes/class-es-forms-table.php:93
+#: lite/includes/pro-features.php:187 lite/language.php:66
+msgid "Forms"
+msgstr "Formulieren"
+
+#: lite/includes/classes/class-es-contacts-table.php:70
+#: lite/includes/classes/class-es-contacts-table.php:1100
+#: lite/includes/workflows/actions/class-es-action-delete-contact.php:31
+#: lite/includes/workflows/actions/class-es-action-update-contact.php:31
+#: lite/language.php:515
+msgid "Contact"
+msgstr "Contact"
+
+#: lite/includes/classes/class-es-forms-table.php:1068
+#: lite/includes/classes/class-es-lists-table.php:783 lite/language.php:640
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: lite/includes/classes/class-es-forms-table.php:1069
+#: lite/includes/classes/class-es-lists-table.php:784 lite/language.php:641
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: lite/includes/notices/class-es-admin-notices.php:99 lite/language.php:853
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Actie mislukt. Vernieuw de pagina en probeer het opnieuw."
+
+#: lite/admin/partials/help.php:239 lite/includes/class-es-common.php:538
+#: lite/includes/class-es-common.php:2012
+#: lite/includes/class-es-common.php:2463
+#: lite/includes/classes/class-es-campaigns-table.php:309
+#: lite/includes/workflows/admin/views/meta-box-save.php:28
+#: lite/language.php:250
+msgid "Active"
+msgstr "Actief"
+
+#: lite/admin/partials/help.php:241 lite/includes/class-es-common.php:539
+#: lite/includes/class-es-common.php:2468
+#: lite/includes/workflows/admin/views/meta-box-save.php:27
+#: lite/language.php:251
+msgid "Inactive"
+msgstr "Inactief"
+
+#: lite/includes/notices/views/html-notice-updated.php:12 lite/language.php:857
+msgid "Dismiss"
+msgstr "Negeren"
+
+#: lite/includes/class-es-install.php:989
+#: lite/includes/upgrade/es-update-functions.php:752 lite/language.php:391
+msgid "Your subscription was successful! Kindly check your mailbox and confirm your subscription. If you don't see the email within a few minutes, check the spam/junk folder."
+msgstr "Je inschrijving is verzonden. Controleer je mailbox om je inschrijving te bevestigen. Wanneer je de e-mail met bevestiging link niet binnen een paar minuten ontvangt, controleer dan ook je map met spam / ongewenste e-mail."
+
+#: lite/includes/class-email-subscribers-activator.php:56 lite/language.php:329
+msgid "View Templates"
+msgstr "Bekijk templates"
+
+#: lite/includes/class-email-subscribers-activator.php:53 lite/language.php:327
+msgid "Edit Templates"
+msgstr "Bewerk templates"
+
+#: lite/includes/class-email-subscribers-activator.php:57 lite/language.php:330
+msgid "Search Templates"
+msgstr "Doorzoek templates"
+
+#: lite/includes/class-email-subscribers-activator.php:58 lite/language.php:331
+msgid "No Templates found"
+msgstr "Geen templates gevonden."
+
+#: lite/includes/class-email-subscribers-activator.php:59 lite/language.php:332
+msgid "No Templates found in Trash"
+msgstr "Geen templates gevonden in de prullenbak"
+
+#: lite/includes/class-email-subscribers-activator.php:54 lite/language.php:328
+msgid "New Templates"
+msgstr "Nieuwe template"
+
+#: lite/includes/class-email-subscribers-activator.php:63 lite/language.php:334
+msgid "Set thumbnail"
+msgstr "Thumbnail instellen"
+
+#: lite/includes/class-email-subscribers-activator.php:62 lite/language.php:333
+msgid "Thumbnail (For Visual Representation only)"
+msgstr "Thumbnail (voor visuele weergave alleen)"
+
+#: lite/admin/partials/dashboard.php:615
+#: lite/includes/class-email-subscribers-activator.php:49
+#: lite/includes/class-email-subscribers-activator.php:50
+#: lite/includes/class-email-subscribers-activator.php:55 lite/language.php:230
+msgid "Templates"
+msgstr "Templates"
+
+#: lite/admin/class-email-subscribers-admin.php:327
+#: lite/includes/classes/class-es-newsletters.php:426
+#: lite/includes/classes/class-es-reports-table.php:587
+#: lite/includes/classes/class-es-templates-table.php:149 lite/language.php:70
+#: lite/admin/dist/main.js:168
+msgid "Template Preview"
+msgstr "Template voorbeeld"
+
+#: lite/includes/classes/class-es-templates-table.php:167 lite/language.php:832
+msgid "Template type"
+msgstr "Template type"
+
+#: lite/includes/class-email-subscribers-activator.php:51
+#: lite/includes/class-email-subscribers-activator.php:52 lite/language.php:326
+msgid "Add New Template"
+msgstr "Nieuwe template toevoegen"
+
+#: lite/includes/classes/class-es-templates-table.php:124 lite/language.php:831
+msgid "Preview template"
+msgstr "Voorbeeld template "
+
+#: lite/admin/partials/help.php:36 lite/language.php:233
+msgid "Rainmaker"
+msgstr "Rainmaker"
+
+#: lite/includes/classes/class-es-forms-table.php:373
+#: lite/includes/classes/class-es-lists-table.php:336
+#: lite/includes/classes/class-es-lists-table.php:638 lite/language.php:609
+msgid "Description"
+msgstr "Beschrijving"
+
+#: lite/admin/class-es-campaign-admin.php:325
+#: lite/includes/classes/class-es-import-subscribers.php:185
+#: lite/includes/classes/class-es-import-subscribers.php:283
+#: lite/includes/classes/class-es-newsletters.php:269 lite/language.php:98
+msgid "Next"
+msgstr "Volgende"
+
+#: lite/includes/class-es-common.php:790 lite/language.php:354
+msgid "Single Opt-In"
+msgstr "Single opt-In"
+
+#: lite/includes/classes/class-es-admin-settings.php:250 lite/language.php:408
+msgid "Opt-in type"
+msgstr "Opt-in type"
+
+#: lite/includes/class-es-common.php:2229
+#: lite/includes/notices/class-es-admin-notices.php:154
+msgctxt "timezone date format"
+msgid "Y-m-d"
+msgstr "Y-m-d"
+
+#: lite/includes/classes/class-es-post-notifications.php:736
+#: lite/includes/workflows/triggers/class-es-trigger-campaign-sent.php:32
+#: lite/language.php:800
+msgid "Admin"
+msgstr "Beheerder"
+
+#: lite/includes/feedback/class-ig-feedback.php:539
+#: lite/includes/feedback/class-ig-feedback.php:784
+#: lite/includes/feedback/class-ig-feedback.php:1025
+msgid "Thank You!"
+msgstr "Dank je!"
+
+#: lite/includes/class-es-common.php:345
+#: lite/includes/classes/class-es-import-subscribers.php:238
+#: lite/language.php:348
+msgid "Select Status"
+msgstr "Selecteer status"
+
+#: lite/language.php:1188 lite/public/partials/cron-message.php:33
+msgid "Total Emails Sent"
+msgstr "Totaal e-mails verzonden"
+
+#: lite/includes/class-es-common.php:2011
+#: lite/includes/class-es-common.php:2434
+#: lite/includes/classes/class-es-campaign-report.php:221
+#: lite/includes/classes/class-es-campaigns-table.php:557
+#: lite/includes/classes/class-es-campaigns-table.php:606
+#: lite/includes/classes/class-es-reports-table.php:227
+#: lite/includes/pro-features.php:1217 lite/includes/pro-features.php:1264
+#: lite/language.php:379
+msgid "Sent"
+msgstr "Verzonden"
+
+#: lite/includes/classes/class-es-reports-data.php:406
+#: lite/includes/classes/class-es-reports-table.php:193 lite/language.php:805
+#: lite/public/class-email-subscribers-public.php:497
+#: lite/admin/dist/main.js:156
+msgid "Post Notification"
+msgstr "Berichtmelding"
+
+#: lite/language.php:1610 lite/admin/dist/main.js:156
+msgid "Newsletter"
+msgstr "Nieuwsbrief"
+
+#: lite/admin/class-email-subscribers-admin.php:347
+#: lite/admin/partials/dashboard.php:611
+#: lite/includes/classes/class-es-campaign-report.php:17
+#: lite/includes/classes/class-es-reports-table.php:17
+#: lite/includes/classes/class-es-reports-table.php:55
+#: lite/includes/classes/class-es-reports-table.php:148
+#: lite/includes/pro-features.php:189 lite/language.php:73
+msgid "Reports"
+msgstr "Overzichten"
+
+#: lite/admin/class-email-subscribers-admin.php:324 lite/language.php:68
+msgid "Post Notifications"
+msgstr "Meldingen van nieuwe berichten"
+
+#. Author of the plugin
+#: lite/admin/partials/help.php:28
+#: lite/includes/class-email-subscribers.php:1494 lite/language.php:11
+msgid "Icegram"
+msgstr "Icegram"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: lite/language.php:7
+msgid "https://www.icegram.com/"
+msgstr "https://www.icegram.com/"
+
+#: lite/admin/class-es-campaign-admin.php:1147
+#: lite/admin/class-es-campaign-admin.php:1167
+#: lite/admin/class-es-campaign-admin.php:1176
+#: lite/includes/classes/class-es-templates-table.php:56
+#: lite/includes/classes/class-es-templates-table.php:67
+#: lite/includes/classes/class-es-templates-table.php:73
+#: lite/includes/classes/class-es-templates-table.php:78 lite/language.php:116
+msgid "Available Keywords"
+msgstr "Mogelijke keywords"
+
+#: lite/admin/class-es-campaign-admin.php:343
+#: lite/includes/classes/class-es-newsletters.php:296
+#: lite/includes/classes/class-es-post-notifications.php:546
+#: lite/includes/workflows/admin/class-es-workflow-admin-edit.php:393
+#: lite/includes/workflows/admin/views/meta-box-save.php:68
+#: lite/language.php:100
+msgid "Save"
+msgstr "Opslaan"
+
+#: lite/includes/classes/class-es-import-subscribers.php:131
+#: lite/language.php:681
+msgid "Check CSV structure"
+msgstr "Controleer CSV structuur"
+
+#: lite/includes/workflows/admin/class-es-workflow-admin-edit.php:392
+#: lite/language.php:1054
+msgid "Actions"
+msgstr "Acties"
+
+#: lite/includes/classes/class-es-export-subscribers.php:83
+#: lite/includes/classes/class-es-lists-table.php:643 lite/language.php:580
+msgid "Export"
+msgstr "Exporteren"
+
+#: lite/includes/classes/class-es-import-subscribers.php:132
+#: lite/language.php:682
+msgid "from here"
+msgstr "vanaf hier"
+
+#: lite/includes/workflows/admin/views/meta-box-timing.php:61
+#: lite/language.php:1072
+msgid "(optional)"
+msgstr "(optioneel)"
+
+#: lite/admin/partials/dashboard.php:79
+#: lite/includes/classes/class-es-import-subscribers.php:378
+#: lite/language.php:191
+msgid "Import"
+msgstr "Import"
+
+#. Plugin Name of the plugin
+#: lite/language.php:4
+msgid "Email Subscribers & Newsletters"
+msgstr "Email Subscribers & Newsletters"
+
+#: lite/includes/class-es-common.php:726
+#: lite/includes/classes/class-es-post-notifications.php:674
+#: lite/language.php:353
+msgid "No Custom Post Types Available"
+msgstr "Geen aangepaste bericht-typen beschikbaar"
+
+#: lite/includes/classes/class-es-post-notifications.php:410
+#: lite/includes/classes/class-es-post-notifications.php:592
+#: lite/language.php:788
+msgid "Select post category"
+msgstr "Selecteer bericht categorie"
+
+#: lite/includes/class-es-common.php:849
+#: lite/includes/classes/class-es-templates-table.php:168 lite/language.php:365
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: lite/includes/classes/class-es-old-widget.php:85 lite/language.php:769
+msgid "YES"
+msgstr "JA"
+
+#: lite/includes/classes/class-es-old-widget.php:86 lite/language.php:770
+msgid "NO"
+msgstr "NEE"
+
+#: lite/includes/class-es-common.php:847 lite/language.php:363
+msgid "Full Size"
+msgstr "Volledige grootte"
+
+#: lite/includes/class-es-common.php:848 lite/language.php:364
+msgid "Medium Size"
+msgstr "Gemiddelde grootte"
+
+#. Description of the plugin
+#: lite/language.php:9
+msgid "Add subscription forms on website, send HTML newsletters & automatically notify subscribers about new blog posts once it is published."
+msgstr "Toevoegen inschrijfformulieren op de website, versturen van HTML nieuwsbrieven & automatisch melden aan abonnees over nieuw gepubliceerde berichten."
+
+#: lite/includes/class-es-common.php:791 lite/language.php:355
+msgid "Double Opt-In"
+msgstr "Dubbele opt-in"
+
+#: lite/includes/classes/class-es-admin-settings.php:261 lite/language.php:410
+msgid "Image size"
+msgstr "Afbeeldingsgrootte"
+
+#: lite/includes/classes/class-es-post-notifications.php:762
+#: lite/language.php:804
+msgid "here"
+msgstr "hier"
+
+#: lite/admin/partials/help.php:170 lite/language.php:247
+msgid "Contact US"
+msgstr "Neem contact met ons op"
+
+#: lite/admin/class-ig-es-onboarding.php:836
+#: lite/admin/class-ig-es-onboarding.php:837 lite/language.php:183
+msgid "Welcome To Email Subscribers"
+msgstr "Welkom bij Email Subscribers!"
+
+#: lite/admin/class-email-subscribers-admin.php:1332
+#: lite/includes/class-email-subscribers-activator.php:61
+#: lite/includes/class-email-subscribers.php:1491
+#: lite/includes/classes/class-es-form-widget.php:11
+#: lite/includes/classes/class-es-old-widget.php:13
+#: lite/includes/classes/class-es-old-widget.php:15
+#: lite/includes/classes/class-es-widget.php:11
+#: lite/includes/compatibilities/elementor/actions/class-es-ig-form-action.php:40
+#: lite/language.php:79
+msgid "Email Subscribers"
+msgstr "Email Subscribers"
+
+#: lite/includes/classes/class-es-contacts-table.php:1082 lite/language.php:544
+msgid "Resend Confirmation"
+msgstr "Bevestiging opnieuw verzenden"
+
+#: lite/includes/classes/class-es-admin-settings.php:233 lite/language.php:404
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: lite/includes/classes/class-es-import-subscribers.php:122
+#: lite/language.php:678
+msgid "Select CSV file"
+msgstr "Selecteer CSV-bestand"
+
+#: lite/admin/class-email-subscribers-admin.php:1391
+#: lite/admin/partials/dashboard.php:284 lite/includes/class-es-common.php:321
+#: lite/includes/classes/class-es-contacts-table.php:340
+#: lite/includes/classes/class-es-import-subscribers.php:868
+#: lite/includes/classes/class-es-import-subscribers.php:1357
+#: lite/includes/classes/class-es-lists-table.php:640 lite/language.php:82
+msgid "Unsubscribed"
+msgstr "Uitgeschreven"
+
+#: lite/includes/class-es-common.php:320
+#: lite/includes/classes/class-es-contacts-table.php:348
+#: lite/includes/classes/class-es-import-subscribers.php:869
+#: lite/includes/classes/class-es-import-subscribers.php:1358
+#: lite/includes/classes/class-es-lists-table.php:641 lite/language.php:347
+msgid "Unconfirmed"
+msgstr "Niet bevestigd"
+
+#: lite/includes/class-es-common.php:2036
+#: lite/includes/classes/class-es-campaigns-table.php:691
+#: lite/includes/classes/class-es-contacts-table.php:1185 lite/language.php:380
+msgid "All Statuses"
+msgstr "Alle statussen"
+
+#: lite/includes/classes/class-es-contacts-table.php:1334 lite/language.php:553
+msgid "Confirmation email sent successfully!"
+msgstr "De bevestiging e-mail is met succes verzonden!"
+
+#: lite/admin/partials/dashboard.php:259 lite/admin/partials/dashboard.php:276
+#: lite/language.php:222
+msgid "New subscribers"
+msgstr "Nieuwe abonnees"
+
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:146
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_ListTable.php:99
+msgid "Group"
+msgstr "Groep"
+
+#: lite/includes/classes/class-es-forms-table.php:365 lite/language.php:608
+msgid "Enter form name"
+msgstr "Geef formuliernaam in"
+
+#: lite/includes/classes/class-es-admin-settings.php:738 lite/language.php:462
+msgid "Save Settings"
+msgstr "Instellingen opslaan"
+
+#: lite/includes/workflows/gallery-items/welcome-email.php:16
+#: lite/language.php:1160
+msgid "Subscriber: Welcome email"
+msgstr "Abonnee: welkomst e-mail"
+
+#: lite/language.php:1531
+msgid "Total"
+msgstr "Totaal"
+
+#: lite/includes/classes/class-es-reports-table.php:318 lite/language.php:819
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: lite/includes/classes/class-es-reports-table.php:319 lite/language.php:820
+msgid "End Date"
+msgstr "Einddatum"
+
+#: lite/includes/classes/class-es-campaign-report.php:191 lite/language.php:481
+msgid "Sent Date"
+msgstr "Verzenddatum"
+
+#: lite/includes/classes/class-es-campaign-report.php:192 lite/language.php:482
+msgid "Viewed Date"
+msgstr "Datum bekeken"
+
+#: lite/includes/classes/class-es-handle-post-notification.php:397
+#: lite/includes/classes/class-es-handle-post-notification.php:494
+#: lite/language.php:644
+msgid "View Reports"
+msgstr "Bekijk rapporten"
+
+#: lite/admin/class-ig-es-campaign-rules.php:630
+#: lite/includes/classes/class-es-admin-settings.php:230
+#: lite/includes/classes/class-es-campaign-report.php:189
+#: lite/includes/classes/class-es-contacts-table.php:813
+#: lite/includes/classes/class-es-export-subscribers.php:339
+#: lite/includes/classes/class-es-forms-table.php:401
+#: lite/includes/classes/class-es-import-subscribers.php:587
+#: lite/includes/classes/class-es-import-subscribers.php:681
+#: lite/includes/classes/class-es-import-subscribers.php:1102
+#: lite/includes/classes/class-es-import-subscribers.php:1348
+#: lite/includes/compatibilities/elementor/actions/class-es-ig-form-action.php:143
+#: lite/includes/pro-features.php:1583
+#: lite/includes/workflows/actions/abstracts/class-ig-es-action-send-email-abstract.php:29
+#: lite/includes/workflows/actions/class-es-action-send-email.php:31
+#: lite/language.php:141 lite/public/partials/class-es-shortcode.php:283
+msgid "Email"
+msgstr "E-mail"
+
+#: lite/includes/classes/class-es-cron.php:639 lite/language.php:569
+msgid "Emails sent successfully!"
+msgstr "E-mail verzonden!"
+
+#: lite/language.php:1395
+msgid "Email Subject"
+msgstr "E-mail onderwerp"
+
+#: lite/includes/classes/class-es-post-notifications.php:80
+#: lite/language.php:772
+msgid "Please select categories."
+msgstr "Selecteer bericht categoriën."
+
+#: lite/includes/classes/class-es-contacts-table.php:1360 lite/language.php:554
+msgid "Please select subscribers to update."
+msgstr "Selecteer een abonnee groep."
+
+#: lite/language.php:1267
+msgid "No Reports available."
+msgstr "Geen rapporten beschikbaar."
+
+#: lite/includes/workflows/fields/class-es-select.php:76 lite/language.php:1153
+msgid "Select"
+msgstr "Selecteer"
+
+#: lite/admin/class-es-campaign-admin.php:309
+#: lite/includes/classes/class-es-newsletters.php:413
+#: lite/includes/classes/class-es-newsletters.php:441
+#: lite/includes/classes/class-es-reports-table.php:299
+#: lite/includes/workflows/admin/views/action.php:28 lite/language.php:97
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: lite/includes/classes/class-es-campaigns-table.php:488
+#: lite/includes/classes/class-es-contacts-table.php:1064
+#: lite/includes/classes/class-es-contacts-table.php:1135
+#: lite/includes/classes/class-es-forms-table.php:973
+#: lite/includes/classes/class-es-forms-table.php:1020
+#: lite/includes/classes/class-es-lists-table.php:618
+#: lite/includes/classes/class-es-lists-table.php:671
+#: lite/includes/classes/class-es-reports-table.php:298
+#: lite/includes/classes/class-es-reports-table.php:392
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_ListTable.php:92
+#: lite/includes/workflows/admin/views/action.php:30
+#: lite/includes/workflows/admin/views/meta-box-save.php:45
+#: lite/includes/workflows/class-es-workflows-table.php:428
+#: lite/includes/workflows/class-es-workflows-table.php:490
+#: lite/language.php:504
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: lite/includes/workflows/admin/views/action.php:39 lite/language.php:1057
+msgid "Action"
+msgstr "Actie"
+
+#: lite/includes/classes/class-es-campaigns-table.php:627
+#: lite/includes/classes/class-es-reports-table.php:316 lite/language.php:505
+msgid "Type"
+msgstr "Type"
+
+#: lite/includes/workflows/actions/abstracts/class-ig-es-action-send-email-abstract.php:47
+#: lite/language.php:1037
+msgid "Email subject"
+msgstr "E-mail onderwerp"
+
+#: lite/includes/classes/class-es-contacts-table.php:394
+#: lite/includes/classes/class-es-forms-table.php:98
+#: lite/includes/classes/class-es-lists-table.php:91
+#: lite/includes/classes/class-es-post-notifications.php:327
+#: lite/includes/workflows/class-es-workflows-table.php:281
+#: lite/language.php:524
+msgid "Add New"
+msgstr "Voeg nieuw toe"
+
+#: lite/includes/classes/class-es-campaigns-table.php:434
+#: lite/includes/classes/class-es-campaigns-table.php:436
+#: lite/includes/classes/class-es-campaigns-table.php:464
+#: lite/includes/classes/class-es-contacts-table.php:1062
+#: lite/includes/classes/class-es-forms-table.php:971
+#: lite/includes/classes/class-es-lists-table.php:616
+#: lite/includes/libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+#: lite/includes/workflows/admin/views/action.php:29
+#: lite/includes/workflows/class-es-workflows-table.php:424
+#: lite/language.php:503
+msgid "Edit"
+msgstr "Bewerk"
+
+#: lite/includes/classes/class-es-contacts-table.php:890
+#: lite/includes/classes/class-es-forms-table.php:622
+#: lite/includes/classes/class-es-lists-table.php:388
+#: lite/includes/classes/class-es-post-notifications.php:454
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_ListTable.php:133
+#: lite/language.php:542
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: lite/includes/classes/class-es-old-widget.php:83
+#: lite/includes/classes/class-es-widget.php:65 lite/language.php:768
+msgid "Display Name Field"
+msgstr "Toon veldnaam"
+
+#: lite/includes/classes/class-es-old-widget.php:90 lite/language.php:771
+msgid "Subscriber Group"
+msgstr "Abonnee groep"
+
+#: lite/includes/classes/class-es-widget.php:61
+msgid "Short description"
+msgstr "Korte beschrijving"
+
+#: lite/admin/partials/help.php:237
+#: lite/includes/classes/class-es-campaign-report.php:190
+#: lite/includes/classes/class-es-campaigns-table.php:631
+#: lite/includes/classes/class-es-export-subscribers.php:341
+#: lite/includes/classes/class-es-import-subscribers.php:690
+#: lite/includes/classes/class-es-import-subscribers.php:1351
+#: lite/includes/classes/class-es-reports-table.php:317
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:144
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_ListTable.php:97
+#: lite/includes/workflows/class-es-workflows-table.php:461
+#: lite/language.php:249
+msgid "Status"
+msgstr "Status"
+
+#: lite/includes/classes/class-es-old-widget.php:79 lite/language.php:767
+msgid "Short description about subscription form"
+msgstr "Korte beschrijving over het aanmeldingsformulier"
+
+#: lite/includes/workflows/actions/class-es-action-send-email.php:89
+#: lite/language.php:1045
+msgid "Email content"
+msgstr "E-mail inhoud"
+
+#: lite/includes/pro-features.php:185 lite/language.php:893
+msgid "Roles"
+msgstr "Rollen"
+
+#: lite/admin/partials/help.php:110 lite/includes/classes/class-es-info.php:19
+#: lite/language.php:239
+msgid "Help & Info"
+msgstr "Hulp & info"
+
+#: lite/includes/classes/class-es-old-widget.php:75 lite/language.php:766
+msgid "Widget Title"
+msgstr "Widget titel"
+
+#: lite/language.php:1410
+msgid "Sent Emails"
+msgstr "Verzonden e-mails"
+
+#: lite/admin/class-email-subscribers-admin.php:351
+#: lite/admin/partials/dashboard.php:619
+#: lite/includes/classes/class-es-admin-settings.php:133 lite/language.php:74
+msgid "Settings"
+msgstr "Instellingen"
+
+#: lite/includes/workflows/actions/class-es-action-send-email.php:32
+#: lite/language.php:1040
+msgid "Send Email"
+msgstr "Stuur e-mail"
+
+#: lite/admin/class-email-subscribers-admin.php:1383
+#: lite/includes/class-es-common.php:319
+#: lite/includes/classes/class-es-contacts-table.php:332
+#: lite/includes/classes/class-es-import-subscribers.php:867
+#: lite/includes/classes/class-es-import-subscribers.php:1356
+#: lite/includes/classes/class-es-lists-table.php:639 lite/language.php:81
+msgid "Subscribed"
+msgstr "Geabonneerd"
+
+#: lite/includes/classes/class-es-admin-settings.php:149 lite/language.php:394
+msgid "Notifications"
+msgstr "Meldingen"
+
+#: lite/includes/classes/class-es-forms-table.php:295 lite/language.php:601
+#: lite/public/partials/class-es-shortcode.php:256
+msgid "Subscribe"
+msgstr "Inschrijven"
+
+#: lite/includes/classes/class-es-admin-settings.php:221
+#: lite/includes/classes/class-es-admin-settings.php:224
+#: lite/includes/classes/class-es-campaigns-table.php:626
+#: lite/includes/classes/class-es-forms-table.php:418
+#: lite/includes/classes/class-es-forms-table.php:989
+#: lite/includes/classes/class-es-lists-table.php:637
+#: lite/includes/compatibilities/elementor/actions/class-es-ig-form-action.php:138
+#: lite/language.php:402 lite/public/partials/class-es-shortcode.php:284
+msgid "Name"
+msgstr "Naam"

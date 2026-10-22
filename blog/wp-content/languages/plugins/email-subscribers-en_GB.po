@@ -1,0 +1,516 @@
+# Translation of Plugins - Email Subscribers &amp; Newsletters &#8211; Simple and Effective Email Marketing WordPress Plugin - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Email Subscribers &amp; Newsletters &#8211; Simple and Effective Email Marketing WordPress Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-19 17:40:32+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Email Subscribers &amp; Newsletters &#8211; Simple and Effective Email Marketing WordPress Plugin - Stable (latest release)\n"
+
+#: lite/includes/classes/class-es-forms-table.php:398 lite/language.php:616
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: lite/includes/class-es-install.php:989
+#: lite/includes/upgrade/es-update-functions.php:752 lite/language.php:391
+msgid "Your subscription was successful! Kindly check your mailbox and confirm your subscription. If you don't see the email within a few minutes, check the spam/junk folder."
+msgstr "Your subscription was successful! Kindly check your mailbox and confirm your subscription. If you don't see the e-mail within a few minutes, check the spam/junk folder."
+
+#: lite/includes/class-email-subscribers-activator.php:53 lite/language.php:327
+msgid "Edit Templates"
+msgstr "Edit Templates"
+
+#: lite/includes/class-email-subscribers-activator.php:54 lite/language.php:328
+msgid "New Templates"
+msgstr "New Templates"
+
+#: lite/includes/class-email-subscribers-activator.php:58 lite/language.php:331
+msgid "No Templates found"
+msgstr "No Templates found"
+
+#: lite/includes/class-email-subscribers-activator.php:59 lite/language.php:332
+msgid "No Templates found in Trash"
+msgstr "No Templates found in Bin"
+
+#: lite/includes/class-email-subscribers-activator.php:57 lite/language.php:330
+msgid "Search Templates"
+msgstr "Search Templates"
+
+#: lite/includes/class-email-subscribers-activator.php:63 lite/language.php:334
+msgid "Set thumbnail"
+msgstr "Set thumbnail"
+
+#: lite/admin/class-email-subscribers-admin.php:327
+#: lite/includes/classes/class-es-newsletters.php:426
+#: lite/includes/classes/class-es-reports-table.php:587
+#: lite/includes/classes/class-es-templates-table.php:149 lite/language.php:70
+#: lite/admin/dist/main.js:168
+msgid "Template Preview"
+msgstr "Template Preview"
+
+#: lite/admin/partials/dashboard.php:615
+#: lite/includes/class-email-subscribers-activator.php:49
+#: lite/includes/class-email-subscribers-activator.php:50
+#: lite/includes/class-email-subscribers-activator.php:55 lite/language.php:230
+msgid "Templates"
+msgstr "Templates"
+
+#: lite/includes/class-email-subscribers-activator.php:62 lite/language.php:333
+msgid "Thumbnail (For Visual Representation only)"
+msgstr "Thumbnail (For Visual Representation only)"
+
+#: lite/includes/class-email-subscribers-activator.php:56 lite/language.php:329
+msgid "View Templates"
+msgstr "View Templates"
+
+#: lite/admin/partials/help.php:36 lite/language.php:233
+msgid "Rainmaker"
+msgstr "Rainmaker"
+
+#: lite/includes/classes/class-es-forms-table.php:373
+#: lite/includes/classes/class-es-lists-table.php:336
+#: lite/includes/classes/class-es-lists-table.php:638 lite/language.php:609
+msgid "Description"
+msgstr "Description"
+
+#: lite/admin/class-es-campaign-admin.php:325
+#: lite/includes/classes/class-es-import-subscribers.php:185
+#: lite/includes/classes/class-es-import-subscribers.php:283
+#: lite/includes/classes/class-es-newsletters.php:269 lite/language.php:98
+msgid "Next"
+msgstr "Next"
+
+#: lite/includes/class-es-common.php:2229
+#: lite/includes/notices/class-es-admin-notices.php:154
+msgctxt "timezone date format"
+msgid "Y-m-d"
+msgstr "Y-m-d"
+
+#: lite/includes/classes/class-es-post-notifications.php:736
+#: lite/includes/workflows/triggers/class-es-trigger-campaign-sent.php:32
+#: lite/language.php:800
+msgid "Admin"
+msgstr "Admin"
+
+#: lite/includes/feedback/class-ig-feedback.php:539
+#: lite/includes/feedback/class-ig-feedback.php:784
+#: lite/includes/feedback/class-ig-feedback.php:1025
+msgid "Thank You!"
+msgstr "Thank you!"
+
+#: lite/includes/class-es-common.php:345
+#: lite/includes/classes/class-es-import-subscribers.php:238
+#: lite/language.php:348
+msgid "Select Status"
+msgstr "Select Status"
+
+#: lite/language.php:1188 lite/public/partials/cron-message.php:33
+msgid "Total Emails Sent"
+msgstr "Total E-mails Sent"
+
+#: lite/includes/class-es-common.php:2011
+#: lite/includes/class-es-common.php:2434
+#: lite/includes/classes/class-es-campaign-report.php:221
+#: lite/includes/classes/class-es-campaigns-table.php:557
+#: lite/includes/classes/class-es-campaigns-table.php:606
+#: lite/includes/classes/class-es-reports-table.php:227
+#: lite/includes/pro-features.php:1217 lite/includes/pro-features.php:1264
+#: lite/language.php:379
+msgid "Sent"
+msgstr "Sent"
+
+#: lite/includes/classes/class-es-reports-data.php:406
+#: lite/includes/classes/class-es-reports-table.php:193 lite/language.php:805
+#: lite/public/class-email-subscribers-public.php:497
+#: lite/admin/dist/main.js:156
+msgid "Post Notification"
+msgstr "Post Notification"
+
+#: lite/language.php:1610 lite/admin/dist/main.js:156
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: lite/admin/class-email-subscribers-admin.php:347
+#: lite/admin/partials/dashboard.php:611
+#: lite/includes/classes/class-es-campaign-report.php:17
+#: lite/includes/classes/class-es-reports-table.php:17
+#: lite/includes/classes/class-es-reports-table.php:55
+#: lite/includes/classes/class-es-reports-table.php:148
+#: lite/includes/pro-features.php:189 lite/language.php:73
+msgid "Reports"
+msgstr "Reports"
+
+#: lite/admin/class-email-subscribers-admin.php:324 lite/language.php:68
+msgid "Post Notifications"
+msgstr "Post Notifications"
+
+#. Author of the plugin
+#: lite/admin/partials/help.php:28
+#: lite/includes/class-email-subscribers.php:1494 lite/language.php:11
+msgid "Icegram"
+msgstr "Icegram"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: lite/language.php:7
+msgid "https://www.icegram.com/"
+msgstr "https://www.icegram.com/"
+
+#: lite/admin/class-es-campaign-admin.php:1147
+#: lite/admin/class-es-campaign-admin.php:1167
+#: lite/admin/class-es-campaign-admin.php:1176
+#: lite/includes/classes/class-es-templates-table.php:56
+#: lite/includes/classes/class-es-templates-table.php:67
+#: lite/includes/classes/class-es-templates-table.php:73
+#: lite/includes/classes/class-es-templates-table.php:78 lite/language.php:116
+msgid "Available Keywords"
+msgstr "Available Keywords"
+
+#: lite/admin/class-es-campaign-admin.php:343
+#: lite/includes/classes/class-es-newsletters.php:296
+#: lite/includes/classes/class-es-post-notifications.php:546
+#: lite/includes/workflows/admin/class-es-workflow-admin-edit.php:393
+#: lite/includes/workflows/admin/views/meta-box-save.php:68
+#: lite/language.php:100
+msgid "Save"
+msgstr "Save"
+
+#: lite/includes/workflows/admin/class-es-workflow-admin-edit.php:392
+#: lite/language.php:1054
+msgid "Actions"
+msgstr "Actions"
+
+#: lite/admin/partials/dashboard.php:79
+#: lite/includes/classes/class-es-import-subscribers.php:378
+#: lite/language.php:191
+msgid "Import"
+msgstr "Import"
+
+#: lite/includes/classes/class-es-export-subscribers.php:83
+#: lite/includes/classes/class-es-lists-table.php:643 lite/language.php:580
+msgid "Export"
+msgstr "Export"
+
+#: lite/includes/classes/class-es-import-subscribers.php:132
+#: lite/language.php:682
+msgid "from here"
+msgstr "from here"
+
+#: lite/includes/classes/class-es-import-subscribers.php:131
+#: lite/language.php:681
+msgid "Check CSV structure"
+msgstr "Check CSV structure"
+
+#: lite/includes/class-es-common.php:726
+#: lite/includes/classes/class-es-post-notifications.php:674
+#: lite/language.php:353
+msgid "No Custom Post Types Available"
+msgstr "No Custom Post Types Available"
+
+#. Plugin Name of the plugin
+#: lite/language.php:4
+msgid "Email Subscribers & Newsletters"
+msgstr "Email Subscribers & Newsletters"
+
+#: lite/includes/class-es-common.php:847 lite/language.php:363
+msgid "Full Size"
+msgstr "Full Size"
+
+#: lite/includes/class-es-common.php:848 lite/language.php:364
+msgid "Medium Size"
+msgstr "Medium Size"
+
+#: lite/includes/class-es-common.php:849
+#: lite/includes/classes/class-es-templates-table.php:168 lite/language.php:365
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: lite/includes/classes/class-es-old-widget.php:85 lite/language.php:769
+msgid "YES"
+msgstr "YES"
+
+#: lite/includes/classes/class-es-old-widget.php:86 lite/language.php:770
+msgid "NO"
+msgstr "NO"
+
+#. Description of the plugin
+#: lite/language.php:9
+msgid "Add subscription forms on website, send HTML newsletters & automatically notify subscribers about new blog posts once it is published."
+msgstr "Add subscription forms on website, send HTML newsletters, and automatically notify subscribers about new blog posts once they are published."
+
+#: lite/includes/class-es-common.php:791 lite/language.php:355
+msgid "Double Opt-In"
+msgstr "Double Opt In"
+
+#: lite/includes/classes/class-es-post-notifications.php:762
+#: lite/language.php:804
+msgid "here"
+msgstr "here"
+
+#: lite/admin/class-email-subscribers-admin.php:1332
+#: lite/includes/class-email-subscribers-activator.php:61
+#: lite/includes/class-email-subscribers.php:1491
+#: lite/includes/classes/class-es-form-widget.php:11
+#: lite/includes/classes/class-es-old-widget.php:13
+#: lite/includes/classes/class-es-old-widget.php:15
+#: lite/includes/classes/class-es-widget.php:11
+#: lite/includes/compatibilities/elementor/actions/class-es-ig-form-action.php:40
+#: lite/language.php:79
+msgid "Email Subscribers"
+msgstr "Email Subscribers"
+
+#: lite/includes/classes/class-es-contacts-table.php:1082 lite/language.php:544
+msgid "Resend Confirmation"
+msgstr "Resend Confirmation"
+
+#: lite/includes/classes/class-es-admin-settings.php:233 lite/language.php:404
+msgid "Email Address"
+msgstr "Email Address"
+
+#: lite/includes/classes/class-es-import-subscribers.php:122
+#: lite/language.php:678
+msgid "Select CSV file"
+msgstr "Select CSV file"
+
+#: lite/includes/class-es-common.php:320
+#: lite/includes/classes/class-es-contacts-table.php:348
+#: lite/includes/classes/class-es-import-subscribers.php:869
+#: lite/includes/classes/class-es-import-subscribers.php:1358
+#: lite/includes/classes/class-es-lists-table.php:641 lite/language.php:347
+msgid "Unconfirmed"
+msgstr "Unconfirmed"
+
+#: lite/admin/class-email-subscribers-admin.php:1391
+#: lite/admin/partials/dashboard.php:284 lite/includes/class-es-common.php:321
+#: lite/includes/classes/class-es-contacts-table.php:340
+#: lite/includes/classes/class-es-import-subscribers.php:868
+#: lite/includes/classes/class-es-import-subscribers.php:1357
+#: lite/includes/classes/class-es-lists-table.php:640 lite/language.php:82
+msgid "Unsubscribed"
+msgstr "Unsubscribed"
+
+#: lite/includes/class-es-common.php:2036
+#: lite/includes/classes/class-es-campaigns-table.php:691
+#: lite/includes/classes/class-es-contacts-table.php:1185 lite/language.php:380
+msgid "All Statuses"
+msgstr "All Statuses"
+
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:146
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_ListTable.php:99
+msgid "Group"
+msgstr "Group"
+
+#: lite/includes/classes/class-es-admin-settings.php:738 lite/language.php:462
+msgid "Save Settings"
+msgstr "Save Settings"
+
+#: lite/language.php:1531
+msgid "Total"
+msgstr "Total"
+
+#: lite/includes/classes/class-es-reports-table.php:318 lite/language.php:819
+msgid "Start Date"
+msgstr "Start Date"
+
+#: lite/includes/classes/class-es-reports-table.php:319 lite/language.php:820
+msgid "End Date"
+msgstr "End Date"
+
+#: lite/includes/classes/class-es-campaign-report.php:191 lite/language.php:481
+msgid "Sent Date"
+msgstr "Sent Date"
+
+#: lite/includes/classes/class-es-campaign-report.php:192 lite/language.php:482
+msgid "Viewed Date"
+msgstr "Viewed Date"
+
+#: lite/includes/classes/class-es-handle-post-notification.php:397
+#: lite/includes/classes/class-es-handle-post-notification.php:494
+#: lite/language.php:644
+msgid "View Reports"
+msgstr "View Reports"
+
+#: lite/admin/class-ig-es-campaign-rules.php:630
+#: lite/includes/classes/class-es-admin-settings.php:230
+#: lite/includes/classes/class-es-campaign-report.php:189
+#: lite/includes/classes/class-es-contacts-table.php:813
+#: lite/includes/classes/class-es-export-subscribers.php:339
+#: lite/includes/classes/class-es-forms-table.php:401
+#: lite/includes/classes/class-es-import-subscribers.php:587
+#: lite/includes/classes/class-es-import-subscribers.php:681
+#: lite/includes/classes/class-es-import-subscribers.php:1102
+#: lite/includes/classes/class-es-import-subscribers.php:1348
+#: lite/includes/compatibilities/elementor/actions/class-es-ig-form-action.php:143
+#: lite/includes/pro-features.php:1583
+#: lite/includes/workflows/actions/abstracts/class-ig-es-action-send-email-abstract.php:29
+#: lite/includes/workflows/actions/class-es-action-send-email.php:31
+#: lite/language.php:141 lite/public/partials/class-es-shortcode.php:283
+msgid "Email"
+msgstr "Email"
+
+#: lite/includes/workflows/fields/class-es-select.php:76 lite/language.php:1153
+msgid "Select"
+msgstr "Select"
+
+#: lite/includes/classes/class-es-post-notifications.php:80
+#: lite/language.php:772
+msgid "Please select categories."
+msgstr "Please select categories."
+
+#: lite/includes/classes/class-es-contacts-table.php:1360 lite/language.php:554
+msgid "Please select subscribers to update."
+msgstr "Please select subscribers to update."
+
+#: lite/admin/class-es-campaign-admin.php:309
+#: lite/includes/classes/class-es-newsletters.php:413
+#: lite/includes/classes/class-es-newsletters.php:441
+#: lite/includes/classes/class-es-reports-table.php:299
+#: lite/includes/workflows/admin/views/action.php:28 lite/language.php:97
+msgid "Preview"
+msgstr "Preview"
+
+#: lite/includes/classes/class-es-campaigns-table.php:488
+#: lite/includes/classes/class-es-contacts-table.php:1064
+#: lite/includes/classes/class-es-contacts-table.php:1135
+#: lite/includes/classes/class-es-forms-table.php:973
+#: lite/includes/classes/class-es-forms-table.php:1020
+#: lite/includes/classes/class-es-lists-table.php:618
+#: lite/includes/classes/class-es-lists-table.php:671
+#: lite/includes/classes/class-es-reports-table.php:298
+#: lite/includes/classes/class-es-reports-table.php:392
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_ListTable.php:92
+#: lite/includes/workflows/admin/views/action.php:30
+#: lite/includes/workflows/admin/views/meta-box-save.php:45
+#: lite/includes/workflows/class-es-workflows-table.php:428
+#: lite/includes/workflows/class-es-workflows-table.php:490
+#: lite/language.php:504
+msgid "Delete"
+msgstr "Delete"
+
+#: lite/includes/workflows/admin/views/action.php:39 lite/language.php:1057
+msgid "Action"
+msgstr "Action"
+
+#: lite/includes/classes/class-es-campaigns-table.php:627
+#: lite/includes/classes/class-es-reports-table.php:316 lite/language.php:505
+msgid "Type"
+msgstr "Type"
+
+#: lite/includes/classes/class-es-contacts-table.php:394
+#: lite/includes/classes/class-es-forms-table.php:98
+#: lite/includes/classes/class-es-lists-table.php:91
+#: lite/includes/classes/class-es-post-notifications.php:327
+#: lite/includes/workflows/class-es-workflows-table.php:281
+#: lite/language.php:524
+msgid "Add New"
+msgstr "Add New"
+
+#: lite/includes/classes/class-es-campaigns-table.php:434
+#: lite/includes/classes/class-es-campaigns-table.php:436
+#: lite/includes/classes/class-es-campaigns-table.php:464
+#: lite/includes/classes/class-es-contacts-table.php:1062
+#: lite/includes/classes/class-es-forms-table.php:971
+#: lite/includes/classes/class-es-lists-table.php:616
+#: lite/includes/libraries/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+#: lite/includes/workflows/admin/views/action.php:29
+#: lite/includes/workflows/class-es-workflows-table.php:424
+#: lite/language.php:503
+msgid "Edit"
+msgstr "Edit"
+
+#: lite/includes/classes/class-es-contacts-table.php:890
+#: lite/includes/classes/class-es-forms-table.php:622
+#: lite/includes/classes/class-es-lists-table.php:388
+#: lite/includes/classes/class-es-post-notifications.php:454
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_ListTable.php:133
+#: lite/language.php:542
+msgid "Cancel"
+msgstr "Cancel"
+
+#: lite/admin/partials/help.php:237
+#: lite/includes/classes/class-es-campaign-report.php:190
+#: lite/includes/classes/class-es-campaigns-table.php:631
+#: lite/includes/classes/class-es-export-subscribers.php:341
+#: lite/includes/classes/class-es-import-subscribers.php:690
+#: lite/includes/classes/class-es-import-subscribers.php:1351
+#: lite/includes/classes/class-es-reports-table.php:317
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_AdminView.php:144
+#: lite/includes/libraries/action-scheduler/classes/ActionScheduler_ListTable.php:97
+#: lite/includes/workflows/class-es-workflows-table.php:461
+#: lite/language.php:249
+msgid "Status"
+msgstr "Status"
+
+#: lite/includes/classes/class-es-old-widget.php:83
+#: lite/includes/classes/class-es-widget.php:65 lite/language.php:768
+msgid "Display Name Field"
+msgstr "Display Name Field"
+
+#: lite/includes/classes/class-es-old-widget.php:90 lite/language.php:771
+msgid "Subscriber Group"
+msgstr "Subscriber Group"
+
+#: lite/includes/classes/class-es-old-widget.php:79 lite/language.php:767
+msgid "Short description about subscription form"
+msgstr "Short description about subscription form"
+
+#: lite/includes/classes/class-es-widget.php:61
+msgid "Short description"
+msgstr "Short description"
+
+#: lite/includes/pro-features.php:185 lite/language.php:893
+msgid "Roles"
+msgstr "Roles"
+
+#: lite/includes/classes/class-es-old-widget.php:75 lite/language.php:766
+msgid "Widget Title"
+msgstr "Widget Title"
+
+#: lite/admin/partials/help.php:110 lite/includes/classes/class-es-info.php:19
+#: lite/language.php:239
+msgid "Help & Info"
+msgstr "Help & Info"
+
+#: lite/includes/workflows/actions/class-es-action-send-email.php:32
+#: lite/language.php:1040
+msgid "Send Email"
+msgstr "Send Email"
+
+#: lite/admin/class-email-subscribers-admin.php:351
+#: lite/admin/partials/dashboard.php:619
+#: lite/includes/classes/class-es-admin-settings.php:133 lite/language.php:74
+msgid "Settings"
+msgstr "Settings"
+
+#: lite/includes/classes/class-es-admin-settings.php:149 lite/language.php:394
+msgid "Notifications"
+msgstr "Notifications"
+
+#: lite/admin/class-email-subscribers-admin.php:1383
+#: lite/includes/class-es-common.php:319
+#: lite/includes/classes/class-es-contacts-table.php:332
+#: lite/includes/classes/class-es-import-subscribers.php:867
+#: lite/includes/classes/class-es-import-subscribers.php:1356
+#: lite/includes/classes/class-es-lists-table.php:639 lite/language.php:81
+msgid "Subscribed"
+msgstr "Subscribed"
+
+#: lite/includes/classes/class-es-forms-table.php:295 lite/language.php:601
+#: lite/public/partials/class-es-shortcode.php:256
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#: lite/includes/classes/class-es-admin-settings.php:221
+#: lite/includes/classes/class-es-admin-settings.php:224
+#: lite/includes/classes/class-es-campaigns-table.php:626
+#: lite/includes/classes/class-es-forms-table.php:418
+#: lite/includes/classes/class-es-forms-table.php:989
+#: lite/includes/classes/class-es-lists-table.php:637
+#: lite/includes/compatibilities/elementor/actions/class-es-ig-form-action.php:138
+#: lite/language.php:402 lite/public/partials/class-es-shortcode.php:284
+msgid "Name"
+msgstr "Name"

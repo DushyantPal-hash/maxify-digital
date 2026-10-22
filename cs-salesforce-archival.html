@@ -1,0 +1,2393 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+
+  <!-- Primary Meta Tags -->
+  <title>Salesforce Data Archival, Retrieval & Backup Strategy for Large-Scale Enterprise Data Management | Maxify
+    Digital</title>
+
+  <meta name="description"
+    content="Discover how Maxify Digital helped streamline Salesforce data archival, retrieval, and backup processes to improve system performance, compliance, data accessibility, and long-term storage management.">
+
+  <meta name="author" content="Maxify Digital">
+  <meta name="robots" content="index, follow">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://maxify.digital/cs-salesforce-archival.html">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://maxify.digital/cs-salesforce-archival.html">
+  <meta property="og:title"
+    content="Salesforce Data Archival, Retrieval & Backup Strategy for Large-Scale Enterprise Data Management | Maxify Digital">
+  <meta property="og:description"
+    content="Learn how Maxify Digital implemented a scalable Salesforce data archival and retrieval strategy to optimize CRM performance, ensure compliance, and simplify data management.">
+  <meta property="og:image" content="https://maxify.digital/assets/images/og/salesforce-archival-case-study.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title"
+    content="Salesforce Data Archival, Retrieval & Backup Strategy for Large-Scale Enterprise Data Management | Maxify Digital">
+  <meta name="twitter:description"
+    content="Explore how Maxify Digital improved Salesforce data management through an efficient archival, retrieval, and backup solution.">
+  <meta name="twitter:image" content="https://maxify.digital/assets/images/og/salesforce-archival-case-study.png">
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MNJ59JF5H3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-MNJ59JF5H3');
+  </script>
+
+  <!-- Tailwind CSS Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['System-UI', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            brand: {
+              blue: '#0ea5e9',
+              navy: '#0f172a',
+              accent: '#06b6d4',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Calendly Widget CSS -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/header.css" />
+  <link rel="stylesheet" href="./assets/footer.css" />
+
+  <!-- Custom CSS for Scrollbars & Transitions -->
+  <style>
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f8fafc;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      /* IE and Edge */
+      scrollbar-width: none;
+      /* Firefox */
+    }
+
+    /* Footer Style2 Rules from main site */
+    .list-unstyled {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+
+    .footer.style2 {
+      background: #010f1f !important;
+      color: #fff;
+      padding-top: 60px;
+    }
+
+    .footer.style2 ul li {
+      display: block;
+    }
+
+    .footer.style2 ul li+li {
+      margin-top: 8px;
+    }
+
+    .footer.style2 a {
+      color: #fff;
+      font-size: 14px;
+      line-height: 1.5;
+      display: inline-block;
+      text-decoration: none;
+      transition: color 150ms ease;
+    }
+
+    .footer.style2 a:hover {
+      color: #3f95f3;
+    }
+
+    .footer.style2 .copyright {
+      background: #1c2a3a;
+      color: #ffffff80;
+      font-size: 14px;
+    }
+
+    .footer.style2 .top-row {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: auto;
+    }
+
+    .footer.style2 .f-logo {
+      grid-column: span 3;
+      padding: 40px 20px 20px 0;
+    }
+
+    .footer.style2 .f-nav-list {
+      border: 1px solid #36353e;
+      padding: 20px;
+      grid-row: 2 / 4;
+      border-bottom: 0;
+    }
+
+    .footer.style2 .f-nav-list.one {
+      grid-column: 1;
+    }
+
+    .footer.style2 .f-nav-list.two {
+      grid-column: 2;
+      border-left: 0;
+    }
+
+    .footer.style2 .f-nav-list.three {
+      grid-column: 3;
+      border-left: 0;
+    }
+
+    .footer.style2 .logo-box {
+      grid-row: 1;
+      border: 1px solid #36353e;
+      display: grid;
+      place-items: center;
+      padding: 20px;
+    }
+
+    .footer.style2 .logo-box img {
+      height: 70px;
+      object-fit: contain;
+    }
+
+    .footer.style2 .logo-box.one {
+      grid-column: 4;
+      border-bottom: 0;
+    }
+
+    .footer.style2 .logo-box.two {
+      grid-column: 5;
+      border-left: 0;
+      border-bottom: 0;
+    }
+
+    .footer.style2 .logo-box.three {
+      grid-column: 4;
+      grid-row: 2;
+      border-left: 0;
+    }
+
+    .footer.style2 .logo-box.four {
+      grid-column: 5;
+      grid-row: 2;
+      border-left: 0;
+    }
+
+    .footer.style2 .social-cta {
+      grid-column: 4 / 6;
+      grid-row: 3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 20px;
+      justify-content: center;
+      text-align: center;
+      border: 1px solid #36353e;
+      border-top: 0;
+    }
+
+    .footer.style2 .social-cta ul {
+      display: flex;
+      gap: 10px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .footer.style2 .social-cta ul li {
+      display: inline-block;
+    }
+
+    .footer.style2 .social-cta ul img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .footer.style2 .f-title {
+      color: #ffffff80;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.6;
+      text-transform: uppercase;
+    }
+
+    .footer.style2 .f-logo .f-title {
+      text-transform: none;
+      color: #fff;
+    }
+
+    @media (max-width: 992px) {
+      .footer.style2 .top-row {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+      }
+
+      .footer.style2 .logo-box {
+        grid-row: 4;
+      }
+
+      .footer.style2 .logo-box.one {
+        grid-column: 1;
+      }
+
+      .footer.style2 .logo-box.two {
+        grid-column: 2;
+      }
+
+      .footer.style2 .logo-box.three {
+        grid-column: 1;
+        grid-row: 5;
+        border-left: 1px solid #36353e;
+      }
+
+      .footer.style2 .logo-box.four {
+        grid-column: 2;
+        grid-row: 5;
+      }
+
+      .footer.style2 .social-cta {
+        grid-column: 3;
+        grid-row: 4;
+        border-right: 1px solid #36353e;
+        border-bottom: 1px solid #36353e;
+        border-left: 0;
+        border-top: 0;
+      }
+
+      .footer.style2 .f-nav-list.three {
+        border-bottom: 1px solid #36353e;
+      }
+    }
+
+    @media (max-width: 575px) {
+      .footer.style2 .top-row {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto !important;
+      }
+
+      .footer.style2 .f-nav-list,
+      .footer.style2 .logo-box,
+      .footer.style2 .f-logo {
+        grid-column: none !important;
+        grid-row: auto !important;
+      }
+
+      .footer.style2 .social-cta {
+        grid-row: inherit;
+        border-top: 1px solid #36353e;
+        border-right: 0;
+        border-bottom: 0;
+        border-left: 0;
+      }
+
+      .footer.style2 .f-nav-list.one {
+        border-top: 1px solid #36353e;
+        border-right: 0;
+        border-left: 0;
+      }
+
+      .footer.style2 .f-nav-list.two,
+      .footer.style2 .f-nav-list.three {
+        border-right: 0;
+        border-left: 0;
+        border-top: 1px solid #36353e;
+      }
+
+      .footer.style2 .logo-box {
+        border: none !important;
+        border-top: 1px solid #36353e !important;
+      }
+
+      .footer.style2 .logo-box {
+        padding: 30px 0;
+      }
+    }
+
+    .mascotImg {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      z-index: 99999;
+      width: 123px;
+      height: 317px
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+      .mascotImg {
+        position: fixed;
+        bottom: -20px;
+        left: 0;
+        z-index: 99999;
+        width: 30px;
+      }
+    }
+
+    /* Fix Tailwind and Bootstrap .collapse conflict */
+    .navbar-collapse.collapse {
+      visibility: visible !important;
+    }
+  </style>
+</head>
+
+<body
+  class="min-h-screen bg-slate-50 font-sans text-slate-800 antialiased selection:bg-sky-500 selection:text-slate-950">
+
+  <div class="mascotImg">
+    <img src="./assets/images/mascotImg.png" class="img-fluid" alt="Maxify Digital" title="MaxifyDigital">
+  </div>
+  <div class="site-wrapper d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <div id="header-placeholder"></div>
+    <!-- Main -->
+    <main class="flex-grow-1 bg-white case-study-page">
+
+      <!-- Hero Section -->
+      <div class="relative w-full bg-slate-950 text-white overflow-hidden border-b border-slate-900 pt-20">
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/2 right-0 w-80 h-80 bg-cyan-400/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <!-- Hero Content block -->
+        <div id="overview" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-16 relative z-10">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+
+            <div class="lg:col-span-8 text-left">
+              <div
+                class="inline-flex items-center gap-2 px-3 py-1 bg-slate-900 border border-slate-800 rounded-full text-sky-400 text-xs font-mono mb-5 w-fit">
+                <span class="w-2 h-2 bg-sky-400 rounded-full animate-pulse"></span>
+                Enterprise Case Analysis
+              </div>
+
+              <h1 class="font-bold text-3xl sm:text-4xl md:text-5xl leading-tight text-white tracking-tight">
+                Enterprise Data Archival, Retrieval, &amp; Backup Strategy
+              </h1>
+
+              <p class="text-sky-400 font-medium mt-2 text-base sm:text-lg border-l-2 border-sky-400 pl-4">
+                For Large Volume Salesforce Orgs
+              </p>
+
+              <p class="text-slate-300 text-sm sm:text-base max-w-2xl mt-4 leading-relaxed font-light">
+                &ldquo;When Data Overflows, Costs Rise and Performance Falls &mdash; Unlock high efficiency, clean
+                platform
+                performance, and bulletproof compliance with Maxify’s intelligent, hybrid-cloud storage tiering.&rdquo;
+              </p>
+
+              <div class="flex flex-wrap gap-2.5 mt-6">
+                <span
+                  class="px-3 py-1 bg-slate-900/60 border border-slate-800 rounded-lg text-xs font-mono text-slate-300">
+                  <strong class="text-white">Client Size:</strong> 2.0 TB+ Volume Salesforce Org
+                </span>
+                <span
+                  class="px-3 py-1 bg-slate-900/60 border border-slate-800 rounded-lg text-xs font-mono text-slate-300">
+                  <strong class="text-white">Timeline:</strong> 12-Week Implementation
+                </span>
+              </div>
+            </div>
+
+            <!-- Highlight metrics panel -->
+            <div class="lg:col-span-4">
+              <div
+                class="bg-slate-900/80 border border-slate-800 p-5 rounded-2xl shadow-xl space-y-4 backdrop-blur-sm text-left">
+                <h3
+                  class="text-xs tracking-widest uppercase font-semibold text-slate-400 border-b border-slate-800 pb-2">
+                  Key Performance Metrics
+                </h3>
+
+                <div class="flex items-center gap-3">
+                  <div class="p-2.5 bg-sky-500/10 rounded-lg text-sky-400 border border-sky-500/20">
+                    <i data-lucide="database" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <div class="text-xl font-mono font-bold text-white leading-tight">2.0 TB+</div>
+                    <div class="text-[11px] text-slate-400">Active Salesforce Storage Offloaded</div>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-3">
+                  <div class="p-2.5 bg-cyan-400/10 rounded-lg text-cyan-400 border border-cyan-400/20">
+                    <i data-lucide="trending-down" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <div class="text-xl font-mono font-bold text-cyan-400 leading-tight">70% - 90%</div>
+                    <div class="text-[11px] text-slate-400">Decrease in Active Storage Licenses TCO</div>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-3">
+                  <div class="p-2.5 bg-emerald-400/10 rounded-lg text-emerald-400 border border-emerald-400/20">
+                    <i data-lucide="shield-check" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <div class="text-xl font-mono font-bold text-emerald-400 leading-tight">7 Years</div>
+                    <div class="text-[11px] text-slate-400">Guaranteed Audit Regulatory SLA Compliance</div>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-3">
+                  <div class="p-2.5 bg-amber-400/10 rounded-lg text-amber-400 border border-amber-400/20">
+                    <i data-lucide="zap" class="w-4 h-4"></i>
+                  </div>
+                  <div>
+                    <div class="text-xl font-mono font-bold text-amber-400 leading-tight">&lt; 3.0 sec</div>
+                    <div class="text-[11px] text-slate-400">Instantaneous Live Record Rehydration</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Sticky Case Navigation Bar -->
+        <nav class="sticky top-20 z-50 bg-slate-900/95 border-t border-b border-slate-800 backdrop-blur-md">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex space-x-1 overflow-x-auto py-2.5 no-scrollbar">
+              <a href="#overview"
+                class="nav-link whitespace-nowrap px-3 py-1 bg-sky-500 text-slate-950 rounded-lg text-xs font-medium transition shadow-sm"
+                data-sec="overview">Overview</a>
+              <a href="#challenges"
+                class="nav-link whitespace-nowrap px-3 py-1 text-slate-400 hover:text-white rounded-lg text-xs font-medium transition"
+                data-sec="challenges">Challenges</a>
+              <a href="#objectives"
+                class="nav-link whitespace-nowrap px-3 py-1 text-slate-400 hover:text-white rounded-lg text-xs font-medium transition"
+                data-sec="objectives">Objectives</a>
+              <a href="#usecases"
+                class="nav-link whitespace-nowrap px-3 py-1 text-slate-400 hover:text-white rounded-lg text-xs font-medium transition"
+                data-sec="usecases">Use Cases</a>
+              <a href="#architecture"
+                class="nav-link whitespace-nowrap px-3 py-1 text-slate-400 hover:text-white rounded-lg text-xs font-medium transition"
+                data-sec="architecture">Architecture</a>
+              <a href="#solutions-options"
+                class="nav-link whitespace-nowrap px-3 py-1 text-slate-400 hover:text-white rounded-lg text-xs font-medium transition"
+                data-sec="solutions-options">Tech Options</a>
+              <a href="#comparison"
+                class="nav-link whitespace-nowrap px-3 py-1 text-slate-400 hover:text-white rounded-lg text-xs font-medium transition"
+                data-sec="comparison">Solution Matrix</a>
+              <a href="#advantages"
+                class="nav-link whitespace-nowrap px-3 py-1 text-slate-400 hover:text-white rounded-lg text-xs font-medium transition"
+                data-sec="advantages">Maxify Edge</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- CHALLENGES: Diagnostic Pain Points -->
+      <section id="challenges" class="w-full py-14 bg-white border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <div class="text-center max-w-2xl mx-auto mb-10">
+            <span
+              class="text-xs font-mono font-bold tracking-widest text-rose-600 bg-rose-50 px-3 py-1 rounded-full uppercase">
+              The Problem statement
+            </span>
+            <h2 class="text-3xl font-bold text-slate-900 tracking-tight mt-2.5">
+              Overloaded Production, Sluggish Speed &amp; Spiraling Costs
+            </h2>
+            <p class="mt-3 text-slate-500 text-sm leading-relaxed font-light">
+              The client’s Salesforce production org accumulated over 2 TB of complex metadata and rows. The absence of
+              an
+              automated storage lifecycle led to reports timing out and exponential hardware billing.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+
+            <!-- Left: Diagnostic Diagnostic charts widget -->
+            <div
+              class="lg:col-span-5 bg-gradient-to-b from-slate-50 to-slate-100 border border-slate-200 p-5 rounded-2xl text-left">
+              <h3 class="text-base font-bold text-slate-950 mb-4 flex items-center gap-1.5">
+                <i data-lucide="alert-triangle" class="w-4 h-4 text-rose-500"></i> Local Storage Diagnostic
+              </h3>
+
+              <div class="space-y-4">
+                <div>
+                  <div class="flex justify-between text-[11px] text-slate-600 mb-1 font-mono font-medium">
+                    <span>Salesforce Native Allocation Limit</span>
+                    <span class="text-rose-600 font-bold">2.14 TB (214% Allocation)</span>
+                  </div>
+                  <div class="w-full h-3 bg-slate-200 rounded-full overflow-hidden flex">
+                    <div class="h-full bg-sky-500 w-[40%]"></div>
+                    <div class="h-full bg-rose-500 w-[60%] animate-pulse"></div>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white p-3 rounded-xl border border-slate-200 text-xs text-left divide-y divide-slate-100">
+                  <div class="py-1.5 flex justify-between">
+                    <span class="text-slate-500 font-light">&bull; Custom Objects &amp; Standard rows</span>
+                    <span class="font-mono font-medium">890 GB</span>
+                  </div>
+                  <div class="py-1.5 flex justify-between">
+                    <span class="text-slate-500 font-light">&bull; Chatter Logs &amp; Emails</span>
+                    <span class="font-mono font-medium">620 GB</span>
+                  </div>
+                  <div class="py-1.5 flex justify-between">
+                    <span class="text-slate-500 font-light">&bull; Attachments, PDFs, Images</span>
+                    <span class="font-mono font-medium">540 GB</span>
+                  </div>
+                </div>
+
+                <div
+                  class="p-3.5 bg-rose-50 border border-rose-100 rounded-xl text-[11px] text-rose-900 leading-relaxed font-light">
+                  <strong>Query Timeout Alert:</strong> Large data subsets cause regular system-wide indexing failures.
+                  Custom flows require constant administrative override.
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Interactive Pain point selector -->
+            <div class="lg:col-span-7 space-y-3">
+              <h3 class="text-slate-900 font-bold text-sm sm:text-base border-b border-slate-100 pb-2 text-left">
+                Choose a key pain point to analyze:
+              </h3>
+
+              <!-- Sliders -->
+              <div class="grid grid-cols-1 gap-2">
+                <button onclick="showPainPoint('pp-storage')" id="btn-pp-storage"
+                  class="pain-btn text-left p-3.5 rounded-xl border border-slate-900 bg-slate-950 text-white flex justify-between items-center transition duration-150">
+                  <span class="font-medium text-sm flex items-center gap-2"><i data-lucide="database"
+                      class="w-4 h-4 text-rose-500"></i> High Storage Usage &amp; Bloat</span>
+                  <span
+                    class="text-[10px] bg-red-500/15 text-rose-400 font-mono px-2 py-0.5 rounded font-bold uppercase">Critical</span>
+                </button>
+
+                <button onclick="showPainPoint('pp-perf')" id="btn-pp-perf"
+                  class="pain-btn text-left p-3.5 rounded-xl border border-slate-200 bg-slate-50 text-slate-800 hover:bg-slate-100 flex justify-between items-center transition duration-150">
+                  <span class="font-medium text-sm flex items-center gap-2"><i data-lucide="zap"
+                      class="w-4 h-4 text-amber-500"></i> Severe Performance Degradation</span>
+                  <span
+                    class="text-[10px] bg-amber-500/10 text-amber-600 font-mono px-2 py-0.5 rounded font-bold uppercase">High</span>
+                </button>
+
+                <button onclick="showPainPoint('pp-compliance')" id="btn-pp-compliance"
+                  class="pain-btn text-left p-3.5 rounded-xl border border-slate-200 bg-slate-50 text-slate-800 hover:bg-slate-100 flex justify-between items-center transition duration-150">
+                  <span class="font-medium text-sm flex items-center gap-2"><i data-lucide="shield"
+                      class="w-4 h-4 text-orange-500"></i> Compliance &amp; Audit Risks</span>
+                  <span
+                    class="text-[10px] bg-red-500/10 text-rose-600 font-mono px-2 py-0.5 rounded font-bold uppercase">Critical</span>
+                </button>
+
+                <button onclick="showPainPoint('pp-security')" id="btn-pp-security"
+                  class="pain-btn text-left p-3.5 rounded-xl border border-slate-200 bg-slate-50 text-slate-800 hover:bg-slate-100 flex justify-between items-center transition duration-150">
+                  <span class="font-medium text-sm flex items-center gap-2"><i data-lucide="shield-alert"
+                      class="w-4 h-4 text-blue-500"></i> Unsecured External Backups</span>
+                  <span
+                    class="text-[10px] bg-amber-500/10 text-amber-600 font-mono px-2 py-0.5 rounded font-bold uppercase">High</span>
+                </button>
+
+                <button onclick="showPainPoint('pp-cost')" id="btn-pp-cost"
+                  class="pain-btn text-left p-3.5 rounded-xl border border-slate-200 bg-slate-50 text-slate-800 hover:bg-slate-100 flex justify-between items-center transition duration-150">
+                  <span class="font-medium text-sm flex items-center gap-2"><i data-lucide="dollar-sign"
+                      class="w-4 h-4 text-emerald-500"></i> Prohibitive Storage Pricing</span>
+                  <span
+                    class="text-[10px] bg-red-500/10 text-rose-600 font-mono px-2 py-0.5 rounded font-bold uppercase">Critical</span>
+                </button>
+              </div>
+
+              <!-- Detail Pane -->
+              <div
+                class="mt-4 p-5 bg-slate-950 text-slate-100 border border-slate-800 rounded-xl relative overflow-hidden transition duration-150 text-left">
+                <span class="text-[9px] font-mono tracking-wider text-slate-500 block uppercase">Operational
+                  Assessment</span>
+                <h4 id="painpoint-title" class="text-base font-bold text-white mt-1 mb-2">Storage Exhaustion</h4>
+                <p id="painpoint-desc" class="text-xs sm:text-sm text-slate-300 font-light leading-relaxed">
+                  Standard and custom object records, emails, tasks, cases, and massive document attachments
+                  collectively
+                  exceed Salesforce production database limits, triggering warnings and blocking business functions.
+                </p>
+                <div class="mt-3 pt-3 border-t border-slate-900 flex justify-between text-[11px] text-slate-500">
+                  <span>System Area: <strong class="text-white" id="painpoint-cat">Storage</strong></span>
+                  <span>Audit SLA: <strong class="text-rose-500">Failing</strong></span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- OBJECTIVES: Interactive Objectives -->
+      <section id="objectives" class="w-full py-14 bg-slate-50 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <div class="text-center max-w-2xl mx-auto mb-10">
+            <span
+              class="text-xs font-mono font-bold tracking-widest text-sky-600 bg-sky-50 px-3 py-1 rounded-full uppercase">
+              Functional Requirements
+            </span>
+            <h2 class="text-3xl font-bold text-slate-900 tracking-tight mt-2.5">
+              Business &amp; Functional Objectives
+            </h2>
+            <p class="mt-3 text-slate-500 text-sm leading-relaxed font-light">
+              Defining exact metrics and targets to validate our engineering alternatives. Our database strategy
+              requires
+              meeting stringent data compliance without fracturing daily business habits.
+            </p>
+          </div>
+
+          <!-- Goal Tabs -->
+          <div class="flex justify-center mb-8">
+            <div class="bg-slate-200/80 p-0.5 rounded-lg inline-flex gap-1">
+              <button onclick="toggleGoals('primary')" id="tab-goals-primary"
+                class="px-5 py-2 rounded-md font-medium text-xs sm:text-sm bg-white text-slate-950 shadow-sm flex items-center gap-1.5 transition">
+                <i data-lucide="target" class="w-3.5 h-3.5 text-sky-500"></i> Primary Metrics
+              </button>
+              <button onclick="toggleGoals('secondary')" id="tab-goals-secondary"
+                class="px-5 py-2 rounded-md font-medium text-xs sm:text-sm text-slate-600 hover:text-slate-950 transition flex items-center gap-1.5">
+                <i data-lucide="bookmark" class="w-3.5 h-3.5"></i> Secondary Goals
+              </button>
+            </div>
+          </div>
+
+          <!-- Goals Grid (Primary) -->
+          <div id="grid-goals-primary" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+
+            <div class="bg-white border border-slate-200 p-5 rounded-2xl text-left flex flex-col justify-between">
+              <div class="space-y-2">
+                <div class="flex justify-between items-start">
+                  <span
+                    class="w-7 h-7 rounded-lg bg-sky-50 text-sky-600 border border-sky-100 flex items-center justify-center font-mono text-xs font-bold">01</span>
+                  <span
+                    class="text-[9px] bg-emerald-50 text-emerald-700 font-mono font-bold px-2 py-0.5 rounded uppercase border border-emerald-100">70%
+                    - 90%</span>
+                </div>
+                <h4 class="font-bold text-slate-950 text-sm sm:text-base leading-tight">Reduce Storage Footprint</h4>
+                <p class="text-slate-500 text-xs sm:text-sm leading-relaxed font-light">Structured archival that reduces
+                  active Salesforce database storage by 70–90%.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-50 text-[11px] text-sky-500 flex items-center gap-1">
+                <i data-lucide="check" class="w-3 h-3"></i> Validated target criteria
+              </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 p-5 rounded-2xl text-left flex flex-col justify-between">
+              <div class="space-y-2">
+                <div class="flex justify-between items-start">
+                  <span
+                    class="w-7 h-7 rounded-lg bg-sky-50 text-sky-600 border border-sky-100 flex items-center justify-center font-mono text-xs font-bold">02</span>
+                  <span
+                    class="text-[9px] bg-emerald-50 text-emerald-700 font-mono font-bold px-2 py-0.5 rounded uppercase border border-emerald-100">7
+                    Years</span>
+                </div>
+                <h4 class="font-bold text-slate-950 text-sm sm:text-base leading-tight">Regulatory Retention Compliance
+                </h4>
+                <p class="text-slate-500 text-xs sm:text-sm leading-relaxed font-light">Provide secure, automated
+                  records
+                  preservation for up to 7 years to meet financial compliance.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-50 text-[11px] text-sky-500 flex items-center gap-1">
+                <i data-lucide="check" class="w-3 h-3"></i> Validated target criteria
+              </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 p-5 rounded-2xl text-left flex flex-col justify-between">
+              <div class="space-y-2">
+                <div class="flex justify-between items-start">
+                  <span
+                    class="w-7 h-7 rounded-lg bg-sky-50 text-sky-600 border border-sky-100 flex items-center justify-center font-mono text-xs font-bold">03</span>
+                  <span
+                    class="text-[9px] bg-emerald-50 text-emerald-700 font-mono font-bold px-2 py-0.5 rounded uppercase border border-emerald-100">100%
+                    Rules</span>
+                </div>
+                <h4 class="font-bold text-slate-950 text-sm sm:text-base leading-tight">User-Defined Archival Filters
+                </h4>
+                <p class="text-slate-500 text-xs sm:text-sm leading-relaxed font-light">Point-and-click, rules-based
+                  engine
+                  for filtering data based on age, status, and custom criteria.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-50 text-[11px] text-sky-500 flex items-center gap-1">
+                <i data-lucide="check" class="w-3 h-3"></i> Validated target criteria
+              </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 p-5 rounded-2xl text-left flex flex-col justify-between">
+              <div class="space-y-2">
+                <div class="flex justify-between items-start">
+                  <span
+                    class="w-7 h-7 rounded-lg bg-sky-50 text-sky-600 border border-sky-100 flex items-center justify-center font-mono text-xs font-bold">04</span>
+                  <span
+                    class="text-[9px] bg-emerald-50 text-emerald-700 font-mono font-bold px-2 py-0.5 rounded uppercase border border-emerald-100">&lt;
+                    3s Latency</span>
+                </div>
+                <h4 class="font-bold text-slate-950 text-sm sm:text-base leading-tight">On-Demand Real-time Retrieval
+                </h4>
+                <p class="text-slate-500 text-xs sm:text-sm leading-relaxed font-light">Ensure business users can view
+                  or
+                  instantly rehydrate archived records back to Salesforce production.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-50 text-[11px] text-sky-500 flex items-center gap-1">
+                <i data-lucide="check" class="w-3 h-3"></i> Validated target criteria
+              </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 p-5 rounded-2xl text-left flex flex-col justify-between">
+              <div class="space-y-2">
+                <div class="flex justify-between items-start">
+                  <span
+                    class="w-7 h-7 rounded-lg bg-sky-50 text-sky-600 border border-sky-100 flex items-center justify-center font-mono text-xs font-bold">05</span>
+                  <span
+                    class="text-[9px] bg-emerald-50 text-emerald-700 font-mono font-bold px-2 py-0.5 rounded uppercase border border-emerald-100">Weekly/Daily</span>
+                </div>
+                <h4 class="font-bold text-slate-950 text-sm sm:text-base leading-tight">Automated Scheduled Backups</h4>
+                <p class="text-slate-500 text-xs sm:text-sm leading-relaxed font-light">Schedule complete database
+                  snapshots
+                  consistently for disaster recovery.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-50 text-[11px] text-sky-500 flex items-center gap-1">
+                <i data-lucide="check" class="w-3 h-3"></i> Validated target criteria
+              </div>
+            </div>
+
+            <div class="bg-white border border-slate-200 p-5 rounded-2xl text-left flex flex-col justify-between">
+              <div class="space-y-2">
+                <div class="flex justify-between items-start">
+                  <span
+                    class="w-7 h-7 rounded-lg bg-sky-100 text-sky-700 border border-sky-200 flex items-center justify-center font-mono text-xs font-bold">06</span>
+                  <span
+                    class="text-[9px] bg-emerald-50 text-emerald-700 font-mono font-bold px-2 py-0.5 rounded uppercase border border-emerald-100">Granular</span>
+                </div>
+                <h4 class="font-bold text-slate-950 text-sm sm:text-base leading-tight">Granular Restoration Controls
+                </h4>
+                <p class="text-slate-500 text-xs sm:text-sm leading-relaxed font-light">Provide self-service,
+                  permission-based single record or parent-child hierarchy restoration.</p>
+              </div>
+              <div class="mt-4 pt-3 border-t border-slate-50 text-[11px] text-sky-500 flex items-center gap-1">
+                <i data-lucide="check" class="w-3 h-3"></i> Validated target criteria
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Goals Grid (Secondary - Hidden by default) -->
+          <div id="grid-goals-secondary" class="grid grid-cols-1 md:grid-cols-2 gap-5 hidden">
+            <div class="bg-white border border-slate-200 p-4 rounded-xl flex gap-3 text-left">
+              <div class="p-3 bg-cyan-50 border border-cyan-100 text-cyan-550 rounded-xl flex-shrink-0"><i
+                  data-lucide="layout" class="w-5 h-5 text-cyan-600"></i></div>
+              <div>
+                <h4 class="font-bold text-slate-900 text-sm">Salesforce UI External Objects Integration</h4>
+                <p class="text-slate-500 text-xs mt-0.5 font-light">Render cold archived rows natively inside the active
+                  Salesforce UI layouts using External Objects so users never leave Salesforce.</p>
+                <div class="mt-2 text-[10px] font-mono text-slate-400">Requirement Code: SECONDARY_GOAL_01</div>
+              </div>
+            </div>
+            <div class="bg-white border border-slate-200 p-4 rounded-xl flex gap-3 text-left">
+              <div class="p-3 bg-cyan-50 border border-cyan-100 text-cyan-550 rounded-xl flex-shrink-0"><i
+                  data-lucide="bar-chart-3" class="w-5 h-5 text-cyan-600"></i></div>
+              <div>
+                <h4 class="font-bold text-slate-900 text-sm">Advanced Analytics &amp; BI Reporting</h4>
+                <p class="text-slate-500 text-xs mt-0.5 font-light">Support seamless data ingestion in analytics
+                  platforms
+                  for unified reports over hot + cold datasets.</p>
+                <div class="mt-2 text-[10px] font-mono text-slate-400">Requirement Code: SECONDARY_GOAL_02</div>
+              </div>
+            </div>
+            <div class="bg-white border border-slate-200 p-4 rounded-xl flex gap-3 text-left">
+              <div class="p-3 bg-cyan-50 border border-cyan-100 text-cyan-550 rounded-xl flex-shrink-0"><i
+                  data-lucide="hard-drive" class="w-5 h-5 text-cyan-600"></i></div>
+              <div>
+                <h4 class="font-bold text-slate-900 text-sm">Secure Big File Archival</h4>
+                <p class="text-slate-500 text-xs mt-0.5 font-light">Offload heavy Content Documents, PDFs, audio/video
+                  recordings and Email attachments to cheap object stores.</p>
+                <div class="mt-2 text-[10px] font-mono text-slate-400">Requirement Code: SECONDARY_GOAL_03</div>
+              </div>
+            </div>
+            <div class="bg-white border border-slate-200 p-4 rounded-xl flex gap-3 text-left">
+              <div class="p-3 bg-cyan-50 border border-cyan-100 text-cyan-550 rounded-xl flex-shrink-0"><i
+                  data-lucide="link" class="w-5 h-5 text-cyan-600"></i></div>
+              <div>
+                <h4 class="font-bold text-slate-900 text-sm">Referential Relationship Integrity</h4>
+                <p class="text-slate-500 text-xs mt-0.5 font-light">Maintain complex parent-child lookup structures and
+                  metadata relationships during archival.</p>
+                <div class="mt-2 text-[10px] font-mono text-slate-400">Requirement Code: SECONDARY_GOAL_04</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- USE CASES: Interactive User Personas -->
+      <section id="usecases" class="w-full py-14 bg-white border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <div class="text-center max-w-2xl mx-auto mb-10">
+            <span
+              class="text-xs font-mono font-bold tracking-widest text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full uppercase">
+              User Journeys
+            </span>
+            <h2 class="text-3xl font-bold text-slate-900 tracking-tight mt-2.5">
+              Key Use Cases &amp; User Stories
+            </h2>
+            <p class="mt-3 text-slate-500 text-sm leading-relaxed font-light">
+              How operational team members interact with our solution. Select a corporate role to review their scenario,
+              the
+              system trigger, and the solution outcome.
+            </p>
+          </div>
+
+          <!-- Persona buttons selectors -->
+          <div class="flex flex-wrap justify-center gap-2 mb-8">
+            <button onclick="showPersona('uc-1')" id="btn-uc-1"
+              class="persona-btn px-4 py-2 bg-slate-950 border border-slate-900 text-white rounded-xl flex items-center gap-1.5 text-xs sm:text-sm font-medium transition shadow-md">
+              <span
+                class="w-5 h-5 bg-sky-400 text-slate-950 rounded-md font-mono font-bold flex items-center justify-center text-[10px]">AD</span>
+              <span>Salesforce Admin</span>
+            </button>
+
+            <button onclick="showPersona('uc-2')" id="btn-uc-2"
+              class="persona-btn px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 hover:bg-slate-100 rounded-xl flex items-center gap-1.5 text-xs sm:text-sm font-medium transition">
+              <span
+                class="w-5 h-5 bg-slate-200 text-slate-700 rounded-md font-mono font-bold flex items-center justify-center text-[10px]">SM</span>
+              <span>Sales Manager</span>
+            </button>
+
+            <button onclick="showPersona('uc-3')" id="btn-uc-3"
+              class="persona-btn px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 hover:bg-slate-100 rounded-xl flex items-center gap-1.5 text-xs sm:text-sm font-medium transition">
+              <span
+                class="w-5 h-5 bg-slate-200 text-slate-700 rounded-md font-mono font-bold flex items-center justify-center text-[10px]">SE</span>
+              <span>Customer Support Exec</span>
+            </button>
+
+            <button onclick="showPersona('uc-4')" id="btn-uc-4"
+              class="persona-btn px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 hover:bg-slate-100 rounded-xl flex items-center gap-1.5 text-xs sm:text-sm font-medium transition">
+              <span
+                class="w-5 h-5 bg-slate-200 text-slate-700 rounded-md font-mono font-bold flex items-center justify-center text-[10px]">AO</span>
+              <span>Compliance Auditor</span>
+            </button>
+
+            <button onclick="showPersona('uc-5')" id="btn-uc-5"
+              class="persona-btn px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 hover:bg-slate-100 rounded-xl flex items-center gap-1.5 text-xs sm:text-sm font-medium transition">
+              <span
+                class="w-5 h-5 bg-slate-200 text-slate-700 rounded-md font-mono font-bold flex items-center justify-center text-[10px]">IT</span>
+              <span>IT Security Manager</span>
+            </button>
+          </div>
+
+          <!-- Persona Display Board -->
+          <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 sm:p-8 text-left relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-80 h-80 bg-sky-500/5 rounded-full blur-3xl pointer-events-none"></div>
+
+            <!-- Quote block -->
+            <div class="relative pl-5 border-l-2 border-sky-400 mb-6">
+              <span class="text-slate-400 font-mono text-2xl absolute -left-1 -top-2 select-none">&ldquo;</span>
+              <blockquote id="persona-quote" class="italic text-slate-750 text-sm sm:text-base leading-relaxed pl-1.5">
+                As a Salesforce Admin, I want to archive Cases older than 3 years based on their closed date, so I can
+                reduce active storage usage and keep the UI responsive.
+              </blockquote>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 relative z-10">
+
+              <div class="bg-white p-4 rounded-xl border border-slate-200 flex flex-col justify-between">
+                <div>
+                  <span class="text-[9px] uppercase font-mono tracking-wider text-slate-400 font-bold block mb-1">System
+                    Trigger</span>
+                  <p id="persona-trigger" class="text-xs sm:text-sm text-slate-600 leading-relaxed font-light">
+                    Case Closed Date &gt; 36 months, Status = &quot;Closed&quot; with customer satisfaction completed.
+                  </p>
+                </div>
+                <div class="mt-4 pt-2.5 border-t border-slate-50 text-[10px] font-mono text-slate-400">Automated
+                  Scheduler
+                  Sequence</div>
+              </div>
+
+              <div
+                class="bg-gradient-to-tr from-slate-950 to-slate-900 text-white p-4 rounded-xl border border-slate-800 flex flex-col justify-between">
+                <div>
+                  <span class="text-[9px] uppercase font-mono tracking-wider text-sky-400 block mb-1">Maxify Delivered
+                    Outcome</span>
+                  <p id="persona-outcome"
+                    class="text-xs sm:text-sm text-slate-300 leading-relaxed font-light col-span-2">
+                    System automatically runs nightly batch jobs that shift matched Cases, Chatter posts, and files to
+                    cloud
+                    storage while cleaning Salesforce prod database.
+                  </p>
+                </div>
+                <div class="mt-4 pt-2.5 border-t border-slate-800 text-[10px] font-mono text-emerald-400">Verified &amp;
+                  Live</div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ARCHITECTURE: Pipeline flowchart -->
+      <section id="architecture"
+        class="w-full py-14 bg-slate-950 text-white border-b border-slate-900 relative overflow-hidden">
+        <div
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-sky-500/5 rounded-full blur-3xl pointer-events-none">
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+          <div class="text-center max-w-2xl mx-auto mb-10">
+            <span
+              class="text-xs font-mono font-bold tracking-widest text-sky-400 bg-sky-950/60 border border-sky-900/40 px-3 py-1 rounded-full uppercase">
+              Technical Architecture
+            </span>
+            <h2 class="text-3xl font-bold text-white tracking-tight mt-2.5">
+              Functional Architecture Plan
+            </h2>
+            <p class="mt-3 text-slate-400 text-sm leading-relaxed font-light">
+              Our multi-tier storage pipeline decouples database compute from static files, keeping active Salesforce
+              instances fast and responsive. Click any process tier to see its documentation:
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+            <!-- Architecture flowchart on left -->
+            <div class="lg:col-span-12 xl:col-span-7 flex flex-col justify-center space-y-3.5 text-left">
+
+              <button onclick="showArchNode(0)" id="btn-arch-0"
+                class="arch-node-btn p-3 rounded-xl border border-sky-500 bg-sky-950/20 text-white flex items-center justify-between text-left transition duration-150 cursor-pointer">
+                <span class="flex items-center gap-2"><i data-lucide="toggle-left"
+                    class="w-4 h-4 text-sky-400"></i><strong>Tier 1:</strong> Archival Rules Engine</span>
+                <span class="text-[10px] font-mono text-sky-400 uppercase">Config</span>
+              </button>
+
+              <button onclick="showArchNode(1)" id="btn-arch-1"
+                class="arch-node-btn p-3 rounded-xl border border-slate-800 bg-slate-900/60 text-white flex items-center justify-between text-left transition duration-150 cursor-pointer">
+                <span class="flex items-center gap-2"><i data-lucide="cpu"
+                    class="w-4 h-4 text-slate-400"></i><strong>Tier
+                    2:</strong> Archival Processor (Apex &amp; BULK API)</span>
+                <span class="text-[10px] font-mono text-slate-400 uppercase">Compute</span>
+              </button>
+
+              <button onclick="showArchNode(2)" id="btn-arch-2"
+                class="arch-node-btn p-3 rounded-xl border border-slate-800 bg-slate-900/60 text-white flex items-center justify-between text-left transition duration-150 cursor-pointer">
+                <span class="flex items-center gap-2"><i data-lucide="hard-drive"
+                    class="w-4 h-4 text-slate-400"></i><strong>Tier 3:</strong> Sovereign Cloud Storage Module
+                  (BYOS)</span>
+                <span class="text-[10px] font-mono text-slate-400 uppercase">Storage</span>
+              </button>
+
+              <button onclick="showArchNode(3)" id="btn-arch-3"
+                class="arch-node-btn p-3 rounded-xl border border-slate-800 bg-slate-900/60 text-white flex items-center justify-between text-left transition duration-150 cursor-pointer">
+                <span class="flex items-center gap-2"><i data-lucide="search"
+                    class="w-4 h-4 text-slate-400"></i><strong>Tier 4:</strong> Retrieval &amp; Rehydration
+                  Engine</span>
+                <span class="text-[10px] font-mono text-slate-400 uppercase">Restore</span>
+              </button>
+
+              <button onclick="showArchNode(4)" id="btn-arch-4"
+                class="arch-node-btn p-3 rounded-xl border border-slate-800 bg-slate-900/60 text-white flex items-center justify-between text-left transition duration-150 cursor-pointer">
+                <span class="flex items-center gap-2"><i data-lucide="layout"
+                    class="w-4 h-4 text-slate-400"></i><strong>Tier 5:</strong> Reference UI Layer (Embedded LWC)</span>
+                <span class="text-[10px] font-mono text-slate-400 uppercase">Presentation</span>
+              </button>
+
+              <button onclick="showArchNode(5)" id="btn-arch-5"
+                class="arch-node-btn p-3 rounded-xl border border-slate-800 bg-slate-900/60 text-white flex items-center justify-between text-left transition duration-150 cursor-pointer">
+                <span class="flex items-center gap-2"><i data-lucide="calendar"
+                    class="w-4 h-4 text-slate-400"></i><strong>Tier 6:</strong> Automated Backup Scheduler</span>
+                <span class="text-[10px] font-mono text-slate-400 uppercase">Scheduler</span>
+              </button>
+
+              <button onclick="showArchNode(6)" id="btn-arch-6"
+                class="arch-node-btn p-3 rounded-xl border border-slate-800 bg-slate-900/60 text-white flex items-center justify-between text-left transition duration-150 cursor-pointer">
+                <span class="flex items-center gap-2"><i data-lucide="pie-chart"
+                    class="w-4 h-4 text-slate-400"></i><strong>Tier 7:</strong> Analytical Reporting Dashboard</span>
+                <span class="text-[10px] font-mono text-slate-400 uppercase">Analytics</span>
+              </button>
+
+            </div>
+
+            <!-- Documentation pane on right -->
+            <div class="lg:col-span-5 flex flex-col justify-stretch">
+              <div
+                class="bg-slate-900 border border-slate-800 rounded-2xl p-5 sm:p-6 text-left flex flex-col justify-between h-full relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-sky-500/5 rounded-full blur-2xl"></div>
+
+                <div>
+                  <span class="text-[9px] font-mono tracking-widest text-slate-500 block uppercase">Component
+                    Specs</span>
+                  <h4 id="arch-title" class="text-base font-bold text-white mt-1 mb-2">Archival Rules Engine</h4>
+                  <p id="arch-desc" class="text-xs sm:text-sm text-slate-300 leading-relaxed font-light">
+                    A point-and-click filter designer where system administrators map specific standard or custom items
+                    and
+                    define target criteria based on field age, close state, and parent object dependencies.
+                  </p>
+
+                  <div class="mt-4 pt-4 border-t border-slate-800">
+                    <span class="text-[9px] font-mono text-slate-500 uppercase block">Underlying Tech Subsystem</span>
+                    <p id="arch-tech" class="text-xs text-sky-400 mt-0.5">Lightning Web Component Controllers, Custom
+                      Metadata schemas</p>
+                  </div>
+                </div>
+
+                <div
+                  class="mt-6 p-3 bg-slate-950 border border-slate-800 rounded-lg text-[11px] text-slate-400 flex items-start gap-1.5 leading-relaxed font-light">
+                  <i data-lucide="help-circle" class="w-3.5 h-3.5 text-sky-400 flex-shrink-0 mt-0.5"></i>
+                  Our architecture decouples long-term files cleanly to keep Salesforce production API queries
+                  lightweight.
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- TECHNICAL OPTIONS: Native vs AWS vs Azure setup strategies -->
+      <section id="solutions-options" class="w-full py-14 bg-white border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <div class="text-center max-w-2xl mx-auto mb-10">
+            <span
+              class="text-xs font-mono font-bold tracking-widest text-sky-600 bg-sky-50 px-3 py-1 rounded-full uppercase">
+              Architectural Options
+            </span>
+            <h2 class="text-3xl font-bold text-slate-900 tracking-tight mt-2.5">
+              Technical Setup Strategies
+            </h2>
+            <p class="mt-3 text-slate-500 text-sm leading-relaxed font-light">
+              We support three primary architecture blueprints based on compliance standards, budget targets, and
+              organizational IT bounds.
+            </p>
+          </div>
+
+          <!-- Strategy Tabs select -->
+          <div class="flex flex-wrap justify-center gap-2 mb-8">
+            <button onclick="showTechOption(1)" id="btn-tech-opt-1"
+              class="tech-opt-btn px-4 py-2 bg-slate-950 border border-slate-900 text-white rounded-xl flex items-center gap-2 text-xs sm:text-sm font-medium transition shadow-md cursor-pointer">
+              <span id="tech-dot-1" class="w-2.5 h-2.5 bg-sky-400 rounded-full animate-pulse"></span>
+              <span>Option 1: SF Big Objects (Native)</span>
+            </button>
+            <button onclick="showTechOption(2)" id="btn-tech-opt-2"
+              class="tech-opt-btn px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 hover:bg-slate-100 rounded-xl flex items-center gap-2 text-xs sm:text-sm font-medium transition cursor-pointer">
+              <span id="tech-dot-2" class="w-2.5 h-2.5 bg-slate-400 rounded-full"></span>
+              <span>Option 2: AWS S3 &amp; Athena (BYOS)</span>
+            </button>
+            <button onclick="showTechOption(3)" id="btn-tech-opt-3"
+              class="tech-opt-btn px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 hover:bg-slate-100 rounded-xl flex items-center gap-2 text-xs sm:text-sm font-medium transition cursor-pointer">
+              <span id="tech-dot-3" class="w-2.5 h-2.5 bg-slate-400 rounded-full"></span>
+              <span>Option 3: Azure Blob &amp; Synapse (BYOS)</span>
+            </button>
+          </div>
+
+          <!-- Dynamic specs panel card -->
+          <div
+            class="bg-slate-50 border border-slate-200 p-6 sm:p-8 rounded-2xl text-left relative overflow-hidden transition duration-150">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+
+              <div class="md:col-span-6 space-y-4 col-span-12">
+                <div>
+                  <span
+                    class="text-[9px] font-mono tracking-widest text-sky-600 bg-sky-50 px-2 py-0.5 rounded border border-sky-100 w-fit block uppercase mb-1">Infrastructure
+                    Strategy</span>
+                  <h3 id="tech-title" class="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">Option 1:
+                    Native
+                    Salesforce Big Objects Setup</h3>
+                  <p id="tech-subtitle" class="text-slate-500 text-xs sm:text-sm leading-relaxed mt-1">
+                    Keep compiled historical datasets completely inside premium native Salesforce multi-tenant
+                    environments
+                    using Big Objects tables.
+                  </p>
+                </div>
+
+                <!-- Specs Points -->
+                <div class="space-y-3.5 pt-3.5 border-t border-slate-200/60">
+                  <div class="flex items-start gap-2.5">
+                    <div
+                      class="p-1.5 bg-slate-100 border border-slate-200 rounded-lg text-slate-700 mt-0.5 flex-shrink-0 overflow-hidden">
+                      <i data-lucide="settings" class="w-4 h-4"></i>
+                    </div>
+                    <div>
+                      <h4 class="font-bold text-slate-900 text-xs sm:text-sm">Archival Engine &amp; Apex Controllers
+                      </h4>
+                      <p id="tech-spec-arch" class="text-slate-500 text-xs mt-0.5 font-light leading-relaxed">Runs
+                        nightly
+                        scheduled native batches migrating historical records directly into Big Objects standard query
+                        tables.</p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start gap-2.5">
+                    <div
+                      class="p-1.5 bg-slate-100 border border-slate-200 rounded-lg text-slate-700 mt-0.5 flex-shrink-0 overflow-hidden">
+                      <i data-lucide="database" class="w-4 h-4"></i>
+                    </div>
+                    <div>
+                      <h4 class="font-bold text-slate-900 text-xs sm:text-sm">Sovereign Cold Storage Destination</h4>
+                      <p id="tech-spec-storage" class="text-slate-500 text-xs mt-0.5 font-light leading-relaxed">
+                        Salesforce
+                        Platform Big Objects internal infrastructure, restricted strictly inside Salesforce databases.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="flex items-start gap-2.5">
+                    <div
+                      class="p-1.5 bg-slate-100 border border-slate-200 rounded-lg text-slate-700 mt-0.5 flex-shrink-0 overflow-hidden">
+                      <i data-lucide="refresh-cw" class="w-4 h-4"></i>
+                    </div>
+                    <div>
+                      <h4 class="font-bold text-slate-900 text-xs sm:text-sm">Access &amp; Retrieval Mechanism</h4>
+                      <p id="tech-spec-retrieval" class="text-slate-500 text-xs mt-0.5 font-light leading-relaxed">
+                        Native SOQL queries designed strictly with index filters, providing responsive but restricted
+                        dashboard rendering.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Advantages & Constraints lists on right -->
+              <div class="md:col-span-6 flex flex-col justify-between space-y-4 col-span-12">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <!-- Advantages Card -->
+                  <div class="bg-emerald-50/50 border border-emerald-100/60 p-4.5 rounded-xl text-left">
+                    <h4
+                      class="font-bold text-emerald-950 text-xs sm:text-sm flex items-center gap-1.5 uppercase tracking-wider mb-2.5 font-mono">
+                      <i data-lucide="check-circle" class="w-4 h-4 text-emerald-600"></i> Code Advantages
+                    </h4>
+                    <ul id="tech-advantages-list"
+                      class="space-y-1.5 text-xs text-emerald-800 font-light leading-relaxed list-disc pl-4">
+                      <li>100% Salesforce Native Architecture</li>
+                      <li>Zero external storage setups needed</li>
+                      <li>Maintains compliance boundary</li>
+                    </ul>
+                  </div>
+
+                  <!-- Limitations Card -->
+                  <div class="bg-rose-50/50 border border-rose-100/60 p-4.5 rounded-xl text-left">
+                    <h4
+                      class="font-bold text-rose-950 text-xs sm:text-sm flex items-center gap-1.5 uppercase tracking-wider mb-2.5 font-mono">
+                      <i data-lucide="alert-triangle" class="w-4 h-4 text-rose-600"></i> Technical Limits
+                    </h4>
+                    <ul id="tech-limitations-list"
+                      class="space-y-1.5 text-xs text-rose-800 font-light leading-relaxed list-disc pl-4">
+                      <li>Incredibly expensive long term billing</li>
+                      <li>Strict SOQL index search limitations</li>
+                      <li>Limited analytics dashboards</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Recommendation Fit -->
+                <div
+                  class="p-4 bg-slate-900 text-white rounded-xl text-left flex items-start gap-2.5 border border-slate-800 relative z-10 overflow-hidden leading-relaxed">
+                  <i data-lucide="info" class="w-3.5 h-3.5 text-sky-400 mt-0.5 flex-shrink-0 animate-pulse"></i>
+                  <div>
+                    <span
+                      class="text-[9px] font-mono whitespace-nowrap uppercase tracking-widest text-slate-500 block">Setup
+                      Target Fit Index</span>
+                    <p id="tech-fit" class="text-xs text-slate-300 font-light mt-0.5">Best suited for strictly regulated
+                      financial environments requiring zero records departure from native platform storage limits.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- MATRIX: Solution Comparison Options -->
+      <section id="comparison" class="w-full py-14 bg-slate-50 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+
+          <div class="max-w-2xl mx-auto mb-10">
+            <span
+              class="text-xs font-mono font-bold tracking-widest text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full uppercase">
+              Head-to-head Comparison
+            </span>
+            <h2 class="text-3xl font-bold text-slate-900 tracking-tight mt-2.5">
+              Solution Assessment Matrix
+            </h2>
+            <p class="mt-3 text-slate-500 text-sm leading-relaxed font-light">
+              Review architectural alternatives mapped to different cloud stack preferences. Recommended hybrid-cloud
+              architectures provide infinite scale with highly flexible cold storage rate structures.
+            </p>
+          </div>
+
+          <!-- Comparative table responsive -->
+          <div class="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden text-left">
+            <div class="overflow-x-auto">
+              <table class="w-full border-collapse">
+                <thead>
+                  <tr class="bg-slate-950 text-white font-mono text-xs font-medium uppercase tracking-wider">
+                    <th class="py-4 px-5">Aspect</th>
+                    <th class="py-4 px-5">Option 1: Native BigObj</th>
+                    <th class="py-4 px-5 bg-slate-900 text-sky-400 border-l border-r border-slate-800">Option 2: AWS S3
+                      Co-Store</th>
+                    <th class="py-4 px-5">Option 3: Azure Blob Cool</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-200 text-xs text-slate-700 font-sans">
+                  <tr>
+                    <td class="py-3.5 px-5 font-bold text-slate-950 bg-slate-50/50">Storage Tier</td>
+                    <td class="py-3.5 px-5">Salesforce Big Objects</td>
+                    <td class="py-3.5 px-5 bg-sky-500/5 font-semibold text-slate-950">AWS S3 / Amazon Redshift</td>
+                    <td class="py-3.5 px-5">Azure Blob / Data Lake</td>
+                  </tr>
+                  <tr>
+                    <td class="py-3.5 px-5 font-bold text-slate-950 bg-slate-50/50">Query Speed</td>
+                    <td class="py-3.5 px-5 text-slate-500 font-light">Low (Strict SOQL index-driven rules limits)</td>
+                    <td class="py-3.5 px-5 bg-sky-500/5 font-semibold text-slate-950">High (Distributed AWS serverless
+                      partition index scanning)</td>
+                    <td class="py-3.5 px-5">High (Parallel synapses partition indexing)</td>
+                  </tr>
+                  <tr>
+                    <td class="py-3.5 px-5 font-bold text-slate-950 bg-slate-50/50">File Archiving</td>
+                    <td class="py-3.5 px-5 text-slate-500 font-light">Partial (Strict document storage block size
+                      limitations)</td>
+                    <td class="py-3.5 px-5 bg-sky-500/5 font-semibold text-slate-950">Full (Direct offloading of massive
+                      PDFs / media logs)</td>
+                    <td class="py-3.5 px-5">Full (Direct offloading of massive files / blobs)</td>
+                  </tr>
+                  <tr>
+                    <td class="py-3.5 px-5 font-bold text-slate-950 bg-slate-50/50">Cost Efficiency</td>
+                    <td class="py-3.5 px-5 text-slate-500 font-light">Low (Standard premium Salesforce database GB
+                      pricing)
+                    </td>
+                    <td class="py-3.5 px-5 bg-sky-500/5 font-semibold text-slate-950">Infinite (Standard AWS Glacier
+                      deep-cold tier structures)</td>
+                    <td class="py-3.5 px-5">Infinite (Standard Azure Cool archival tier structure pricing)</td>
+                  </tr>
+                  <tr>
+                    <td class="py-3.5 px-5 font-bold text-slate-950 bg-slate-50/50">Security Protocol</td>
+                    <td class="py-3.5 px-5 text-slate-500 font-light">Salesforce Shield native encryption bounds</td>
+                    <td class="py-3.5 px-5 bg-sky-500/5 font-semibold text-slate-950">AWS KMS Keys + Managed IAM access
+                      roles</td>
+                    <td class="py-3.5 px-5">Azure Key Vault + RBAC rules</td>
+                  </tr>
+                  <tr>
+                    <td class="py-3.5 px-5 font-bold text-slate-950 bg-slate-50/50">Inline User view</td>
+                    <td class="py-3.5 px-5 text-slate-500 font-light">Native (Direct standard layout LWC controllers)
+                    </td>
+                    <td class="py-3.5 px-5 bg-sky-500/5 font-semibold text-slate-950">High (Seamless LWC widget
+                      integration
+                      pulling via API)</td>
+                    <td class="py-3.5 px-5">High (LWC panels rendering external data components)</td>
+                  </tr>
+                  <tr>
+                    <td class="py-3.5 px-5 font-bold text-slate-950 bg-slate-50/50">Indexing Latency</td>
+                    <td class="py-3.5 px-5 text-slate-500 font-light">Real-time (Native platform SOQL lookup index)</td>
+                    <td class="py-3.5 px-5 bg-sky-500/5 font-semibold text-slate-950">Under 3s (Pre-compiled metadata
+                      indexing ledger)</td>
+                    <td class="py-3.5 px-5">Under 3s (Data lake indexing catalogs)</td>
+                  </tr>
+                  <tr>
+                    <td class="py-3.5 px-5 font-bold text-slate-950 bg-slate-50/50">Disaster Recovery (RTO)</td>
+                    <td class="py-3.5 px-5 text-slate-500 font-light">Immediate (Row-level live tables)</td>
+                    <td class="py-3.5 px-5 bg-sky-500/5 font-semibold text-slate-950">Minutes (Instantly deployable
+                      restore
+                      jobs)</td>
+                    <td class="py-3.5 px-5">Minutes (Fast bulk restore pipelines)</td>
+                  </tr>
+                  <tr>
+                    <td class="py-3.5 px-5 font-bold text-slate-950 bg-slate-50/50">Compliance SLA</td>
+                    <td class="py-3.5 px-5 text-slate-500 font-light">Native Shield Auditing</td>
+                    <td class="py-3.5 px-5 bg-sky-500/5 font-semibold text-slate-950">Automated 7-year read-only cold
+                      retention</td>
+                    <td class="py-3.5 px-5">Certified Azure archival ledger retention policies</td>
+                  </tr>
+                  <tr>
+                    <td class="py-3.5 px-5 font-bold text-slate-950 bg-slate-50/50">Tenant Isolation</td>
+                    <td class="py-3.5 px-5 text-slate-500 font-light">Multi-tenant database layer</td>
+                    <td class="py-3.5 px-5 bg-sky-500/5 font-semibold text-slate-950">Fully isolated sovereign S3 bucket
+                      containers</td>
+                    <td class="py-3.5 px-5">Fully isolated sovereign Azure Storage Container bins</td>
+                  </tr>
+                  <tr>
+                    <td class="py-3.5 px-5 font-bold text-slate-950 bg-slate-50/50">BI Interoperability</td>
+                    <td class="py-3.5 px-5 text-slate-500 font-light">Internal Salesforce Reports limitations</td>
+                    <td class="py-3.5 px-5 bg-sky-500/5 font-semibold text-slate-950">High (Direct Tableau, Power BI,
+                      Athena
+                      ingestion links)</td>
+                    <td class="py-3.5 px-5">High (Native Power BI, Synapse analytics pipeline bridges)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="py-3 px-5 bg-slate-950 text-slate-400 font-mono text-[10px] text-center border-t border-slate-900 leading-relaxed md:flex md:justify-between">
+              <span>Evaluation Reference: ARCH_SUITE_METRIC_V1.0</span>
+              <span class="text-sky-400">Recommended: Setup Option 2 or Option 3 to lower overall license
+                overhead</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ADVANTAGES: Shootouts & Live ROI TCO Slider Simulator -->
+      <section id="advantages" class="w-full py-14 bg-white border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <div class="text-center max-w-2xl mx-auto mb-10">
+            <span
+              class="text-xs font-mono font-bold tracking-widest text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full uppercase">
+              Differential Shootout
+            </span>
+            <h2 class="text-3xl font-bold text-slate-900 tracking-tight mt-2.5">
+              Why Standard Backup Tools Fail at Real Archival
+            </h2>
+            <p class="mt-3 text-slate-500 text-sm leading-relaxed font-light">
+              Emergency backup tools protect against data loss disasters, but they are not designed to resolve
+              production
+              bloat, lower high storage licensing, or display records inline natively.
+            </p>
+          </div>
+
+          <!-- Strategic items grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-12 text-left">
+
+            <div class="bg-slate-50 border border-slate-200 p-5 rounded-2xl flex flex-col justify-between">
+              <div>
+                <span
+                  class="text-[9px] uppercase font-mono font-bold tracking-widest text-sky-600 bg-sky-50 px-2.5 py-0.5 rounded border border-sky-100 w-fit block mb-2.5">Architecture</span>
+                <h4 class="font-bold text-slate-950 text-sm mb-1.5 leading-tight">Archive-First Mindset</h4>
+                <p class="text-slate-500 text-xs sm:text-sm font-light leading-relaxed">Built from day one of
+                  engineering to
+                  analyze parameters, shift cold datasets, and replace originals inline with light pointers.</p>
+              </div>
+              <div class="mt-4 pt-2.5 border-t border-slate-200 text-[10px] font-mono text-slate-400">MAX_STRAT_01</div>
+            </div>
+
+            <div class="bg-slate-50 border border-slate-200 p-5 rounded-2xl flex flex-col justify-between">
+              <div>
+                <span
+                  class="text-[9px] uppercase font-mono font-bold tracking-widest text-sky-600 bg-sky-50 px-2.5 py-0.5 rounded border border-sky-100 w-fit block mb-2.5">Flexibility</span>
+                <h4 class="font-bold text-slate-950 text-sm mb-1.5 leading-tight">Flexible Reference vs. Restore Modes
+                </h4>
+                <p class="text-slate-500 text-xs sm:text-sm font-light leading-relaxed">Render read-only data inline
+                  using
+                  LWC external objects, or trigger 1-click historical restorations in milliseconds.</p>
+              </div>
+              <div class="mt-4 pt-2.5 border-t border-slate-200 text-[10px] font-mono text-slate-400">MAX_STRAT_02</div>
+            </div>
+
+            <div class="bg-slate-50 border border-slate-200 p-5 rounded-2xl flex flex-col justify-between">
+              <div>
+                <span
+                  class="text-[9px] uppercase font-mono font-bold tracking-widest text-sky-600 bg-sky-50 px-2.5 py-0.5 rounded border border-sky-100 w-fit block mb-2.5">Connectivity</span>
+                <h4 class="font-bold text-slate-950 text-sm mb-1.5 leading-tight">Pluggable Cloud Connectors</h4>
+                <p class="text-slate-500 text-xs sm:text-sm font-light leading-relaxed">Supports AWS S3, Azure Blob, and
+                  Google Cloud Storage out-of-the-box with simple rest configuration mappings.</p>
+              </div>
+              <div class="mt-4 pt-2.5 border-t border-slate-200 text-[10px] font-mono text-slate-400">MAX_STRAT_03</div>
+            </div>
+
+            <div class="bg-slate-50 border border-slate-200 p-5 rounded-2xl flex flex-col justify-between">
+              <div>
+                <span
+                  class="text-[9px] uppercase font-mono font-bold tracking-widest text-sky-600 bg-sky-50 px-2.5 py-0.5 rounded border border-sky-100 w-fit block mb-2.5">Sovereignty</span>
+                <h4 class="font-bold text-slate-950 text-sm mb-1.5 leading-tight">Sovereign Data Control (BYOS)</h4>
+                <p class="text-slate-500 text-xs sm:text-sm font-light leading-relaxed">Bring Your Own Storage (BYOS).
+                  Write
+                  historical rows directly to your AWS/Azure environments with zero software vendor lock-in risk.</p>
+              </div>
+              <div class="mt-4 pt-2.5 border-t border-slate-200 text-[10px] font-mono text-slate-400">MAX_STRAT_04</div>
+            </div>
+
+            <div class="bg-slate-50 border border-slate-200 p-5 rounded-2xl flex flex-col justify-between">
+              <div>
+                <span
+                  class="text-[9px] uppercase font-mono font-bold tracking-widest text-sky-600 bg-sky-50 px-2.5 py-0.5 rounded border border-sky-100 w-fit block mb-2.5">Future-Ready</span>
+                <h4 class="font-bold text-slate-950 text-sm mb-1.5 leading-tight">AI Semantic Rules Engine</h4>
+                <p class="text-slate-500 text-xs sm:text-sm font-light leading-relaxed">Leverage predictive models to
+                  automatically suggest potentially stale objects and identify field anomaly configurations.</p>
+              </div>
+              <div class="mt-4 pt-2.5 border-t border-slate-200 text-[10px] font-mono text-slate-400">MAX_STRAT_05</div>
+            </div>
+
+            <div class="bg-slate-50 border border-slate-200 p-5 rounded-2xl flex flex-col justify-between">
+              <div>
+                <span
+                  class="text-[9px] uppercase font-mono font-bold tracking-widest text-sky-600 bg-sky-50 px-2.5 py-0.5 rounded border border-sky-100 w-fit block mb-2.5">Compliance</span>
+                <h4 class="font-bold text-slate-950 text-sm mb-1.5 leading-tight">Industry Verticals Templates</h4>
+                <p class="text-slate-550 text-xs sm:text-sm font-light leading-relaxed">Pre-built compliant filters
+                  specifically mapped for HIPAA, FINRA, SOX guidelines, and global regulatory retention standards.</p>
+              </div>
+              <div class="mt-4 pt-2.5 border-t border-slate-200 text-[10px] font-mono text-slate-400">MAX_STRAT_06</div>
+            </div>
+
+          </div>
+
+          <!-- INTERACTIVE HEAD-TO-HEAD SHOOTOUT PANEL -->
+          <div class="mb-14 text-left">
+            <div
+              class="bg-slate-900 border border-slate-800 p-6 sm:p-8 rounded-3xl relative overflow-hidden text-white font-sans mt-8">
+              <div class="absolute top-0 right-0 w-80 h-80 bg-emerald-500/5 rounded-full blur-3xl pointer-events-none">
+              </div>
+
+              <h3 class="text-lg sm:text-xl font-bold tracking-tight text-white mb-6 flex items-center gap-2">
+                <i data-lucide="swords" class="w-5 h-5 text-emerald-400"></i> Interactive Feature Shootout
+              </h3>
+
+              <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+
+                <!-- Topic select on left -->
+                <div class="lg:col-span-5 flex flex-col gap-2 col-span-12">
+                  <span class="text-[9px] uppercase font-mono tracking-widest text-slate-500 block mb-1">Select Shootout
+                    Evaluation Aspect</span>
+
+                  <button onclick="showShootoutTopic(0); event.preventDefault();" id="btn-shoot-0"
+                    class="shoot-btn text-left p-3 rounded-xl border border-emerald-500/45 bg-emerald-950/20 text-white flex justify-between items-center transition duration-150 cursor-pointer text-xs font-semibold">
+                    <span>1. Strategic Primary Focus</span>
+                    <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-emerald-400"></i>
+                  </button>
+
+                  <button onclick="showShootoutTopic(1); event.preventDefault();" id="btn-shoot-1"
+                    class="shoot-btn text-left p-3 rounded-xl border border-slate-800 bg-slate-950/50 text-slate-300 hover:bg-slate-850 flex justify-between items-center transition duration-150 cursor-pointer text-xs font-medium">
+                    <span>2. Object &amp; Field Compression</span>
+                    <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-slate-500"></i>
+                  </button>
+
+                  <button onclick="showShootoutTopic(2); event.preventDefault();" id="btn-shoot-2"
+                    class="shoot-btn text-left p-3 rounded-xl border border-slate-800 bg-slate-950/50 text-slate-300 hover:bg-slate-850 flex justify-between items-center transition duration-150 cursor-pointer text-xs font-medium">
+                    <span>3. Document &amp; Files Offloading</span>
+                    <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-slate-500"></i>
+                  </button>
+
+                  <button onclick="showShootoutTopic(3); event.preventDefault();" id="btn-shoot-3"
+                    class="shoot-btn text-left p-3 rounded-xl border border-slate-800 bg-slate-950/50 text-slate-300 hover:bg-slate-850 flex justify-between items-center transition duration-150 cursor-pointer text-xs font-medium">
+                    <span>4. Elastic Inline Native Search</span>
+                    <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-slate-500"></i>
+                  </button>
+
+                  <button onclick="showShootoutTopic(4); event.preventDefault();" id="btn-shoot-4"
+                    class="shoot-btn text-left p-3 rounded-xl border border-slate-800 bg-slate-950/50 text-slate-300 hover:bg-slate-850 flex justify-between items-center transition duration-150 cursor-pointer text-xs font-medium">
+                    <span>5. Legal Auditing &amp; Compliance</span>
+                    <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-slate-500"></i>
+                  </button>
+
+                  <button onclick="showShootoutTopic(5); event.preventDefault();" id="btn-shoot-5"
+                    class="shoot-btn text-left p-3 rounded-xl border border-slate-800 bg-slate-950/50 text-slate-300 hover:bg-slate-850 flex justify-between items-center transition duration-150 cursor-pointer text-xs font-medium">
+                    <span>6. Storage Tenant Domain Control</span>
+                    <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-slate-500"></i>
+                  </button>
+
+                  <button onclick="showShootoutTopic(6); event.preventDefault();" id="btn-shoot-6"
+                    class="shoot-btn text-left p-3 rounded-xl border border-slate-800 bg-slate-950/50 text-slate-300 hover:bg-slate-850 flex justify-between items-center transition duration-150 cursor-pointer text-xs font-medium">
+                    <span>7. Aggregated BI Interoperability</span>
+                    <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-slate-500"></i>
+                  </button>
+
+                </div>
+
+                <!-- Shootout content on right -->
+                <div class="lg:col-span-7 flex flex-col justify-between gap-4 col-span-12">
+
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 h-full">
+
+                    <!-- Left: Standard Backup Tools (Red) -->
+                    <div
+                      class="bg-rose-950/30 border border-rose-900/40 p-5 rounded-2xl flex flex-col justify-between h-full">
+                      <div>
+                        <div
+                          class="flex items-center gap-1.5 text-rose-450 uppercase font-mono text-[9px] font-bold tracking-wider">
+                          <i data-lucide="x-circle" class="w-3.5 h-3.5"></i> Legacy backups
+                        </div>
+                        <h4 class="font-bold text-white text-sm mt-3 mb-1.5 leading-snug">Emergency Snapshot Replicas
+                        </h4>
+                        <p id="shoot-backup" class="text-slate-400 text-xs font-light leading-relaxed">Runs disaster
+                          recovery files replication that keeps cold rows in production, doing nothing to clear local
+                          database indexes or eliminate database bloat licenses.</p>
+                      </div>
+                      <span class="text-[10px] text-rose-500 font-mono mt-4 block" id="shoot-backup-status">Status: High
+                        SF
+                        Licences Overhead</span>
+                    </div>
+
+                    <!-- Right: Maxify Archival (Green) -->
+                    <div
+                      class="bg-emerald-950/20 border border-emerald-500/30 p-5 rounded-2xl flex flex-col justify-between h-full">
+                      <div>
+                        <div
+                          class="flex items-center gap-1.5 text-emerald-400 uppercase font-mono text-[9px] font-bold tracking-wider">
+                          <i data-lucide="check-circle" class="w-3.5 h-3.5"></i> Maxify Archival
+                        </div>
+                        <h4 class="font-bold text-white text-sm mt-3 mb-1.5 leading-snug">Sovereign DB Capacity Release
+                        </h4>
+                        <p id="shoot-maxify" class="text-slate-300 text-xs font-light leading-relaxed font-normal">
+                          Extracts
+                          and shifts historical records to sovereign cloud folders while cleanly setting light reference
+                          keys, reducing local database volume by up to 90%.</p>
+                      </div>
+                      <span class="text-[10px] text-emerald-400 font-mono mt-4 block" id="shoot-maxify-status">Status:
+                        90%
+                        DB Storage Recovered</span>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Cost Slider calculator -->
+          <div
+            class="bg-slate-950 text-white p-6 sm:p-8 rounded-3xl border border-slate-800 text-left relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
+
+              <div class="lg:col-span-6 space-y-5">
+                <div>
+                  <span class="text-[9px] uppercase font-mono tracking-widest text-sky-400 block mb-1">Financial
+                    Analysis</span>
+                  <h3 class="text-xl sm:text-2.5xl font-bold text-white tracking-tight">Interactive TCO &amp; Cost
+                    Simulator
+                  </h3>
+                  <p class="text-slate-400 text-xs sm:text-sm leading-relaxed font-light mt-1.5">
+                    Adjust your active Salesforce user count and target archival space. See how standard user license
+                    models
+                    compare directly against our private storage tier structures:
+                  </p>
+                </div>
+
+                <!-- Slider 1 -->
+                <div class="space-y-1.5">
+                  <div class="flex justify-between text-xs font-mono">
+                    <span class="text-slate-400">Licensed SF Users</span>
+                    <span class="text-white font-bold" id="lbl-users">200 Seats</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <span class="text-[10px] text-slate-600 font-mono">50</span>
+                    <input type="range" id="slider-users" min="50" max="1000" step="50" value="200"
+                      oninput="runCalculator()"
+                      class="w-full h-1.5 bg-slate-800 rounded-lg accent-sky-400 cursor-pointer">
+                    <span class="text-[10px] text-slate-600 font-mono">1000</span>
+                  </div>
+                </div>
+
+                <!-- Slider 2 -->
+                <div class="space-y-1.5">
+                  <div class="flex justify-between text-xs font-mono">
+                    <span class="text-slate-400">Archivable Data Capacity</span>
+                    <span class="text-cyan-400 font-bold" id="lbl-space">1.5 TB (1500 GB)</span>
+                  </div>
+                  <div class="flex items-center gap-2.5">
+                    <span class="text-[10px] text-slate-600 font-mono">200G</span>
+                    <input type="range" id="slider-space" min="200" max="5000" step="100" value="1500"
+                      oninput="runCalculator()"
+                      class="w-full h-1.5 bg-slate-800 rounded-lg accent-cyan-400 cursor-pointer">
+                    <span class="text-[10px] text-slate-600 font-mono">5000G</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Calculated Results card -->
+              <div class="lg:col-span-6 bg-slate-900/60 border border-slate-800 p-5 rounded-2xl text-left">
+                <h4
+                  class="text-xs uppercase font-mono tracking-wider text-slate-400 border-b border-slate-800 pb-2 mb-4">
+                  Estimated Monthly Analysis</h4>
+
+                <div class="space-y-3.5 text-xs sm:text-sm">
+                  <div class="flex justify-between font-light">
+                    <span class="text-slate-400">Legacy Seat-license billing:</span>
+                    <span class="font-mono text-rose-400 font-semibold" id="res-legacy">$1,000.00/mo</span>
+                  </div>
+                  <div class="flex justify-between font-light border-b border-slate-800 pb-3">
+                    <span class="text-sky-400">Maxify Utility + BYOS rate:</span>
+                    <span class="font-mono text-sky-400 font-semibold" id="res-maxify">$302.00/mo</span>
+                  </div>
+
+                  <div class="pt-2.5 flex justify-between items-end">
+                    <div>
+                      <span
+                        class="text-[9px] uppercase font-mono tracking-widest text-slate-500 block mb-0.5">Calculated
+                        Monthly Savings</span>
+                      <div class="text-2xl font-mono font-bold text-emerald-400" id="res-monthly-savings">$698</div>
+                    </div>
+                    <div class="text-right border-l border-slate-800 pl-4">
+                      <span class="text-[9px] uppercase font-mono text-slate-500 block mb-0.5">Estimated Yearly
+                        Savings</span>
+                      <div class="text-base font-mono font-bold text-white" id="res-yearly-savings">$8,376/yr</div>
+                    </div>
+                  </div>
+
+                  <div class="pt-4 border-t border-slate-800">
+                    <a href="#proposal"
+                      class="w-full py-2.5 bg-gradient-to-r from-sky-500 to-cyan-500 text-slate-950 font-semibold text-xs rounded-xl hover:brightness-110 transition flex items-center justify-center gap-1">
+                      Lock In These Custom TCO Rates <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- PROPOSAL: Proposal briefing form -->
+      <section id="proposal"
+        class="w-full py-14 bg-slate-950 text-white relative overflow-hidden text-center border-b border-slate-900">
+        <div class="absolute top-0 left-0 w-80 h-80 bg-cyan-400/5 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 right-0 w-80 h-80 bg-sky-500/5 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-left">
+
+          <div class="text-center max-w-xl mx-auto mb-10">
+            <span
+              class="text-xs font-mono font-bold tracking-widest text-sky-400 bg-sky-950 border border-sky-900/30 px-3 py-1 rounded-full uppercase">
+              Let's Build your Strategy
+            </span>
+            <h2 class="text-3xl font-bold text-white tracking-tight mt-2.5">
+              Request an Archival Strategy Brief
+            </h2>
+            <p class="mt-2 text-slate-400 text-xs sm:text-sm font-light leading-relaxed">
+              Specify your operational Salesforce boundaries. Our live compiler will craft a custom technical proposal
+              and
+              scope outline automatically.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+
+            <!-- Contact inputs -->
+            <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl flex flex-col justify-between">
+              <h3
+                class="text-xs font-mono font-bold tracking-wider uppercase text-slate-400 mb-4 flex items-center gap-1.5">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5 text-sky-400 animate-pulse"></i> Strategy Metrics
+              </h3>
+
+              <!-- Form -->
+              <form onsubmit="submitFormProposal(event)" class="space-y-4 text-xs sm:text-sm">
+                <div class="space-y-1.5">
+                  <label class="text-[10px] font-mono uppercase font-bold text-slate-400">Full Name</label>
+                  <input type="text" id="frm-name" required
+                    class="w-full p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-sky-500/50 transition">
+                </div>
+
+                <div class="space-y-1.5">
+                  <label class="text-[10px] font-mono uppercase font-bold text-slate-400">Corporate Email</label>
+                  <input type="email" id="frm-email" required placeholder="Email Address"
+                    class="w-full p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-sky-500/50 transition">
+                </div>
+
+                <div class="space-y-1.5">
+                  <label class="text-[10px] font-mono uppercase font-bold text-slate-400">Estimated Salesforce
+                    Volume</label>
+                  <select id="frm-volume"
+                    class="w-full p-2.5 rounded-lg bg-slate-950 border border-slate-800 text-white focus:outline-none focus:border-sky-500/50 transition cursor-pointer">
+                    <option value="under-1TB">Under 1.0 TB (Low-to-Medium)</option>
+                    <option value="1TB-2TB">1.0 TB - 2.0 TB (High Bloat Alert)</option>
+                    <option value="over-2TB">Over 2.0 TB (Critical Performance Decay)</option>
+                  </select>
+                </div>
+
+                <button type="submit"
+                  class="w-full py-2.5 bg-gradient-to-r from-sky-500 to-cyan-500 text-slate-950 font-bold text-xs rounded-xl hover:brightness-110 transition flex items-center justify-center gap-1 shadow-md">
+                  Generate Custom Proposal <i data-lucide="send" class="w-3 h-3"></i>
+                </button>
+              </form>
+            </div>
+
+            <!-- Dynamic Results -->
+            <div id="proposal-wrapper" class="flex flex-col">
+              <div id="proposal-blank"
+                class="bg-slate-900/40 border border-slate-800 border-dashed p-8 rounded-2xl text-center flex flex-col justify-center items-center gap-4 h-full">
+                <div class="p-3 bg-slate-900 border border-slate-800 text-slate-600 rounded-xl"><i
+                    data-lucide="database" class="w-5 h-5"></i></div>
+                <div>
+                  <h4 class="font-bold text-slate-350 text-sm">Interactive Brief Builder</h4>
+                  <p class="text-slate-500 text-xs mt-1 leading-relaxed max-w-xs mx-auto">Fill in your requirements
+                    parameters on the left to immediately render your customized technical system blueprint.</p>
+                </div>
+              </div>
+
+              <!-- Terminal output loaded dynamically -->
+              <div id="proposal-detail"
+                class="bg-slate-900 border border-slate-800 p-5 rounded-2xl flex-col justify-between hidden h-full">
+                <div>
+                  <div
+                    class="flex justify-between items-center border-b border-slate-800 pb-2 mb-3 text-[10px] font-mono text-slate-500">
+                    <span class="text-emerald-400 font-bold flex items-center gap-1"><i data-lucide="check-circle"
+                        class="w-3.5 h-3.5"></i> ASSESSMENT GENERATED</span>
+                    <span>UTC: 2026-06-02</span>
+                  </div>
+                  <pre id="proposal-output-text"
+                    class="p-3.5 bg-slate-950 border border-slate-800 rounded-xl font-mono text-[10px] text-slate-300 leading-relaxed whitespace-pre-wrap overflow-y-auto max-h-[200px] text-left"></pre>
+                </div>
+                <div
+                  class="mt-3 pt-3 border-t border-slate-800 text-[10px] font-mono text-slate-500 flex items-start gap-1">
+                  <i data-lucide="lock" class="w-3.5 h-3.5 flex-shrink-0 mt-0.5"></i>
+                  Proposal security encrypted. Copy of parameters has been cached in-browser client side.
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <button id="scrollToTopBtn" title="Scroll Top" class="scroll-to-top">
+      ↑
+    </button>
+    <div class="contact-form-wrapper">
+      <button type="button" title="Book Your Appointment" class="d-block btn btn mob-contact-btn border-0">
+        <img src="./assets/images/chat.png" width="40" height="40" alt="Contact Us" />
+      </button>
+      <div class="contact-form-float p-4 py-5 shadow-lg position-relative">
+        <p class="small text-white fw-bold small text-center text-uppercase text-white">
+          Book your appointment
+        </p>
+        <button type="button" class="btn-close shadow-none" title="Form Close">
+          <span class="visually-hidden">Form Close</span>
+        </button>
+        <form id="contact_form" name="contact_form"
+          action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post" role="form">
+          <input type="hidden" name="oid" value="00Df4000000nY7H" />
+          <input type="hidden" name="retURL" value="https://maxify.digital/" />
+          <input type="hidden" name="lead_source" value="Web" />
+          <input type="hidden" name="00Nf400000V3Chv" value="Home Page" />
+          <div class="messages"></div>
+          <div class="form-group d-flex flex-column gap-4">
+            <div>
+              <input type="text" class="form-control shadow-none" name="name" id="name" placeholder="Name*" />
+              <small id="nameError" class="d-block lh-sm mt-2 text-white d-none">Please enter your full name.</small>
+            </div>
+
+            <div>
+              <input type="tel" class="form-control shadow-none" name="number" id="number" minlength="10" maxlength="10"
+                pattern="[6789][0-9]{9}" placeholder="Number*" />
+              <small id="numberError" class="d-block lh-sm mt-2 text-white d-none">Please enter a valid 10-digit mobile
+                number starting with 6,
+                7, 8, or 9.</small>
+            </div>
+
+            <div>
+              <input type="email" class="form-control shadow-none" name="email" id="email"
+                placeholder="Email Address*" />
+              <small id="emailError" class="d-block lh-sm mt-2 text-white d-none">Please enter a valid email
+                address.</small>
+            </div>
+
+            <div>
+              <input type="text" class="form-control shadow-none" name="company" id="company" placeholder="Company*" />
+              <small id="companyError" class="d-block lh-sm mt-2 text-white d-none">Please enter your company
+                name.</small>
+            </div>
+
+            <div>
+              <input type="submit" class="btn btn-primary border rounded-pill w-100" value="Submit" name="contactform"
+                id="contactform" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="successMsg" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="successMsgLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="successMsgLabel">
+              Form Submitted
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h3 class="fs-5 fw-normal gradient-text lh-base text-center">
+              We have successfully received your message and will get back to
+              you as soon as possible.
+            </h3>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+      // Load Lucide Icons
+      lucide.createIcons();
+
+      // Challenges: Pain Points map
+      const PAIN_POINTS = {
+        'pp-storage': {
+          title: 'Storage Exhaustion',
+          desc: 'Standard and custom object records, emails, tasks, cases, and massive document attachments collectively exceed Salesforce database quotas, freezing system rules and trigger chains.',
+          cat: 'Storage'
+        },
+        'pp-perf': {
+          title: 'Performance Degradation',
+          desc: 'Large datasets cause report query timeouts, list view failures, and workflow automation blockages, severely affecting overall platform responsiveness for customer-facing teams.',
+          cat: 'Performance'
+        },
+        'pp-compliance': {
+          title: 'Compliance & Auditing Risks',
+          desc: 'An inability to segment active transaction data from historical archives makes auditing and state data-governance guidelines extremely complex, causing regulatory exposure.',
+          cat: 'Compliance'
+        },
+        'pp-security': {
+          title: 'Unsecured External Backups',
+          desc: 'Moving data to external systems using unencrypted backup files violates enterprise security rules, exposing private customer records to unauthorized breaches.',
+          cat: 'Security'
+        },
+        'pp-cost': {
+          title: 'Exponential Licensing Costs',
+          desc: 'Salesforce production database storage prices escalate rapidly. Paying for massive inactive data volume on active seat licenses is financially unsustainable.',
+          cat: 'Cost'
+        }
+      };
+
+      function showPainPoint(ppId) {
+        const item = PAIN_POINTS[ppId];
+        if (!item) return;
+
+        // Toggle active button styling
+        document.querySelectorAll('.pain-btn').forEach(btn => {
+          btn.className = "pain-btn text-left p-3.5 rounded-xl border border-slate-200 bg-slate-50 text-slate-800 hover:bg-slate-100 flex justify-between items-center transition duration-150 cursor-pointer";
+        });
+
+        const activeBtn = document.getElementById('btn-' + ppId);
+        if (activeBtn) {
+          activeBtn.className = "pain-btn text-left p-3.5 rounded-xl border border-slate-900 bg-slate-950 text-white flex justify-between items-center transition duration-150 shadow-md cursor-pointer";
+        }
+
+        // Update card text
+        document.getElementById('painpoint-title').innerText = item.title;
+        document.getElementById('painpoint-desc').innerText = item.desc;
+        document.getElementById('painpoint-cat').innerText = item.cat;
+      }
+
+      // Goals switcher toggling
+      function toggleGoals(tab) {
+        const gridPrimary = document.getElementById('grid-goals-primary');
+        const gridSecondary = document.getElementById('grid-goals-secondary');
+        const tabPrimary = document.getElementById('tab-goals-primary');
+        const tabSecondary = document.getElementById('tab-goals-secondary');
+
+        if (tab === 'primary') {
+          gridPrimary.classList.remove('hidden');
+          gridSecondary.classList.add('hidden');
+          tabPrimary.className = "px-5 py-2 rounded-md font-medium text-xs sm:text-sm bg-white text-slate-950 shadow-sm flex items-center gap-1.5 transition";
+          tabSecondary.className = "px-5 py-2 rounded-md font-medium text-xs sm:text-sm text-slate-600 hover:text-slate-950 transition flex items-center gap-1.5 cursor-pointer";
+        } else {
+          gridPrimary.classList.add('hidden');
+          gridSecondary.classList.remove('hidden');
+          tabSecondary.className = "px-5 py-2 rounded-md font-medium text-xs sm:text-sm bg-white text-slate-950 shadow-sm flex items-center gap-1.5 transition";
+          tabPrimary.className = "px-5 py-2 rounded-md font-medium text-xs sm:text-sm text-slate-600 hover:text-slate-950 transition flex items-center gap-1.5 cursor-pointer";
+        }
+      }
+
+      // Use Case: Personas map
+      const PERSONAS = {
+        'uc-1': {
+          quote: 'As a Salesforce Admin, I want to archive Cases older than 3 years based on their closed date, so I can reduce active storage usage and keep the UI responsive.',
+          trigger: 'Case Closed Date > 36 months, Status = "Closed" with customer satisfaction completed.',
+          outcome: 'The system automatically runs nightly batch jobs that shift matched Cases, Chatter posts, and files to cloud storage while cleaning the Salesforce prod database.'
+        },
+        'uc-2': {
+          quote: 'As a Sales Manager, I want to retrieve a specific Opportunity that was archived last year, so I can revisit the client’s historical pricing and contract structures.',
+          trigger: 'A seller searches for historical client deals directly via a dedicated search widget on an active account layout.',
+          outcome: 'One-click "Restore to Salesforce" recreates the Opportunity record with its original owner and lookup relationships within seconds.'
+        },
+        'uc-3': {
+          quote: 'As a Customer Support Executive, I want to view a customer\'s historical interactions from the archived storage in a read-only format from within Salesforce.',
+          trigger: 'Support agent views an active customer\'s profile page inside Lightning Console.',
+          outcome: 'Embedded Lightning Web Component renders a customized list pulling archived cases natively on-the-fly, avoiding database rehydration.'
+        },
+        'uc-4': {
+          quote: 'As a Compliance Auditor, I want to review immutable historical transactions and verify proper data custody to meet FINRA/SEC strict 7-year data retention timelines.',
+          trigger: 'Internal or external audit firm submits a standard regulatory compliance records verification audit.',
+          outcome: 'Secure, read-only analytical federated query retrieves logs on protected cool storage layers without modifying underlying databases.'
+        },
+        'uc-5': {
+          quote: 'As an IT Security Manager, I want to ensure archived data is fully isolated, encrypted with our private keys, and immutable, maintaining a strict 7-year legal hold.',
+          trigger: 'Compliance officer sets legal-hold policies inside the cloud storage dashboard configurations.',
+          outcome: 'Write-Once-Read-Many (WORM) storage is locked; private KMS envelope keys encrypt data both at rest and in transit.'
+        }
+      };
+
+      function showPersona(ucId) {
+        const item = PERSONAS[ucId];
+        if (!item) return;
+
+        document.querySelectorAll('.persona-btn').forEach(btn => {
+          btn.className = "persona-btn px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 hover:bg-slate-100 rounded-xl flex items-center gap-1.5 text-xs sm:text-sm font-medium transition cursor-pointer";
+          const badge = btn.querySelector('span');
+          if (badge) {
+            badge.className = "w-5 h-5 bg-slate-200 text-slate-700 rounded-md font-mono font-bold flex items-center justify-center text-[10px]";
+          }
+        });
+
+        const activeBtn = document.getElementById('btn-' + ucId);
+        if (activeBtn) {
+          activeBtn.className = "persona-btn px-4 py-2 bg-slate-950 border border-slate-900 text-white rounded-xl flex items-center gap-1.5 text-xs sm:text-sm font-semibold transition shadow-md cursor-pointer";
+          const activeBadge = activeBtn.querySelector('span');
+          if (activeBadge) {
+            activeBadge.className = "w-5 h-5 bg-sky-400 text-slate-950 rounded-md font-mono font-bold flex items-center justify-center text-[10px]";
+          }
+        }
+
+        document.getElementById('persona-quote').innerText = item.quote;
+        document.getElementById('persona-trigger').innerText = item.trigger;
+        document.getElementById('persona-outcome').innerText = item.outcome;
+      }
+
+      // Architecture Nodes map
+      const ARCH_NODES = [
+        {
+          title: 'Archival Rules Engine',
+          desc: 'A point-and-click filter designer where system administrators map specific standard or custom items and define target criteria based on field age, close state, and parent object dependencies.',
+          tech: 'Lightning Web Component Controllers, Custom Metadata schemas'
+        },
+        {
+          title: 'Archival Processor (Apex & BULK API)',
+          desc: 'Highly optimized server-authoritative Apex batch jobs and scheduled API flows that fetch eligible records, extract key data, compile files, and execute BULK APIs cleanly.',
+          tech: 'Apex Batchables, Queueable queues, Salesforce Bulk API v2'
+        },
+        {
+          title: 'Sovereign Cloud Storage Module (BYOS)',
+          desc: 'Secure and isolated target directories on client-owned cloud storage (AWS S3, Azure Blob, etc.) where historical data packages are kept securely using customer-managed encryption keys.',
+          tech: 'AWS S3 SDK, Azure Blob API, Customer-Managed Keys (BYOK)'
+        },
+        {
+          title: 'Retrieval & Rehydration Engine',
+          desc: 'A mechanism to instantly fetch or fully restore archived records and their related child objects back into production Salesforce, maintaining all lookups and owner relations.',
+          tech: 'REST API Connectors, Apex DML controllers, parent-child mapping ledgers'
+        },
+        {
+          title: 'Reference UI Layer (Embedded LWC)',
+          desc: 'An embedded Lightning component placed directly on standard Salesforce detail pages to display archived records on demand without a storage footprint.',
+          tech: 'Custom LWC, Apex Aura-Enabled controllers, external data sources'
+        },
+        {
+          title: 'Automated Backup Scheduler',
+          desc: 'Enables point-and-click configuration of execution intervals, retry behaviors, concurrency limits, and execution window boundaries.',
+          tech: 'Salesforce flow triggers, System Apex schedules, cron tables'
+        },
+        {
+          title: 'Analytical Reporting Dashboard',
+          desc: 'Directly runs federated analytical aggregation queries on the archival lake, presenting cross-systems reports without restoring rows to Salesforce.',
+          tech: 'Salesforce CRM Analytics dashboard widgets, Power BI inline modules'
+        }
+      ];
+
+      function showArchNode(idx) {
+        const item = ARCH_NODES[idx];
+        if (!item) return;
+
+        for (let i = 0; i < ARCH_NODES.length; i++) {
+          const btn = document.getElementById('btn-arch-' + i);
+          if (btn) {
+            const icon = btn.querySelector('svg') || btn.querySelector('i');
+            const badge = btn.querySelectorAll('span')[1];
+            if (i === idx) {
+              btn.className = "arch-node-btn p-3 rounded-xl border border-sky-500 bg-sky-950/20 text-white flex items-center justify-between text-left transition duration-150 cursor-pointer";
+              if (icon) {
+                icon.classList.remove('text-slate-400');
+                icon.classList.add('text-sky-400');
+              }
+              if (badge) {
+                badge.classList.remove('text-slate-400');
+                badge.classList.add('text-sky-400');
+              }
+            } else {
+              btn.className = "arch-node-btn p-3 rounded-xl border border-slate-800 bg-slate-900/60 text-white flex items-center justify-between text-left transition duration-150 cursor-pointer";
+              if (icon) {
+                icon.classList.remove('text-sky-400');
+                icon.classList.add('text-slate-400');
+              }
+              if (badge) {
+                badge.classList.remove('text-sky-450', 'text-sky-400');
+                badge.classList.add('text-slate-400');
+              }
+            }
+          }
+        }
+
+        document.getElementById('arch-title').innerText = item.title;
+        document.getElementById('arch-desc').innerText = item.desc;
+        document.getElementById('arch-tech').innerText = item.tech;
+      }
+
+
+      // Technical Architecture Setup Strategies
+      const TECHNICAL_OPTIONS = {
+        1: {
+          title: 'Native Salesforce Big Objects Setup',
+          subtitle: 'Keep compiled historical datasets completely inside premium native Salesforce multi-tenant environments using Big Objects tables.',
+          specArch: 'Runs nightly scheduled native batches migrating historical records directly into Big Objects standard query tables.',
+          specStorage: 'Salesforce Platform Big Objects internal infrastructure, restricted strictly inside Salesforce databases.',
+          specRetrieval: 'Native SOQL queries designed strictly with index filters, providing responsive but restricted dashboard rendering.',
+          advantages: [
+            '100% Salesforce Native Architecture',
+            'Zero external storage setups needed',
+            'Maintains compliance boundary'
+          ],
+          limitations: [
+            'Incredibly expensive long term billing',
+            'Strict SOQL index search limitations',
+            'Limited analytics dashboards'
+          ],
+          fit: 'Best suited for strictly regulated financial environments requiring zero records departure from native platform storage limits.'
+        },
+        2: {
+          title: 'AWS S3 & Athena Cold-Store (BYOS)',
+          subtitle: 'Push relational database rows to highly optimized private Amazon S3 folders, leveraging AWS Athena search index models to query historical files instantly.',
+          specArch: 'Apex extraction pipelines bundle rows into flat secure compressed parquet nodes before offloading.',
+          specStorage: 'Private AWS S3 storage buckets with KMS key envelopes, structured in private client-controlled VPC environments.',
+          specRetrieval: 'Federated AWS Athena serverless indexing pulls records into active search lists inside LWC layouts natively on-demand.',
+          advantages: [
+            'Near-zero S3 archival storage fees',
+            'High-speed serverless querying capability',
+            'Absolute data sovereignty control'
+          ],
+          limitations: [
+            'Requires client AWS cloud configuration',
+            'Initial KMS integration required',
+            'Requires VPC peering mappings'
+          ],
+          fit: 'Highly recommended for tech-focused enterprises with existing AWS footprints aiming to maximize TCO savings and data accessibility.'
+        },
+        3: {
+          title: 'Azure Blob & Synapse Standard (BYOS)',
+          subtitle: 'Secure old Salesforce datasets in Microsoft-managed Azure cloud storage buckets, keeping operations streamlined with fully compliant Azure Synapse pipelines.',
+          specArch: 'Azure Data Factory triggers clean migrations to retrieve records via secure REST authentication keys.',
+          specStorage: 'Enterprise Azure Blob Cool archival zones, secured by Azure Active Directory login and security profiles.',
+          specRetrieval: 'Apex API connectors query cloud tables instantly, rendering readable details in standard embedded LWC layers.',
+          advantages: [
+            'Fully aligned with corporate IT standards',
+            'Exceptional Microsoft storage SLAs',
+            'Seamless integration with Power BI tools'
+          ],
+          limitations: [
+            'Requires Azure storage subscription access',
+            'Synapse lookup query indexing config',
+            'Requires active Azure AD credentials'
+          ],
+          fit: 'Preferred blueprint for Microsoft-centric organizations needing complete data lifecycle control inside their enterprise Azure boundary.'
+        }
+      };
+
+      function showTechOption(idx) {
+        const opt = TECHNICAL_OPTIONS[idx];
+        if (!opt) return;
+
+        // Toggle buttons style
+        for (let i = 1; i <= 3; i++) {
+          const btn = document.getElementById('btn-tech-opt-' + i);
+          const dot = document.getElementById('tech-dot-' + i);
+          if (btn && dot) {
+            if (i === idx) {
+              btn.className = "tech-opt-btn px-4 py-2 bg-slate-950 border border-slate-900 text-white rounded-xl flex items-center gap-2 text-xs sm:text-sm font-semibold transition shadow-md cursor-pointer";
+              dot.className = "w-2.5 h-2.5 bg-sky-400 rounded-full animate-pulse";
+            } else {
+              btn.className = "tech-opt-btn px-4 py-2 bg-slate-50 border border-slate-200 text-slate-700 hover:bg-slate-100 rounded-xl flex items-center gap-2 text-xs sm:text-sm font-medium transition cursor-pointer";
+              dot.className = "w-2.5 h-2.5 bg-slate-400 rounded-full";
+            }
+          }
+        }
+
+        // Update technical option card texts
+        document.getElementById('tech-title').innerText = opt.title;
+        document.getElementById('tech-subtitle').innerText = opt.subtitle;
+        document.getElementById('tech-spec-arch').innerText = opt.specArch;
+        document.getElementById('tech-spec-storage').innerText = opt.specStorage;
+        document.getElementById('tech-spec-retrieval').innerText = opt.specRetrieval;
+        document.getElementById('tech-fit').innerText = opt.fit;
+
+        // Update Advantages list
+        const advList = document.getElementById('tech-advantages-list');
+        advList.innerHTML = '';
+        opt.advantages.forEach(adv => {
+          const li = document.createElement('li');
+          li.innerText = adv;
+          advList.appendChild(li);
+        });
+
+        // Update Limitations list
+        const limList = document.getElementById('tech-limitations-list');
+        limList.innerHTML = '';
+        opt.limitations.forEach(lim => {
+          const li = document.createElement('li');
+          li.innerText = lim;
+          limList.appendChild(li);
+        });
+      }
+
+      // Shootout evaluations map
+      const SHOOTOUT_TOPICS = {
+        0: {
+          backup: 'Runs disaster recovery files replication that keeps cold rows in production, doing nothing to clear local database indexes or eliminate database bloat licenses.',
+          maxify: 'Extracts and shifts historical records to sovereign cloud folders while cleanly setting light reference keys, reducing local database volume by up to 90%.',
+          backupStatus: 'Status: High SF Licences Overhead',
+          maxifyStatus: 'Status: 90% DB Storage Recovered'
+        },
+        1: {
+          backup: 'Backs up full standard and custom tables blindly as raw static database exports, doing nothing to structure or filter rows by relational age boundaries.',
+          maxify: 'Performs hierarchical compression on standard metadata schemas recursively inside private storage engines prior to transmission, saving additional space.',
+          backupStatus: 'Status: Uncompressed Large Backups',
+          maxifyStatus: 'Status: 5x Compound Record Savings'
+        },
+        2: {
+          backup: 'Keeps large files and attachments on Salesforce server nodes, or forces heavy REST API payloads to pull files over during disaster recovery procedures.',
+          maxify: 'Removes files completely from production files limits, substituting light link pointers in custom layouts that users can access instantly on-the-fly.',
+          backupStatus: 'Status: High Document Storage Bloat',
+          maxifyStatus: 'Status: 100% File Overages Eliminated'
+        },
+        3: {
+          backup: 'Archived records must be fully rehydrated back into production database rows before users can run reports or find historical cases.',
+          maxify: 'Leverages serverless cloud queries to instantly render live lists, letting agents search millions of historical items inline natively inside Lightning UI.',
+          backupStatus: 'Status: Requires Database Restoration',
+          maxifyStatus: 'Status: <3s Fast Live Search Index'
+        },
+        4: {
+          backup: 'Backup snapshots are overwritten sequentially as production records update, raising validation problems with auditing retention rules.',
+          maxify: 'Locks records inside deep read-only folders enforcing Write-Once-Read-Many (WORM) storage, ensuring zero compliance modifications or table leaks.',
+          backupStatus: 'Status: Non-Compliant Erasure Risk',
+          maxifyStatus: 'Status: Certified 7-Year Retention'
+        },
+        5: {
+          backup: 'Enterprise records are stored on intermediate backup provider storage, sharing databases and endpoints with external multi-tenant software apps.',
+          maxify: 'Directly offloads records to private S3/Blob folders managed entirely inside client-owned secure cloud boundaries (Bring Your Own Storage).',
+          backupStatus: 'Status: Third-party Cloud Custody',
+          maxifyStatus: 'Status: 100% Enterprise Custody (BYOS)'
+        },
+        6: {
+          backup: 'Archived files are isolated in proprietary encrypted formats that regular corporate analytics dashboard tools cannot access or process.',
+          maxify: 'Exposes open data structures that directly feed Tableau, Power BI, and Snowflake analytical databases, providing complete cross-systems reports.',
+          backupStatus: 'Status: Data Locked In Backup Silos',
+          maxifyStatus: 'Status: Native BI Pipeline Mappings'
+        }
+      };
+
+      function showShootoutTopic(idx) {
+        const item = SHOOTOUT_TOPICS[idx];
+        if (!item) return;
+
+        // Toggle active button states
+        for (let i = 0; i < 7; i++) {
+          const btn = document.getElementById('btn-shoot-' + i);
+          if (btn) {
+            if (i === idx) {
+              btn.className = "shoot-btn text-left p-3 rounded-xl border border-emerald-500/40 bg-emerald-950/20 text-white flex justify-between items-center transition duration-150 cursor-pointer text-xs font-semibold";
+              const icn = btn.querySelector('svg');
+              if (icn) {
+                icn.classList.remove('text-slate-500');
+                icn.classList.add('text-emerald-400');
+              }
+            } else {
+              btn.className = "shoot-btn text-left p-3 rounded-xl border border-slate-800 bg-slate-950/50 text-slate-300 hover:bg-slate-850 flex justify-between items-center transition duration-150 cursor-pointer text-xs font-medium";
+              const icn = btn.querySelector('svg');
+              if (icn) {
+                icn.classList.remove('text-emerald-400');
+                icn.classList.add('text-slate-500');
+              }
+            }
+          }
+        }
+
+        // Update cards text
+        document.getElementById('shoot-backup').innerText = item.backup;
+        document.getElementById('shoot-maxify').innerText = item.maxify;
+        document.getElementById('shoot-backup-status').innerText = item.backupStatus;
+        document.getElementById('shoot-maxify-status').innerText = item.maxifyStatus;
+      }
+
+
+      // Cost Simulator Calculations
+      function runCalculator() {
+        const users = Number(document.getElementById('slider-users').value);
+        const space = Number(document.getElementById('slider-space').value);
+
+        document.getElementById('lbl-users').innerText = users + ' Seats';
+        document.getElementById('lbl-space').innerText = (space / 1000).toFixed(1) + ' TB (' + space + ' GB)';
+
+        // competitor cost: users * $3.65, min $1000
+        const competitorMonthly = Math.max(1000, users * 3.65);
+        // maxify cost: base $299 + s3 storage $0.002/GB
+        const maxifyStorage = space * 0.002;
+        const maxifyMonthly = 299 + maxifyStorage;
+
+        const monthlySavings = competitorMonthly - maxifyMonthly;
+        const yearlySavings = monthlySavings * 12;
+
+        document.getElementById('res-legacy').innerText = '$' + competitorMonthly.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '/mo';
+        document.getElementById('res-maxify').innerText = '$' + maxifyMonthly.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '/mo';
+        document.getElementById('res-monthly-savings').innerText = '$' + Math.round(monthlySavings).toLocaleString('en-US');
+        document.getElementById('res-yearly-savings').innerText = '$' + Math.round(yearlySavings).toLocaleString('en-US') + '/yr';
+      }
+
+      // Run initial calculator
+      runCalculator();
+
+      // Submit brief form
+      function submitFormProposal(e) {
+        e.preventDefault();
+        const name = document.getElementById('frm-name').value;
+        const email = document.getElementById('frm-email').value;
+        const vol = document.getElementById('frm-volume').value;
+
+        const spaceDisplay = vol === 'under-1TB' ? 'under 1.0 TB (1,000 GB)' : vol === '1TB-2TB' ? '1.0 TB - 2.0 TB (2,000 GB)' : 'over 2.0 TB (5,000 GB)';
+
+        const briefText = `DEAR ${name.toUpperCase()} (${email}),
+
+MAXIFY DIGITAL SYSTEM BLUEPRINT PROPOSAL
+REFERENCE: MAX-PROP-2026-HTML
+
+1. ARCHITECTURAL ALLOCATIONS:
+ - Target production bloat estimate: ${spaceDisplay}.
+ - Target cloud archival: Amazon S3 Glacier secure containers.
+ - Querying and indexing: AWS Cloud Redshift data lake.
+
+2. ESTIMATED OUTCOMES:
+ - Footprint reduction: Average 83% active capacity recovered in 6 weeks.
+ - Licensing cost recovery: Approximately $480.00 - $1,150.00/mo.
+ - Regulatory retention SLA: Fully certified 7-Year auditing.
+
+3. NEXT ENGAGEMENT:
+ A specialist will contact you shortly at ${email} to configure your private demo workspace sandboxes.`;
+
+        document.getElementById('proposal-output-text').innerText = briefText;
+        document.getElementById('proposal-blank').classList.add('hidden');
+        document.getElementById('proposal-detail').classList.remove('hidden');
+        document.getElementById('proposal-detail').classList.add('flex');
+      }
+
+      // Scroll spy & smooth navigation active link highlighting
+      window.addEventListener('DOMContentLoaded', () => {
+        const sections = document.querySelectorAll('header, section');
+        const navLinks = document.querySelectorAll('.sticky .nav-link');
+
+        function updateNavActiveState() {
+          let currentSectionId = 'overview';
+          const scrollPosition = window.scrollY + 120; // offset for sticky header
+
+          sections.forEach(section => {
+            if (section.id) {
+              const top = section.offsetTop;
+              const height = section.offsetHeight;
+              if (scrollPosition >= top && scrollPosition < top + height) {
+                currentSectionId = section.id;
+              }
+            }
+          });
+
+          navLinks.forEach(link => {
+            const secId = link.getAttribute('data-sec') || link.getAttribute('href').substring(1);
+            if (secId === currentSectionId) {
+              link.classList.add('bg-sky-500', 'text-slate-950', 'shadow-sm');
+              link.classList.remove('text-slate-400', 'hover:text-white');
+            } else {
+              link.classList.remove('bg-sky-500', 'text-slate-950', 'shadow-sm');
+              link.classList.add('text-slate-400', 'hover:text-white');
+            }
+          });
+        }
+
+        window.addEventListener('scroll', updateNavActiveState);
+        // Run immediately
+        updateNavActiveState();
+      });
+
+      // Mobile Menu Toggle
+      const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+      if (mobileMenuToggle && mobileMenu) {
+        mobileMenuToggle.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+        });
+      }
+    </script>
+
+    <!-- Calendly Widget Script -->
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+
+  </div>
+  <!-- Navbar and Footer -->
+  <script>
+    fetch('./header.html')
+      .then(r => r.text())
+      .then(data => document.getElementById('header-placeholder').innerHTML = data)
+      .catch(err => console.error('Header load failed:', err));
+    fetch('./footer.html')
+      .then(r => r.text())
+      .then(data => document.getElementById('footer-placeholder').innerHTML = data)
+      .catch(err => console.error('Footer load failed:', err));
+  </script>
+  <!-- Navbar and Footer  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./assets/main.js"></script>
+
+</body>
+
+</html>

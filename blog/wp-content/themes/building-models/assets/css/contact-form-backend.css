@@ -1,0 +1,27 @@
+.oc-form-wrap label{
+    display: block;
+    word-wrap: break-word;
+}
+.oc-form-wrap input, .oc-form-wrap textarea{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #BBBBBB;
+    padding: 1px 8px;
+    background: #FFF;
+    margin: 0;
+}
+.oc-form-wrap textarea{
+    display: block;
+    height: 130px;
+    padding: 7px 8px !important;
+}
+.oc-form-wrap button{
+    padding: 5px;
+    border: 2px solid rgba(0,0,0,1);    
+    color: rgba(0,0,0,1);
+    font-size: 18px;
+    text-align: center;
+    background: transparent;
+    float: right;
+    margin-top: 25px;
+}

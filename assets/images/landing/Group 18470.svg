@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132.897" height="132.897" viewBox="0 0 132.897 132.897">
+  <g id="Group_18470" data-name="Group 18470" transform="translate(-374.069)">
+    <path id="Path_24528" data-name="Path 24528" d="M66.448,0A66.448,66.448,0,1,1,0,66.448,66.448,66.448,0,0,1,66.448,0Z" transform="translate(374.069)" fill="#4d78e8" opacity="0.775"/>
+    <g id="Group_19742" data-name="Group 19742" transform="translate(343.023 175.361)">
+      <text id="_100_Experts_Onboarded" data-name="100+ Experts
+Onboarded" transform="translate(97.046 -91)" fill="#fff" font-size="20" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-50" y="0">100+ </tspan><tspan y="0" font-size="14" font-family="Poppins-Regular, Poppins" font-weight="400">Experts</tspan><tspan font-size="14" font-family="Poppins-Regular, Poppins" font-weight="400"><tspan x="-40" y="20">Onboarded</tspan></tspan></text>
+      <g id="Group_19744" data-name="Group 19744" transform="translate(77.862 -154)">
+        <path id="Path_27185" data-name="Path 27185" d="M8,9.947A6.947,6.947,0,1,0,14.947,3,6.947,6.947,0,0,0,8,9.947" transform="translate(1.474 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Path_27186" data-name="Path 27186" d="M6,25.421V21.947A6.947,6.947,0,0,1,12.947,15h.868" transform="translate(0 8.842)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Path_27187" data-name="Path 27187" d="M20.9,25.84l-3.772,1.977a.681.681,0,0,1-.987-.712l.721-4.187-3.052-2.965a.676.676,0,0,1,.377-1.155l4.217-.611,1.886-3.809a.681.681,0,0,1,1.219,0l1.886,3.809,4.217.611a.677.677,0,0,1,.377,1.155l-3.052,2.965.719,4.186a.677.677,0,0,1-.985.714Z" transform="translate(5.599 8.105)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

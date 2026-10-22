@@ -1,0 +1,9 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" width="71" height="71" viewBox="0 0 71 71">
+  <circle id="purple" cx="35.5" cy="35.5" r="35.5" fill="#fff"/>
+  <g id="Group_18699" data-name="Group 18699" transform="translate(18.704 18.704)">
+    <path id="Path_27131" data-name="Path 27131" d="M17.3,31.592a14.3,14.3,0,1,1,14.3-14.3A14.3,14.3,0,0,1,17.3,31.592Z" fill="none" stroke="#d08ac0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_27132" data-name="Path 27132" d="M11.765,10.441c-.794-1.588-3.971-1.588-4.765,0" transform="translate(2.354 3.678)" fill="none" stroke="#d08ac0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_27133" data-name="Path 27133" d="M18.765,10.441c-.794-1.588-3.971-1.588-4.765,0" transform="translate(6.473 3.678)" fill="none" stroke="#d08ac0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_27134" data-name="Path 27134" d="M17.442,15A5.559,5.559,0,0,1,9.5,15" transform="translate(3.825 7.061)" fill="none" stroke="#d08ac0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

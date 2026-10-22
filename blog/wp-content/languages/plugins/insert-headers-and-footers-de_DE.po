@@ -1,0 +1,166 @@
+# Translation of Plugins - Insert Headers and Footers by WPBeginner - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Insert Headers and Footers by WPBeginner - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-16 18:06:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Insert Headers and Footers by WPBeginner - Stable (latest release)\n"
+
+#: ihaf.php:158
+msgid "Sorry, you are not allowed to edit this page."
+msgstr "Du bist leider nicht berechtigt, diese Seite zu bearbeiten."
+
+#: ihaf.php:150
+msgid "Sorry, only have read-only access to this page. Ask your administrator for assistance editing."
+msgstr "Du hast leider nur Lesezugriff auf diese Seite. Bitte deinen Administrator um Hilfe beim Bearbeiten."
+
+#: views/settings.php:40
+msgid "Scripts in Body"
+msgstr "Skripte im Body"
+
+#. translators: %s: The `</body>` tag
+#: views/settings.php:57
+msgid "These scripts will be printed above the closing %s tag."
+msgstr "Diese Skripte werden über dem schließenden %s-Tag ausgegeben."
+
+#. translators: %s: The `<head>` tag
+#: views/settings.php:45
+msgid "These scripts will be printed just below the opening %s tag."
+msgstr "Diese Skripte werden direkt unter dem öffnenden %s-Tag ausgegeben."
+
+#. translators: %s: The `<head>` tag
+#: views/settings.php:33
+msgid "These scripts will be printed in the %s section."
+msgstr "Diese Skripte werden im %s-Abschnitt ausgegeben."
+
+#: views/settings.php:2 views/settings.php:23
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: views/settings.php:65
+msgid "Save"
+msgstr "Speichern"
+
+#: ihaf.php:173
+msgid "Settings Saved."
+msgstr "Einstellungen gespeichert."
+
+#. Author of the plugin
+msgid "WPBeginner"
+msgstr "WPBeginner"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.wpbeginner.com/"
+msgstr "http://www.wpbeginner.com/"
+
+#: ihaf.php:161
+msgid "nonce field is missing. Settings NOT saved."
+msgstr "Nonce-Feld fehlt. Einstellungen wurden NICHT gespeichert."
+
+#: ihaf.php:164
+msgid "Invalid nonce specified. Settings NOT saved."
+msgstr "Ungültige Nonce angegeben. Einstellungen wurden NICHT gespeichert."
+
+#: views/settings.php:52
+msgid "Scripts in Footer"
+msgstr "Skripte im Footer"
+
+#: views/settings.php:28
+msgid "Scripts in Header"
+msgstr "Skripte im Header"
+
+#. Plugin Name of the plugin
+msgid "Insert Headers and Footers"
+msgstr "Insert Headers and Footers"
+
+#. Description of the plugin
+msgid "Allows you to insert code or text in the header or footer of your WordPress blog"
+msgstr "Ermöglicht das Einfügen von Code oder Text in den Header oder Footer deines WordPress-Blogs"
+
+#: views/sidebar.php:95
+msgid "SeedProd"
+msgstr "SeedProd"
+
+#: views/sidebar.php:85
+msgid "OptinMonster"
+msgstr "OptinMonster"
+
+#: views/sidebar.php:75
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: views/sidebar.php:65
+msgid "WPForms"
+msgstr "WPForms"
+
+#: views/sidebar.php:20
+msgid "WPBeginner blog"
+msgstr "WPBeginner-Blog"
+
+#: views/dashboard-notices.php:15
+msgid "Click here"
+msgstr "Hier klicken"
+
+#. translators: %s: Name of this plugin
+#: views/dashboard-notices.php:11
+msgid "Thank you for installing %1$s!"
+msgstr "Danke, dass du %1$s installierst!"
+
+#: ihaf.php:145
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Du bist leider nicht berechtigt, auf diese Seite zuzugreifen."
+
+#: views/sidebar.php:9
+msgid "Improve Your Site"
+msgstr "Verbessere deine Website"
+
+#: views/sidebar.php:54
+msgid "Our WordPress Plugins"
+msgstr "Unsere WordPress-Plugins"
+
+#: views/sidebar.php:58
+msgid "Like this plugin? Check out our other WordPress plugins:"
+msgstr "Dir gefällt dieses Plugin? Dann schau dir auch unsere anderen WordPress-Plugins an:"
+
+#: views/sidebar.php:43
+msgid "Boost Your WordPress SEO"
+msgstr "Verstärke dein SEO in WordPress"
+
+#: views/sidebar.php:38
+msgid "Improve WordPress Security"
+msgstr "Verbessere die Sicherheit von WordPress"
+
+#: views/sidebar.php:33
+msgid "Speed Up WordPress"
+msgstr "Mache WordPress schneller"
+
+#: views/sidebar.php:27
+msgid "Some of our popular guides:"
+msgstr "Einige unserer beliebten Anleitungen:"
+
+#: views/dashboard-notices.php:15
+msgid "to configure the plugin."
+msgstr "um das Plugin zu konfigurieren."
+
+#: views/sidebar.php:86
+msgid "Best WordPress Lead Generation Plugin"
+msgstr "Das beste WordPress-Plugin zur Lead-Generierung"
+
+#: views/sidebar.php:76
+msgid "Google Analytics Made Easy for WordPress"
+msgstr "Google Analytics für WordPress leicht gemacht"
+
+#: views/sidebar.php:66
+msgid "Drag & Drop WordPress Form Builder"
+msgstr "Drag-and-drop-Formular-Builder für WordPress"
+
+#. translators: %s: Link to WPBeginner blog
+#: views/sidebar.php:17
+msgid "Want to take your site to the next level? Check out our daily free WordPress tutorials on %s."
+msgstr "Möchtest du deine Website auf ein höheres Niveau heben? Dann schau dir unsere täglich erscheinenden, kostenlosen WordPress-Tutorials auf %s an."

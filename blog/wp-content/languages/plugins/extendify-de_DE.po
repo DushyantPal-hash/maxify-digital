@@ -1,0 +1,143 @@
+# Translation of Plugins - Extendify — Gutenberg Patterns and Templates - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Extendify — Gutenberg Patterns and Templates - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-06-24 14:42:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Extendify — Gutenberg Patterns and Templates - Stable (latest release)\n"
+
+#: app/Onboarding/Admin.php:77
+msgid "Welcome"
+msgstr "Willkommen"
+
+#: app/Onboarding/Controllers/WPController.php:62
+msgid "Error creating theme.json file"
+msgstr "Fehler beim Erstellen der Theme.json-Datei"
+
+#: app/Onboarding/Controllers/WPController.php:29
+#: app/Onboarding/Controllers/WPController.php:48
+msgid "Invalid Theme.json file"
+msgstr "Ungültige Theme.json-Datei"
+
+#: app/Library/Welcome.php:136
+msgid "View Pricing"
+msgstr "Preise anzeigen"
+
+#: app/Library/Welcome.php:132
+msgid "Do you want more patterns and layouts - without limits? Choose one of our plans and receive unlimited access to our complete library."
+msgstr "Möchtest du mehr Muster und Layouts — ohne Einschränkungen? Wähle eins unserer Abos aus und erhalte unbegrenzten Zugriff auf unsere komplette Bibliothek."
+
+#: app/Library/Welcome.php:129
+msgid "Upgrade to Extendify Pro"
+msgstr "Upgrade auf Extendify Pro"
+
+#: app/Library/Welcome.php:119
+msgid "You'll find beautiful high fidelity Gutenberg content to add to your pages in no time!"
+msgstr "Es gibt wunderschöne Gutenberg-Inhalte in Hi-Fi-Qualität, die du im Nu auf deinen Seiten hinzufügen kannst!"
+
+#: app/Library/Welcome.php:116
+msgid "Search by industry, contents, and design attributes. Extendify has thousands of best-in-class block patterns. Find what you love and add it to the page - done!"
+msgstr "Suche nach Branche, Inhalten und Designmerkmalen. Extendify bietet Tausende von erstklassigen Blockmustern an. Finde, was dir gefällt, und füge es zur Seite hinzu — fertig!"
+
+#: app/Library/Welcome.php:113
+msgid "3. Browse Patterns & Layouts."
+msgstr "3. Muster und Layouts durchsuchen."
+
+#: app/Library/Welcome.php:106
+msgid "Extendify supports over sixty types with new industries added regularly."
+msgstr "Extendify unterstützt über 60 Typen und es werden regelmäßig neue Branchen hinzugefügt."
+
+#: app/Library/Welcome.php:103
+msgid "With the library open, you can set your site industry - or type - which will surface the perfect industry-specific patterns and full page layouts to drop onto your website."
+msgstr "Wenn du die Bibliothek öffnest, kannst du die Branche — oder den Typ — deiner Website festlegen, woraufhin die perfekten branchenspezifischen Muster und vollständigen Seitenlayouts angezeigt werden, die auf deiner Website platziert werden können."
+
+#: app/Library/Welcome.php:100
+msgid "2. Choose a site industry"
+msgstr "2. Wähle eine Website-Branche aus"
+
+#. translators: %1$s = URL.
+#: app/Library/Welcome.php:87
+msgid "clicking here"
+msgstr "hier klickst"
+
+#. translators: %1$s = URL.
+#: app/Library/Welcome.php:87
+msgid "You may also add a new page with the library opened for you by %1$s."
+msgstr "Du kannst auch eine neue Seite mit der geöffneten Bibliothek hinzufügen, indem du %1$s."
+
+#: app/Library/Welcome.php:82
+msgid "When editing a page or post within the block editor, you'll see the Extendify library button within the editor's header"
+msgstr "Wenn du eine Seite oder einen Beitrag innerhalb des Block-Editors bearbeitest, findest du den Extendify Library Button im Header des Editors"
+
+#: app/Library/Welcome.php:79
+msgid "1. Open the Extendify Library"
+msgstr "1. Öffne die Extendify Library"
+
+#: app/Library/Welcome.php:72
+msgid "Extendify is a massive library of drop-in black patterns easily customized to your liking. Each pattern is meticulously designed to work with your existing WordPress theme."
+msgstr "Extendify ist eine umfangreiche Bibliothek von Drop-in-Blockmustern, die einfach nach Belieben angepasst werden können. Jedes Muster wurde sorgfältig so entworfen, dass es mit deinem aktuellen WordPress-Theme kompatibel ist."
+
+#: app/Library/Welcome.php:69
+msgid "Welcome to Extendify"
+msgstr "Willkommen bei Extendify"
+
+#: app/Library/Welcome.php:64
+msgid "Extendify Banner"
+msgstr "Extendify-Banner"
+
+#: app/Library/Plugin.php:80
+msgid "An unknown error occurred during installation"
+msgstr "Es ist ein unbekannter Fehler während der Installation aufgetreten"
+
+#: app/Library/Plugin.php:74
+msgid "There was an error installing your plugin"
+msgstr "Es ist ein Fehler bei der Installation deines Plugins aufgetreten"
+
+#: app/Library/Plugin.php:58
+msgid "You are not allowed to install plugins on this site."
+msgstr "Du bist nicht berechtigt, Plugins auf dieser Seite zu installieren."
+
+#: src/Library/blocks/library/block.json
+msgctxt "block keyword"
+msgid "layouts"
+msgstr "Layouts"
+
+#: src/Library/blocks/library/block.json
+msgctxt "block keyword"
+msgid "template"
+msgstr "Template"
+
+#: src/Library/blocks/library/block.json
+msgctxt "block description"
+msgid "Add block patterns and full page layouts with the Extendify Library."
+msgstr "Füge Block-Muster und vollständige Seitenlayouts mit der Extendify Library hinzu."
+
+#: src/Library/blocks/library/block.json
+msgctxt "block title"
+msgid "Pattern Library"
+msgstr "Muster-Bibliothek"
+
+#: app/Library/Controllers/PluginController.php:53 app/Library/Plugin.php:36
+msgid "You are not allowed to activate plugins on this site."
+msgstr "Du bist nicht berechtigt, Plugins auf dieser Seite zu aktivieren."
+
+#: app/Library/Admin.php:51
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#. Author URI of the plugin
+msgid "https://extendify.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://extendify.com/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Description of the plugin
+msgid "Extendify is the platform of site design and creation tools for people that want to build a beautiful WordPress website with a library of patterns and full page layouts for the Gutenberg block editor."
+msgstr "Extendify ist eine Plattform für Website-Design und Gestaltungstools für Menschen, die eine schöne WordPress-Website erstellen möchten mithilfe einer Sammlung von Mustern und vollständigen Seitenlayouts, die im Gutenberg-Block-Editor angewendet werden können."
+
+#. Plugin URI of the plugin
+msgid "https://extendify.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr "https://extendify.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"

@@ -1,0 +1,230 @@
+# Translation of Plugins - WordPress Importer - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - WordPress Importer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-12 20:32:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - WordPress Importer - Stable (latest release)\n"
+
+#: class-wp-import.php:1112
+msgid "The uploaded file could not be moved"
+msgstr "Den uppladdade filen kunde inte flyttas"
+
+#: class-wp-import.php:1097
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "Denna filtyp är inte tillåten av säkerhetsskäl."
+
+#: class-wp-import.php:1059
+msgid "Downloaded file has incorrect size"
+msgstr "Nedladdad fil har felaktig storlek"
+
+#. translators: 1: The HTTP error message. 2: The HTTP error code.
+#: class-wp-import.php:1035
+msgid "Remote server returned the following unexpected result: %1$s (%2$s)"
+msgstr "Fjärrservern svarade med följande oväntade resultat: %1$s (%2$s)"
+
+#. translators: 1: The WordPress error message. 2: The WordPress error code.
+#: class-wp-import.php:1019
+msgid "Request failed due to an error: %1$s (%2$s)"
+msgstr "Begäran misslyckades på grund av ett fel: %1$s (%2$s)"
+
+#: class-wp-import.php:1000
+msgid "Could not create temporary file."
+msgstr "Kunde inte skapa temporär fil."
+
+#: class-wp-import.php:239
+msgid "To make it simpler for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site, such as your primary administrator account."
+msgstr "För att göra det enklare för dig att redigera och spara det importerade innehållet, kanske du vill omfördela författaren till det importerade objektet till en befintlig användare av den här webbplatsen, till exempel ditt primära administratörskonto."
+
+#. Author URI of the plugin
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Author of the plugin
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
+
+#. Description of the plugin
+msgid "Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file."
+msgstr "Importera inlägg, sidor, kommentarer, anpassade fält, kategorier, etiketter och mer från en WordPress exportfil."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wordpress-importer/"
+msgstr "https://wordpress.org/plugins/wordpress-importer/"
+
+#. Plugin Name of the plugin
+msgid "WordPress Importer"
+msgstr "WordPress Importer"
+
+#: wordpress-importer.php:58
+msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
+msgstr "Importera <strong>inlägg, sidor, kommentarer, anpassade fält, kategorier och etiketter</strong> från en WordPress-exportfil."
+
+#: class-wp-import.php:1247
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "Välj en WXR (.xml)-fil att ladda upp, klicka därefter på ladda upp fil och importera."
+
+#: class-wp-import.php:1246
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr "Hej! Ladda upp din WordPress eXtended RSS (WXR)-fil så importerar vi inlägg, sidor, kommentarer, anpassade fält, kategorier och etiketter till den här webbsidan."
+
+#: class-wp-import.php:1231
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr "En ny version av denna importerare är tillgänglig. Uppdatera till version %s för att säkerställa kompatibilitet med nyare exportfiler."
+
+#: class-wp-import.php:1224
+msgid "Import WordPress"
+msgstr "Importera WordPress"
+
+#: class-wp-import.php:1065
+msgid "Remote file is too large, limit is %s"
+msgstr "Fjärrfilen är för stor, gränsen är %s"
+
+#: class-wp-import.php:1054
+msgid "Zero size file downloaded"
+msgstr "En tom fil laddades ner"
+
+#: class-wp-import.php:1047
+msgid "Remote server did not respond"
+msgstr "Fjärrservern svarade inte"
+
+#: class-wp-import.php:961
+msgid "Invalid file type"
+msgstr "Ogiltig filtyp"
+
+#: class-wp-import.php:948
+msgid "Fetching attachments is not enabled"
+msgstr "Funktionen för att hämta bilagor är inte aktiverad"
+
+#: class-wp-import.php:885
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Menyobjekt hoppades över på grund av ogiltig permalänk för meny: %s"
+
+#: class-wp-import.php:878
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Menyobjekt hoppades över på grund av att permalänk för meny saknas"
+
+#: class-wp-import.php:704
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Det gick inte att importera ”%s”"
+
+#: class-wp-import.php:642
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8221;%s&#8221; finns redan."
+
+#: class-wp-import.php:605
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "Misslyckades att importera ”%s”: Ogiltig inläggstyp %s"
+
+#: class-wp-import.php:512 class-wp-import.php:738
+msgid "Failed to import %s %s"
+msgstr "Misslyckades att importera %s %s"
+
+#: class-wp-import.php:457
+msgid "Failed to import post tag %s"
+msgstr "Det gick inte att importera inläggsetiketten %s"
+
+#: class-wp-import.php:412
+msgid "Failed to import category %s"
+msgstr "Det gick inte att importera kategorin %s"
+
+#: class-wp-import.php:360
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr "Det gick inte att skapa en ny användare för %s. Dess inlägg kommer att tillskrivas den aktuella användaren."
+
+#: class-wp-import.php:306
+msgid "- Select -"
+msgstr "- Välj -"
+
+#: class-wp-import.php:298
+msgid "or assign posts to an existing user:"
+msgstr "eller tilldela inlägg till en befintlig användare:"
+
+#: class-wp-import.php:296
+msgid "assign posts to an existing user:"
+msgstr "tilldela inlägg till en befintlig användare:"
+
+#: class-wp-import.php:286
+msgid "as a new user:"
+msgstr "som ny användare:"
+
+#: class-wp-import.php:283
+msgid "or create new user with login name:"
+msgstr "eller skapa en ny användare med användarnamnet:"
+
+#: class-wp-import.php:271
+msgid "Import author:"
+msgstr "Importera författare:"
+
+#: class-wp-import.php:258
+msgid "Submit"
+msgstr "Skicka"
+
+#: class-wp-import.php:254
+msgid "Download and import file attachments"
+msgstr "Ladda ned och importera bilagor"
+
+#: class-wp-import.php:251
+msgid "Import Attachments"
+msgstr "Importera bilagor"
+
+#: class-wp-import.php:241
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr "Om en ny användare skapas av WordPress, kommer ett nytt slumpmässigt lösenord att genereras och den nya användarens roll kommer att bli %s. Användaruppgifterna kommer att behöva ändras manuellt."
+
+#: class-wp-import.php:238
+msgid "Assign Authors"
+msgstr "Tilldela författare"
+
+#: class-wp-import.php:212
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr "Det gick inte att importera författaren %s. Dess inlägg kommer att tillskrivas den aktuella användaren."
+
+#: class-wp-import.php:187
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr "Denna WXR-fil (version %s) stöds kanske inte av denna version av importeraren. Överväg att uppdatera."
+
+#: class-wp-import.php:171
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr "Exportfilen kunde inte hittas på <code>%s</code>. Det är troligen ett behörighetsproblem."
+
+#: class-wp-import.php:151
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "Kom ihåg att uppdatera de importerade användarnas lösenord och roller."
+
+#: class-wp-import.php:150
+msgid "Have fun!"
+msgstr "Ha kul!"
+
+#: class-wp-import.php:150
+msgid "All done."
+msgstr "Allt klart."
+
+#: class-wp-import.php:107
+msgid "The file does not exist, please try again."
+msgstr "Filen finns inte, försök igen."
+
+#: class-wp-import.php:106 class-wp-import.php:115 class-wp-import.php:166
+#: class-wp-import.php:170 class-wp-import.php:179
+msgid "Sorry, there has been an error."
+msgstr "Ett fel uppstod."
+
+#: parsers/class-wxr-parser-regex.php:96 parsers/class-wxr-parser-xml.php:48
+#: parsers/class-wxr-parser-simplexml.php:41
+#: parsers/class-wxr-parser-simplexml.php:46
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "Detta verkar inte vara en WXR-fil, WXR-versionsnummer saknas eller är ogiltigt"
+
+#: parsers/class-wxr-parser.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "Information visas ovan. Importeraren försöker nu med en alternativ metod…"
+
+#: parsers/class-wxr-parser-simplexml.php:29
+#: parsers/class-wxr-parser-simplexml.php:37 parsers/class-wxr-parser.php:42
+msgid "There was an error when reading this WXR file"
+msgstr "Ett fel uppstod när WXR-filen skulle läsas"

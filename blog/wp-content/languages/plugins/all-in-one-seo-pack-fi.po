@@ -1,0 +1,346 @@
+# Translation of Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release) in Finnish
+# This file is distributed under the same license as the Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-07 13:53:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: fi\n"
+"Project-Id-Version: Plugins - All in One SEO – Best WordPress SEO Plugin – Easily Improve SEO Rankings &amp; Increase Traffic - Stable (latest release)\n"
+
+#: app/Common/Admin/Notices/Review.php:92
+msgid "Not Really..."
+msgstr "Ei oikeastaan..."
+
+#: app/Common/Admin/Notices/Review.php:91
+msgid "Yes I love it"
+msgstr "Tykkään"
+
+#. Translators: 1 - The marketing site anchor name ("aioseo.com").
+#: app/Lite/Admin/Connect.php:288
+msgid "Plugin installed & activated."
+msgstr "Lisäosa on asennettu ja aktivoitu"
+
+#: app/Common/Admin/Admin.php:304
+msgid "Link has been inserted."
+msgstr "Linkki on lisätty."
+
+#: app/Common/Admin/Admin.php:302
+msgid "No results found."
+msgstr "Ei tuloksia."
+
+#: app/Common/Admin/Admin.php:300
+msgid "(no title)"
+msgstr "(ei otsikkoa)"
+
+#: app/Common/Admin/Admin.php:299
+msgid "Add Link"
+msgstr "Lisää linkki"
+
+#: app/Common/Admin/Admin.php:298
+msgid "Update"
+msgstr "Päivittää"
+
+#: app/Common/Admin/Admin.php:920
+msgid "Give us a 5-star rating!"
+msgstr "Anna meille 5 tähden arvostelu!"
+
+#: app/Common/Admin/Admin.php:495
+msgid "Mobile-Friendly Test"
+msgstr "Mobiiliystävällinen testi"
+
+#: app/Common/Admin/Admin.php:490
+msgid "Google Page Speed Test"
+msgstr "Google Page Speed testi"
+
+#: app/Common/Admin/Admin.php:485
+msgid "CSS Validator"
+msgstr "CSS validaattori"
+
+#: app/Common/Admin/Admin.php:480
+msgid "HTML Validator"
+msgstr "HTML validaattori"
+
+#: app/Common/Admin/Admin.php:475
+msgid "Pinterest Rich Pins Validator"
+msgstr " Pinterest Rich Pins validaattori"
+
+#: app/Common/Admin/Admin.php:470
+msgid "Facebook Debugger"
+msgstr "Facebook virheidenkorjaus"
+
+#: app/Common/Admin/Admin.php:465
+msgid "Google Structured Data Test"
+msgstr "Google-jäsennelty datatesti"
+
+#: app/Common/Admin/Admin.php:460
+msgid "Check Google Cache"
+msgstr "Tarkista Google-välimuisti"
+
+#: app/Common/Admin/Admin.php:455
+msgid "Check links to this URL"
+msgstr "Tarkista linkit tähän URL-osoitteeseen"
+
+#: app/Common/Admin/Admin.php:447
+msgid "Analyze this page"
+msgstr "Analysoi tätä sivua"
+
+#. Translators: This is an action link users can click to open a feature
+#. request.
+#: app/Lite/Main/Filters.php:30
+msgid "Suggest a Feature"
+msgstr "Ehdota ominaisuutta"
+
+#: app/Common/Admin/Admin.php:208
+msgid "About Us"
+msgstr "Meistä"
+
+#: app/Common/Admin/Notices/Review.php:102
+msgid "I already did"
+msgstr "Olen jo tehnyt"
+
+#: app/Common/Admin/Notices/Review.php:101
+msgid "Nope, maybe later"
+msgstr "Ei, ehkä myöhemmin"
+
+#. Translators: The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Review.php:100
+msgid "Ok, you deserve it"
+msgstr "Ok, ansaitset sen"
+
+#: app/Common/Admin/Notices/Review.php:97
+msgid "That's awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr "Se on mahtavaa! Voisitko tehdä minulle suuren palvelun ja antaa sille 5 tähden arvosanan WordPressissä auttaaksemme meitä levittämään sanaa ja lisäämään motivaatiota?"
+
+#. Translators: The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Review.php:95
+msgid "Give feedback"
+msgstr "Anna palautetta"
+
+#. Translators: The plugin name ("All in One SEO").
+#: app/Common/Admin/Notices/Review.php:94
+msgid "We're sorry to hear you aren't enjoying %1$s. We would love a chance to improve. Could you take a minute and let us know what we can do better?"
+msgstr "Harmi jos et nauttinut %1$s:sta. Haluaisimme mahdollisuuden parantaa. Voisitko käyttää hetken ja kertoa meille, mitä voimme tehdä paremmin?"
+
+#. Translators: 1 - The plugin short name ("AIOSEO").
+#: app/Common/Admin/Notices/Review.php:88
+msgid "Are you enjoying %1$s?"
+msgstr "Nautitko %1$s?"
+
+#. Author of the plugin
+msgid "All in One SEO Team"
+msgstr "All in One SEO tiimi"
+
+#: app/Common/Utils/Tags.php:329
+msgid "Category"
+msgstr "Kategoria"
+
+#: app/Common/Breadcrumbs/Breadcrumbs.php:281
+msgid "Page"
+msgstr "Sivu"
+
+#: app/Common/Standalone/HeadlineAnalyzer.php:637
+msgid "year"
+msgstr "vuosi"
+
+#: app/Common/Admin/Notices/Review.php:96
+msgid "No thanks"
+msgstr "Ei kiitos"
+
+#: app/Common/Tools/SystemStatus.php:337
+msgid "Inactive Plugins"
+msgstr "Passiiviset lisäosat"
+
+#: app/Common/Tools/SystemStatus.php:305
+msgid "Active Plugins"
+msgstr "Aktiiviset lisäosat"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:52
+msgid "sitemaps"
+msgstr "sivukartat"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:45
+msgid "This sitemap index contains"
+msgstr "Tämä sivustokarttahakemisto sisältää"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:40
+msgid "URLs"
+msgstr "URL:t"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:33
+msgid "This sitemap contains"
+msgstr "Tämä sivustokartta sisältää"
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:22
+msgid "this is an XML Sitemap, meant to be consumed by search engines like Google or Bing."
+msgstr "tämä on XML-sivustokartta, joka on tarkoitettu käytettäväksi hakukoneille, kuten Google tai Bing."
+
+#: app/Common/Views/sitemap/xsl/templates/header.php:22
+msgid "Generated by"
+msgstr "Luonut"
+
+#: app/Common/Tools/SystemStatus.php:97
+msgid "Search Engine Visibility"
+msgstr "Hakukoneen näkyvyys"
+
+#: app/Common/Tools/SystemStatus.php:57
+msgid "Site Language"
+msgstr "Sivuston kieli"
+
+#: app/Common/Tools/SystemStatus.php:53 app/Common/Utils/Tags.php:475
+#: app/Common/Utils/Tags.php:487
+msgid "Site Title"
+msgstr "Sivuston otsikko"
+
+#. Translators: This is an action link users can click to purchase a license
+#. for All in One SEO Pro.
+#: app/Lite/Admin/Admin.php:42 app/Lite/Admin/Admin.php:68
+#: app/Lite/Main/Filters.php:63
+msgid "Upgrade to Pro"
+msgstr "Päivitä Pro-versioon"
+
+#. Translators: This is an action link users can click to open our general
+#. documentation page.
+#: app/Lite/Main/Filters.php:58
+msgid "Documentation"
+msgstr "Ohjeistus"
+
+#. Translators: This is an action link users can click to open the General
+#. Settings menu.
+#: app/Common/Admin/Admin.php:553 app/Lite/Main/Filters.php:48
+msgid "SEO Settings"
+msgstr "SEO-asetukset"
+
+#: app/Common/Sitemap/Output.php:32
+msgid "dynamically"
+msgstr "dynaamisesti"
+
+#: app/Common/Sitemap/Xsl.php:35
+msgid "Additional Pages"
+msgstr "Lisäsivut"
+
+#: app/Common/Views/sitemap/html/widget-options.php:92
+msgid "Taxonomies"
+msgstr "Luokittelut"
+
+#: app/Common/Views/sitemap/html/widget-options.php:69
+msgid "Post Types"
+msgstr "Sisältötyypit"
+
+#: app/Common/Tools/SystemStatus.php:243
+msgid "Active Theme"
+msgstr "Aktiivinen teema"
+
+#: app/Common/Tools/SystemStatus.php:81
+msgid "Multisite"
+msgstr "Multisite"
+
+#: app/Common/Tools/SystemStatus.php:69
+msgid "Home URL"
+msgstr "Etusivun verkko-osoite"
+
+#: app/Common/Tools/SystemStatus.php:73
+msgid "Site URL"
+msgstr "Sivuston verkko-osoite"
+
+#: app/Common/Tools/SystemStatus.php:209
+msgid "PHP Max Post Size"
+msgstr "PHP Post-siirron suurin koko"
+
+#: app/Common/Tools/SystemStatus.php:205
+msgid "PHP Max Upload Size"
+msgstr "PHP palvelimelle siirrettävän tiedoston suurin koko"
+
+#: app/Common/Tools/SystemStatus.php:201
+msgid "PHP Memory Limit"
+msgstr "PHP-muistirajoitus"
+
+#: app/Common/Tools/SystemStatus.php:197
+msgid "PHP Version"
+msgstr "PHP:n versio"
+
+#: app/Common/Tools/SystemStatus.php:177
+msgid "Operating System"
+msgstr "Käyttöjärjestelmä"
+
+#: app/Common/Tools/SystemStatus.php:82 app/Common/Tools/SystemStatus.php:86
+#: app/Common/Tools/SystemStatus.php:218 app/Common/Tools/SystemStatus.php:222
+#: app/Common/Tools/SystemStatus.php:226
+msgid "Yes"
+msgstr "Kyllä"
+
+#: app/Common/Tools/SystemStatus.php:186
+msgid "N/A"
+msgstr "Ei tietoa/-saatavilla"
+
+#: app/Common/Tools/SystemStatus.php:129 app/Common/Tools/SystemStatus.php:133
+#: app/Common/Tools/SystemStatus.php:137 app/Common/Tools/SystemStatus.php:141
+#: app/Common/Tools/SystemStatus.php:145 app/Common/Tools/SystemStatus.php:149
+#: app/Common/Tools/SystemStatus.php:153
+msgid "Not set"
+msgstr "Ei asetettu"
+
+#: app/Common/Tools/SystemStatus.php:82 app/Common/Tools/SystemStatus.php:86
+#: app/Common/Tools/SystemStatus.php:218 app/Common/Tools/SystemStatus.php:222
+#: app/Common/Tools/SystemStatus.php:226
+msgid "No"
+msgstr "Ei"
+
+#: app/Common/Admin/Admin.php:200
+msgid "Feature Manager"
+msgstr "Toimintojen hallinta"
+
+#: app/Common/Tools/SystemStatus.php:49
+msgid "Version"
+msgstr "Versio"
+
+#. Translators: This is an action link users can click to open our premium
+#. support.
+#: app/Lite/Main/Filters.php:53
+msgid "Support"
+msgstr "Tuki"
+
+#. Plugin Name of the plugin
+msgid "All in One SEO"
+msgstr "All in One SEO"
+
+#: app/Common/Admin/Admin.php:534
+msgid "Edit SEO"
+msgstr "Muokkaa hakukoneoptimointia"
+
+#: app/Common/Admin/Admin.php:386 app/Common/Admin/SiteHealth.php:91
+msgid "SEO"
+msgstr "Hakukoneoptimointi/SEO"
+
+#: app/Common/Utils/Tags.php:521
+msgid "Description"
+msgstr "Kuvaus"
+
+#: app/Common/Admin/Admin.php:301 app/Common/Models/Post.php:433
+#: app/Common/Views/sitemap/html/widget-options.php:8
+msgid "Title"
+msgstr "Otsikko"
+
+#: app/Common/Tools/SystemStatus.php:129 app/Common/Tools/SystemStatus.php:133
+#: app/Common/Tools/SystemStatus.php:137 app/Common/Tools/SystemStatus.php:141
+#: app/Common/Tools/SystemStatus.php:145 app/Common/Tools/SystemStatus.php:149
+#: app/Common/Tools/SystemStatus.php:153
+msgid "Disabled"
+msgstr "Kopioi alkuperäisestä"
+
+#: app/Common/Admin/Admin.php:162
+msgid "General Settings"
+msgstr "Yleiset asetukset"
+
+#. Translators: 1 - The IP address. 2 - The referer.
+#: app/Common/Tools/BadBotBlocker.php:237
+msgid "Blocked bot with IP %1$s -- matched referer %2$s found in blocklist."
+msgstr "Estetty botti IP %1$s:llä - vastaava viittaaja %2$s löytyy estolistasta."
+
+#. Translators: 1 - The IP address. 2 - The user agent.
+#: app/Common/Tools/BadBotBlocker.php:228
+msgid "Blocked bot with IP %1$s -- matched user agent %2$s found in blocklist."
+msgstr "Estetty robotti IP %1$s:llä - vastaava käyttäjäagentti %2$s, joka löytyy estoluettelosta."

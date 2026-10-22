@@ -1,0 +1,363 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    #header .logo img {
+    max-height: 50px;
+	}
+ 
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+	.mainLogo {
+    margin-top: -1.8em;
+    margin-left: -2em;
+    width: 250px;
+    height: 110px;
+    pointer-events: none;
+}
+	
+#hero h1 {
+    font-size: 24px;
+    line-height: 36px;
+}
+	
+	.subTitle{
+		font-size: 1.6em !important;
+		color: #242E41;
+		font-weight: 800;
+		line-height: 28px;
+	}
+	
+	ul.slider-img li h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+	
+	.img-fluid {
+    max-width: 60%;
+    height: auto;
+}
+	
+	.details .content h3 {
+    font-weight: 600;
+    color: #47536e;
+    font-size: 1.3rem;
+}
+	
+#products h3, .h3 {
+    font-size: 1.3rem;
+}
+	
+.subHeading {
+    font-size: 1em !important;
+}
+	
+.section-title h2 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+	
+.pricing-table-six .single-plan-table h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+	
+.pricing-table-six .single-plan-table1 h3 {
+    color: #fff;
+    font-size: 20px;
+}
+	
+.pricing-table-six .single-plan-table2 h3 {
+    color: #fff;
+    font-size: 20px;
+}
+	
+.faq .accordion-list li {
+    padding: 10px;
+}
+	
+.faq .accordion-list a {
+    font-size: 16px;
+}	
+	
+	
+.features h4 {
+    font-size: 1.4em;
+}
+	
+#meeting h2 {
+    font-size: 30px;
+}
+	
+.mascotImg{
+	position:fixed;
+	bottom:-20px;
+	left:0px;
+	z-index: 99999;
+	width: 30px;
+}
+	
+	.float {
+		width: 40px;
+		height: 40px;
+	}
+	
+	.my-float {
+		margin-top: 4px;
+		font-size: .75em;
+		display: block;
+		margin-left: 2px;
+	}
+	
+	
+	
+	ul.propluslist {
+    margin-left: 2em;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+	
+	#me-hero h1 {
+    font-size: 35px;
+    margin-top: 100px;
+}
+	
+	#header .logo img {
+		max-height: 60px;
+		}
+	
+		#included .section-title {
+		margin-left: 3em;
+	}
+	
+	#partners .col-md-2, #partners .col-md-3 {
+		width: 20%;
+    	padding-right: 5px;
+    	padding-left: 5px;
+	}
+	
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	
+	.menu .get-started a {
+     background: #fff !important; 
+     color: #36abd9 !important; 
+     border-radius: 0px !important; 
+     margin: 0 !important; 
+     padding: 0px 3.125rem 0px 1rem !important; 
+	}
+  
+	.mainLogo {
+    margin-top: -1.8em;
+    margin-left: -2em;
+    width: 250px;
+    height: 110px;
+    pointer-events: none;
+}
+	
+#hero h1 {
+    font-size: 1.5em;
+    line-height: 36px;
+}
+	
+	.subTitle{
+		font-size: 1.6em !important;
+		color: #242E41;
+		font-weight: 800;
+		line-height: 28px;
+	}
+	
+ul.slider-img li h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+	
+	.img-fluid {
+    max-width: 60%;
+    height: auto;
+}
+	
+	.details .content h3 {
+    font-weight: 600;
+    color: #47536e;
+    font-size: 1.3rem;
+}
+	
+.subHeading {
+    font-size: 1em !important;
+}
+	
+#products h3, .h3 {
+    font-size: 1.3rem;
+}
+	
+.section-title h2 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+	
+.pricing-table-six .single-plan-table h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+	
+.pricing-table-six .single-plan-table1 h3 {
+    color: #fff;
+    font-size: 20px;
+}
+	
+.pricing-table-six .single-plan-table2 h3 {
+    color: #fff;
+    font-size: 20px;
+}
+	
+.faq .accordion-list a {
+    font-size: 16px;
+}	
+	
+#meeting h2 {
+    font-size: 30px;
+}
+	
+.faq .accordion-list li {
+    padding: 10px;
+}
+	
+	
+.features h4 {
+    font-size: 1.4em;
+}
+	
+  .mascotImg{
+	position:fixed;
+	bottom:-20px;
+	left:0px;
+	z-index: 99999;
+	width: 30px;
+}
+	
+	.float {
+		width: 40px;
+		height: 40px;
+	}
+	
+	.my-float {
+		margin-top: 4px;
+		font-size: .75em;
+		display: block;
+		margin-left: 2px;
+	}
+	
+	ul.propluslist {
+    margin-left: 2em;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+	
+	#me-hero h1 {
+    font-size: 35px;
+    margin-top: 100px;
+}
+	
+	#header .logo img {
+		max-height: 60px;
+		}
+	
+	#included .section-title {
+		margin-left: 3em;
+	}
+	
+	#partners .col-md-2, #partners  .col-md-3 {
+		width: 20%;
+    	padding-right: 5px;
+    	padding-left: 5px;
+	}
+  
+}
+
+
+/* ----------- iPad Pro ----------- /
+/ Portrait and Landscape */
+@media only screen
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Portrait */
+@media only screen
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+	
+	#header .logo img {
+		max-height: 40px;
+		}
+}
+
+/* Landscape */
+@media only screen
+and (min-width: 1024px)
+and (max-height: 1366px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1.5) {
+	 
+	#header .logo img {
+		max-height: 40px;
+		}
+
+}

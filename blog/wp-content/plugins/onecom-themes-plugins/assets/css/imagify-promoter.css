@@ -1,0 +1,50 @@
+.onecom-imagify-promoter {
+	background: #f6f7f7;
+	border-left: 3px solid #1d2327;
+	border-radius: 2px;
+	padding: 12px;
+	margin-top: 8px;
+}
+
+.onecom-imagify-promoter__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+
+.onecom-imagify-promoter__title {
+	font-size: 12px;
+	color: #1d2327;
+}
+
+.onecom-imagify-promoter__dismiss {
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: #8c8f94;
+	font-size: 20px;
+	line-height: 1;
+	padding: 0;
+	margin: 0;
+}
+
+.onecom-imagify-promoter__dismiss:hover {
+	color: #1d2327;
+}
+
+.onecom-imagify-promoter__desc {
+	font-size: 12px;
+	color: #50575e;
+	line-height: 1.5;
+	margin: 0 0 10px;
+}
+
+.onecom-imagify-promoter__cta {
+	font-size: 12px;
+}
+
+/* Media library context: sits between image preview and form fields */
+.attachment-details .onecom-imagify-promoter {
+	margin: 0 16px 12px;
+}

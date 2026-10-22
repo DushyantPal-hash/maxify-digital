@@ -1,0 +1,185 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: varnish\n"
+"POT-Creation-Date: 2021-08-17 18:38+0530\n"
+"PO-Revision-Date: 2018-09-10 17:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: *.css\n"
+
+#: OCPushStats.php:147 class-onecom-usage-stats.php:247 validator.php:22
+#: validator.php:196
+msgid "Some error occurred, please reload the page and try again."
+msgstr ""
+
+#: class-onecom-centralized-menu.php:21 class-onecom-centralized-menu.php:81
+#: validator.php:1571
+msgid "One.com"
+msgstr ""
+
+#: class-onecom-centralized-menu.php:47
+msgid "Performance Cache"
+msgstr ""
+
+#: class-onecom-centralized-menu.php:47
+msgid "Performance Cache&nbsp;"
+msgstr ""
+
+#: class-onecom-centralized-menu.php:53
+msgid "Maintenance Mode"
+msgstr ""
+
+#: class-onecom-centralized-menu.php:66
+msgid "Themes"
+msgstr ""
+
+#: class-onecom-centralized-menu.php:67
+msgid "Plugins"
+msgstr ""
+
+#: class-onecom-usage-stats.php:63
+msgid "For delivering best customer experience, one.com wants to collect non-sensitive data from your website."
+msgstr ""
+
+#: class-onecom-usage-stats.php:64
+msgid "Which data?"
+msgstr ""
+
+#: class-onecom-usage-stats.php:65
+msgid "Allow one.com to collect data."
+msgstr ""
+
+#: class-onecom-usage-stats.php:70
+msgid "Installed plugins"
+msgstr ""
+
+#: class-onecom-usage-stats.php:71
+msgid "Installed themes"
+msgstr ""
+
+#: class-onecom-usage-stats.php:72
+msgid "Counts of "
+msgstr ""
+
+#: class-onecom-usage-stats.php:74
+msgid "Posts"
+msgstr ""
+
+#: class-onecom-usage-stats.php:75
+msgid "Pages"
+msgstr ""
+
+#: class-onecom-usage-stats.php:76
+msgid "Media"
+msgstr ""
+
+#: class-onecom-usage-stats.php:77
+msgid "Products"
+msgstr ""
+
+#: class-onecom-usage-stats.php:78
+msgid "Comments"
+msgstr ""
+
+#: class-onecom-usage-stats.php:79
+msgid "Users"
+msgstr ""
+
+#: class-onecom-usage-stats.php:81
+msgid "Staging exists"
+msgstr ""
+
+#: class-onecom-usage-stats.php:82
+msgid "Frontpage settings"
+msgstr ""
+
+#: class-onecom-usage-stats.php:83
+msgid "Multisite"
+msgstr ""
+
+#: validator.php:25 validator.php:750
+msgid "Learn more"
+msgstr ""
+
+#: validator.php:469
+msgid "Make your WordPress more powerful"
+msgstr ""
+
+#: validator.php:474
+msgid "Spend less time worrying about your site and more time growing your business with one.com Managed WordPress."
+msgstr ""
+
+#: validator.php:475
+msgid "Quick fix or ignore recommendations"
+msgstr ""
+
+#: validator.php:476
+msgid "Get better performance with Performance Cache and CDN"
+msgstr ""
+
+#: validator.php:477
+msgid "Get notified about security with Vulnerability Monitoring"
+msgstr ""
+
+#: validator.php:478
+msgid "Get helpful tips with Advanced Error Page"
+msgstr ""
+
+#: validator.php:479
+msgid "Get access to our Premium themes"
+msgstr ""
+
+#: validator.php:480
+msgid "Increase your authentication security"
+msgstr ""
+
+#: validator.php:481
+msgid "Host on our WordPress servers built for speed"
+msgstr ""
+
+#: validator.php:489
+msgid "Free upgrade"
+msgstr ""
+
+#: validator.php:492
+msgid "Cancel"
+msgstr ""
+
+#: validator.php:720
+msgid "Premium"
+msgstr ""
+
+#: validator.php:748
+msgid "This is a Premium Theme"
+msgstr ""
+
+#: validator.php:855
+msgid "Connection timed out"
+msgstr ""
+
+#: validator.php:880
+msgid "Sorry, no compatible themes found for your version of WordPress and PHP."
+msgstr ""
+
+#: validator.php:880
+msgid "Try again"
+msgstr ""
+
+#: validator.php:964
+msgid "Make your website even more powerful with"
+msgstr ""
+
+#: validator.php:964
+msgid "<strong>Managed WordPress</strong>"
+msgstr ""

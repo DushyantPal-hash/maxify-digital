@@ -1,0 +1,50 @@
+/* header style2 */
+header.style2 .navbar-brand span {
+    display: none;
+}
+
+header.style2 .navbar-brand {
+    border: none !important;
+}
+
+/* header.style2 .navbar-brand img {
+    width: 260px;
+    height: 60px;
+} */
+
+/* header.style2 .navbar-collapse .cta-group .btn {
+    background: transparent linear-gradient(105deg, #57c6eb 0%, #3f95f3 100%) 0% 0% no-repeat padding-box !important;
+    border-radius: 5px !important;
+    padding: 8px 40px;
+} */
+
+/* ============================================
+   CENTER NAVIGATION ON LARGE SCREENS
+   ============================================ */
+@media (min-width: 992px) {
+
+    /* Make the collapse area a flex row */
+    header.style2 .navbar-collapse {
+        display: flex !important;
+        align-items: center;
+    }
+
+    /* Center the nav menu by giving it auto margins */
+    header.style2 .navbar-nav {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    /* Remove the default me-auto so it doesn't push the nav to the left */
+    header.style2 .navbar-nav.me-auto {
+        margin-right: auto !important;
+    }
+
+    /* Ensure the CTA group stays on the far right */
+    header.style2 .cta-group {
+        margin-left: 0 !important;
+        flex-shrink: 0;
+    }
+}

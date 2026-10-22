@@ -1,0 +1,350 @@
+/* ################# Base Fonts ##################### */
+body {
+    font-family: 'Lato', "One Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h4,
+h4.main-title,
+h5,
+input,
+.onecom-webshop-main * {
+    font-family: 'Lato', "One Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.section-title h2,
+.main-title,
+h2,
+h3,
+.service-cat-text,
+.post-comments #respond h3,
+.blog_sidebar .widget-title,
+article header {
+    font-family: "Josefin Sans", "One Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.site-logo h1,
+.site-logo h2,
+.header-banner h1,
+.header-banner h2 {
+    font-family: 'Lato', "One Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* ################# Base Colors ##################### */
+body,
+.regular-color {
+    color: #000;
+}
+
+.footer-widgets .footer-sidebar-2 a {
+    color: #000;
+}
+
+.site-logo h1,
+.site-logo h2 {
+    color: #000;
+}
+
+.footer-widgets {
+    color: #000000;
+}
+
+a, a:active, a:visited, a:focus {
+    color: #000000;
+}
+
+a:hover {
+    color: #5f5f5f
+}
+
+.article-block a.primary-color:hover {
+    color: #e57d7b;
+}
+
+.primary-color,
+.steps-block h2 {
+    color: #de5c5a;
+}
+
+.header-banner a,
+.header-banner a:visited
+.header-banner a:active {
+    color: #de5c5a;
+}
+
+.header-banner a:hover {
+    color: #f8bcc5;
+}
+
+.footer-widgets .footer-sidebar-2 a,
+.footer-widgets .footer-sidebar-2 a:visited {
+    color: #000000;
+}
+
+.footer-widgets .footer-sidebar-2 a:hover {
+    color: #5f5f5f;
+}
+
+.footer-widgets .flex-column:nth-child(3) {
+    border-right: 1px solid #FACC83;
+    border-left: 1px solid #FACC83;
+}
+
+.footer-widgets {
+    border-top: 1px solid #FACC83;
+}
+
+.service-list-section .page-title a,
+.service-list-section .page-title a:active,
+.service-list-section .page-title a:visited {
+    color: rgb(0, 0, 0)
+}
+
+.service-list-section .page-title a:hover {
+    color: #5f5f5f;
+}
+
+.banner-content-box {
+    color: #000000;
+}
+
+#site-header {
+    background-color: #FFF8E7;
+    border-color: #ebebeb;
+}
+
+/* Menu */
+#primary-nav ul {
+    color: #000;
+}
+
+#primary-nav ul li.current_page_item {
+    color: #de5c5a;
+}
+
+#primary-nav ul li:hover > a {
+    color: #de5c5a;
+}
+
+#primary-nav ul li ul li a {
+    background-color: #FDF6E1;
+}
+
+#primary-nav ul li ul li a:hover {
+    background-color: #de5c5a;
+    color: #ffffff;
+}
+
+#primary-nav ul li ul {
+    color: #000;
+}
+
+#sticky_menu li.current-menu-item > a {
+    background-color: #de5c5a;
+    color: #fff;
+}
+
+#primary-nav > ul > li:after {
+    border-right: 1px solid #FACC83;
+}
+
+.about-section {
+    border: none;
+    background-color: #FFF8E7;
+    padding: 93px 50px;
+}
+
+/* border */
+.about-section:before {
+    border: 2px solid #FACC83;
+    margin: 28px;
+}
+
+/* button */
+a.button,
+a.button:visited {
+    background-color: #de5c5a;
+    color: #ffffff;
+}
+
+a.button:hover {
+    color: #fff;
+    background-color: #F57D7B;
+}
+
+a.button {
+    color: #ffffff;
+}
+
+/* ########################## Typography ######################### */
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+}
+
+h6 {
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.header-tagline h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.header-banner {
+    margin: 40px auto 20px auto;
+}
+
+.onecom-webshop-main p {
+    font-size: 14px;
+}
+
+.site-logo h1,
+.site-logo h2 {
+    line-height: 38px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.about-main-container h4.main-title {
+    vertical-align: middle;
+    display: inline;
+    line-height: normal;
+    font-size: 16px;
+}
+
+h4.main-title {
+    font-weight: bold;
+}
+
+/* ######### Spacing & Layout ########## */
+.steps-block .block-img, .steps-block .block-content {
+
+}
+
+/* ######### Footer vertical align blurry text fix  ############ */
+.footer-widgets .v-center p span {
+    line-height: 30px !important;
+}
+
+/* Additional theme Specific */
+.main-title {
+    font-weight: normal;
+}
+
+h2.main-title {
+    font-size: 30px;
+    font-weight: normal;
+    color: #e5827c;
+}
+
+.about-main-container h2.main-title {
+    color: #000000;
+}
+
+.contact-form-container {
+    background-color: #FFF8E7;
+}
+
+.contact-form-content-box {
+    margin: 22px 20px;
+    padding: 22px;
+    border: 2px solid #FACC83;
+}
+
+/*
+ * #################### Webshop ####################
+ * Tip: only handle a.button & button as .button will create issue with back link
+*/
+
+.onecom-webshop-main a.button,
+.onecom-webshop-main button,
+.onecom-webshop-main a.button:visited {
+    background-color: #de5c5a;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.onecom-webshop-main a.button:hover {
+    color: #fff;
+    background-color: #F57D7B;
+    fill: #000000;
+}
+
+.onecom-webshop-main a.button:focus,
+.onecom-webshop-main a.button:active {
+    outline: none;
+    box-shadow: 0 0 0 1px #2C4A58;
+}
+
+/* theme specific webshop css */
+.main-content-box .onecom-webshop-main .order-details ul {
+    margin-left: 0;
+}
+
+/* #################### Webshop #################### */
+.form#booking_form fieldset {
+    padding: 0px 17px 13px;
+}
+
+/** Block related fixes **/
+.oct-post-content a:not([href]):not([tabindex]).wp-block-button__link,
+a:not([href]):not([tabindex]).wp-block-button__link,
+.wp-block-button__link {
+    background-color: #de5c5a;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 0 30px;
+    transition: 0.3s;
+
+}
+
+.wp-block-button.is-style-squared a.wp-block-button__link {
+    border-radius: 0;
+}
+
+.wp-block-button.is-style-outline a:not([href]):not([tabindex]).wp-block-button__link {
+    color: #de5c5a;
+    background-color: #fff;
+}
+
+.wp-block-button.is-style-outline a:not([href]):not([tabindex]).wp-block-button__link:hover {
+    opacity: 0.6;
+}
+
+a:not([href]):not([tabindex]).wp-block-button__link:hover,
+.post-details a.wp-block-button__link:hover,
+.wp-block-button__link:hover {
+    background-color: #f8bcc5;
+    text-decoration: none;
+}
+
+/** Block related fixes end **/
