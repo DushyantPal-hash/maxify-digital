@@ -29,25 +29,44 @@
       left: 0;
       z-index: 99999;
       width: 123px;
-      height: 317px
+      height: 317px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .mascotImg:hover {
+      /* transform: translateY(-3px); */
+      transform: scale(1.1);
+    }
+
+    .test-img {
+      width: 80% !important;
+      height: 80% !important;
     }
 
     @media (min-width: 320px) and (max-width: 480px) {
       .mascotImg {
         position: fixed;
         bottom: -20px;
-        left: 0;
+        left: 6px;
         z-index: 99999;
         width: 30px;
+      }
+
+      .test-img {
+        width: auto !important;
+        height: auto !important;
       }
     }
   </style>
 </head>
 
 <body>
-  <div class="mascotImg">
-    <img src="./assets/images/mascotImg.png" class="img-fluid" alt="Maxify Digital" title="MaxifyDigital">
+  <!-- Scroll To Top -->
+  <div class="mascotImg" id="scrollToTopBtn">
+    <img src="./assets/images/mascotImg.png" class="img-fluid test-img" alt="Maxify Digital" title="MaxifyDigital">
   </div>
+  <!-- Body  -->
   <div class="site-wrapper d-flex flex-column min-vh-100">
     <!-- Navbar -->
     <div id="header-placeholder"></div>
@@ -242,7 +261,21 @@
       .then(data => document.getElementById('footer-placeholder').innerHTML = data)
       .catch(err => console.error('Footer load failed:', err));
   </script>
-  <!-- Navbar and Footer  -->
+  <!-- Top Scroll -->
+  <script>
+    const mascot = document.getElementById("scrollToTopBtn");
+
+    window.addEventListener("scroll", function () {
+      mascot.style.display = window.scrollY > 300 ? "block" : "none";
+    });
+    mascot.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
+  <!-- Top Scroll Ends here -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

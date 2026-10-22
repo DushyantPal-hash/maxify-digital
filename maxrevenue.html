@@ -12,19 +12,14 @@
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-
   <!-- Primary Meta Tags -->
   <title>MaxRevenue | AI-Powered Airline Revenue Optimization Platform</title>
   <meta name="description"
     content="MaxRevenue by Maxify Digital is an AI-powered revenue optimization platform designed for airlines to improve pricing strategies, maximize ancillary revenue, and enhance overall revenue management.">
-
   <meta name="author" content="Maxify Digital">
   <meta name="robots" content="index, follow">
-
   <!-- Canonical -->
   <link rel="canonical" href="https://maxify.digital/maxrevenue.html">
-
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://maxify.digital/maxrevenue.html">
@@ -32,17 +27,12 @@
   <meta property="og:description"
     content="MaxRevenue helps airlines optimize ticket pricing, manage demand forecasting, and increase ancillary revenue using AI-driven revenue management technology.">
   <meta property="og:image" content="https://maxify.digital/assets/images/og/maxify-digital.png">
-
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="MaxRevenue | AI-Powered Airline Revenue Optimization Platform">
   <meta name="twitter:description"
     content="AI-powered airline revenue management solution helping airlines optimize pricing, forecast demand, and maximize profitability.">
   <meta name="twitter:image" content="https://maxify.digital/assets/images/og/maxify-digital.png">
-
-
-
-
   <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -86,25 +76,44 @@
       left: 0;
       z-index: 99999;
       width: 123px;
-      height: 317px
+      height: 317px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .mascotImg:hover {
+      /* transform: translateY(-3px); */
+      transform: scale(1.1);
+    }
+
+    .test-img {
+      width: 80% !important;
+      height: 80% !important;
     }
 
     @media (min-width: 320px) and (max-width: 480px) {
       .mascotImg {
         position: fixed;
         bottom: -20px;
-        left: 0;
+        left: 6px;
         z-index: 99999;
         width: 30px;
+      }
+
+      .test-img {
+        width: auto !important;
+        height: auto !important;
       }
     }
   </style>
 </head>
 
 <body>
-  <div class="mascotImg">
-    <img src="./assets/images/mascotImg.png" class="img-fluid" alt="Maxify Digital" title="MaxifyDigital">
+  <!-- Scroll To Top -->
+  <div class="mascotImg" id="scrollToTopBtn">
+    <img src="./assets/images/mascotImg.png" class="img-fluid test-img" alt="Maxify Digital" title="MaxifyDigital">
   </div>
+  <!-- Body  -->
   <div class="site-wrapper d-flex flex-column min-vh-100">
     <!-- Navbar -->
     <div id="header-placeholder"></div>
@@ -798,7 +807,21 @@
       .then(data => document.getElementById('footer-placeholder').innerHTML = data)
       .catch(err => console.error('Footer load failed:', err));
   </script>
-  <!-- Navbar and Footer  -->
+  <!-- Top Scroll -->
+  <script>
+    const mascot = document.getElementById("scrollToTopBtn");
+
+    window.addEventListener("scroll", function () {
+      mascot.style.display = window.scrollY > 300 ? "block" : "none";
+    });
+    mascot.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
+  <!-- Top Scroll Ends here -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
