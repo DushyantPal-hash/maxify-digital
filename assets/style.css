@@ -951,7 +951,7 @@ section {
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  flex: 0 0 calc(20% - 30px);
+  flex: 0 0 calc(20% - 0px);
 }
 
 .meet-our-team .team-member:hover {
@@ -2109,13 +2109,13 @@ div[role="progressbar"]::before {
 }
 
 .play-icon-overlay svg {
- width: 100px;
-    height: 100px;
-    stroke: #ffffff;
-    stroke-width: 1px;
-    background-color: #000000b5;
-    border-radius: 50px;
-    padding: 20px;
+  width: 100px;
+  height: 100px;
+  stroke: #ffffff;
+  stroke-width: 1px;
+  background-color: #000000b5;
+  border-radius: 50px;
+  padding: 20px;
 }
 
 
@@ -2128,7 +2128,8 @@ div[role="progressbar"]::before {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio */
 }
 
 .responsive-iframe {
