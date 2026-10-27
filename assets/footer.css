@@ -156,7 +156,26 @@
 @media (max-width: 768px) {
 
     .footer.style2 .nav-group {
-        grid-template-columns: 1fr;
+        display: contents;
+    }
+
+    .footer.style2 .logo-group {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0 0 20px;
+        /* gap: 20px; */
+    }
+
+    .footer.style2 .logo-box {
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+        box-sizing: border-box;
+        height: auto;
+        border: 1px solid #36353e !important;
+    }
+
+    .footer.style2 .logo-box {
+        border: 1px solid #36353e !important;
     }
 
     .footer.style2 .f-nav-list {
@@ -178,7 +197,7 @@
 @media (max-width: 575px) {
 
     .footer.style2 .logo-group {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr !important;
     }
 
     .footer.style2 .logo-box {
