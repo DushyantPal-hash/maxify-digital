@@ -1,4 +1,39 @@
-<!-- header.html -->
+<style>
+    .mascotImg {
+        position: fixed;
+        bottom: 8%;
+        left: 0.5%;
+        z-index: 99999;
+        width: 70px;
+        height: 250px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .mascotImg:hover {
+        transform: scale(1.1);
+    }
+
+    .test-img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        .mascotImg {
+            position: fixed;
+            bottom: -20px;
+            left: 6px;
+            z-index: 99999;
+            width: 30px;
+        }
+
+        .test-img {
+            width: auto !important;
+            height: auto !important;
+        }
+    }
+</style>
 <header class="bg-white style2 p-0">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
